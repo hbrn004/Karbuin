@@ -602,6 +602,15 @@
   gap: var(--sp-2);
 }
 .sticky-bottom .btn { flex: 1; }
+@media (max-width: 767px) {
+  /* On mobile: sticky-bottom sits ABOVE the bottom nav, not under it */
+  .sticky-bottom {
+    bottom: var(--bottomnav-h);
+    z-index: 60;
+  }
+  /* Page needs extra padding so content isn't covered by sticky-bottom + bottomnav */
+  .page { padding-bottom: calc(var(--sp-7) + var(--bottomnav-h) + 80px) !important; }
+}
 @media (min-width: 768px) {
   .sticky-bottom { display: none; }
 }

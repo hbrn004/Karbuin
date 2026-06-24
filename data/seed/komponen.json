@@ -1535,5 +1535,54 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "pd24j_main_jet",
+    "name": "Main jet PD24J (Honda Blade modern)",
+    "description": "Main jet untuk karburator PD24J Keihin Honda Blade 125cc. Karburator Honda modern dengan idle system lebih presisi.",
+    "category": "karburator",
+    "aliases": [
+      "main jet pd24j",
+      "main jet honda blade",
+      "main jet blade 125",
+      "main jet keihin pd24j"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "pd24j_pilot_jet",
+    "name": "Pilot jet PD24J (Honda Blade modern)",
+    "description": "Pilot jet untuk karburator PD24J Keihin Honda Blade 125cc. Mengatur campuran idle dan langsam.",
+    "category": "karburator",
+    "aliases": [
+      "pilot jet pd24j",
+      "pilot jet honda blade",
+      "pilot jet blade",
+      "pilot jet keihin pd24j"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_honda_blade_modern",
+    "name": "Kiprok Honda Blade modern (digital AC)",
+    "description": "Kiprok Honda Blade 125cc tipe digital AC regulator. Kiprok Honda modern yang lebih presisi tapi rentan lemah setelah 5+ tahun pakai, terutama jika motor punya ISS (Idling Stop System).",
+    "category": "listrik",
+    "aliases": [
+      "kiprok blade modern",
+      "kiprok honda blade",
+      "kiprok blade digital",
+      "kiprok honda 125 modern",
+      "kiprok honda digital ac"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

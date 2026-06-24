@@ -2170,5 +2170,105 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_blade",
+    "name": "Klep bunyi khas Blade 125cc",
+    "description": "Klep bunyi/tik-tik pada Honda Blade 125cc. Honda sport karbu modern dengan klep yang lebih presisi, tapi tetap butuh setel berkala setiap 6000-10000 km.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi blade",
+      "klep berisik blade",
+      "klep bunyi honda blade",
+      "klep bunyi blade 125",
+      "klep tik tik blade",
+      "klep bunyi terus blade",
+      "bunyi klep blade"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_blade",
+    "name": "RPM tidak stabil Blade 125cc",
+    "description": "RPM naik turun/idle kasar pada Honda Blade 125cc. Honda sport karbu modern rentan idle kasar karena pilot jet PD24J lebih sensitive terhadap kualitas bensin.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil blade",
+      "rpm naik turun blade",
+      "idle kasar blade",
+      "rpm naik turun blade 125",
+      "langsam kasar blade",
+      "langsam naik turun blade",
+      "rpm naik turun honda blade"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_blade",
+    "name": "Lampu redup Blade 125cc",
+    "description": "Lampu redup di RPM rendah, kurang terang saat idle. Honda Blade dengan sistem kelistrikan AC modern, lampu sangat tergantung output kiprok dan spul digital.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup blade",
+      "lampu kurang terang blade",
+      "lampu redup di langsam blade",
+      "lampu redup honda blade",
+      "lampu redup honda 125",
+      "lampu redup blade 125",
+      "lampu redup rpm rendah blade"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_blade_lemah",
+    "name": "Kiprok lemah Blade 125cc (Honda modern)",
+    "description": "Kiprok lemah, charging tidak optimal pada Honda Blade 125cc. Kiprok Honda modern tipe digital AC regulator, rentan lemah setelah 5+ tahun pakai terutama pada motor dengan ISS (Idling Stop System).",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah blade",
+      "kiprok rusak blade",
+      "kiprok panas blade",
+      "kiprok ga ngecas blade",
+      "kiprok honda blade",
+      "kiprok lemah honda modern",
+      "kiprok lemah blade 125"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "starter_tidak_stabil_blade",
+    "name": "Starter hidup tapi RPM tidak stabil (Blade)",
+    "description": "Mesin hidup dengan electric starter tapi RPM langsung tidak stabil/idle kasar. Honda Blade dengan eSP starter, kadang ada masalah pada throttle position sensor (TPS) atau IACV (Idle Air Control Valve).",
+    "severity": "medium",
+    "category": "starter",
+    "aliases": [
+      "starter hidup rpm tidak stabil",
+      "starter hidup tapi rpm naik turun blade",
+      "starter hidup idle kasar blade",
+      "starter hidup rpm naik turun",
+      "starter hidup langsung mati blade",
+      "starter hidup tapi rpm kasar",
+      "starter hidup rpm naik turun honda blade"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

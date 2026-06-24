@@ -238,5 +238,34 @@
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda MegaPro 200cc karbu. Tanpa service manual page reference."
     }
+  },
+  {
+    "id": "honda_glpro_karbu",
+    "brand": "Honda",
+    "model": "GL Pro",
+    "year_start": 1994,
+    "year_end": 2008,
+    "fuel_system": "carburetor",
+    "carb_type": "PE24",
+    "engine_cc": 160,
+    "category": "sport",
+    "common_aliases": [
+      "glpro",
+      "gl pro",
+      "honda gl pro",
+      "honda glpro",
+      "gl pro 160"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.6,
+      "compression_kg_cm2": 9.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Honda GL Pro 160cc karbu. Tanpa service manual page reference."
+    }
   }
 ]

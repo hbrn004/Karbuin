@@ -2796,5 +2796,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_honda_sport_lemah",
+    "name": "CDI Honda sport karbu lemah",
+    "description": "CDI Honda sport karbu lawas (160-200cc) sudah lemah/tidak optimal. Umum pada Honda GL Pro, MegaPro, Tiger 2000 setelah 5+ tahun pakai. CDI AC rentan terhadap panas dan kelembapan.",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": "cdi_honda_sport",
+    "mechanic_notes": "Test percikan api busi dengan busi test atau ukur tegangan output CDI. CDI lemah biasanya masih ada percikan tapi tidak cukup kuat. Gejala umum: susah hidup pagi, brebet, RPM tidak stabil.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "koil_pengapian_overheating",
+      "busi_aus",
+      "kabel_pengapian_putus"
+    ],
+    "similar_causes": [
+      "cdi_rusak",
+      "cdi_honda_lemah"
+    ],
+    "solution_free": "Cek soket CDI, bersihkan korosi, pastikan ground terhubung baik.",
+    "solution_budget": "Ganti CDI Honda sport aftermarket (Rp 100.000-200.000).",
+    "solution_full": "Ganti CDI original Honda sport (Rp 250.000-400.000) + cek koil jika CDI masih lemah.",
+    "cost_part": "Rp 100.000-400.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Hindari mesin overheat. Cek soket CDI berkala. Jangan biarkan mesin hidup terlalu lama tanpa gerak.",
+    "diagnosis_method": "Test percikan api busi dengan busi test. Bandingkan percikan CDI baru vs lama. Jika percikan lemah (kuning vs biru), CDI lemah.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "q_cdi_usia",
+        "question": "CDI sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "CDI Honda sport rata-rata lemah setelah 5-7 tahun"
+      },
+      {
+        "id": "q_overheat_history",
+        "question": "Motor pernah overheat parah?",
+        "when_to_ask": "always",
+        "why_it_matters": "Overheat berulang = CDI rusak permanen"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

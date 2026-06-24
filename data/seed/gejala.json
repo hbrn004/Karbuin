@@ -1973,5 +1973,100 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_macet_glpro",
+    "name": "Klep macet butuh setel (GL Pro 160cc)",
+    "description": "Klep macet butuh penyetelan klep berkala untuk Honda GL Pro 160cc. Gejala umum Honda sport CC sedang — klep lebih sensitive terhadap pemuaian dan jarak tempuh panjang.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep macet glpro",
+      "klep butuh setel glpro",
+      "klep macet honda 160cc",
+      "klep macet gl pro",
+      "klep macet terus glpro",
+      "klep berisik glpro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_glpro",
+    "name": "Kiprok lemah (GL Pro 160cc)",
+    "description": "Kiprok lemah, charging tidak optimal pada Honda GL Pro 160cc. Honda sport CC sedang butuh kiprok tipe besar — kelemahan umum Honda sport karbu lawas yang sudah dipakai 5+ tahun.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah glpro",
+      "kiprok rusak glpro",
+      "kiprok panas glpro",
+      "kiprok ga ngecas glpro",
+      "kiprok glpro 160cc",
+      "kiprok lemah gl pro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "tarikan_ngempos_atas_glpro",
+    "name": "Tarikan ngempos RPM atas (GL Pro 160cc)",
+    "description": "Tarikan ngempos saat RPM atas, tenaga hilang. Honda GL Pro butuh main jet lebih besar dan klep presisi untuk RPM atas yang stabil.",
+    "severity": "high",
+    "category": "tenaga",
+    "aliases": [
+      "ngempos rpm atas glpro",
+      "ngempos atas glpro",
+      "tarikan ngempos atas glpro",
+      "los tenaga atas glpro",
+      "ngempos honda 160cc",
+      "tarikan hilang atas glpro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_glpro",
+    "name": "Lampu redup (GL Pro 160cc)",
+    "description": "Lampu redup di RPM rendah, kurang terang saat idle. Honda GL Pro dengan sistem AC-CDI, lampu sangat tergantung pada output kiprok dan spul.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup glpro",
+      "lampu redup gl pro",
+      "lampu kurang terang glpro",
+      "lampu redup di langsam glpro",
+      "lampu redup honda 160cc",
+      "lampu redup rpm rendah glpro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_lemah_glpro",
+    "name": "CDI lemah (GL Pro 160cc)",
+    "description": "CDI lemah, percikan api busi tidak stabil pada Honda GL Pro 160cc. Honda sport karbu lawas rentan terhadap CDI lemah setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "cdi lemah glpro",
+      "cdi rusak glpro",
+      "cdi ga ada percikan glpro",
+      "cdi lemah gl pro",
+      "cdi honda 160cc",
+      "cdi lemah honda sport"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

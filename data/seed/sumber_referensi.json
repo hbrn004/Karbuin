@@ -204,5 +204,14 @@
     "verified_date": "2026-06-25",
     "url": null,
     "note": "Konsolidasi bengkel Honda MegaPro 200cc — klep, kopling, kiprok. Tanpa service manual page reference."
+  },
+  {
+    "id": "src_honda_glpro_komunitas_2025",
+    "source_text": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik Honda 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Honda GL Pro 160cc — klep, CDI, kiprok, lampu. Tanpa service manual page reference."
   }
 ]

@@ -1458,5 +1458,50 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "pe24_main_jet",
+    "name": "Main jet PE24 (Keihin)",
+    "description": "Main jet untuk karburator PE24 Keihin Honda GL Pro 160cc. Ukuran standar Honda GL Pro.",
+    "category": "karburator",
+    "aliases": [
+      "main jet pe24",
+      "main jet keihin pe24",
+      "main jet glpro 160"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "pe24_pilot_jet",
+    "name": "Pilot jet PE24 (Keihin)",
+    "description": "Pilot jet untuk karburator PE24 Keihin Honda GL Pro 160cc. Mengatur campuran idle dan langsam.",
+    "category": "karburator",
+    "aliases": [
+      "pilot jet pe24",
+      "pilot jet keihin pe24",
+      "pilot jet glpro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_honda_sport",
+    "name": "CDI Honda sport karbu (160-200cc)",
+    "description": "CDI untuk Honda sport karbu lawas (160-200cc). GL Pro, MegaPro, Tiger 2000 menggunakan tipe CDI AC yang serupa.",
+    "category": "listrik",
+    "aliases": [
+      "cdi honda sport",
+      "cdi honda glpro",
+      "cdi honda 160cc"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

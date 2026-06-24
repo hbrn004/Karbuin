@@ -5156,5 +5156,252 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Kiprok lemah = lampu redup"
+  },
+  {
+    "id": 389,
+    "symptom_id": "klep_macet_glpro",
+    "cause_id": "klep_renggang",
+    "weight": 9,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang butuh setel — paling umum"
+  },
+  {
+    "id": 390,
+    "symptom_id": "klep_macet_glpro",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal klep bocor perparah klep macet"
+  },
+  {
+    "id": 391,
+    "symptom_id": "kiprok_lemah_glpro",
+    "cause_id": "kiprok_honda_lemah_besar",
+    "weight": 9,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok CC besar lemah — reused dari MegaPro"
+  },
+  {
+    "id": 392,
+    "symptom_id": "kiprok_lemah_glpro",
+    "cause_id": "kiprok_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok rusak total"
+  },
+  {
+    "id": 393,
+    "symptom_id": "kiprok_lemah_glpro",
+    "cause_id": "spul_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = output kiprok rendah"
+  },
+  {
+    "id": 394,
+    "symptom_id": "tarikan_ngempos_atas_glpro",
+    "cause_id": "main_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet PE24 tersumbat parsial"
+  },
+  {
+    "id": 395,
+    "symptom_id": "tarikan_ngempos_atas_glpro",
+    "cause_id": "seal_klep_bocor",
+    "weight": 6,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal klep bocor, kompresi turun"
+  },
+  {
+    "id": 396,
+    "symptom_id": "tarikan_ngempos_atas_glpro",
+    "cause_id": "piston_aus_berlebihan",
+    "weight": 5,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Piston aus setelah 50.000+ km"
+  },
+  {
+    "id": 397,
+    "symptom_id": "lampu_redup_glpro",
+    "cause_id": "kiprok_honda_lemah_besar",
+    "weight": 9,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok lemah = lampu redup — khas GL Pro"
+  },
+  {
+    "id": 398,
+    "symptom_id": "lampu_redup_glpro",
+    "cause_id": "spul_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = lampu redup RPM rendah"
+  },
+  {
+    "id": 399,
+    "symptom_id": "lampu_redup_glpro",
+    "cause_id": "aki_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Aki soak = lampu redup"
+  },
+  {
+    "id": 400,
+    "symptom_id": "cdi_lemah_glpro",
+    "cause_id": "cdi_honda_sport_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "CDI sport lemah — primary cause"
+  },
+  {
+    "id": 401,
+    "symptom_id": "cdi_lemah_glpro",
+    "cause_id": "cdi_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "CDI rusak total"
+  },
+  {
+    "id": 402,
+    "symptom_id": "cdi_lemah_glpro",
+    "cause_id": "koil_panas",
+    "weight": 5,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Koil overheating ikut-ikutan"
+  },
+  {
+    "id": 403,
+    "symptom_id": "suara_klep",
+    "cause_id": "klep_renggang",
+    "weight": 7,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang — khas GL Pro butuh setel berkala"
+  },
+  {
+    "id": 404,
+    "symptom_id": "mesin_ngempos",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet PE24 tersumbat"
+  },
+  {
+    "id": 405,
+    "symptom_id": "mesin_mati_sendiri",
+    "cause_id": "kiprok_honda_lemah_besar",
+    "weight": 6,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok CC besar lemah"
+  },
+  {
+    "id": 406,
+    "symptom_id": "mesin_mati_sendiri",
+    "cause_id": "cdi_honda_sport_lemah",
+    "weight": 6,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "CDI sport lemah"
+  },
+  {
+    "id": 407,
+    "symptom_id": "api_kecil",
+    "cause_id": "cdi_honda_sport_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "honda_glpro_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "CDI lemah = api kecil"
   }
 ]

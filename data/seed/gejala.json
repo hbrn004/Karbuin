@@ -3492,7 +3492,15 @@
       "cdi lemah yamaha 150",
       "cdi lemah byson 150",
       "mesin mati sendiri byson",
-      "susah hidup byson cdi"
+      "susah hidup byson cdi",
+      "cdi ga nyala byson",
+      "cdi ngga nyala byson",
+      "cdi gak nyala byson",
+      "cdi ga hidup byson",
+      "cdi ngga hidup byson",
+      "cdi gak hidup byson",
+      "cdi ga nyala yamaha byson",
+      "cdi ngga nyala yamaha byson"
     ],
     "verified": false,
     "source_type": "community_knowledge",

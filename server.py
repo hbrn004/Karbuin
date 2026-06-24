@@ -204,6 +204,7 @@ class KarbuinHandler(BaseHTTPRequestHandler):
             "/result": "result.html",
             "/library": "library.html",
             "/method": "method.html",
+            "/qa-harness": "qa-harness.html",
         }
         if path in page_map:
             return self.serve_file(UI_DIR / page_map[path], "text/html; charset=utf-8")

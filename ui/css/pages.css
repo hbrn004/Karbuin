@@ -258,12 +258,13 @@
 
 .result-layout {
   display: grid;
-  grid-template-columns: 1fr;
+  /* minmax(0, 1fr) prevents 1fr from resolving to min-content when grid items have wide content */
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--sp-5);
 }
 @media (min-width: 900px) {
   .result-layout {
-    grid-template-columns: 1.6fr 1fr;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
   }
 }
 

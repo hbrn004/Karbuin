@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile QA — Multi-Viewport Test Harness</title>
+  <style>
+    body { margin: 0; font-family: monospace; background: #1a1a1a; color: #eee; }
+    .test-grid { display: flex; gap: 10px; padding: 10px; flex-wrap: wrap; }
+    .viewport { background: #2a2a2a; border: 2px solid #555; padding: 5px; }
+    .viewport h3 { margin: 0 0 5px 0; font-size: 12px; color: #4ade80; }
+    .viewport iframe { border: 0; display: block; background: white; }
+    .controls { padding: 10px; background: #333; }
+    .controls button { padding: 8px 16px; margin: 4px; background: #4ade80; border: 0; cursor: pointer; }
+    .controls input { padding: 6px; margin: 4px; }
+    .results { padding: 10px; background: #1e1e1e; max-height: 400px; overflow: auto; font-size: 12px; }
+    .results pre { color: #4ade80; white-space: pre-wrap; }
+    .fail { color: #f87171; font-weight: bold; }
+    .pass { color: #4ade80; }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <h3>Mobile QA Harness — 3 Viewports</h3>
+    <label>Page URL: <input id="page-url" value="/diagnose" style="width: 300px;"></label>
+    <label>Type text: <input id="type-text" value="brebet" style="width: 200px;"></label>
+    <button onclick="loadAll()">Load</button>
+    <button onclick="runTests()">Run Tests</button>
+    <button onclick="typeInAll()">Type text in all</button>
+    <button onclick="clickDiagnoseInAll()">Click Diagnose in all</button>
+    <button onclick="checkOverflow()">Check overflow</button>
+  </div>
+
+  <div class="test-grid">
+    <div class="viewport">
+      <h3>360×800 (small Android)</h3>
+      <iframe id="iframe-360" src="/diagnose" width="360" height="800"></iframe>
+    </div>
+    <div class="viewport">
+      <h3>390×844 (iPhone 14)</h3>
+      <iframe id="iframe-390" src="/diagnose" width="390" height="844"></iframe>
+    </div>
+    <div class="viewport">
+      <h3>412×915 (Pixel 7)</h3>
+      <iframe id="iframe-412" src="/diagnose" width="412" height="915"></iframe>
+    </div>
+  </div>
+
+  <div class="results">
+    <pre id="output">Click "Run Tests" to start</pre>
+  </div>
+
+  <script>
+  const VIEWPORTS = [
+    { name: '360×800', id: 'iframe-360', w: 360, h: 800 },
+    { name: '390×844', id: 'iframe-390', w: 390, h: 844 },
+    { name: '412×915', id: 'iframe-412', w: 412, h: 915 },
+  ];
+
+  function getIframe(idx) {
+    return document.getElementById(VIEWPORTS[idx].id);
+  }
+
+  function loadAll() {
+    const url = document.getElementById('page-url').value;
+    VIEWPORTS.forEach(v => {
+      const f = document.getElementById(v.id);
+      f.src = url + (url.includes('?') ? '&' : '?') + '_t=' + Date.now();
+    });
+  }
+
+  function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+  async function waitForLoad(idx) {
+    const f = getIframe(idx);
+    if (f.contentDocument?.readyState === 'complete') return;
+    return new Promise(r => f.addEventListener('load', r, { once: true }));
+  }
+
+  async function testViewport(idx) {
+    const v = VIEWPORTS[idx];
+    const f = getIframe(idx);
+    await waitForLoad(idx);
+    await delay(800);
+    const doc = f.contentDocument;
+    const win = f.contentWindow;
+    const results = {
+      viewport: v.name,
+      viewport_actual: { w: win.innerWidth, h: win.innerHeight },
+      isMobile: win.matchMedia('(max-width: 767px)').matches,
+    };
+
+    // Check elements
+    const checks = {
+      btnDiagnose: doc.getElementById('btn-diagnose'),
+      stickyBottom: doc.querySelector('.sticky-bottom'),
+      bottomnav: doc.querySelector('.bottomnav'),
+      quickChips: doc.getElementById('quick-chips'),
+      detectedChips: doc.getElementById('detected-chips'),
+      motorSearch: doc.getElementById('motor-search'),
+      gejalaText: doc.getElementById('gejala-text'),
+    };
+
+    results.checks = {};
+    for (const [name, el] of Object.entries(checks)) {
+      if (!el) {
+        results.checks[name] = { exists: false };
+        continue;
+      }
+      const rect = el.getBoundingClientRect();
+      results.checks[name] = {
+        exists: true,
+        visible: el.offsetParent !== null,
+        rect: { x: Math.round(rect.x), y: Math.round(rect.y), w: Math.round(rect.width), h: Math.round(rect.height) },
+        inViewport: rect.y >= 0 && rect.y + rect.height <= win.innerHeight,
+        clipped: rect.x < 0 || rect.x + rect.width > win.innerWidth || rect.height === 0,
+      };
+    }
+
+    // Check btnDiagnose above bottomnav (not hidden behind)
+    const btn = checks.btnDiagnose;
+    const bnav = checks.bottomnav;
+    if (btn && bnav) {
+      const btnRect = btn.getBoundingClientRect();
+      const bnavRect = bnav.getBoundingClientRect();
+      results.btnAboveBottomnav = btnRect.bottom <= bnavRect.top + 1;
+      results.btnClearance = bnavRect.top - btnRect.bottom;
+    }
+
+    // Check overflow
+    const page = doc.querySelector('.page') || doc.querySelector('main');
+    if (page) {
+      const pageRect = page.getBoundingClientRect();
+      results.page = {
+        scrollW: page.scrollWidth,
+        scrollH: page.scrollHeight,
+        clientW: page.clientWidth,
+        clientH: page.clientHeight,
+        hOverflow: page.scrollWidth > page.clientWidth,
+        hOverflowPx: page.scrollWidth - page.clientWidth,
+      };
+    }
+
+    // Check no horizontal overflow on body
+    results.bodyHOverflow = doc.body.scrollWidth > win.innerWidth;
+    results.bodyHOverflowPx = doc.body.scrollWidth - win.innerWidth;
+
+    return results;
+  }
+
+  async function runTests() {
+    const out = document.getElementById('output');
+    out.textContent = 'Running tests...\n';
+    const allResults = [];
+    for (let i = 0; i < VIEWPORTS.length; i++) {
+      const r = await testViewport(i);
+      allResults.push(r);
+    }
+    out.textContent = JSON.stringify(allResults, null, 2);
+  }
+
+  async function typeInAll() {
+    const text = document.getElementById('type-text').value;
+    for (let i = 0; i < VIEWPORTS.length; i++) {
+      const f = getIframe(i);
+      await waitForLoad(i);
+      const ta = f.contentDocument.getElementById('gejala-text');
+      if (ta) {
+        ta.value = text;
+        ta.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }
+    await delay(1000);
+    document.getElementById('output').textContent = 'Typed: ' + text;
+  }
+
+  async function clickDiagnoseInAll() {
+    for (let i = 0; i < VIEWPORTS.length; i++) {
+      const f = getIframe(i);
+      const btn = f.contentDocument.getElementById('btn-diagnose');
+      if (btn && btn.offsetParent !== null) {
+        btn.click();
+        await delay(500);
+      }
+    }
+  }
+
+  async function checkOverflow() {
+    const out = document.getElementById('output');
+    out.textContent = 'Checking overflow...\n';
+    const results = [];
+    for (let i = 0; i < VIEWPORTS.length; i++) {
+      const f = getIframe(i);
+      await waitForLoad(i);
+      const doc = f.contentDocument;
+      const win = f.contentWindow;
+      const r = {
+        viewport: VIEWPORTS[i].name,
+        bodyScrollW: doc.body.scrollWidth,
+        bodyClientW: doc.body.clientWidth,
+        hOverflow: doc.body.scrollWidth > win.innerWidth,
+        hOverflowPx: doc.body.scrollWidth - win.innerWidth,
+        // Find elements wider than viewport
+        wideElements: [],
+      };
+      doc.querySelectorAll('*').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.width > win.innerWidth + 1 && rect.height > 5) {
+          r.wideElements.push({
+            tag: el.tagName + (el.id ? '#' + el.id : '') + (el.className ? '.' + (el.className.split(' ')[0]) : ''),
+            w: Math.round(rect.width),
+            x: Math.round(rect.x),
+          });
+        }
+      });
+      results.push(r);
+    }
+    out.textContent = JSON.stringify(results, null, 2);
+  }
+  </script>
+</body>
+</html>

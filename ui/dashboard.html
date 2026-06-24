@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📊 Dashboard Telemetry — Karbuin</title>
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <style>
+    body { background: #0f1115; color: #e6e6e6; }
+    .dash { max-width: 1100px; margin: 0 auto; padding: 16px; }
+    .dash-header {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px; margin-bottom: 24px;
+      padding-bottom: 16px; border-bottom: 1px solid #2a2d35;
+    }
+    .dash-header h1 { margin: 0; font-size: 22px; }
+    .dash-header .meta { color: #888; font-size: 13px; }
+    .controls {
+      display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
+    }
+    .controls select, .controls button {
+      background: #1a1d23; color: #e6e6e6; border: 1px solid #2a2d35;
+      padding: 6px 12px; border-radius: 6px; font-size: 13px; cursor: pointer;
+    }
+    .controls button:hover { background: #2a2d35; }
+    .stats-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px; margin-bottom: 24px;
+    }
+    .stat-card {
+      background: #1a1d23; border: 1px solid #2a2d35; border-radius: 10px;
+      padding: 16px;
+    }
+    .stat-card .label { color: #888; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-card .value { font-size: 28px; font-weight: 600; margin-top: 4px; color: #fafafa; }
+    .stat-card .delta { font-size: 11px; color: #888; margin-top: 4px; }
+    .stat-card.diagnose .value { color: #4ade80; }
+    .stat-card.followup .value { color: #60a5fa; }
+    .stat-card.error .value { color: #f87171; }
+    .stat-card.conf .value { color: #facc15; }
+    .panels {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+    }
+    @media (max-width: 768px) {
+      .panels { grid-template-columns: 1fr; }
+    }
+    .panel {
+      background: #1a1d23; border: 1px solid #2a2d35; border-radius: 10px;
+      padding: 16px;
+    }
+    .panel h3 { margin: 0 0 12px 0; font-size: 14px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+    .bar-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; font-size: 13px; }
+    .bar-row .name { flex: 1; color: #e6e6e6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bar-row .count { color: #888; font-variant-numeric: tabular-nums; min-width: 32px; text-align: right; }
+    .bar-row .bar { flex: 0 0 100px; height: 6px; background: #2a2d35; border-radius: 3px; overflow: hidden; }
+    .bar-row .bar-fill { height: 100%; background: linear-gradient(90deg, #4ade80, #60a5fa); }
+    .daily-row {
+      display: grid; grid-template-columns: 100px 60px 60px 60px 1fr; gap: 8px;
+      padding: 4px 0; font-size: 12px; font-variant-numeric: tabular-nums;
+      align-items: center;
+    }
+    .daily-row.header { color: #666; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid #2a2d35; padding-bottom: 4px; }
+    .daily-row .mini-bar { display: flex; gap: 1px; height: 8px; }
+    .daily-row .mini-bar div { height: 100%; }
+    .events-list { max-height: 400px; overflow-y: auto; }
+    .event-row {
+      display: grid; grid-template-columns: 60px 80px 1fr; gap: 8px;
+      padding: 6px 4px; font-size: 12px; border-bottom: 1px solid #2a2d35;
+    }
+    .event-row:last-child { border-bottom: none; }
+    .event-row .ts { color: #888; font-variant-numeric: tabular-nums; }
+    .event-row .type { font-weight: 600; padding: 1px 6px; border-radius: 4px; text-align: center; font-size: 10px; text-transform: uppercase; }
+    .event-row .type.diagnose { background: #14532d; color: #4ade80; }
+    .event-row .type.followup { background: #1e3a8a; color: #60a5fa; }
+    .event-row .type.error { background: #7f1d1d; color: #f87171; }
+    .event-row .info { color: #cbd5e1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .input-samples { font-size: 12px; max-height: 300px; overflow-y: auto; }
+    .input-samples li {
+      padding: 4px 8px; background: #0f1115; border-left: 2px solid #4ade80;
+      margin: 4px 0; color: #cbd5e1;
+    }
+    .empty-state { color: #666; padding: 24px; text-align: center; font-style: italic; }
+    .footer-link {
+      text-align: center; margin-top: 32px; padding: 16px;
+      color: #888; font-size: 12px;
+    }
+    .footer-link a { color: #60a5fa; text-decoration: none; }
+    .ua-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      gap: 8px; margin-top: 8px;
+    }
+    .ua-pill { padding: 8px; background: #0f1115; border-radius: 6px; text-align: center; }
+    .ua-pill .num { font-size: 20px; font-weight: 600; color: #fafafa; }
+    .ua-pill .lbl { font-size: 10px; color: #888; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <div class="dash">
+    <!-- Header -->
+    <div class="dash-header">
+      <div>
+        <h1>📊 Dashboard Telemetry</h1>
+        <div class="meta">Karbuin v1.1.2 — Engine FROZEN, real-world validation</div>
+      </div>
+      <div class="controls">
+        <label class="meta">Window:
+          <select id="days-select">
+            <option value="1">Last 24h</option>
+            <option value="7" selected>Last 7 days</option>
+            <option value="30">Last 30 days</option>
+          </select>
+        </label>
+        <button id="refresh-btn">🔄 Refresh</button>
+        <a href="/api/telemetry/csv?days=7" download>
+          <button>📥 Download CSV</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Stats grid -->
+    <div class="stats-grid" id="stats-grid">
+      <div class="stat-card diagnose"><div class="label">Total Diagnose</div><div class="value" id="stat-diagnose">—</div><div class="delta">calls</div></div>
+      <div class="stat-card followup"><div class="label">Follow-up</div><div class="value" id="stat-followup">—</div><div class="delta">submissions</div></div>
+      <div class="stat-card error"><div class="label">Errors</div><div class="value" id="stat-error">—</div><div class="delta">server issues</div></div>
+      <div class="stat-card conf"><div class="label">Avg Confidence</div><div class="value" id="stat-conf">—</div><div class="delta">top result</div></div>
+    </div>
+
+    <!-- UA breakdown -->
+    <div class="panel" style="margin-bottom: 16px;">
+      <h3>🌐 User-Agent Mix</h3>
+      <div class="ua-grid" id="ua-grid">
+        <div class="ua-pill"><div class="num" id="ua-mobile">—</div><div class="lbl">Mobile</div></div>
+        <div class="ua-pill"><div class="num" id="ua-desktop">—</div><div class="lbl">Desktop</div></div>
+        <div class="ua-pill"><div class="num" id="ua-bot">—</div><div class="lbl">Bot</div></div>
+        <div class="ua-pill"><div class="num" id="ua-other">—</div><div class="lbl">Other</div></div>
+      </div>
+    </div>
+
+    <!-- Two-column panels -->
+    <div class="panels">
+      <!-- Top causes -->
+      <div class="panel">
+        <h3>🎯 Top Penyebab (Top 10)</h3>
+        <div id="top-causes"></div>
+      </div>
+
+      <!-- Motor breakdown -->
+      <div class="panel">
+        <h3>🏍 Motor Distribution</h3>
+        <div id="motors-breakdown"></div>
+      </div>
+
+      <!-- Daily breakdown -->
+      <div class="panel" style="grid-column: 1 / -1;">
+        <h3>📅 Daily Activity</h3>
+        <div id="daily-breakdown"></div>
+      </div>
+
+      <!-- Recent events -->
+      <div class="panel" style="grid-column: 1 / -1;">
+        <h3>⚡ Recent Events (Latest 20)</h3>
+        <div class="events-list" id="events-list"></div>
+      </div>
+
+      <!-- Input samples -->
+      <div class="panel" style="grid-column: 1 / -1;">
+        <h3>💬 Sample User Inputs (Latest 50)</h3>
+        <ul class="input-samples" id="input-samples"></ul>
+      </div>
+    </div>
+
+    <div class="footer-link">
+      <a href="/">← Kembali ke Karbuin</a>
+      · Last refreshed: <span id="last-refresh">never</span>
+      · Auto-refresh every 30s
+    </div>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+
+    function renderBars(items, container, maxLen = 30) {
+      if (!items.length) {
+        container.innerHTML = '<div class="empty-state">Belum ada data</div>';
+        return;
+      }
+      const max = Math.max(...items.map(([, n]) => n), 1);
+      container.innerHTML = items.map(([name, n]) => `
+        <div class="bar-row">
+          <div class="name" title="${escapeHtml(name)}">${escapeHtml(name.length > maxLen ? name.slice(0, maxLen - 1) + '…' : name)}</div>
+          <div class="bar"><div class="bar-fill" style="width: ${(n / max * 100).toFixed(1)}%"></div></div>
+          <div class="count">${n}</div>
+        </div>
+      `).join('');
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    async function loadStats() {
+      const days = $('days-select').value;
+      const resp = await fetch(`/api/telemetry?days=${days}`);
+      const data = await resp.json();
+
+      // Stat cards
+      $('stat-diagnose').textContent = data.totals.diagnose || 0;
+      $('stat-followup').textContent = data.totals.followup || 0;
+      $('stat-error').textContent = data.totals.error || 0;
+      const conf = data.avg_top_confidence || 0;
+      $('stat-conf').textContent = (conf * 100).toFixed(1) + '%';
+
+      // UA breakdown
+      const ua = data.ua_breakdown || {};
+      $('ua-mobile').textContent = ua.mobile || 0;
+      $('ua-desktop').textContent = ua.desktop || 0;
+      $('ua-bot').textContent = ua.bot || 0;
+      $('ua-other').textContent = ua.other || 0;
+
+      // Top causes
+      const causes = (data.top_causes_top10 || []).map(([id, n]) => [id.replace(/_/g, ' '), n]);
+      renderBars(causes, $('top-causes'));
+
+      // Motors
+      const motors = (data.motors_breakdown || []).map(([id, n]) => [id.replace(/_/g, ' '), n]);
+      renderBars(motors, $('motors-breakdown'));
+
+      // Daily
+      const daily = data.daily_breakdown || [];
+      if (!daily.length) {
+        $('daily-breakdown').innerHTML = '<div class="empty-state">Belum ada aktivitas</div>';
+      } else {
+        const maxDay = Math.max(...daily.map(([, d]) => (d.diagnose || 0) + (d.followup || 0)), 1);
+        $('daily-breakdown').innerHTML = `
+          <div class="daily-row header"><div>Tanggal</div><div>Diagnose</div><div>Followup</div><div>Error</div><div>Activity</div></div>
+          ${daily.map(([date, d]) => `
+            <div class="daily-row">
+              <div>${date}</div>
+              <div>${d.diagnose || 0}</div>
+              <div>${d.followup || 0}</div>
+              <div>${d.error || 0}</div>
+              <div class="mini-bar">
+                <div style="width:${((d.diagnose||0)/maxDay*100).toFixed(1)}%;background:#4ade80"></div>
+                <div style="width:${((d.followup||0)/maxDay*100).toFixed(1)}%;background:#60a5fa"></div>
+                <div style="width:${((d.error||0)/maxDay*100).toFixed(1)}%;background:#f87171"></div>
+              </div>
+            </div>
+          `).join('')}
+        `;
+      }
+
+      // Input samples
+      const samples = data.input_samples || [];
+      $('input-samples').innerHTML = samples.length
+        ? samples.map(s => `<li>${escapeHtml(s)}</li>`).join('')
+        : '<div class="empty-state">Belum ada input</div>';
+
+      $('last-refresh').textContent = new Date().toLocaleTimeString('id-ID');
+    }
+
+    async function loadEvents() {
+      const resp = await fetch('/api/telemetry/recent?limit=20');
+      const events = await resp.json();
+      const list = $('events-list');
+      if (!events.length) {
+        list.innerHTML = '<div class="empty-state">Belum ada event</div>';
+        return;
+      }
+      list.innerHTML = events.map(ev => {
+        const ts = (ev.ts || '').substring(11, 19);
+        const type = ev.event || 'unknown';
+        const info = type === 'diagnose'
+          ? `${ev.motor_id || 'no-motor'} → ${ev.top_cause_id || 'no-cause'} (${((ev.top_confidence||0)*100).toFixed(0)}%)`
+          : type === 'followup'
+          ? `${ev.motor_id || 'no-motor'} | ${ev.top_cause_id || 'no-cause'}`
+          : ev.error || 'unknown error';
+        const input = (ev.user_input || '').substring(0, 40);
+        return `
+          <div class="event-row">
+            <div class="ts">${ts}</div>
+            <div class="type ${type}">${type}</div>
+            <div class="info" title="${escapeHtml(ev.user_input || '')}">
+              ${escapeHtml(info)} <span style="color:#666">${escapeHtml(input ? '— ' + input : '')}</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function refresh() {
+      loadStats().catch(e => console.error('stats failed:', e));
+      loadEvents().catch(e => console.error('events failed:', e));
+    }
+
+    $('refresh-btn').addEventListener('click', refresh);
+    $('days-select').addEventListener('change', refresh);
+    refresh();
+    setInterval(refresh, 30000);  // 30s auto-refresh
+  </script>
+</body>
+</html>

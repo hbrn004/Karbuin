@@ -197,6 +197,22 @@ class KarbuinHandler(BaseHTTPRequestHandler):
         if path == "/api/telemetry":
             days = int(query.get("days", ["7"])[0])
             return json_response(self, 200, telemetry.stats(days=days))
+        if path == "/api/telemetry/csv":
+            days = int(query.get("days", ["7"])[0])
+            event_type = query.get("event", [None])[0]
+            csv = telemetry.export_csv(days=days, event_type=event_type)
+            self.send_response(200)
+            self.send_header("Content-Type", "text/csv; charset=utf-8")
+            self.send_header("Content-Disposition", f'attachment; filename="karbuin-telemetry-{days}d.csv"')
+            self.send_header("Content-Length", str(len(csv.encode("utf-8"))))
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+            self.wfile.write(csv.encode("utf-8"))
+            return
+        if path == "/api/telemetry/recent":
+            limit = int(query.get("limit", ["50"])[0])
+            event_type = query.get("event", [None])[0]
+            return json_response(self, 200, telemetry.query_recent(limit=limit, event_type=event_type))
 
         # ── Static HTML pages ───────────────────────────────
         page_map = {
@@ -205,6 +221,7 @@ class KarbuinHandler(BaseHTTPRequestHandler):
             "/result": "result.html",
             "/library": "library.html",
             "/method": "method.html",
+            "/dashboard": "dashboard.html",
             "/qa-harness": "qa-harness.html",
         }
         if path in page_map:

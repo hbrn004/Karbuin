@@ -13,3 +13,6 @@ data/derived/
 # Deployment artifacts
 .env
 *.pid
+
+# Runtime telemetry (PII-safe but kept local)
+data/telemetry/

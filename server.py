@@ -37,6 +37,7 @@ DATA_DIR = ROOT / "data" / "seed"
 # Lazy import karbuin (only when needed)
 sys.path.insert(0, str(ROOT))
 from karbuin import KnowledgeBase, Diagnoser  # noqa: E402
+from karbuin import telemetry  # noqa: E402
 
 KB = KnowledgeBase(DATA_DIR)
 DIAGNOSER = Diagnoser(KB)
@@ -192,6 +193,9 @@ class KarbuinHandler(BaseHTTPRequestHandler):
 
         if path == "/api/stats":
             return json_response(self, 200, KB.coverage_stats())
+        if path == "/api/telemetry":
+            days = int(query.get("days", ["7"])[0])
+            return json_response(self, 200, telemetry.stats(days=days))
 
         # ── Static HTML pages ───────────────────────────────
         page_map = {
@@ -231,22 +235,70 @@ class KarbuinHandler(BaseHTTPRequestHandler):
             return json_response(self, 400, {"error": "invalid_json"})
 
         if path == "/api/diagnose":
-            result = DIAGNOSER.diagnose(
-                user_input=body.get("user_input", ""),
-                motor_id=body.get("motor_id"),
-                explicit_symptoms=body.get("explicit_symptoms"),
-            )
+            try:
+                result = DIAGNOSER.diagnose(
+                    user_input=body.get("user_input", ""),
+                    motor_id=body.get("motor_id"),
+                    explicit_symptoms=body.get("explicit_symptoms"),
+                )
+            except Exception as e:
+                telemetry.log_error(
+                    endpoint="/api/diagnose",
+                    error=str(e),
+                    user_input=body.get("user_input", ""),
+                    user_agent=self.headers.get("User-Agent", ""),
+                    ip=self.client_address[0],
+                )
+                return json_response(self, 500, {"error": "internal_error", "message": str(e)})
+            try:
+                telemetry.log_diagnose(
+                    user_input=body.get("user_input", ""),
+                    motor_id=body.get("motor_id"),
+                    explicit_symptoms=body.get("explicit_symptoms"),
+                    result=result,
+                    user_agent=self.headers.get("User-Agent", ""),
+                    ip=self.client_address[0],
+                )
+            except Exception as e:
+                print(f"[telemetry] diagnose log failed: {e}", flush=True)
             return json_response(self, 200, result)
 
         if path == "/api/diagnose/followup":
-            result = DIAGNOSER.diagnose(
-                user_input=body.get("user_input", ""),
-                motor_id=body.get("motor_id"),
-                explicit_symptoms=body.get("explicit_symptoms"),
-                confirmed_causes=body.get("confirmed_causes"),
-                answer_adjustments=body.get("answer_adjustments"),
-            )
+            try:
+                result = DIAGNOSER.diagnose(
+                    user_input=body.get("user_input", ""),
+                    motor_id=body.get("motor_id"),
+                    explicit_symptoms=body.get("explicit_symptoms"),
+                    confirmed_causes=body.get("confirmed_causes"),
+                    answer_adjustments=body.get("answer_adjustments"),
+                )
+            except Exception as e:
+                telemetry.log_error(
+                    endpoint="/api/diagnose/followup",
+                    error=str(e),
+                    user_input=body.get("user_input", ""),
+                    user_agent=self.headers.get("User-Agent", ""),
+                    ip=self.client_address[0],
+                )
+                return json_response(self, 500, {"error": "internal_error", "message": str(e)})
+            try:
+                telemetry.log_followup(
+                    user_input=body.get("user_input", ""),
+                    motor_id=body.get("motor_id"),
+                    explicit_symptoms=body.get("explicit_symptoms"),
+                    answers=body.get("answers", {}),
+                    adjustments=body.get("answer_adjustments", {}),
+                    result=result,
+                    user_agent=self.headers.get("User-Agent", ""),
+                    ip=self.client_address[0],
+                )
+            except Exception as e:
+                print(f"[telemetry] followup log failed: {e}", flush=True)
             return json_response(self, 200, result)
+
+        if path == "/api/telemetry":
+            days = int(query.get("days", ["7"])[0])
+            return json_response(self, 200, telemetry.stats(days=days))
 
         if path == "/api/parser/preview":
             """Preview detected symptoms from free text (for live UI)."""

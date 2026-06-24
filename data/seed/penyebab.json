@@ -3531,5 +3531,226 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_suzuki_smash_lemah",
+    "name": "Kiprok Suzuki Smash lemah",
+    "aliases": [
+      "kiprok suzuki smash lemah",
+      "kiprok smash lemah",
+      "regulator smash lemah",
+      "kiprok suzuki lemah",
+      "kiprok smash regulator lemah"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kiprok_suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc kiprok lemah = output tegangan drop. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_suzuki_smash_rusak",
+    "name": "Kiprok Suzuki Smash rusak",
+    "aliases": [
+      "kiprok suzuki smash rusak",
+      "kiprok smash rusak",
+      "regulator smash rusak",
+      "kiprok smash mati",
+      "kiprok suzuki smashed"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kiprok_suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc kiprok rusak total = tidak ada output. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_suzuki_smash_lemah",
+    "name": "CDI Suzuki Smash lemah",
+    "aliases": [
+      "cdi suzuki smash lemah",
+      "cdi smash lemah",
+      "cdi suzuki lemah"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "cdi_suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc CDI lemah = percikan api busi kurang. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_suzuki_smash_rusak",
+    "name": "CDI Suzuki Smash rusak",
+    "aliases": [
+      "cdi suzuki smash rusak",
+      "cdi smash rusak",
+      "cdi suzuki mati"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "cdi_suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc CDI rusak = busi tidak nyala sama sekali. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_smash_renggang",
+    "name": "Klep Smash renggang (clearance over spec)",
+    "aliases": [
+      "klep smash renggang",
+      "klep suzuki smash renggang",
+      "klep smash longgar",
+      "clearance klep smash"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "klep",
+      "klep_masuk",
+      "klep_buang"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc klep renggang = clearance over spec, perlu adjust. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_smash_pengap",
+    "name": "Klep Smash pengap/karbon",
+    "aliases": [
+      "klep smash pengap",
+      "klep suzuki smash pengap",
+      "karbon klep smash",
+      "klep smash karbon"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "klep",
+      "klep_masuk",
+      "klep_buang"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc klep pengap = endapan karbon, perlu decarburization. Tanpa service manual page reference."
+  },
+  {
+    "id": "pilot_jet_smash_clogged",
+    "name": "Pilot jet Suzuki Smash tersumbat",
+    "aliases": [
+      "pilot jet smash tersumbat",
+      "pilot jet suzuki smash clogged",
+      "pilot jet smash kotor",
+      "pilot jet suzuki 110 clogged"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "pilot_jet",
+      "pe_smash_main_jet"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc pilot jet tersumbat = langsam kasar, RPM tidak stabil. Tanpa service manual page reference."
+  },
+  {
+    "id": "main_jet_smash_clogged",
+    "name": "Main jet Suzuki Smash tersumbat",
+    "aliases": [
+      "main jet smash tersumbat",
+      "main jet suzuki smash clogged",
+      "main jet smash kotor",
+      "main jet suzuki 110 clogged"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "main_jet",
+      "pe_smash_main_jet"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc main jet tersumbat = tenaga hilang atas, brebet rpm tinggi. Tanpa service manual page reference."
+  },
+  {
+    "id": "intake_leak_smash",
+    "name": "Intake manifold Suzuki Smash bocor",
+    "aliases": [
+      "intake smash bocor",
+      "karet intake smash bocor",
+      "intake leak smash",
+      "karet bocor smash"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "intake_manifold",
+      "intake_clamp"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc intake bocor = RPM tidak stabil, langsam naik turun. Tanpa service manual page reference."
+  },
+  {
+    "id": "aki_smash_lemah",
+    "name": "Aki Suzuki Smash lemah",
+    "aliases": [
+      "aki smash lemah",
+      "aki suzuki smash lemah",
+      "aki smash soak",
+      "aki suzuki soak"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "aki"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc aki lemah = starter berat, lampu redup. Tanpa service manual page reference."
+  },
+  {
+    "id": "rantai_timing_smash_kendur",
+    "name": "Rantai timing Suzuki Smash kendur",
+    "aliases": [
+      "rantai timing smash kendur",
+      "rantai keteng smash kendur",
+      "timing chain smash kendor",
+      "rantai timing smash kendor"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "rantai_keteng"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc rantai timing kendur = bunyi tek tek tek dari area timing. Tanpa service manual page reference."
+  },
+  {
+    "id": "grounding_smash_kendor",
+    "name": "Grounding Suzuki Smash kendor",
+    "aliases": [
+      "grounding smash kendor",
+      "massa smash kendor",
+      "kabel massa smash kendor",
+      "ground smash kendor"
+    ],
+    "category": "electrical",
+    "related_components": [],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc grounding kendor = kelistrikan trouble random. Tanpa service manual page reference."
   }
 ]

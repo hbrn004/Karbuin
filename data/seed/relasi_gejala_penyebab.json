@@ -7704,5 +7704,653 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Pilot jet Mikuni BS26 tersumbat"
+  },
+  {
+    "symptom_id": "kiprok_lemah_smash",
+    "cause_id": "kiprok_suzuki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 585,
+    "evidence": "Primary cause for Smash kiprok lemah",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kiprok_lemah_smash",
+    "cause_id": "kiprok_suzuki_smash_rusak",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 586,
+    "evidence": "Worse case",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kiprok_lemah_smash",
+    "cause_id": "aki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 587,
+    "evidence": "Secondary - aki soak menyebabkan kiprok drop",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kiprok_tidak_mengisi_smash",
+    "cause_id": "kiprok_suzuki_smash_rusak",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 588,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kiprok_tidak_mengisi_smash",
+    "cause_id": "kiprok_suzuki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 589,
+    "evidence": "Output drop",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kiprok_tidak_mengisi_smash",
+    "cause_id": "grounding_smash_kendor",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 590,
+    "evidence": "Grounding issue",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "cdi_lemah_smash",
+    "cause_id": "cdi_suzuki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 591,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "cdi_lemah_smash",
+    "cause_id": "cdi_suzuki_smash_rusak",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 592,
+    "evidence": "Severe case",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "klep_bunyi_smash",
+    "cause_id": "klep_smash_renggang",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 593,
+    "evidence": "Primary cause",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "klep_bunyi_smash",
+    "cause_id": "klep_smash_pengap",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 594,
+    "evidence": "Secondary - karbon",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_smash",
+    "cause_id": "pilot_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 595,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_smash",
+    "cause_id": "intake_leak_smash",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 596,
+    "evidence": "Vacuum leak",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_smash",
+    "cause_id": "main_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 597,
+    "evidence": "Worse at high RPM",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "lampu_redup_smash",
+    "cause_id": "kiprok_suzuki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 598,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "lampu_redup_smash",
+    "cause_id": "aki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 599,
+    "evidence": "Aki soak",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "lampu_redup_smash",
+    "cause_id": "grounding_smash_kendor",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 600,
+    "evidence": "Grounding issue",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "brebet_smash",
+    "cause_id": "main_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 601,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "brebet_smash",
+    "cause_id": "pilot_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 602,
+    "evidence": "Secondary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "brebet_smash",
+    "cause_id": "intake_leak_smash",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 603,
+    "evidence": "Vacuum leak",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "asap_hitam_smash",
+    "cause_id": "main_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 604,
+    "evidence": "Campuran kaya",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "asap_hitam_smash",
+    "cause_id": "kiprok_suzuki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 605,
+    "evidence": "Overcharge causing rich mixture",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "asap_putih_smash",
+    "cause_id": "klep_smash_pengap",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 606,
+    "evidence": "Seal klep bocor",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "asap_putih_smash",
+    "cause_id": "klep_smash_renggang",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 607,
+    "evidence": "Klep tidak rapat",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "tenaga_hilang_smash",
+    "cause_id": "klep_smash_renggang",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 608,
+    "evidence": "Kompresi turun",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "tenaga_hilang_smash",
+    "cause_id": "main_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 609,
+    "evidence": "Bensin kurang",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "tenaga_hilang_smash",
+    "cause_id": "intake_leak_smash",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 610,
+    "evidence": "Vacuum leak",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "starter_berat_smash",
+    "cause_id": "aki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 611,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "starter_berat_smash",
+    "cause_id": "kiprok_suzuki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 612,
+    "evidence": "Aki tidak dapat charge",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "bunyi_timing_keras_smash",
+    "cause_id": "rantai_timing_smash_kendur",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 613,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "bunyi_timing_keras_smash",
+    "cause_id": "klep_smash_renggang",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 614,
+    "evidence": "Klep terlalu longgar",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kelistrikan_trouble_smash",
+    "cause_id": "grounding_smash_kendor",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 615,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kelistrikan_trouble_smash",
+    "cause_id": "kiprok_suzuki_smash_rusak",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 616,
+    "evidence": "Kiprok rusak",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kelistrikan_trouble_smash",
+    "cause_id": "aki_smash_lemah",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 617,
+    "evidence": "Aki lemah",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "mesin_ga_mau_hidup_smash",
+    "cause_id": "cdi_suzuki_smash_rusak",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 618,
+    "evidence": "Primary",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "mesin_ga_mau_hidup_smash",
+    "cause_id": "kiprok_suzuki_smash_rusak",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 619,
+    "evidence": "Aki tidak dapat charge",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "mesin_ga_mau_hidup_smash",
+    "cause_id": "main_jet_smash_clogged",
+    "motor_filter": [
+      "suzuki_smash"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc — knowledge komunitas mekanik motor Suzuki Indonesia. Tanpa service manual page reference.",
+    "id": 620,
+    "evidence": "Bensin tidak sampai",
+    "source_ref": "src_suzuki_smash_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25"
   }
 ]

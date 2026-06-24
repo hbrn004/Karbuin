@@ -2094,5 +2094,69 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_suzuki_smash",
+    "name": "Kiprok Suzuki Smash 110cc (AC regulator full-wave)",
+    "aliases": [
+      "kiprok smash",
+      "kiprok suzuki smash",
+      "kiprok suzuki 110",
+      "regulator smash",
+      "regulator rectifier smash",
+      "kiprok smash 110",
+      "suzuki smash kiprok",
+      "smash kiprok",
+      "kiprok smash 110cc"
+    ],
+    "category": "electrical",
+    "related_motors": [
+      "suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc karbu pakai kiprok AC full-wave 5-kabel. Common failure. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_suzuki_smash",
+    "name": "CDI Suzuki Smash 110cc (DC-CDI unit)",
+    "aliases": [
+      "cdi smash",
+      "cdi suzuki smash",
+      "cdi suzuki 110",
+      "cdi smash 110",
+      "suzuki smash cdi",
+      "smash cdi",
+      "cdi smash 110cc"
+    ],
+    "category": "electrical",
+    "related_motors": [
+      "suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc pakai CDI DC (battery-assisted). Common failure setelah 5 tahun. Tanpa service manual page reference."
+  },
+  {
+    "id": "pe_smash_main_jet",
+    "name": "Main jet PE Suzuki Smash 110 (Keihin)",
+    "aliases": [
+      "main jet smash",
+      "main jet suzuki smash",
+      "main jet smash 110",
+      "pe smash",
+      "main jet suzuki 110",
+      "smash main jet"
+    ],
+    "category": "fuel_system",
+    "related_motors": [
+      "suzuki_smash"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash 110cc pakai karburator Keihin PE. Main jet size tergantung kondisi. Tanpa service manual page reference."
   }
 ]

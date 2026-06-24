@@ -1584,5 +1584,38 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "pd27j_main_jet",
+    "name": "Main jet PD27J (Honda Verza 150)",
+    "description": "Main jet untuk karburator PD27J Honda Verza 150cc. Lebih besar dari PD24J karena kapasitas mesin 150cc butuh bahan bakar lebih banyak.",
+    "category": "karburator",
+    "aliases": [
+      "main jet pd27j",
+      "main jet honda verza",
+      "main jet verza 150",
+      "main jet keihin pd27j"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_honda_verza_150",
+    "name": "Kiprok Honda Verza 150cc (digital AC regulator)",
+    "description": "Kiprok Honda Verza 150cc tipe digital AC regulator. Output lebih besar dari Blade untuk handle beban listrik Verza yang lebih berat (lampu lebih besar, sistem pendinginan LED).",
+    "category": "listrik",
+    "aliases": [
+      "kiprok verza 150",
+      "kiprok honda verza",
+      "kiprok verza modern",
+      "kiprok honda 150cc modern",
+      "kiprok honda digital 150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

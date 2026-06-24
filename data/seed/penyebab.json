@@ -2941,5 +2941,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_honda_150_modern_lemah",
+    "name": "Kiprok Honda 150cc modern digital AC lemah",
+    "description": "Kiprok Honda modern 150cc digital AC regulator lemah. Lebih cepat lemah dibanding kiprok Honda 125cc karena beban listrik lebih berat (lampu lebih besar, kapasitor lebih besar, ISS kalau ada).",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": "kiprok_honda_verza_150",
+    "mechanic_notes": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V saat RPM atas. Lemah jika < 13.5V. Verza 150 butuh kiprok dengan output lebih besar dari Blade.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "kiprok_honda_modern_lemah",
+      "spul_lemah",
+      "aki_lemah"
+    ],
+    "similar_causes": [
+      "kiprok_honda_lemah_besar",
+      "kiprok_rusak"
+    ],
+    "solution_free": "Cek soket kiprok, bersihkan korosi, pastikan ground terhubung baik. Cek juga regulator internal kiprok.",
+    "solution_budget": "Ganti kiprok Honda Verza 150 aftermarket (Rp 120.000-220.000).",
+    "solution_full": "Ganti kiprok original Honda Verza 150 (Rp 300.000-450.000) + cek spul dan aki.",
+    "cost_part": "Rp 120.000-450.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Hindari overheat. Jangan biarkan aki drop terlalu lama. Matikan ISS jika tidak digunakan.",
+    "diagnosis_method": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Kiprok lemah biasanya output < 13.5V saat RPM atas.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "q_verza_usia",
+        "question": "Motor Honda Verza sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "Kiprok Verza 150 rata-rata lemah setelah 4-6 tahun (lebih cepat dari Blade 125 karena beban lebih berat)"
+      },
+      {
+        "id": "q_iss_used_verza",
+        "question": "ISS (Idling Stop) sering dipakai?",
+        "when_to_ask": "if_motor_has_iss",
+        "why_it_matters": "ISS aktif = beban regulator tinggi"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

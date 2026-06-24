@@ -2270,5 +2270,105 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Blade 125cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_verza",
+    "name": "Klep bunyi khas Verza 150cc",
+    "description": "Klep bunyi/tik-tik pada Honda Verza 150cc. Honda sport karbu modern 150cc dengan klep lebih presisi, tapi tetap butuh setel berkala setiap 6000-10000 km. Bunyi klep Verza biasanya lebih halus dibanding Blade karena klep lebih presisi.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi verza",
+      "klep berisik verza",
+      "klep bunyi honda verza",
+      "klep bunyi verza 150",
+      "klep tik tik verza",
+      "klep bunyi terus verza",
+      "bunyi klep verza"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_verza",
+    "name": "Kiprok lemah Verza 150cc (Honda modern)",
+    "description": "Kiprok lemah, charging tidak optimal pada Honda Verza 150cc. Kiprok Honda modern 150cc butuh output lebih besar untuk handle beban listrik yang lebih berat dari Blade (lampu lebih besar, kapasitor lebih besar).",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah verza",
+      "kiprok rusak verza",
+      "kiprok panas verza",
+      "kiprok ga ngecas verza",
+      "kiprok honda verza",
+      "kiprok lemah honda 150cc",
+      "kiprok lemah verza 150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_verza",
+    "name": "Lampu redup Verza 150cc",
+    "description": "Lampu redup di RPM rendah, kurang terang saat idle. Honda Verza 150cc dengan lampu depan lebih besar dari Blade, sangat tergantung output kiprok dan spul digital.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup verza",
+      "lampu kurang terang verza",
+      "lampu redup di langsam verza",
+      "lampu redup honda verza",
+      "lampu redup honda 150cc",
+      "lampu redup verza 150",
+      "lampu redup rpm rendah verza"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "tarikan_ngempos_verza",
+    "name": "Tarikan ngempos RPM atas (Honda Verza 150cc)",
+    "description": "Tarikan ngempos saat RPM atas, tenaga hilang. Honda Verza 150cc butuh main jet PD27J lebih besar dan klep presisi untuk RPM atas yang stabil. Gejala umum setelah main jet aus atau tersumbat parsial.",
+    "severity": "high",
+    "category": "tenaga",
+    "aliases": [
+      "ngempos rpm atas verza",
+      "ngempos atas verza",
+      "tarikan ngempos atas verza",
+      "los tenaga atas verza",
+      "ngempos honda 150cc",
+      "tarikan hilang atas verza",
+      "brebet rpm atas verza"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_lemah_verza",
+    "name": "CDI lemah Verza 150cc",
+    "description": "CDI lemah, percikan api busi tidak stabil pada Honda Verza 150cc. CDI digital AC Honda modern 150cc lebih sensitif terhadap regulator internal yang rusak setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "cdi lemah verza",
+      "cdi rusak verza",
+      "cdi ga ada percikan verza",
+      "cdi honda verza",
+      "cdi lemah honda 150cc",
+      "cdi digital lemah verza",
+      "cdi modern verza"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

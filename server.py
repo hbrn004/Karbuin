@@ -227,6 +227,10 @@ class KarbuinHandler(BaseHTTPRequestHandler):
         if path in page_map:
             return self.serve_file(UI_DIR / page_map[path], "text/html; charset=utf-8")
         if path == "/favicon.ico":
+            # v1.2: serve the real favicon.ico from assets/
+            ico = UI_DIR / "assets" / "favicon.ico"
+            if ico.is_file():
+                return self.serve_file(ico, "image/x-icon")
             return self.send_error(404)
 
         # ── Static assets ────────────────────────────────────

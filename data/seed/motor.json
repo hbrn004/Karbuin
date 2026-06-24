@@ -515,5 +515,38 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "yamaha_jupiter_karbu",
+    "brand": "Yamaha",
+    "model": "Jupiter",
+    "year_start": 2005,
+    "year_end": 2012,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni VM20",
+    "engine_cc": 135,
+    "category": "bebek_sport",
+    "common_aliases": [
+      "jupiter",
+      "yamaha jupiter",
+      "jupiter karbu",
+      "jupiter 135",
+      "jupiter mx"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 9.5,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Yamaha Jupiter 135cc karbu. Tanpa service manual page reference."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

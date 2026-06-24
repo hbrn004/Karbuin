@@ -1761,5 +1761,37 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "vm20_mikuni_jupiter",
+    "name": "Karburator Mikuni VM20 (Yamaha Jupiter 135cc)",
+    "description": "Karburator Mikuni VM20 slide untuk Yamaha Jupiter 135cc. Slide carburetor khas sport Yamaha.",
+    "category": "karburator",
+    "aliases": [
+      "karburator vm20 jupiter",
+      "vm20 jupiter",
+      "karburator jupiter 135",
+      "vm20 mikuni jupiter"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_jupiter",
+    "name": "Kiprok Yamaha Jupiter 135cc (analog)",
+    "description": "Kiprok Yamaha Jupiter 135cc tipe analog regulator. Kiprok Yamaha sport karbu rentan lemah setelah 5+ tahun pakai.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok jupiter 135",
+      "kiprok yamaha jupiter",
+      "kiprok jupiter analog",
+      "kiprok yamaha 135 sport"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

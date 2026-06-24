@@ -6820,5 +6820,213 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Lampu redup karena kiprok Yamaha retro"
+  },
+  {
+    "id": 517,
+    "symptom_id": "klep_bunyi_jupiter",
+    "cause_id": "klep_renggang",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang butuh setel berkala"
+  },
+  {
+    "id": 518,
+    "symptom_id": "klep_bunyi_jupiter",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal klep bocor perparah klep bunyi"
+  },
+  {
+    "id": 519,
+    "symptom_id": "rpm_tidak_stabil_jupiter",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni VM20 tersumbat"
+  },
+  {
+    "id": 520,
+    "symptom_id": "rpm_tidak_stabil_jupiter",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet Mikuni VM20 tersumbat"
+  },
+  {
+    "id": 521,
+    "symptom_id": "rpm_tidak_stabil_jupiter",
+    "cause_id": "klep_renggang",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang sebabkan RPM tidak stabil"
+  },
+  {
+    "id": 522,
+    "symptom_id": "lampu_redup_jupiter",
+    "cause_id": "kiprok_yamaha_jupiter_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Yamaha sport lemah = lampu redup"
+  },
+  {
+    "id": 523,
+    "symptom_id": "lampu_redup_jupiter",
+    "cause_id": "spul_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = lampu redup"
+  },
+  {
+    "id": 524,
+    "symptom_id": "lampu_redup_jupiter",
+    "cause_id": "aki_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Aki soak = lampu redup"
+  },
+  {
+    "id": 525,
+    "symptom_id": "kiprok_lemah_jupiter",
+    "cause_id": "kiprok_yamaha_jupiter_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Yamaha Jupiter lemah — primary cause"
+  },
+  {
+    "id": 526,
+    "symptom_id": "kiprok_lemah_jupiter",
+    "cause_id": "kiprok_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok rusak total"
+  },
+  {
+    "id": 527,
+    "symptom_id": "kiprok_lemah_jupiter",
+    "cause_id": "spul_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = output kiprok rendah"
+  },
+  {
+    "id": 528,
+    "symptom_id": "starter_tidak_stabil_jupiter",
+    "cause_id": "kiprok_yamaha_jupiter_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok lemah = tegangan idle rendah"
+  },
+  {
+    "id": 529,
+    "symptom_id": "starter_tidak_stabil_jupiter",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni VM20 tersumbat"
+  },
+  {
+    "id": 530,
+    "symptom_id": "starter_tidak_stabil_jupiter",
+    "cause_id": "klep_renggang",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang = idle kasar"
+  },
+  {
+    "id": 531,
+    "symptom_id": "suara_klep",
+    "cause_id": "klep_renggang",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang — khas Jupiter sport"
+  },
+  {
+    "id": 532,
+    "symptom_id": "rpm_naik_turun",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_jupiter_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni VM20 tersumbat"
   }
 ]

@@ -2656,5 +2656,100 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_jupiter",
+    "name": "Klep bunyi khas Jupiter 135cc",
+    "description": "Klep bunyi/tik-tik pada Yamaha Jupiter 135cc. Yamaha bebek sport 135cc dengan klep perlu setel berkala setiap 6000-10000 km.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi jupiter",
+      "klep berisik jupiter",
+      "klep bunyi yamaha jupiter",
+      "klep bunyi jupiter 135",
+      "klep tik tik jupiter",
+      "bunyi klep jupiter"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_jupiter",
+    "name": "RPM tidak stabil Jupiter 135cc",
+    "description": "RPM naik turun/idle kasar pada Yamaha Jupiter 135cc. Yamaha bebek sport rentan idle kasar karena pilot jet Mikuni VM20 sensitive terhadap kualitas bensin Indonesia.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil jupiter",
+      "rpm naik turun jupiter",
+      "idle kasar jupiter",
+      "langsam kasar jupiter",
+      "rpm naik turun yamaha jupiter",
+      "langsam naik turun jupiter"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_jupiter",
+    "name": "Lampu redup Jupiter 135cc",
+    "description": "Lampu redup di RPM rendah pada Yamaha Jupiter 135cc. Yamaha Jupiter dengan sistem kelistrikan AC, lampu tergantung output kiprok dan spul.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup jupiter",
+      "lampu kurang terang jupiter",
+      "lampu redup di langsam jupiter",
+      "lampu redup yamaha jupiter",
+      "lampu redup jupiter 135",
+      "lampu redup rpm rendah jupiter"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_jupiter",
+    "name": "Kiprok lemah Jupiter 135cc (Yamaha sport)",
+    "description": "Kiprok lemah, charging tidak optimal pada Yamaha Jupiter 135cc. Kiprok Yamaha sport karbu rentan lemah setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah jupiter",
+      "kiprok rusak jupiter",
+      "kiprok panas jupiter",
+      "kiprok ga ngecas jupiter",
+      "kiprok yamaha jupiter",
+      "kiprok lemah yamaha sport",
+      "kiprok lemah jupiter 135"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "starter_tidak_stabil_jupiter",
+    "name": "Starter hidup tapi RPM tidak stabil (Jupiter)",
+    "description": "Mesin hidup dengan electric starter tapi RPM langsung tidak stabil. Yamaha Jupiter kadang ada masalah pada pilot jet Mikuni VM20 tersumbat atau klep renggang.",
+    "severity": "medium",
+    "category": "starter",
+    "aliases": [
+      "starter hidup rpm tidak stabil jupiter",
+      "starter hidup tapi rpm kasar jupiter",
+      "starter hidup langsung rpm naik turun jupiter",
+      "starter hidup idle kasar jupiter",
+      "starter hidup rpm naik turun yamaha jupiter"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

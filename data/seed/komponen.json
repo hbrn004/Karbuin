@@ -24,7 +24,11 @@
       "feeler gauge"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "busi_socket",
@@ -48,7 +52,11 @@
       "tangan kosong"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "intake_manifold",
@@ -75,7 +83,11 @@
       "kunci 8/10mm"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "intake_clamp",
@@ -98,7 +110,11 @@
       "tang"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "low"
+    "severity_if_failed": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "pilot_jet",
@@ -124,7 +140,11 @@
       "compressor (optional)"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "main_jet",
@@ -149,7 +169,11 @@
       "carb cleaner"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "filter_udara",
@@ -175,7 +199,11 @@
       "air sabun (jika busa)"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "low"
+    "severity_if_failed": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kiprok",
@@ -200,7 +228,11 @@
       "multimeter"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "aki",
@@ -227,7 +259,11 @@
       "load tester (opsional)"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "cdi",
@@ -253,7 +289,11 @@
       "cdi spare (test)"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "koil",
@@ -278,7 +318,11 @@
       "multimeter"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "klep",
@@ -305,7 +349,11 @@
       "obeng"
     ],
     "replacement_difficulty": "hard",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "ring_piston",
@@ -332,7 +380,11 @@
       "kunci set"
     ],
     "replacement_difficulty": "hard",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kran_bensin",
@@ -358,7 +410,11 @@
       "obeng"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "low"
+    "severity_if_failed": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "selang_bensin",
@@ -382,7 +438,11 @@
       "selang baru"
     ],
     "replacement_difficulty": "easy",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "karburator",
@@ -417,7 +477,11 @@
       "feeler gauge"
     ],
     "replacement_difficulty": "hard",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kipas",
@@ -440,7 +504,11 @@
       "observasi langsung"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "thermostat",
@@ -466,7 +534,11 @@
       "obeng"
     ],
     "replacement_difficulty": "medium",
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "water_pump",
@@ -490,7 +562,11 @@
       "coolant isi ulang jika perlu"
     ],
     "replacement_difficulty": "hard",
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "pelampung",
@@ -502,7 +578,11 @@
     ],
     "category": "fuel_system",
     "subcategory": "float_system",
-    "description": "Pelampung yang mengatur ketinggian bensin di ruang karburator"
+    "description": "Pelampung yang mengatur ketinggian bensin di ruang karburator",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "needle_valve",
@@ -514,7 +594,11 @@
     ],
     "category": "fuel_system",
     "subcategory": "float_system",
-    "description": "Jarum yang menutup jalur bensin ketika pelampung sudah di posisi tinggi"
+    "description": "Jarum yang menutup jalur bensin ketika pelampung sudah di posisi tinggi",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "sekrup_angin",
@@ -527,7 +611,11 @@
     ],
     "category": "fuel_system",
     "subcategory": "tuning",
-    "description": "Sekrup pengatur campuran udara-bensin pada idle"
+    "description": "Sekrup pengatur campuran udara-bensin pada idle",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "baut_langsam",
@@ -539,7 +627,11 @@
     ],
     "category": "fuel_system",
     "subcategory": "tuning",
-    "description": "Sekrup pembatas skep saat gas tertutup, menentukan RPM idle"
+    "description": "Sekrup pembatas skep saat gas tertutup, menentukan RPM idle",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "skep",
@@ -551,7 +643,11 @@
     ],
     "category": "fuel_system",
     "subcategory": "throttle",
-    "description": "Katup putar pada karburator yang mengatur aliran bensin saat gas dibuka"
+    "description": "Katup putar pada karburator yang mengatur aliran bensin saat gas dibuka",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kabel_gas",
@@ -563,7 +659,11 @@
     ],
     "category": "control",
     "subcategory": "throttle",
-    "description": "Kabel yang menghubungkan tuas gas di handle ke skep karburator"
+    "description": "Kabel yang menghubungkan tuas gas di handle ke skep karburator",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "pulser",
@@ -575,7 +675,11 @@
     ],
     "category": "ignition",
     "subcategory": "trigger",
-    "description": "Sensor yang memicu CDI untuk menembak busi, membaca posisi crankshaft"
+    "description": "Sensor yang memicu CDI untuk menembak busi, membaca posisi crankshaft",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "spul",
@@ -588,7 +692,11 @@
     ],
     "category": "electrical",
     "subcategory": "charging",
-    "description": "Kumparan generator di dalam motor, mengisi aki dan memberi tenaga untuk sistem pengapian"
+    "description": "Kumparan generator di dalam motor, mengisi aki dan memberi tenaga untuk sistem pengapian",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "rantai_keteng",
@@ -600,7 +708,11 @@
     ],
     "category": "engine",
     "subcategory": "valvetrain",
-    "description": "Rantai yang menghubungkan crankshaft ke camshaft, mengatur buka-tutup klep"
+    "description": "Rantai yang menghubungkan crankshaft ke camshaft, mengatur buka-tutup klep",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tensioner_ranjai_keteng",
@@ -612,7 +724,11 @@
     ],
     "category": "engine",
     "subcategory": "valvetrain",
-    "description": "Komponen yang menegang rantai keteng, mencegah kendor"
+    "description": "Komponen yang menegang rantai keteng, mencegah kendor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "gasket_kepala_silinder",
@@ -624,7 +740,11 @@
     ],
     "category": "engine",
     "subcategory": "sealing",
-    "description": "Gasket antara kepala silinder dan blok, mencegah kebocoran kompresi dan oli"
+    "description": "Gasket antara kepala silinder dan blok, mencegah kebocoran kompresi dan oli",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tangki",
@@ -651,7 +771,11 @@
       "bau bensin menyengat",
       "karburator banjir"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "filter_bensin",
@@ -678,7 +802,11 @@
       "karburator banjir",
       "mesin mati tiba-tiba"
     ],
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "jarum_skep",
@@ -706,7 +834,11 @@
       "tarikan berat",
       "langsam kasar"
     ],
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "choke",
@@ -733,7 +865,11 @@
       "mesin hanya hidup dengan choke",
       "mesin mati setelah hidup"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "vacuum_hose",
@@ -760,7 +896,11 @@
       "tarikan berat",
       "brebet"
     ],
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tutup_busi",
@@ -787,7 +927,11 @@
       "tarikan berat saat basah",
       "tenaga hilang"
     ],
-    "severity_if_failed": "medium"
+    "severity_if_failed": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kabel_busi",
@@ -814,7 +958,11 @@
       "tenaga hilang",
       "mesin mati mendadak"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "klep_masuk",
@@ -843,7 +991,11 @@
       "kompresi turun",
       "asap putih kebiruan"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "klep_buang",
@@ -872,7 +1024,11 @@
       "suara abnormal",
       "asap putih"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "seal_klep",
@@ -901,7 +1057,11 @@
       "konsumsi oli naik",
       "knalpot basah oli"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "piston",
@@ -930,7 +1090,11 @@
       "asap putih/biru tebal",
       "kompresi sangat rendah"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "silinder",
@@ -959,7 +1123,11 @@
       "konsumsi oli tinggi",
       "kompresi rendah"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "saklar_engine_stop",
@@ -987,7 +1155,11 @@
       "mesin tidak mau hidup",
       "CDI sering error"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "sistem_charging",
@@ -1015,7 +1187,11 @@
       "mesin brebet saat lampu dinyalakan",
       "aki tidak mengisi"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "sistem_bahan_bakar",
@@ -1043,7 +1219,11 @@
       "karburator banjir",
       "mesin mati"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "sistem_pengapian",
@@ -1073,7 +1253,11 @@
       "tenaga hilang",
       "mesin mati"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "blok_silinder",
@@ -1101,7 +1285,11 @@
       "tenaga hilang drastis",
       "suara abnormal"
     ],
-    "severity_if_failed": "high"
+    "severity_if_failed": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kampas_rem",

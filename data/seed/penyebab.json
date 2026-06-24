@@ -60,7 +60,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek intake_manifold, intake_clamp",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "pilot_jet_clogged",
@@ -116,7 +120,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek pilot_jet",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "main_jet_clogged",
@@ -177,7 +185,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek main_jet",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "busi_aus",
@@ -239,7 +251,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek busi",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "busi_rusak",
@@ -291,7 +307,11 @@
         "yes_weight_bonus": 3,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "filter_udara_kotor",
@@ -354,7 +374,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek filter_udara",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kiprok_rusak",
@@ -411,7 +435,11 @@
         "yes_weight_bonus": 3,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "aki_lemah",
@@ -467,7 +495,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek aki",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "cdi_rusak",
@@ -518,7 +550,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek cdi",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "koil_lemah",
@@ -575,7 +611,11 @@
         "yes_weight_bonus": 3,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "klep_renggang",
@@ -626,7 +666,11 @@
         "yes_weight_bonus": 3,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "ring_piston_aus",
@@ -694,7 +738,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek ring_piston",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "karburator_overflow",
@@ -733,7 +781,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek pilot_jet, main_jet",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "bensin_kotor",
@@ -802,7 +854,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek kran_bensin, selang_bensin",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "vacuum_bocor",
@@ -853,7 +909,11 @@
         "yes_weight_bonus": 3,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "timing_kemas_terlambat",
@@ -889,7 +949,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek cdi",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "seal_klep_bocor",
@@ -939,7 +1003,11 @@
         "yes_weight_bonus": 3,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kran_bensin_mampet",
@@ -975,7 +1043,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek kran_bensin, selang_bensin",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kipas_rusak",
@@ -1011,7 +1083,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek kipas",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "overheat_cooling",
@@ -1050,7 +1126,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek thermostat, water_pump",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "pelampung_macet",
@@ -1111,7 +1191,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek pelampung, needle_valve",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "needle_valve_aus",
@@ -1159,7 +1243,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek needle_valve, pelampung",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "float_level_salah",
@@ -1209,7 +1297,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek pelampung, needle_valve",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "setelan_angin_salah",
@@ -1269,7 +1361,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek karburator, sekrup_angin",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "setelan_langsam_salah",
@@ -1330,7 +1426,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek karburator, baut_langsam",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "skep_macet",
@@ -1392,7 +1492,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek karburator, skep",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kabel_gas_seret",
@@ -1440,7 +1544,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek kabel_gas",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "pulser_lemah",
@@ -1494,7 +1602,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek pulser",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "spul_lemah",
@@ -1548,7 +1660,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek spul",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kompresi_rendah",
@@ -1611,7 +1727,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek piston, ring_piston",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "koil_panas",
@@ -1665,7 +1785,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek koil, cdi",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "rantai_keteng_kendor",
@@ -1712,7 +1836,11 @@
     "alternative_causes": [],
     "similar_causes": [],
     "mechanic_notes": "Setel dan cek rantai_keteng, tensioner_ranjai_keteng",
-    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kanvas_kopling_aus",
@@ -1760,7 +1888,11 @@
       "kabel_gas_seret"
     ],
     "mechanic_notes": "Perhatikan keausan tidak hanya di kanvas tapi juga di per kopling. Sering keduanya harus ganti bareng.",
-    "prevention_tips": "Hindari setengah kopling lama-lama, terutama di tanjakan macet. Rutin servis kopling setiap 15.000-20.000 km."
+    "prevention_tips": "Hindari setengah kopling lama-lama, terutama di tanjakan macet. Rutin servis kopling setiap 15.000-20.000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "per_kopling_lemah",
@@ -1808,7 +1940,11 @@
       "kabel_gas_seret"
     ],
     "mechanic_notes": "Ganti per satu set, jangan cuma satu. Kalau satu sudah lemah, yang lain juga akan segera menyusul.",
-    "prevention_tips": "Hindari kebiasaan setengah kopling. Saat start dari diam, lepas kopling dengan halus bukan tiba-tiba."
+    "prevention_tips": "Hindari kebiasaan setengah kopling. Saat start dari diam, lepas kopling dengan halus bukan tiba-tiba.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "choke_rusak",
@@ -1858,7 +1994,11 @@
       "kabel_gas_seret"
     ],
     "mechanic_notes": "Cek juga pegas choke, sering patah di motor tua.",
-    "prevention_tips": "Sesekali operasikan choke manual agar tidak macet."
+    "prevention_tips": "Sesekali operasikan choke manual agar tidak macet.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tensioner_ranjai_keteng_rusak",
@@ -1907,7 +2047,11 @@
       "rantai_keteng_kendor"
     ],
     "mechanic_notes": "Cek juga sprocket, jika sudah tajem ganti bareng tensioner.",
-    "prevention_tips": "Ganti oli mesin tepat waktu. Rutin cek tensioner setiap 20.000 km."
+    "prevention_tips": "Ganti oli mesin tepat waktu. Rutin cek tensioner setiap 20.000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Penyebab umum kerusakan karburator — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kampas_rem_aus",

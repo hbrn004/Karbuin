@@ -56,7 +56,11 @@
     ],
     "category": "langsam",
     "severity": "medium",
-    "description": "RPM idle di atas normal, tidak turun saat gas dilepas"
+    "description": "RPM idle di atas normal, tidak turun saat gas dilepas",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "langsam_turun_naik",
@@ -88,7 +92,11 @@
     ],
     "category": "langsam",
     "severity": "medium",
-    "description": "RPM idle tidak stabil, naik turun sendiri antara 1000-3000 rpm"
+    "description": "RPM idle tidak stabil, naik turun sendiri antara 1000-3000 rpm",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "susah_hidup_pagi",
@@ -120,7 +128,11 @@
     ],
     "category": "starter",
     "severity": "high",
-    "description": "Mesin sulit dihidupkan saat pagi/kondisi dingin, butuh starter berkali-kali atau didorong"
+    "description": "Mesin sulit dihidupkan saat pagi/kondisi dingin, butuh starter berkali-kali atau didorong",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "brebet",
@@ -146,7 +158,11 @@
     ],
     "category": "performa",
     "severity": "medium",
-    "description": "Tenaga tidak merata, gas terasa ndut-ndutan saat rpm rendah-menengah"
+    "description": "Tenaga tidak merata, gas terasa ndut-ndutan saat rpm rendah-menengah",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "ngempos",
@@ -178,7 +194,11 @@
     ],
     "category": "performa",
     "severity": "medium",
-    "description": "Mesin kehilangan tenaga di rpm atas atau tarikan mentok di rpm tertentu"
+    "description": "Mesin kehilangan tenaga di rpm atas atau tarikan mentok di rpm tertentu",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "nembak",
@@ -198,7 +218,11 @@
     ],
     "category": "suara",
     "severity": "medium",
-    "description": "Suara letupan dari knalpot saat gas dilepas atau rpm diturunkan"
+    "description": "Suara letupan dari knalpot saat gas dilepas atau rpm diturunkan",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "bensin_boros",
@@ -225,7 +249,11 @@
     ],
     "category": "bahan_bakar",
     "severity": "low",
-    "description": "Konsumsi bahan bakar lebih boros dari normal (>10% dari biasanya)"
+    "description": "Konsumsi bahan bakar lebih boros dari normal (>10% dari biasanya)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "asap_putih",
@@ -253,7 +281,11 @@
     ],
     "category": "asap",
     "severity": "high",
-    "description": "Asap knalpot berwarna putih, biasanya saat pagi atau gas dibuka"
+    "description": "Asap knalpot berwarna putih, biasanya saat pagi atau gas dibuka",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "asap_hitam",
@@ -273,7 +305,11 @@
     ],
     "category": "asap",
     "severity": "medium",
-    "description": "Asap knalpot berwarna hitam pekat, bau bensin tidak terbakar"
+    "description": "Asap knalpot berwarna hitam pekat, bau bensin tidak terbakar",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "starter_berat",
@@ -317,7 +353,11 @@
     ],
     "category": "starter",
     "severity": "high",
-    "description": "Mesin sulit distarter (electric atau kick), terasa lebih berat dari normal"
+    "description": "Mesin sulit distarter (electric atau kick), terasa lebih berat dari normal",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "aki_tekor",
@@ -341,7 +381,11 @@
     ],
     "category": "listrik",
     "severity": "high",
-    "description": "Aki cepat habis, tegangan rendah, lampu redup saat idle"
+    "description": "Aki cepat habis, tegangan rendah, lampu redup saat idle",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "oli_bocor",
@@ -371,7 +415,11 @@
     ],
     "category": "oli",
     "severity": "medium",
-    "description": "Oli mesin bocor atau berkurang tanpa bekas yang jelas"
+    "description": "Oli mesin bocor atau berkurang tanpa bekas yang jelas",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "suara_mesin_abnormal",
@@ -393,7 +441,11 @@
     ],
     "category": "suara",
     "severity": "medium",
-    "description": "Mesin mengeluarkan suara tidak normal: tek-tek, nget-nget, gluduk, atau decitan"
+    "description": "Mesin mengeluarkan suara tidak normal: tek-tek, nget-nget, gluduk, atau decitan",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kehilangan_tenaga",
@@ -422,7 +474,11 @@
     ],
     "category": "performa",
     "severity": "medium",
-    "description": "Tenaga motor menurun drastis, tanjakan terasa berat"
+    "description": "Tenaga motor menurun drastis, tanjakan terasa berat",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "overheating",
@@ -443,7 +499,11 @@
     ],
     "category": "suhu",
     "severity": "high",
-    "description": "Mesin/mesin overheat, kepala silinder sangat panas, bau hangus"
+    "description": "Mesin/mesin overheat, kepala silinder sangat panas, bau hangus",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "karburator_basah",
@@ -458,7 +518,11 @@
       "bensin di ruang bakar"
     ],
     "category": "fuel_system",
-    "severity": "medium"
+    "severity": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "bau_bensin",
@@ -472,7 +536,11 @@
       "bau bensin tajam"
     ],
     "category": "fuel_system",
-    "severity": "medium"
+    "severity": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "bunyi_timing",
@@ -486,7 +554,11 @@
       "bunyi berisik saat idle"
     ],
     "category": "engine",
-    "severity": "medium"
+    "severity": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "susah_hidup_panas",
@@ -526,7 +598,11 @@
       "gak bisa hidup saat panas"
     ],
     "category": "ignition",
-    "severity": "medium"
+    "severity": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "lampu_redup",
@@ -545,7 +621,11 @@
       "lampu berkedip"
     ],
     "category": "electrical",
-    "severity": "low"
+    "severity": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kabel_gas_seret_gejala",
@@ -574,7 +654,11 @@
       "gas gak responsif"
     ],
     "category": "control",
-    "severity": "low"
+    "severity": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kompresi_rendah_gejala",
@@ -591,7 +675,11 @@
       "tekanan silinder rendah"
     ],
     "category": "engine",
-    "severity": "high"
+    "severity": "high",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_mati_sendiri",
@@ -613,7 +701,11 @@
       "engine stall"
     ],
     "category": "ignition",
-    "severity": "medium"
+    "severity": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "brebet_cold",
@@ -633,7 +725,11 @@
       "ngempos saat pagi"
     ],
     "category": "fuel",
-    "severity": "low"
+    "severity": "low",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "motor_tinggi_km",
@@ -654,7 +750,11 @@
       "odo tinggi"
     ],
     "category": "engine",
-    "severity": "medium"
+    "severity": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "susah_hidup_dingin",
@@ -668,7 +768,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Mesin sulit dinyalakan saat kondisi dingin (mesin baru diam lama)"
+    "description": "Mesin sulit dinyalakan saat kondisi dingin (mesin baru diam lama)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "starter_elektrik_lemah",
@@ -690,7 +794,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Starter elektrik berputar lambat atau tidak kuat memutar mesin"
+    "description": "Starter elektrik berputar lambat atau tidak kuat memutar mesin",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "starter_normal_tidak_hidup",
@@ -731,7 +839,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Starter elektrik berputar normal tapi mesin tidak mau hidup"
+    "description": "Starter elektrik berputar normal tapi mesin tidak mau hidup",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kick_starter_keras",
@@ -757,7 +869,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Kick starter terasa keras saat ditekan"
+    "description": "Kick starter terasa keras saat ditekan",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kick_starter_ringan_tidak_hidup",
@@ -791,7 +907,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Kick starter terasa ringan (tidak ada kompresi) tapi mesin tidak mau hidup"
+    "description": "Kick starter terasa ringan (tidak ada kompresi) tapi mesin tidak mau hidup",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_mati_setelah_hidup",
@@ -807,7 +927,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Mesin menyala sebentar lalu mati sendiri"
+    "description": "Mesin menyala sebentar lalu mati sendiri",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_hidup_cuma_choke",
@@ -823,7 +947,11 @@
     ],
     "category": "starting",
     "severity": "high",
-    "description": "Mesin hanya mau hidup saat choke/full gas ditarik"
+    "description": "Mesin hanya mau hidup saat choke/full gas ditarik",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "langsam_terlalu_tinggi",
@@ -842,7 +970,11 @@
     ],
     "category": "idle",
     "severity": "medium",
-    "description": "Putaran idle di atas normal (di atas 1800-2000 RPM)"
+    "description": "Putaran idle di atas normal (di atas 1800-2000 RPM)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "langsam_terlalu_rendah",
@@ -860,7 +992,11 @@
     ],
     "category": "idle",
     "severity": "medium",
-    "description": "Putaran idle di bawah normal (di bawah 1000-1200 RPM)"
+    "description": "Putaran idle di bawah normal (di bawah 1000-1200 RPM)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "rpm_naik_turun",
@@ -886,7 +1022,11 @@
     ],
     "category": "idle",
     "severity": "medium",
-    "description": "RPM idle tidak stabil, naik turun sendiri secara periodik"
+    "description": "RPM idle tidak stabil, naik turun sendiri secara periodik",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_mati_saat_langsam",
@@ -904,7 +1044,11 @@
     ],
     "category": "idle",
     "severity": "high",
-    "description": "Mesin mati saat langsam atau berhenti (misal di lampu merah)"
+    "description": "Mesin mati saat langsam atau berhenti (misal di lampu merah)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "langsam_kasar",
@@ -920,7 +1064,11 @@
     ],
     "category": "idle",
     "severity": "medium",
-    "description": "Getaran kuat saat langsam/berhenti"
+    "description": "Getaran kuat saat langsam/berhenti",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_mati_saat_lampu",
@@ -934,7 +1082,11 @@
     ],
     "category": "idle",
     "severity": "medium",
-    "description": "Mesin mati atau RPM turun drastis saat lampu depan dinyalakan"
+    "description": "Mesin mati atau RPM turun drastis saat lampu depan dinyalakan",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_mati_saat_rem",
@@ -948,7 +1100,11 @@
     ],
     "category": "idle",
     "severity": "low",
-    "description": "Mesin mati saat rem depan atau rem belakang ditekan saat berhenti"
+    "description": "Mesin mati saat rem depan atau rem belakang ditekan saat berhenti",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "langsam_baik_dingin_rusak_panas",
@@ -962,7 +1118,11 @@
     ],
     "category": "idle",
     "severity": "high",
-    "description": "Langsam normal saat mesin dingin, tapi bermasalah setelah mesin panas"
+    "description": "Langsam normal saat mesin dingin, tapi bermasalah setelah mesin panas",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "brebet_putaran_bawah",
@@ -977,7 +1137,11 @@
     ],
     "category": "akselerasi",
     "severity": "medium",
-    "description": "Brebet di RPM rendah (di bawah 3000 RPM)"
+    "description": "Brebet di RPM rendah (di bawah 3000 RPM)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "brebet_putaran_tengah",
@@ -991,7 +1155,11 @@
     ],
     "category": "akselerasi",
     "severity": "medium",
-    "description": "Brebet di RPM menengah (3000-5000 RPM)"
+    "description": "Brebet di RPM menengah (3000-5000 RPM)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "brebet_putaran_atas",
@@ -1015,7 +1183,11 @@
     ],
     "category": "akselerasi",
     "severity": "medium",
-    "description": "Brebet di RPM tinggi (di atas 5000-6000 RPM)"
+    "description": "Brebet di RPM tinggi (di atas 5000-6000 RPM)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tersendat_saat_gas_dibuka",
@@ -1032,7 +1204,11 @@
     ],
     "category": "akselerasi",
     "severity": "high",
-    "description": "Sentakan/jedukan saat gas dibuka tiba-tiba"
+    "description": "Sentakan/jedukan saat gas dibuka tiba-tiba",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "delay_respon_gas",
@@ -1052,7 +1228,11 @@
     ],
     "category": "akselerasi",
     "severity": "medium",
-    "description": "Mesin lambat merespon saat gas diputar"
+    "description": "Mesin lambat merespon saat gas diputar",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_ngempos",
@@ -1076,7 +1256,11 @@
     ],
     "category": "akselerasi",
     "severity": "high",
-    "description": "Mesin kehilangan tenaga, tidak bertenaga saat gas diputar"
+    "description": "Mesin kehilangan tenaga, tidak bertenaga saat gas diputar",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tarikan_berat",
@@ -1092,7 +1276,11 @@
     ],
     "category": "akselerasi",
     "severity": "high",
-    "description": "Tarikan gas terasa berat, tidak responsif"
+    "description": "Tarikan gas terasa berat, tidak responsif",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "akselerasi_tersendat",
@@ -1107,7 +1295,11 @@
     ],
     "category": "akselerasi",
     "severity": "high",
-    "description": "Akselerasi tidak mulus, tersendat-sendat seperti mau mati"
+    "description": "Akselerasi tidak mulus, tersendat-sendat seperti mau mati",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "nembak_saat_buka_gas",
@@ -1123,7 +1315,11 @@
     ],
     "category": "akselerasi",
     "severity": "high",
-    "description": "Suara letusan dari karburator atau knalpot saat gas dibuka"
+    "description": "Suara letusan dari karburator atau knalpot saat gas dibuka",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "top_speed_turun",
@@ -1143,7 +1339,11 @@
     ],
     "category": "top_speed",
     "severity": "medium",
-    "description": "Kecepatan maksimal lebih rendah dari biasanya"
+    "description": "Kecepatan maksimal lebih rendah dari biasanya",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_tidak_mau_rpm_tinggi",
@@ -1170,7 +1370,11 @@
     ],
     "category": "top_speed",
     "severity": "high",
-    "description": "Mesin tidak bisa mencapai RPM tinggi"
+    "description": "Mesin tidak bisa mencapai RPM tinggi",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "putaran_atas_tertahan",
@@ -1197,7 +1401,11 @@
     ],
     "category": "top_speed",
     "severity": "high",
-    "description": "RPM atas terasa tertahan, tidak bisa naik lagi"
+    "description": "RPM atas terasa tertahan, tidak bisa naik lagi",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "motor_tidak_kuat_nanjak",
@@ -1221,7 +1429,11 @@
     ],
     "category": "top_speed",
     "severity": "high",
-    "description": "Motor kehilangan banyak tenaga di tanjakan"
+    "description": "Motor kehilangan banyak tenaga di tanjakan",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "tenaga_hilang_beban_berat",
@@ -1236,7 +1448,11 @@
     ],
     "category": "top_speed",
     "severity": "medium",
-    "description": "Tenaga turun drastis saat bawa beban berat atau bonceng"
+    "description": "Tenaga turun drastis saat bawa beban berat atau bonceng",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "boros_bensin",
@@ -1252,7 +1468,11 @@
     ],
     "category": "boros",
     "severity": "medium",
-    "description": "Konsumsi bahan bakar lebih boros dari biasanya"
+    "description": "Konsumsi bahan bakar lebih boros dari biasanya",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "bau_bensin_menyengat",
@@ -1268,7 +1488,11 @@
     ],
     "category": "boros",
     "severity": "high",
-    "description": "Bau bensin menyengat di sekitar motor"
+    "description": "Bau bensin menyengat di sekitar motor",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "karburator_banjir",
@@ -1284,7 +1508,11 @@
     ],
     "category": "boros",
     "severity": "high",
-    "description": "Bensin meleleh atau keluar dari karburator"
+    "description": "Bensin meleleh atau keluar dari karburator",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "bensin_netes",
@@ -1300,7 +1528,11 @@
     ],
     "category": "boros",
     "severity": "high",
-    "description": "Bensin menetes dari karburator, selang, atau tangki"
+    "description": "Bensin menetes dari karburator, selang, atau tangki",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "oli_tercampur_bensin",
@@ -1316,7 +1548,11 @@
     ],
     "category": "boros",
     "severity": "high",
-    "description": "Oli mesin tercium bau bensin dan encer (tercampur bensin)"
+    "description": "Oli mesin tercium bau bensin dan encer (tercampur bensin)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "asap_biru",
@@ -1333,7 +1569,11 @@
     ],
     "category": "asap",
     "severity": "high",
-    "description": "Knalpot keluar asap biru"
+    "description": "Knalpot keluar asap biru",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "knalpot_basah_oli",
@@ -1348,7 +1588,11 @@
     ],
     "category": "asap",
     "severity": "high",
-    "description": "Knalpot basah oleh oli (biasanya tanda oli bocor ke ruang bakar)"
+    "description": "Knalpot basah oleh oli (biasanya tanda oli bocor ke ruang bakar)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "knalpot_berjelaga_hitam",
@@ -1363,7 +1607,11 @@
     ],
     "category": "asap",
     "severity": "medium",
-    "description": "Knalpot banyak jelaga hitam"
+    "description": "Knalpot banyak jelaga hitam",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_cepat_panas",
@@ -1378,7 +1626,11 @@
     ],
     "category": "overheat",
     "severity": "high",
-    "description": "Mesin cepat panas dalam waktu singkat"
+    "description": "Mesin cepat panas dalam waktu singkat",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_ngelitik",
@@ -1394,7 +1646,11 @@
     ],
     "category": "overheat",
     "severity": "high",
-    "description": "Suara ketukan logam dari dalam mesin (knocking/detonasi)"
+    "description": "Suara ketukan logam dari dalam mesin (knocking/detonasi)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "overheat_perjalanan_jauh",
@@ -1409,7 +1665,11 @@
     ],
     "category": "overheat",
     "severity": "high",
-    "description": "Mesin overheat setelah perjalanan jauh/lamanya"
+    "description": "Mesin overheat setelah perjalanan jauh/lamanya",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "overheat_macet",
@@ -1424,7 +1684,11 @@
     ],
     "category": "overheat",
     "severity": "high",
-    "description": "Mesin overheat saat terjebak macet"
+    "description": "Mesin overheat saat terjebak macet",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "suara_ngelitik",
@@ -1438,7 +1702,11 @@
     ],
     "category": "suara",
     "severity": "high",
-    "description": "Suara ketukan dari mesin"
+    "description": "Suara ketukan dari mesin",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "suara_tek_tek",
@@ -1453,7 +1721,11 @@
     ],
     "category": "suara",
     "severity": "medium",
-    "description": "Suara ketukan kecil terus-menerus (biasanya klep/klep longgar)"
+    "description": "Suara ketukan kecil terus-menerus (biasanya klep/klep longgar)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "suara_kasar",
@@ -1467,7 +1739,11 @@
     ],
     "category": "suara",
     "severity": "high",
-    "description": "Suara mesin kasar/tidak halus"
+    "description": "Suara mesin kasar/tidak halus",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "backfire_knalpot",
@@ -1482,7 +1758,11 @@
     ],
     "category": "suara",
     "severity": "high",
-    "description": "Letupan dari knalpot (bukan saat gas dibuka, tapi saat gas dilepas)"
+    "description": "Letupan dari knalpot (bukan saat gas dibuka, tapi saat gas dilepas)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "backfire_karburator",
@@ -1497,7 +1777,11 @@
     ],
     "category": "suara",
     "severity": "high",
-    "description": "Letupan dari karburator (saat gas dilepas atau di langsam)"
+    "description": "Letupan dari karburator (saat gas dilepas atau di langsam)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "suara_rantai_keteng",
@@ -1514,7 +1798,11 @@
     ],
     "category": "suara",
     "severity": "medium",
-    "description": "Suara berisik dari rantai keteng/timing"
+    "description": "Suara berisik dari rantai keteng/timing",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "suara_klep",
@@ -1533,7 +1821,11 @@
     ],
     "category": "suara",
     "severity": "medium",
-    "description": "Suara berisik klep (valve tappet clearance longgar)"
+    "description": "Suara berisik klep (valve tappet clearance longgar)",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "mesin_pincang",
@@ -1560,7 +1852,11 @@
     ],
     "category": "performa",
     "severity": "high",
-    "description": "Mesin pincang / tidak merata, kadang tenaga ada kadang hilang mendadak. Bisa intermiten atau terus-menerus. Sering karena pengapian tidak stabil (busi aus, koil lemah, atau kiprok intermittent)."
+    "description": "Mesin pincang / tidak merata, kadang tenaga ada kadang hilang mendadak. Bisa intermiten atau terus-menerus. Sering karena pengapian tidak stabil (busi aus, koil lemah, atau kiprok intermittent).",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "api_kecil",
@@ -1591,7 +1887,11 @@
     ],
     "category": "ignition",
     "severity": "high",
-    "description": "Api busi lemah/kecil, pengapian tidak optimal. Mesin susah hidup, brebet, atau tenaga hilang. Penyebab: busi aus, koil lemah, kiprok rusak, aki lemah."
+    "description": "Api busi lemah/kecil, pengapian tidak optimal. Mesin susah hidup, brebet, atau tenaga hilang. Penyebab: busi aus, koil lemah, kiprok rusak, aki lemah.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "filter_bensin_tersumbat",
@@ -1612,7 +1912,11 @@
     ],
     "category": "fuel_system",
     "severity": "medium",
-    "description": "Filter bensin (saringan bensin) tersumbat oleh kotoran/endapan. Aliran bensin ke karburator terganggu, mesin ngebuang atau brebet terutama di RPM tinggi. Umum di motor yang pakai bensin kualitas rendah atau jarang ganti filter."
+    "description": "Filter bensin (saringan bensin) tersumbat oleh kotoran/endapan. Aliran bensin ke karburator terganggu, mesin ngebuang atau brebet terutama di RPM tinggi. Umum di motor yang pakai bensin kualitas rendah atau jarang ganti filter.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "getaran_berlebih",
@@ -1635,7 +1939,11 @@
     ],
     "category": "engine",
     "severity": "medium",
-    "description": "Getaran mesin/chassis berlebihan saat idle atau jalan. Penyebab: busi longgar, klep renggang, kompresi tidak merata antar silinder, atau masalah mounting engine."
+    "description": "Getaran mesin/chassis berlebihan saat idle atau jalan. Penyebab: busi longgar, klep renggang, kompresi tidak merata antar silinder, atau masalah mounting engine.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kopling_slip",
@@ -1662,7 +1970,11 @@
     ],
     "category": "transmisi",
     "severity": "high",
-    "description": "Kopling selip — RPM naik saat gas ditarik tapi motor tidak responsif (tenaga tidak tersalur ke roda). Penyebab utama: kanvas kopling aus, per kopling lemah, atau setting kabel kopling salah. Umum di motor sport karbu (Byson, Scorpio, Tiger)."
+    "description": "Kopling selip — RPM naik saat gas ditarik tapi motor tidak responsif (tenaga tidak tersalur ke roda). Penyebab utama: kanvas kopling aus, per kopling lemah, atau setting kabel kopling salah. Umum di motor sport karbu (Byson, Scorpio, Tiger).",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Gejala umum kerusakan motor karbu — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "kampas_rem_aus",

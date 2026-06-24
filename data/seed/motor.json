@@ -273,7 +273,11 @@
       "source_type": "public_specs",
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda Grand 100cc karbu. Tanpa service manual page reference. Year range estimasi publik."
-    }
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "honda_megapro_karbu",
@@ -301,7 +305,11 @@
       "source_type": "public_specs",
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda MegaPro 200cc karbu. Tanpa service manual page reference."
-    }
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "honda_glpro_karbu",
@@ -330,7 +338,11 @@
       "source_type": "public_specs",
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda GL Pro 160cc karbu. Tanpa service manual page reference."
-    }
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "honda_legenda_karbu",
@@ -359,7 +371,11 @@
       "source_type": "public_specs",
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda Legenda 100-125cc karbu. Tanpa service manual page reference."
-    }
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "honda_blade_karbu",
@@ -388,7 +404,11 @@
       "source_type": "public_specs",
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda Blade 125cc karbu. Tanpa service manual page reference."
-    }
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "honda_verza_karbu",
@@ -417,7 +437,11 @@
       "source_type": "public_specs",
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda Verza 150cc karbu. Tanpa service manual page reference."
-    }
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
   },
   {
     "id": "yamaha_vixion_karbu",

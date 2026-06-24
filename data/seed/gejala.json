@@ -2464,5 +2464,102 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "asap_knalpot_rx_king",
+    "name": "Asap knalpot putih/biru (RX-King 2-tak)",
+    "description": "Asap knalpot putih tebal atau biru pada Yamaha RX-King 135cc 2-tak. Indikator klasik motor 2-tak: oli campur bensin terbakar tidak sempurna atau ring piston aus. Biru = oli ikut terbakar (ring piston/seal aus).",
+    "severity": "high",
+    "category": "engine_2_tak",
+    "aliases": [
+      "asap knalpot rx king",
+      "asap putih rx king",
+      "asap biru rx king",
+      "knalpot berasap rx king",
+      "asap rx king",
+      "asap knalpot rxking",
+      "asap knalpot rx king 135",
+      "asap knalpot putih tebal rx king"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "tenaga_hilang_atas_rx_king",
+    "name": "Tenaga hilang RPM atas (RX-King 2-tak)",
+    "description": "Tenaga hilang saat RPM atas pada Yamaha RX-King 135cc 2-tak. Power band 2-tak sempit — ring piston aus atau knalpot tersumbat.",
+    "severity": "high",
+    "category": "engine_2_tak",
+    "aliases": [
+      "tenaga hilang atas rx king",
+      "los tenaga atas rx king",
+      "rx king tenaga hilang rpm atas",
+      "rx king ga kuat di atas",
+      "rx king tarikan hilang atas",
+      "rx king loyo rpm atas"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "brebet_atas_rx_king",
+    "name": "Brebet RPM atas (RX-King 2-tak)",
+    "description": "Brebet/sendat saat RPM atas pada Yamaha RX-King 135cc 2-tak. Khas motor 2-tak jika ring piston aus atau knalpot tersumbat.",
+    "severity": "high",
+    "category": "engine_2_tak",
+    "aliases": [
+      "brebet rx king",
+      "brebet atas rx king",
+      "rx king brebet rpm atas",
+      "rx king brebet di atas",
+      "rx king brebet gas full",
+      "rx king ngejeglak atas"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "langsam_naik_turun_rx_king",
+    "name": "Langsam naik turun (RX-King 2-tak)",
+    "description": "Langsam/idle naik turun pada Yamaha RX-King 135cc 2-tak. Motor 2-tak lebih sensitif idle karburator — pilot jet VM22 Mikuni rentan tersumbat, oli campur terlalu banyak/kedikit.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "langsam naik turun rx king",
+      "rpm naik turun rx king",
+      "langsam kasar rx king",
+      "idle naik turun rx king",
+      "langsam rx king naik turun",
+      "rx king idle kasar"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "susah_hidup_rx_king",
+    "name": "Susah hidup (RX-King 2-tak kick starter)",
+    "description": "Susah hidup dengan kick starter pada Yamaha RX-King 135cc 2-tak. RX-King pakai kick starter (bukan electric), kick starter butuh dekompresi bagus + busi kering.",
+    "severity": "medium",
+    "category": "starter",
+    "aliases": [
+      "susah hidup rx king",
+      "rx king susah hidup",
+      "rx king ga mau hidup",
+      "rx king sulit diengkol",
+      "rx king engkol ga mau hidup",
+      "rx king ga nyala kick"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
   }
 ]

@@ -6352,5 +6352,252 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Starter tidak hidup = kiprok lemah"
+  },
+  {
+    "id": 481,
+    "symptom_id": "asap_knalpot_rx_king",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = oli ikut terbakar"
+  },
+  {
+    "id": 482,
+    "symptom_id": "asap_knalpot_rx_king",
+    "cause_id": "knalpot_tersumbat_2_tak",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knalpot tersumbat = asap putih"
+  },
+  {
+    "id": 483,
+    "symptom_id": "asap_knalpot_rx_king",
+    "cause_id": "seal_klep_bocor",
+    "weight": 4,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal bocor (less common for 2-tak)"
+  },
+  {
+    "id": 484,
+    "symptom_id": "tenaga_hilang_atas_rx_king",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = kompresi drop di atas"
+  },
+  {
+    "id": 485,
+    "symptom_id": "tenaga_hilang_atas_rx_king",
+    "cause_id": "knalpot_tersumbat_2_tak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knalpot tersumbat = exhaust back-pressure"
+  },
+  {
+    "id": 486,
+    "symptom_id": "tenaga_hilang_atas_rx_king",
+    "cause_id": "main_jet_clogged",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet VM22 tersumbat"
+  },
+  {
+    "id": 487,
+    "symptom_id": "brebet_atas_rx_king",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = power band drop"
+  },
+  {
+    "id": 488,
+    "symptom_id": "brebet_atas_rx_king",
+    "cause_id": "knalpot_tersumbat_2_tak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knalpot tersumbat = brebet di atas"
+  },
+  {
+    "id": 489,
+    "symptom_id": "brebet_atas_rx_king",
+    "cause_id": "main_jet_clogged",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet VM22 tersumbat"
+  },
+  {
+    "id": 490,
+    "symptom_id": "langsam_naik_turun_rx_king",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet VM22 Mikuni tersumbat"
+  },
+  {
+    "id": 491,
+    "symptom_id": "langsam_naik_turun_rx_king",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = kompresi idle tidak stabil"
+  },
+  {
+    "id": 492,
+    "symptom_id": "langsam_naik_turun_rx_king",
+    "cause_id": "main_jet_clogged",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet VM22 tersumbat"
+  },
+  {
+    "id": 493,
+    "symptom_id": "susah_hidup_rx_king",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = kompresi drop saat kick"
+  },
+  {
+    "id": 494,
+    "symptom_id": "susah_hidup_rx_king",
+    "cause_id": "busi_rusak",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Busi rusak/tidak sesuai"
+  },
+  {
+    "id": 495,
+    "symptom_id": "susah_hidup_rx_king",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet tersumbat = susah hidup"
+  },
+  {
+    "id": 496,
+    "symptom_id": "rpm_naik_turun",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet VM22 RX-King tersumbat"
+  },
+  {
+    "id": 497,
+    "symptom_id": "brebet_putaran_atas",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston 2-tak aus"
+  },
+  {
+    "id": 498,
+    "symptom_id": "mesin_mati_sendiri",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = mesin mati sendiri"
+  },
+  {
+    "id": 499,
+    "symptom_id": "susah_hidup_pagi",
+    "cause_id": "ring_piston_aus_2_tak",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_rx_king_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Ring piston aus = susah hidup pagi"
   }
 ]

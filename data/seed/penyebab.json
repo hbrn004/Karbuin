@@ -3031,5 +3031,86 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "ring_piston_aus_2_tak",
+    "name": "Ring piston aus 2-tak",
+    "description": "Ring piston aus pada motor 2-tak. Umum pada Yamaha RX-King 135cc 2-tak setelah 8-10 tahun pakai atau jarang ganti oli campur. Gejala: asap biru/putih tebal, tenaga hilang RPM atas, brebet, kompresi drop.",
+    "severity": "high",
+    "category": "engine",
+    "related_component": "ring_piston_rx_king",
+    "mechanic_notes": "Test kompresi dengan compression tester. Normal RX-King: 7.5-9 kg/cm2. Aus jika < 6 kg/cm2. Ring piston aus = kompresi bocor ke crankcase (oli ikut terbakar = asap biru).",
+    "priority_causes": [
+      "ring_piston_aus_2_tak"
+    ],
+    "alternative_causes": [
+      "seal_klep_bocor",
+      "knalpot_tersumbat_2_tak"
+    ],
+    "similar_causes": [
+      "piston_aus_berlebihan"
+    ],
+    "solution_free": "Cek kompresi dengan compression tester. Jika aus, ganti ring piston. Bersihkan knalpot jika tersumbat.",
+    "solution_budget": "Ganti ring piston aftermarket (Rp 75.000-150.000).",
+    "solution_full": "Overhaul mesin 2-tak: ganti ring piston + bearing + seal (Rp 300.000-500.000) + cek knalpot.",
+    "cost_part": "Rp 75.000-500.000",
+    "cost_labor": "Rp 100.000-200.000",
+    "prevention_tips": "Gunakan oli 2-tak premium. Perbandingan 1:25 (oli:bensin). Jangan pakai oli mesin 4-tak untuk campur.",
+    "diagnosis_method": "Compression test. Normal: 7.5-9 kg/cm2. Aus: < 6 kg/cm2. Plus: asap biru/putih tebal dari knalpot.",
+    "risk_level": "medium",
+    "diy_level": "advanced",
+    "estimated_minutes": 120,
+    "follow_up_questions": [
+      {
+        "id": "q_rx_king_usia",
+        "question": "RX-King sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "Ring piston 2-tak rata-rata aus setelah 8-10 tahun"
+      },
+      {
+        "id": "q_rx_king_oli",
+        "question": "Pakai oli campur apa? Perbandingannya?",
+        "when_to_ask": "always",
+        "why_it_matters": "Oli campur bukan 2-tak = ring piston cepat aus"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "knalpot_tersumbat_2_tak",
+    "name": "Knalpot tersumbat 2-tak (exhaust back-pressure)",
+    "description": "Knalpot motor 2-tak tersumbat. Motor 2-tak sangat sensitive terhadap exhaust back-pressure — knalpot tersumbat = tenaga hilang RPM atas, brebet, power band drop. Umum pada RX-King 135cc tua dengan knalpot berkarat.",
+    "severity": "medium",
+    "category": "exhaust",
+    "related_component": "knalpot_rx_king",
+    "mechanic_notes": "Lepas knalpot, periksa dalaman. Knalpot 2-tak biasanya tersumbat karbon buildup. Bersihkan atau ganti.",
+    "priority_causes": [
+      "knalpot_tersumbat_2_tak"
+    ],
+    "alternative_causes": [
+      "ring_piston_aus_2_tak"
+    ],
+    "similar_causes": [
+      "filter_udara_kotor"
+    ],
+    "solution_free": "Lepas knalpot, bersihkan dalaman dengan kawat sikat.",
+    "solution_budget": "Ganti knalpot aftermarket 2-tak (Rp 150.000-300.000).",
+    "solution_full": "Ganti knalpot racing 2-tak (Rp 300.000-600.000) + cek ring piston.",
+    "cost_part": "Rp 0-600.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Gunakan bensin tanpa timbal. Bersihkan knalpot setiap 2 tahun.",
+    "diagnosis_method": "Lepas knalpot, test RPM atas tanpa knalpot. Jika tenaga kembali, knalpot tersumbat.",
+    "risk_level": "low",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
   }
 ]

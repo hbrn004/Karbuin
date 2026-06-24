@@ -1665,5 +1665,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "vm22_mikuni_rx_king",
+    "name": "Karburator Mikuni VM22 (RX-King 2-tak)",
+    "description": "Karburator Mikuni VM22 slide untuk Yamaha RX-King 135cc 2-tak. Karburator slide 2-tak khas sport 2-tak Yamaha. Berbeda dari karburator CV (constant velocity) 4-tak.",
+    "category": "karburator",
+    "aliases": [
+      "karburator vm22 rx king",
+      "vm22 rx king",
+      "karburator rx king",
+      "vm22 mikuni rx king"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "ring_piston_rx_king",
+    "name": "Ring piston RX-King 2-tak",
+    "description": "Ring piston untuk Yamaha RX-King 135cc 2-tak. Komponen vital motor 2-tak — ring piston aus menyebabkan asap biru, tenaga hilang, brebet RPM atas.",
+    "category": "engine",
+    "aliases": [
+      "ring piston rx king",
+      "ring piston 2 tak rx king",
+      "ring rx king 135",
+      "piston rx king"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "knalpot_rx_king",
+    "name": "Knalpot RX-King 2-tak",
+    "description": "Knalpot Yamaha RX-King 135cc 2-tak. Knalpot motor 2-tak lebih sensitive terhadap sumbatan karena exhaust back-pressure mempengaruhi power band.",
+    "category": "exhaust",
+    "aliases": [
+      "knalpot rx king",
+      "knalpot rxking",
+      "knalpot rx king 135",
+      "knalpot rx king 2 tak"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
   }
 ]

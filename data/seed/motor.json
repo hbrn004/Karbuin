@@ -450,5 +450,38 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "yamaha_rx_king_karbu",
+    "brand": "Yamaha",
+    "model": "RX-King",
+    "year_start": 1983,
+    "year_end": 2005,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni VM22",
+    "engine_cc": 135,
+    "category": "sport_2_tak",
+    "engine_type": "2_stroke",
+    "common_aliases": [
+      "rx king",
+      "rx-king",
+      "yamaha rx king",
+      "rxking",
+      "rx king 135"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "compression_ratio": "7.5:1",
+      "busi_gap_mm": 0.6,
+      "oli_campur_rasio": "1:25 (oli 2-tak premium)",
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Yamaha RX-King 135cc 2-tak karbu. Tanpa service manual page reference."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
   }
 ]

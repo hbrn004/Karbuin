@@ -4720,5 +4720,181 @@
     "verified": false,
     "source_type": "community_knowledge",
     "motor_filter": null
+  },
+  {
+    "id": 353,
+    "symptom_id": "lampu_redup_grand",
+    "cause_id": "kiprok_rusak",
+    "weight": 8,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 354,
+    "symptom_id": "lampu_redup_grand",
+    "cause_id": "spul_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 355,
+    "symptom_id": "lampu_redup_grand",
+    "cause_id": "aki_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 356,
+    "symptom_id": "choke_lemas_grand",
+    "cause_id": "choke_rusak",
+    "weight": 8,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 357,
+    "symptom_id": "choke_lemas_grand",
+    "cause_id": "karburator_overflow",
+    "weight": 4,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 358,
+    "symptom_id": "choke_lemas_grand",
+    "cause_id": "bensin_kotor",
+    "weight": 5,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 359,
+    "symptom_id": "bunyi_klep_grand",
+    "cause_id": "klep_renggang",
+    "weight": 9,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 360,
+    "symptom_id": "bunyi_klep_grand",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 361,
+    "symptom_id": "bunyi_klep_grand",
+    "cause_id": "kompresi_rendah",
+    "weight": 3,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 362,
+    "symptom_id": "mesin_overheat_macet_grand",
+    "cause_id": "kipas_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 363,
+    "symptom_id": "mesin_overheat_macet_grand",
+    "cause_id": "overheat_cooling",
+    "weight": 7,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 364,
+    "symptom_id": "mesin_overheat_macet_grand",
+    "cause_id": "seal_klep_bocor",
+    "weight": 4,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 365,
+    "symptom_id": "susah_hidup_pagi",
+    "cause_id": "choke_rusak",
+    "weight": 5,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 366,
+    "symptom_id": "mesin_mati_sendiri",
+    "cause_id": "cdi_honda_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 367,
+    "symptom_id": "starter_normal_tidak_hidup",
+    "cause_id": "cdi_honda_lemah",
+    "weight": 6,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
+  },
+  {
+    "id": 368,
+    "symptom_id": "api_kecil",
+    "cause_id": "cdi_honda_lemah",
+    "weight": 6,
+    "motor_filter": [
+      "honda_grand_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge"
   }
 ]

@@ -187,5 +187,13 @@
     "source_text": "Knowledge chassis, suspension, dan electrical motor karbu. Di luar scope karbu pure tapi relevan untuk diagnosa bengkel umum.",
     "reliability": "medium",
     "date": "2025-06-25"
+  },
+  {
+    "id": "src_honda_karbu_lawas_2025",
+    "source_type": "community_knowledge",
+    "verified_by": "komunitas_honda_karbu_indonesia_2025",
+    "source_text": "Knowledge bengkel umum Honda Grand/karbu 100cc lawas. CDI lemah umur 5-7 tahun, klep butuh setel berkala, charging lemah di RPM rendah.",
+    "reliability": "medium",
+    "date": "2025-06-25"
   }
 ]

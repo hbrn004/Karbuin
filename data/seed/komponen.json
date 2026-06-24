@@ -1338,5 +1338,65 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Suspensi belakang motor."
+  },
+  {
+    "id": "pe18_main_jet_grand",
+    "name": "Main jet PE18 Honda Grand",
+    "category": "karburator",
+    "aliases": [
+      "pe18 main jet",
+      "main jet pe18",
+      "jet utama pe18",
+      "main jet honda grand"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet karburator PE18 Honda Grand 100cc. Bengkel knowledge tanpa factory verified."
+  },
+  {
+    "id": "pe18_pilot_jet_grand",
+    "name": "Pilot jet PE18 Honda Grand",
+    "category": "karburator",
+    "aliases": [
+      "pe18 pilot jet",
+      "pilot jet pe18",
+      "slow jet pe18"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet karburator PE18 Honda Grand 100cc."
+  },
+  {
+    "id": "cdi_honda_kecil",
+    "name": "CDI unit Honda CC kecil",
+    "category": "ignition",
+    "aliases": [
+      "cdi honda 100",
+      "cdi honda kecil",
+      "cdi honda grand",
+      "cdi ac honda",
+      "cdi unit honda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "CDI unit Honda untuk motor CC kecil (50-110cc). Tanpa part number pabrikan spesifik."
+  },
+  {
+    "id": "kiprok_honda_kecil",
+    "name": "Kiprok Honda CC kecil",
+    "category": "electrical",
+    "aliases": [
+      "kiprok honda 100",
+      "kiprok honda kecil",
+      "kiprok regulator honda",
+      "regulator honda 100"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok/regulator Honda untuk motor CC kecil (50-110cc)."
   }
 ]

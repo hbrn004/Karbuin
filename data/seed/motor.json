@@ -182,5 +182,33 @@
       "busi_gap_mm": 0.7,
       "compression_kg_cm2": 10.0
     }
+  },
+  {
+    "id": "honda_grand_karbu",
+    "brand": "Honda",
+    "model": "Grand",
+    "year_start": 1990,
+    "year_end": 2002,
+    "fuel_system": "carburetor",
+    "carb_type": "PE18",
+    "engine_cc": 100,
+    "category": "underbone",
+    "common_aliases": [
+      "grand",
+      "honda grand",
+      "honda 100",
+      "honda grand 100"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.6,
+      "compression_kg_cm2": 9.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Honda Grand 100cc karbu. Tanpa service manual page reference. Year range estimasi publik."
+    }
   }
 ]

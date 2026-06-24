@@ -1778,5 +1778,85 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Issue chassis/suspension. Di luar scope karbu pure tapi bengkel sering lihat."
+  },
+  {
+    "id": "lampu_redup_grand",
+    "name": "Lampu redup saat RPM rendah (Honda Grand)",
+    "category": "electrical",
+    "aliases": [
+      "lampu redup grand",
+      "lampu redup rpm rendah honda",
+      "lampu redup saat idle",
+      "lampu redup di langsam",
+      "lampu redup di lampu merah",
+      "lampu redup malam",
+      "lampu utama redup",
+      "lampu depan redup"
+    ],
+    "severity": "medium",
+    "description": "Lampu redup saat RPM rendah (khas Honda Grand 100cc). Charging system tidak optimal di RPM idle.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue charging Honda Grand lawas. Spul/kiprok Honda 100cc umum lemah di RPM rendah."
+  },
+  {
+    "id": "choke_lemas_grand",
+    "name": "Choke tidak efektif (Honda Grand)",
+    "category": "fuel_system",
+    "aliases": [
+      "choke grand tidak berfungsi",
+      "choke lemas grand",
+      "choke ga ngaruh grand",
+      "choke tidak bikin hidup",
+      "choke macet grand",
+      "choke ga respon"
+    ],
+    "severity": "medium",
+    "description": "Choke PE18 Honda Grand tidak efektif. Indikasi: tarik choke tidak bikin kaya campuran, mesin masih susah hidup pagi.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Choke PE18 Honda Grand lawas sering macet karena karat/karbon."
+  },
+  {
+    "id": "bunyi_klep_grand",
+    "name": "Klep berisik (Honda Grand)",
+    "category": "suara",
+    "aliases": [
+      "bunyi klep grand",
+      "klep berisik grand",
+      "klep berisik honda",
+      "klep bunyi tek tek",
+      "klep bersuara",
+      "klep keras grand",
+      "klep butuh setel",
+      "klep keras honda 100"
+    ],
+    "severity": "medium",
+    "description": "Klep Honda Grand 100cc berisik. Indikasi: bunyi tek-tek dari kepala silinder, terutama di pagi hari atau idle.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep Honda Grand butuh setel berkala (setiap 5-10rb km). Issue umum Honda 100cc lawas."
+  },
+  {
+    "id": "mesin_overheat_macet_grand",
+    "name": "Mesin overheat di lampu merah (Honda Grand)",
+    "category": "overheat",
+    "aliases": [
+      "overheat grand",
+      "overheat di lampu merah",
+      "overheat macet grand",
+      "mesin overheat idle",
+      "overheat rpm rendah",
+      "mesin panas langsam"
+    ],
+    "severity": "high",
+    "description": "Honda Grand overheat saat idle/berhenti lama. Indikasi: suhu naik di lampu merah, mesin brebet/macet.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pendinginan pasif 100cc Honda Grand kurang optimal saat idle lama. Issue umum."
   }
 ]

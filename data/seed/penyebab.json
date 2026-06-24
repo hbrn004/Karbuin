@@ -2693,5 +2693,60 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Knowledge bengkel umum. Multimeter test untuk konfirmasi short."
+  },
+  {
+    "id": "cdi_honda_lemah",
+    "name": "CDI Honda lemah (Honda Grand/karbu lawas)",
+    "aliases": [
+      "cdi honda lemah",
+      "cdi lemah",
+      "cdi drop",
+      "cdi honda perlu ganti"
+    ],
+    "category": "ignition",
+    "related_components": [
+      "cdi_honda_kecil"
+    ],
+    "likelihood_default": 7,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "CDI Honda untuk CC kecil sudah lemah. Indikasi: busi lemah, mesin mati mendadak, susah start.",
+    "diagnosis_method": "Tes CDI dengan multimeter atau ganti dengan yang known-good.",
+    "risk_level": "medium",
+    "diy_level": "medium",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_cdi_honda_lemah_0",
+        "question": "Apakah busi terlihat lemah (api kecil/kuning) saat tes?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_cdi_honda_lemah_1",
+        "question": "Apakah mesin sering mati mendadak saat dipakai?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Tes CDI dengan CDI tester atau swap dengan yang baru.",
+    "solution_budget": "Ganti CDI aftermarket Honda (Rp 80-150rb).",
+    "solution_full": "Ganti CDI OEM atau aftermarket, periksa spul pengapian.",
+    "cost_part": 100000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [
+      "spul_lemah",
+      "koil_lemah"
+    ],
+    "similar_causes": [
+      "cdi_rusak"
+    ],
+    "mechanic_notes": "CDI Honda 100cc lawas umur pakai 5-7 tahun, perlu diganti berkala.",
+    "prevention_tips": "Hindari mesin overheat, periksa kelistrikan berkala.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum Honda karbu lawas."
   }
 ]

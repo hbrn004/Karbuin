@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "version": "1.2.0",
+    "description": "Synonym groups for v1.2 — phrases that should map to the same symptom_id",
+    "note": "Each group has a canonical_id (primary symptom_id) and list of phrases. Phrases are pre-normalized lowercase."
+  },
+  "groups": [
+    {
+      "name": "langsam_tinggi",
+      "canonical_id": "langsam_tinggi",
+      "phrases": ["langsam tinggi", "rpm tinggi", "idle tinggi", "gas menggantung", "ngeng sendiri", "rpm tidak turun", "langsam gak mau turun", "langsam ngebut", "langsam kemahalan", "putaran idle gede", "rpm idle tinggi", "gas ngegantung", "langsam gak stabil"]
+    },
+    {
+      "name": "brebet",
+      "canonical_id": "brebet",
+      "phrases": ["brebet", "mbrebet", "tersendat", "ngempos", "gas tersendat", "gas ngejeglak", "gas judeg", "tarik sendat", "brebet di tanjakan", "brebet saat tanjakan", "brebet di tanjakan"]
+    },
+    {
+      "name": "langsam_turun_naik",
+      "canonical_id": "langsam_turun_naik",
+      "phrases": ["langsam turun naik", "rpm turun naik", "idle loncat", "langsam loncat", "langsam loncat-loncat", "rpm loncat", "rpm gak stabil", "langsam gak stabil", "langsam naik turun", "rpm naik turun sendiri"]
+    },
+    {
+      "name": "susah_hidup",
+      "canonical_id": "susah_hidup_pagi",
+      "phrases": ["susah hidup", "sulit hidup", "susah starter", "susah diengkol", "susah start", "susah distarter", "mesin bandel", "mesin susah dihidupkan", "mesin rewel", "mesin gak mau hidup"]
+    },
+    {
+      "name": "bensin_boros",
+      "canonical_id": "bensin_boros",
+      "phrases": ["bensin boros", "bbm boros", "boros bensin", "boros bbm", "boros", "bensin cepat habis", "bbm cepat habis", "konsumsi bbm boros", "irit ilang"]
+    },
+    {
+      "name": "tenaga_hilang",
+      "canonical_id": "ngempos",
+      "phrases": ["tenaga hilang", "loyo", "ngempos", "empos", "gas kosong", "tenaga turun", "tidak kuat nanjak", "males nanjak", "mesin loyo", "tidak ada tenaga", "kurang tenaga", "nggak kuat"]
+    },
+    {
+      "name": "mati_mendadak",
+      "canonical_id": "mesin_mati_setelah_hidup",
+      "phrases": ["mati mendadak", "mesin mati sendiri", "mesin mati sendiri", "mati sendiri", "mesin mati tiba-tiba", "mesin mati mendadak", "mesin mati lalu idup", "nyala sebentar mati", "mesin hidup sebentar mati"]
+    },
+    {
+      "name": "asap_putih",
+      "canonical_id": "asap_putih",
+      "phrases": ["asap putih", "knalpot asap putih", "asap knalpot putih", "asap warna putih", "white smoke", "asap putih tebal", "asap putih banyak"]
+    },
+    {
+      "name": "asap_hitam",
+      "canonical_id": "asap_hitam",
+      "phrases": ["asap hitam", "knalpot asap hitam", "asap knalpot hitam", "asap warna hitam", "black smoke", "asap hitam tebal", "asap hitam pekat"]
+    },
+    {
+      "name": "asap_biru",
+      "canonical_id": "asap_biru",
+      "phrases": ["asap biru", "knalpot asap biru", "asap knalpot biru", "asap warna biru", "blue smoke", "asap biru tipis", "asap kebiruan"]
+    },
+    {
+      "name": "starter_berat",
+      "canonical_id": "starter_berat",
+      "phrases": ["starter berat", "engkol berat", "kick starter berat", "diengkol berat", "diengkol susah", "engkol keras", "dienkol berat", "starter kerasa berat", "mesin berat engkol", "engkol kerasa berat"]
+    },
+    {
+      "name": "starter_lemah",
+      "canonical_id": "starter_elektrik_lemah",
+      "phrases": ["starter lemah", "starter elektrik lemah", "dinamo starter lemah", "starter loyo", "starter lambat", "starter putar lambat", "electric starter lemah", "starter elektrik lambat", "starter elektrik loyo"]
+    },
+    {
+      "name": "nembak",
+      "canonical_id": "nembak_saat_buka_gas",
+      "phrases": ["nembak", "backfire", "nembak knalpot", "nembak karburator", "letusan knalpot", "letusan karbu", "ngedumel", "nge-bum", "karbu nge-bum", "knalpot meletuk", "knalpot letup"]
+    },
+    {
+      "name": "overheat",
+      "canonical_id": "mesin_cepat_panas",
+      "phrases": ["overheat", "mesin overheat", "mesin cepat panas", "mesin panas", "mesin kepanasan", "suhu mesin tinggi", "mesin ngebul", "indikator panas nyala"]
+    },
+    {
+      "name": "ngelitik",
+      "canonical_id": "mesin_ngelitik",
+      "phrases": ["ngelitik", "bunyi tek tek", "knocking", "bunyi ketuk", "suara ketukan", "detonasi", "engine knock", "ngelotok", "ngedetuk", "suara getuk"]
+    }
+  ]
+}

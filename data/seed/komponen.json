@@ -625,5 +625,482 @@
     "category": "engine",
     "subcategory": "sealing",
     "description": "Gasket antara kepala silinder dan blok, mencegah kebocoran kompresi dan oli"
+  },
+  {
+    "id": "tangki",
+    "category": "fuel",
+    "subcategory": "storage",
+    "name": "Tangki Bensin / Fuel Tank",
+    "aliases": [
+      "tanki",
+      "tangki bensin",
+      "fuel tank"
+    ],
+    "description": "Penampung utama bahan bakar motor",
+    "function": "Menyimpan bensin dan mengalirkannya ke karburator secara gravitas",
+    "default_location": "Di tengah motor, di bawah jok",
+    "inspection_method": "Kibas pelan tangki, perhatikan bunyi dan bau bensin. Periksa karat atau retakan pada dinding tangki.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "medium",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "common_symptoms_if_failed": [
+      "bensin bocor",
+      "bau bensin menyengat",
+      "karburator banjir"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "filter_bensin",
+    "category": "fuel",
+    "subcategory": "filtration",
+    "name": "Filter Bensin / Fuel Filter",
+    "aliases": [
+      "saringan bensin",
+      "fuel filter",
+      "filter bbm"
+    ],
+    "description": "Penyaring bensin di selang bensin",
+    "function": "Menyaring kotoran dan air dari bensin sebelum masuk karburator",
+    "default_location": "Di selang bensin, biasanya dekat kran bensin",
+    "inspection_method": "Lepas filter dari selang, tiup, lihat apakah tersumbat. Periksa warna saringan.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "easy",
+    "tools_needed": [
+      "tang kombinasi"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin brebet",
+      "langsam tidak stabil",
+      "karburator banjir",
+      "mesin mati tiba-tiba"
+    ],
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "jarum_skep",
+    "category": "fuel_system",
+    "subcategory": "throttle",
+    "name": "Jarum Skep / Throttle Needle",
+    "aliases": [
+      "needle jet",
+      "jarum throttle",
+      "throttle needle"
+    ],
+    "description": "Jarum yang mengatur aliran bensin di skep",
+    "function": "Mengatur campuran udara-bensin di throttle partial",
+    "default_location": "Di dalam karburator, menempel pada skep",
+    "inspection_method": "Lepas skep, lihat jarum, periksa keausan di ujung jarum. Jika aus, ganti.",
+    "inspection_difficulty": "medium",
+    "replacement_difficulty": "medium",
+    "tools_needed": [
+      "obeng plus",
+      "tang kecil"
+    ],
+    "common_symptoms_if_failed": [
+      "brebet putaran tengah",
+      "nembak saat gas dibuka",
+      "tarikan berat",
+      "langsam kasar"
+    ],
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "choke",
+    "category": "fuel_system",
+    "subcategory": "starter",
+    "name": "Choke / Starter Dingin",
+    "aliases": [
+      "choke valve",
+      "starter choke",
+      "lever choke"
+    ],
+    "description": "Sistem choke untuk memperkaya campuran bensin saat dingin",
+    "function": "Memperkaya campuran bensin saat mesin dingin untuk membantu starter",
+    "default_location": "Di handle kiri motor, terhubung ke karburator via kabel",
+    "inspection_method": "Tarik choke, pastikan karburator merespon (RPM naik). Cek kabel choke dari keausan.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "medium",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin susah hidup dingin",
+      "mesin hanya hidup dengan choke",
+      "mesin mati setelah hidup"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "vacuum_hose",
+    "category": "intake",
+    "subcategory": "vacuum",
+    "name": "Vacuum Hose / Selang Vakum",
+    "aliases": [
+      "selang vakum",
+      "vacuum pipe",
+      "selang kran vakum"
+    ],
+    "description": "Selang vakum dari intake manifold ke kran bensin",
+    "function": "Membuka kran bensin otomatis saat mesin hidup atau menyalurkan vakum ke komponen",
+    "default_location": "Dari karburator/intake manifold ke kran bensin atau komponen vakum",
+    "inspection_method": "Cek selang dari retakan, sobekan, atau kendor. Tarik pelan untuk memastikan kencang.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "easy",
+    "tools_needed": [
+      "tang kombinasi"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin mati mendadak",
+      "langsam tidak stabil",
+      "tarikan berat",
+      "brebet"
+    ],
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "tutup_busi",
+    "category": "ignition",
+    "subcategory": "connector",
+    "name": "Tutup Busi / Cap Busi",
+    "aliases": [
+      "busik boot",
+      "spark plug cap",
+      "cap busi"
+    ],
+    "description": "Tutup karet di ujung busi (kadang disebut busi_socket)",
+    "function": "Menghantarkan listrik dari koil ke busi dan melindungi dari air",
+    "default_location": "Di kepala busi, menutup terminal busi",
+    "inspection_method": "Lepas tutup busi, lihat ada karat atau jejas di terminal dalamnya.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "easy",
+    "tools_needed": [
+      "tang kombinasi"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin brebet",
+      "mesin mati mendadak saat hujan",
+      "tarikan berat saat basah",
+      "tenaga hilang"
+    ],
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "kabel_busi",
+    "category": "ignition",
+    "subcategory": "connector",
+    "name": "Kabel Busi / Spark Plug Wire",
+    "aliases": [
+      "kabel busi",
+      "high tension cable",
+      "HT cable"
+    ],
+    "description": "Kabel penghubung antara koil dan busi",
+    "function": "Menghantarkan listrik tegangan tinggi dari koil ke busi",
+    "default_location": "Dari koil/CDI ke tutup busi",
+    "inspection_method": "Cabut kabel saat mesin hidup, dekatkan ke massa (block), lihat ada lompatan api biru kuat.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "easy",
+    "tools_needed": [
+      "tang kombinasi"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin brebet",
+      "nembak saat gas dibuka",
+      "tenaga hilang",
+      "mesin mati mendadak"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "klep_masuk",
+    "category": "engine",
+    "subcategory": "valve",
+    "name": "Klep Masuk / Intake Valve",
+    "aliases": [
+      "intake valve",
+      "klep in",
+      "valve in"
+    ],
+    "description": "Klep yang membuka untuk memasukkan campuran udara-bensin",
+    "function": "Membuka dan menutup ruang bakar untuk siklus intake",
+    "default_location": "Di kepala silinder, sisi intake (dekat karburator)",
+    "inspection_method": "Cek kompresi dengan compression tester. Skir klep (visual) untuk memastikan tidak bocor/karat.",
+    "inspection_difficulty": "hard",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "compression tester",
+      "kunci klep",
+      "kunci T"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin kehilangan tenaga",
+      "brebet",
+      "kompresi turun",
+      "asap putih kebiruan"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "klep_buang",
+    "category": "engine",
+    "subcategory": "valve",
+    "name": "Klep Buang / Exhaust Valve",
+    "aliases": [
+      "exhaust valve",
+      "klep out",
+      "valve out"
+    ],
+    "description": "Klep yang membuka untuk mengeluarkan gas buang",
+    "function": "Membuka dan menutup ruang bakar untuk siklus exhaust",
+    "default_location": "Di kepala silinder, sisi exhaust (dekat knalpot)",
+    "inspection_method": "Cek kompresi dengan compression tester. Skir klep (visual) untuk memastikan tidak bocor/karat.",
+    "inspection_difficulty": "hard",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "compression tester",
+      "kunci klep",
+      "kunci T"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin kehilangan tenaga",
+      "knalpot nembak",
+      "suara abnormal",
+      "asap putih"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "seal_klep",
+    "category": "engine",
+    "subcategory": "seal",
+    "name": "Seal Klep / Valve Seal",
+    "aliases": [
+      "valve seal",
+      "klep seal",
+      "pangkal klep"
+    ],
+    "description": "Karet seal di pangkal klep untuk menahan oli",
+    "function": "Mencegah oli masuk ke ruang bakar melalui pangkal klep",
+    "default_location": "Di kepala silinder, di pangkal klep",
+    "inspection_method": "Lepas busi, lihat apakah basah oleh oli. Nyalakan mesin, asap biru awal = seal klep bocor.",
+    "inspection_difficulty": "medium",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "kunci T",
+      "kunci klep",
+      "alat penarik seal"
+    ],
+    "common_symptoms_if_failed": [
+      "asap biru saat start awal",
+      "asap biru saat langsam",
+      "konsumsi oli naik",
+      "knalpot basah oli"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "piston",
+    "category": "engine",
+    "subcategory": "piston",
+    "name": "Piston / Seher / Torak",
+    "aliases": [
+      "seher",
+      "torak",
+      "piston"
+    ],
+    "description": "Komponen yang bergerak naik-turun di silinder",
+    "function": "Mengubah tekanan pembakaran menjadi gerak mekanik",
+    "default_location": "Di dalam silinder",
+    "inspection_method": "Cek kompresi — jika sangat rendah (di bawah 8 bar), kemungkinan piston/seher aus. Visual inspeksi dinding silinder (harus buka).",
+    "inspection_difficulty": "hard",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "compression tester",
+      "kunci set",
+      "alat khusus piston"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin ngelitik keras",
+      "tenaga hilang drastis",
+      "asap putih/biru tebal",
+      "kompresi sangat rendah"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "silinder",
+    "category": "engine",
+    "subcategory": "cylinder",
+    "name": "Silinder / Cylinder Block",
+    "aliases": [
+      "cylinder",
+      "blok silinder",
+      "cylinder block"
+    ],
+    "description": "Rumah piston tempat pembakaran terjadi",
+    "function": "Sebagai ruang bakar dan jalur pergerakan piston",
+    "default_location": "Di tengah mesin, di bawah kepala silinder",
+    "inspection_method": "Cek kompresi + visual inspeksi dinding silinder (harus buka). Periksa keausan, baret, ovality.",
+    "inspection_difficulty": "hard",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "compression tester",
+      "bore gauge",
+      "kunci set"
+    ],
+    "common_symptoms_if_failed": [
+      "asap putih/biru tebal",
+      "tenaga hilang",
+      "konsumsi oli tinggi",
+      "kompresi rendah"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "saklar_engine_stop",
+    "category": "electrical",
+    "subcategory": "switch",
+    "name": "Saklar Engine Stop / Kill Switch",
+    "aliases": [
+      "kill switch",
+      "engine stop",
+      "tombol stop"
+    ],
+    "description": "Tombol untuk mematikan mesin secara kelistrikan",
+    "function": "Memutus aliran listrik ke CDI untuk mematikan mesin",
+    "default_location": "Di handle kanan motor (tombol merah/hijau)",
+    "inspection_method": "Putar saklar on/off, lihat ada respons. Cek jalur kabel dari saklar ke CDI.",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "easy",
+    "tools_needed": [
+      "multimeter",
+      "obeng plus"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin tidak bisa dimatikan",
+      "mesin mati sendiri mendadak",
+      "mesin tidak mau hidup",
+      "CDI sering error"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "sistem_charging",
+    "category": "electrical",
+    "subcategory": "charging",
+    "name": "Sistem Charging / Pengisian",
+    "aliases": [
+      "charging system",
+      "sistem pengisian",
+      "regulator system"
+    ],
+    "description": "Sistem pengisian aki (kombinasi spul + kiprok + jalur)",
+    "function": "Mengisi aki saat mesin hidup",
+    "default_location": "Spul di dalam mesin, kiprok di bawah jok/dekat aki",
+    "inspection_method": "Ukur tegangan aki saat mesin hidup (harus 13.5-14.5V). Ukur tegangan Aki saat mesin mati (12.4-12.7V = sehat).",
+    "inspection_difficulty": "medium",
+    "replacement_difficulty": "medium",
+    "tools_needed": [
+      "multimeter",
+      "kunci set"
+    ],
+    "common_symptoms_if_failed": [
+      "aki cepat tekor",
+      "lampu redup saat langsam",
+      "mesin brebet saat lampu dinyalakan",
+      "aki tidak mengisi"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "sistem_bahan_bakar",
+    "category": "fuel",
+    "subcategory": "system",
+    "name": "Sistem Bahan Bakar",
+    "aliases": [
+      "fuel system",
+      "sistem bbm",
+      "saluran bensin"
+    ],
+    "description": "Sistem penyaluran bensin dari tangki ke karburator",
+    "function": "Mengalirkan bensin dari tangki ke karburator dengan tekanan/kevakuman yang sesuai",
+    "default_location": "Tangki → kran → selang → filter → karburator",
+    "inspection_method": "Lepas selang di karburator, hidupkan kran, lihat aliran bensin (harus lancar, tidak tersendat).",
+    "inspection_difficulty": "easy",
+    "replacement_difficulty": "medium",
+    "tools_needed": [
+      "tang kombinasi",
+      "gembok tangki"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin brebet",
+      "langsam tidak stabil",
+      "karburator banjir",
+      "mesin mati"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "sistem_pengapian",
+    "category": "ignition",
+    "subcategory": "system",
+    "name": "Sistem Pengapian",
+    "aliases": [
+      "ignition system",
+      "sistem api",
+      "sistem pembakaran"
+    ],
+    "description": "Sistem pembakaran: busi + koil + CDI + pulser + kabel",
+    "function": "Menghasilkan percikan api di busi pada waktu yang tepat",
+    "default_location": "Busi di kepala silinder, koil/CDI di bawah jok, pulser di dalam mesin",
+    "inspection_method": "Cek percikan api busi, timing pengapian dengan timing light (jika ada).",
+    "inspection_difficulty": "medium",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "multimeter",
+      "kunci busi",
+      "timing light"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin susah hidup",
+      "brebet",
+      "nembak",
+      "tenaga hilang",
+      "mesin mati"
+    ],
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "blok_silinder",
+    "category": "engine",
+    "subcategory": "block",
+    "name": "Blok Silinder / Cylinder Block Housing",
+    "aliases": [
+      "blok mesin",
+      "crankcase",
+      "engine block"
+    ],
+    "description": "Blok utama mesin yang menopang silinder dan crankshaft",
+    "function": "Menopang silinder, crankshaft, dan komponen internal mesin lainnya",
+    "default_location": "Bagian utama mesin, di antara crankcase dan kepala silinder",
+    "inspection_method": "Visual inspeksi untuk retakan atau kerusakan. Cek kompresi jika gejala muncul.",
+    "inspection_difficulty": "hard",
+    "replacement_difficulty": "hard",
+    "tools_needed": [
+      "kunci set lengkap",
+      "alat khusus mesin"
+    ],
+    "common_symptoms_if_failed": [
+      "mesin bocor oli",
+      "kompresi rendah",
+      "tenaga hilang drastis",
+      "suara abnormal"
+    ],
+    "severity_if_failed": "high"
   }
 ]

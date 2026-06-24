@@ -32,7 +32,23 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": -2
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 65,000-110,000)",
+    "cost_part": {
+      "min": 15000,
+      "max": 50000
+    },
+    "cost_labor": {
+      "min": 10000,
+      "max": 30000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek intake_manifold, intake_clamp",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "pilot_jet_clogged",
@@ -60,7 +76,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 65,000-110,000)",
+    "cost_part": {
+      "min": 15000,
+      "max": 50000
+    },
+    "cost_labor": {
+      "min": 10000,
+      "max": 30000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek pilot_jet",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "main_jet_clogged",
@@ -93,7 +125,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek main_jet",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "busi_aus",
@@ -127,7 +175,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 30,000-25,000)",
+    "cost_part": {
+      "min": 5000,
+      "max": 25000
+    },
+    "cost_labor": {
+      "min": 0,
+      "max": 0
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek busi",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "busi_rusak",
@@ -149,7 +213,23 @@
     "diagnosis_method": "Ganti busi spare. Jika mesin hidup normal = busi rusak.",
     "risk_level": "medium",
     "diy_level": "pemula",
-    "estimated_minutes": 15
+    "estimated_minutes": 15,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 65,000-110,000)",
+    "cost_part": {
+      "min": 15000,
+      "max": 50000
+    },
+    "cost_labor": {
+      "min": 10000,
+      "max": 30000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek busi, busi_socket",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "filter_udara_kotor",
@@ -183,7 +263,23 @@
         "yes_weight_bonus": -4,
         "no_weight_bonus": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 30,000-25,000)",
+    "cost_part": {
+      "min": 5000,
+      "max": 25000
+    },
+    "cost_labor": {
+      "min": 0,
+      "max": 0
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek filter_udara",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "kiprok_rusak",
@@ -210,7 +306,23 @@
       "multimeter",
       "acuan unit baru"
     ],
-    "confirmation_difficulty": "menengah"
+    "confirmation_difficulty": "menengah",
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 100,000-400,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 500,000-700,000)",
+    "cost_part": {
+      "min": 100000,
+      "max": 400000
+    },
+    "cost_labor": {
+      "min": 80000,
+      "max": 150000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek kiprok",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "aki_lemah",
@@ -250,7 +362,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 50,000-200,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 250,000-360,000)",
+    "cost_part": {
+      "min": 50000,
+      "max": 200000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 80000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek aki",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "cdi_rusak",
@@ -285,7 +413,23 @@
       "multimeter",
       "acuan unit baru"
     ],
-    "confirmation_difficulty": "menengah"
+    "confirmation_difficulty": "menengah",
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 1,050,000-1,600,000)",
+    "cost_part": {
+      "min": 250000,
+      "max": 800000
+    },
+    "cost_labor": {
+      "min": 200000,
+      "max": 400000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek cdi",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "koil_lemah",
@@ -312,7 +456,23 @@
       "multimeter",
       "acuan unit baru"
     ],
-    "confirmation_difficulty": "menengah"
+    "confirmation_difficulty": "menengah",
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek koil",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "klep_renggang",
@@ -333,7 +493,23 @@
     "risk_level": "medium",
     "diy_level": "menengah",
     "estimated_minutes": 60,
-    "spec_source": "motor.spec_reference"
+    "spec_source": "motor.spec_reference",
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek klep",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "ring_piston_aus",
@@ -373,7 +549,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": -1
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 1,050,000-1,600,000)",
+    "cost_part": {
+      "min": 250000,
+      "max": 800000
+    },
+    "cost_labor": {
+      "min": 200000,
+      "max": 400000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek ring_piston",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "karburator_overflow",
@@ -396,7 +588,23 @@
     "diagnosis_method": "Float karburator tidak naik / needle valve macet. Bersihkan needle & seat.",
     "risk_level": "medium",
     "diy_level": "menengah",
-    "estimated_minutes": 60
+    "estimated_minutes": 60,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek pilot_jet, main_jet",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "bensin_kotor",
@@ -437,7 +645,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 0
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 65,000-110,000)",
+    "cost_part": {
+      "min": 15000,
+      "max": 50000
+    },
+    "cost_labor": {
+      "min": 10000,
+      "max": 30000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek kran_bensin, selang_bensin",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "vacuum_bocor",
@@ -458,7 +682,23 @@
     "diagnosis_method": "Semprot carb cleaner di semua sambungan intake saat idle. RPM berubah = bocor.",
     "risk_level": "low",
     "diy_level": "pemula",
-    "estimated_minutes": 30
+    "estimated_minutes": 30,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 65,000-110,000)",
+    "cost_part": {
+      "min": 15000,
+      "max": 50000
+    },
+    "cost_labor": {
+      "min": 10000,
+      "max": 30000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek intake_manifold, intake_clamp",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "timing_kemas_terlambat",
@@ -478,7 +718,23 @@
     "diagnosis_method": "Periksa tanda timing di flywheel. Setel sesuai spec motor.",
     "risk_level": "low",
     "diy_level": "mekanik",
-    "estimated_minutes": 90
+    "estimated_minutes": 90,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 100,000-300,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 400,000-600,000)",
+    "cost_part": {
+      "min": 100000,
+      "max": 300000
+    },
+    "cost_labor": {
+      "min": 80000,
+      "max": 150000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek cdi",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "seal_klep_bocor",
@@ -498,7 +754,23 @@
     "diagnosis_method": "Compression test basah (tetes oli ke busi). Jika naik = seal bocor atau ring bocor.",
     "risk_level": "medium",
     "diy_level": "menengah",
-    "estimated_minutes": 240
+    "estimated_minutes": 240,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek klep",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "kran_bensin_mampet",
@@ -518,7 +790,23 @@
     "diagnosis_method": "Buka kran, tiup angin dari arah sebaliknya. Bersihkan saringan.",
     "risk_level": "low",
     "diy_level": "pemula",
-    "estimated_minutes": 20
+    "estimated_minutes": 20,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 30,000-25,000)",
+    "cost_part": {
+      "min": 5000,
+      "max": 25000
+    },
+    "cost_labor": {
+      "min": 0,
+      "max": 0
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek kran_bensin, selang_bensin",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "kipas_rusak",
@@ -538,7 +826,23 @@
     "diagnosis_method": "Periksa kipas rusak/patah. Untuk motor air-cooled: periksa shroud penutup.",
     "risk_level": "high",
     "diy_level": "menengah",
-    "estimated_minutes": 60
+    "estimated_minutes": 60,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 100,000-400,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 500,000-700,000)",
+    "cost_part": {
+      "min": 100000,
+      "max": 400000
+    },
+    "cost_labor": {
+      "min": 80000,
+      "max": 150000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek kipas",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "overheat_cooling",
@@ -561,7 +865,23 @@
     "diagnosis_method": "Periksa level coolant, kebocoran radiator, thermostat, water pump (untuk motor yang ada).",
     "risk_level": "high",
     "diy_level": "mekanik",
-    "estimated_minutes": 120
+    "estimated_minutes": 120,
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 1,050,000-1,600,000)",
+    "cost_part": {
+      "min": 250000,
+      "max": 800000
+    },
+    "cost_labor": {
+      "min": 200000,
+      "max": 400000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek thermostat, water_pump",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "pelampung_macet",
@@ -594,7 +914,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 6
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek pelampung, needle_valve",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "needle_valve_aus",
@@ -626,7 +962,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": 4
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek needle_valve, pelampung",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "float_level_salah",
@@ -660,7 +1012,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek pelampung, needle_valve",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "setelan_angin_salah",
@@ -692,7 +1060,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 30,000-25,000)",
+    "cost_part": {
+      "min": 5000,
+      "max": 25000
+    },
+    "cost_labor": {
+      "min": 0,
+      "max": 0
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek karburator, sekrup_angin",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "setelan_langsam_salah",
@@ -725,7 +1109,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 2
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 30,000-25,000)",
+    "cost_part": {
+      "min": 5000,
+      "max": 25000
+    },
+    "cost_labor": {
+      "min": 0,
+      "max": 0
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek karburator, baut_langsam",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "skep_macet",
@@ -759,7 +1159,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 130,000-240,000)",
+    "cost_part": {
+      "min": 30000,
+      "max": 100000
+    },
+    "cost_labor": {
+      "min": 30000,
+      "max": 70000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek karburator, skep",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "kabel_gas_seret",
@@ -791,7 +1207,23 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 30,000-25,000)",
+    "cost_part": {
+      "min": 5000,
+      "max": 25000
+    },
+    "cost_labor": {
+      "min": 0,
+      "max": 0
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek kabel_gas",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "pulser_lemah",
@@ -829,7 +1261,23 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 100,000-300,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 400,000-600,000)",
+    "cost_part": {
+      "min": 100000,
+      "max": 300000
+    },
+    "cost_labor": {
+      "min": 80000,
+      "max": 150000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek pulser",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "spul_lemah",
@@ -867,7 +1315,23 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 100,000-300,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 400,000-600,000)",
+    "cost_part": {
+      "min": 100000,
+      "max": 300000
+    },
+    "cost_labor": {
+      "min": 80000,
+      "max": 150000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek spul",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "kompresi_rendah",
@@ -902,7 +1366,23 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": 2
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 1,050,000-1,600,000)",
+    "cost_part": {
+      "min": 250000,
+      "max": 800000
+    },
+    "cost_labor": {
+      "min": 200000,
+      "max": 400000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek piston, ring_piston",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "koil_panas",
@@ -940,7 +1420,23 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": 3
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 100,000-300,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 400,000-600,000)",
+    "cost_part": {
+      "min": 100000,
+      "max": 300000
+    },
+    "cost_labor": {
+      "min": 80000,
+      "max": 150000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek koil, cdi",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   },
   {
     "id": "rantai_keteng_kendor",
@@ -971,6 +1467,22 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": 2
       }
-    ]
+    ],
+    "solution_free": "Cek koneksi dan bersihkan komponen",
+    "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
+    "solution_full": "Ganti komponen OEM + jasa mekanik (Rp 1,050,000-1,600,000)",
+    "cost_part": {
+      "min": 250000,
+      "max": 800000
+    },
+    "cost_labor": {
+      "min": 200000,
+      "max": 400000
+    },
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Setel dan cek rantai_keteng, tensioner_ranjai_keteng",
+    "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor"
   }
 ]

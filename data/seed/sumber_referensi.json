@@ -195,5 +195,14 @@
     "source_text": "Knowledge bengkel umum Honda Grand/karbu 100cc lawas. CDI lemah umur 5-7 tahun, klep butuh setel berkala, charging lemah di RPM rendah.",
     "reliability": "medium",
     "date": "2025-06-25"
+  },
+  {
+    "id": "src_honda_megapro_komunitas_2025",
+    "source_text": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik Honda 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Honda MegaPro 200cc — klep, kopling, kiprok. Tanpa service manual page reference."
   }
 ]

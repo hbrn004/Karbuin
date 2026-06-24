@@ -1398,5 +1398,65 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Kiprok/regulator Honda untuk motor CC kecil (50-110cc)."
+  },
+  {
+    "id": "cr_special_main_jet",
+    "name": "Main jet CR Special 32mm",
+    "description": "Main jet untuk karburator CR Special 32mm Honda MegaPro 200cc. Ukuran standar Honda MegaPro.",
+    "category": "karburator",
+    "aliases": [
+      "main jet cr special",
+      "main jet crs 32",
+      "main jet megapro 200"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cr_special_pilot_jet",
+    "name": "Pilot jet CR Special 32mm",
+    "description": "Pilot jet untuk karburator CR Special 32mm Honda MegaPro 200cc. Mengatur campuran idle dan langsam.",
+    "category": "karburator",
+    "aliases": [
+      "pilot jet cr special",
+      "pilot jet crs 32",
+      "pilot jet megapro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_honda_besar",
+    "name": "Kiprok Honda CC besar (125-200cc)",
+    "description": "Kiprok untuk Honda CC besar (125-200cc). Honda MegaPro, GL Pro, Tiger menggunakan tipe ini. Lebih besar dari kiprok CC kecil.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok honda 200cc",
+      "kiprok honda sport",
+      "kiprok honda glpro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kopling_megapro_200",
+    "name": "Kopling manual Honda MegaPro 200cc",
+    "description": "Kopling manual 5-speed untuk Honda MegaPro 200cc. 5 plat kanvas dengan per kopling.",
+    "category": "kopling",
+    "aliases": [
+      "kopling megapro 200",
+      "kopling honda megapro",
+      "kopling 5 plat megapro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

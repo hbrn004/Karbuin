@@ -2748,5 +2748,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Knowledge bengkel umum Honda karbu lawas."
+  },
+  {
+    "id": "kiprok_honda_lemah_besar",
+    "name": "Kiprok Honda lemah (CC besar)",
+    "description": "Kiprok Honda untuk CC besar (125-200cc) sudah lemah/tidak optimal charging. Umum pada Honda MegaPro, GL Pro, Tiger setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": "kiprok_honda_besar",
+    "mechanic_notes": "Test tegangan output kiprok saat RPM 3000-5000, harus 13.5-14.5V. Jika di bawah 12V, kiprok lemah. Untuk Honda CC besar, kiprok lebih cepat panas dan rusak dibanding CC kecil.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "spul_lemah",
+      "aki_lemah",
+      "kabel_longgar"
+    ],
+    "similar_causes": [
+      "kiprok_rusak",
+      "cdi_honda_lemah"
+    ],
+    "solution_free": "Cek soket kiprok, bersihkan korosi, kencangkan koneksi kabel.",
+    "solution_budget": "Ganti kiprok Honda CC besar aftermarket (Rp 80.000-150.000).",
+    "solution_full": "Ganti kiprok original Honda CC besar (Rp 200.000-350.000) + cek spul jika kiprok tetap lemah.",
+    "cost_part": "Rp 80.000-350.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Cek tegangan aki berkala. Jangan biarkan aki tekor lama. Hindari jumper aki yang salah polaritas.",
+    "diagnosis_method": "Ukur tegangan output kiprok di aki saat mesin idle (min 12.5V) dan RPM 3000-5000 (13.5-14.5V).",
+    "risk_level": "low",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "q_kiprok_usia",
+        "question": "Kiprok sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "Kiprok Honda CC besar rata-rata aus setelah 5-7 tahun"
+      },
+      {
+        "id": "q_aki_baru",
+        "question": "Aki terakhir ganti kapan?",
+        "when_to_ask": "if_symptom_recurs",
+        "why_it_matters": "Aki tekor bisa kiprok jadi kelihatan lemah"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

@@ -1876,5 +1876,100 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Pendinginan pasif 100cc Honda Grand kurang optimal saat idle lama. Issue umum."
+  },
+  {
+    "id": "klep_macet_megapro",
+    "name": "Klep macet butuh setel (MegaPro 200cc)",
+    "description": "Klep macet, butuh penyetelan klep berkala untuk Honda MegaPro 200cc. Gejala umum Honda sport CC besar — klep lebih sensitive terhadap pemuaian.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep macet megapro",
+      "klep butuh setel megapro",
+      "klep macet honda 200cc",
+      "klep macet honda sport",
+      "klep macet di pagi",
+      "klep macet terus megapro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kopling_slip_megapro",
+    "name": "Kopling slip di RPM tinggi (MegaPro 200cc)",
+    "description": "Kopling slip pada RPM tinggi, tenaga tidak tersalur penuh. Spesifik untuk Honda MegaPro — kopling manual 5-speed dengan kanvas yang lebih cepat aus karena torsi tinggi.",
+    "severity": "medium",
+    "category": "kopling",
+    "aliases": [
+      "kopling slip megapro",
+      "kopling selip megapro 200",
+      "kopling hilang rpm tinggi",
+      "kopling ga kuat megapro",
+      "kopling slip honda 200cc",
+      "kopling slip di atas"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "knalpot_nembak_megapro",
+    "name": "Nembak knalpot (MegaPro 200cc)",
+    "description": "Nembak knalpot/letusan pada knalpot Honda MegaPro. Sering disebabkan klep bocor atau setting timing pengapian yang kurang pas untuk CC besar.",
+    "severity": "medium",
+    "category": "knalpot",
+    "aliases": [
+      "nembak knalpot megapro",
+      "backfire megapro",
+      "nembak megapro",
+      "knalpot letusan megapro",
+      "nembak honda 200cc",
+      "backfire honda megapro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "tarikan_ngempos_atas_megapro",
+    "name": "Tarikan ngempos RPM atas (MegaPro 200cc)",
+    "description": "Tarikan ngempos saat RPM atas, tenaga hilang. Honda MegaPro CC besar butuh main jet lebih besar dan klep presisi.",
+    "severity": "high",
+    "category": "tenaga",
+    "aliases": [
+      "ngempos rpm atas megapro",
+      "ngempos atas megapro",
+      "tarikan ngempos atas megapro",
+      "los tenaga atas megapro",
+      "ngempos honda 200cc",
+      "tarikan hilang atas"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_megapro",
+    "name": "Kiprok lemah (MegaPro 200cc)",
+    "description": "Kiprok lemah, charging tidak optimal. Honda MegaPro CC besar butuh kiprok yang lebih besar — kelemahan umum Honda sport karbu lawas.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah megapro",
+      "kiprok rusak megapro",
+      "kiprok panas megapro",
+      "kiprok ga ngecas megapro",
+      "kiprok honda 200cc",
+      "kiprok lemah honda besar"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda MegaPro 200cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

@@ -2375,5 +2375,323 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Knowledge bengkel umum."
+  },
+  {
+    "id": "perpindahan_macet",
+    "name": "Perpindahan gigi macet",
+    "aliases": [
+      "perpindahan gigi macet"
+    ],
+    "related_components": [
+      "persneling",
+      "shift_drum",
+      "shift_fork"
+    ],
+    "likelihood_default": 8,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Perpindahan gigi macet. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "medium",
+    "diy_level": "medium",
+    "estimated_minutes": 90,
+    "follow_up_questions": [
+      {
+        "id": "fu_perpindahan_macet_0",
+        "question": "Apakah tuas persneling ditarik/ditekan keras tapi gigi tidak masuk?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_perpindahan_macet_1",
+        "question": "Apakah terdengar bunyi kretek saat pindah gigi?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Periksa mekanisme shift drum dan garpu pemindah.",
+    "solution_budget": "Ganti garpu pemindah (Rp 50-100rb parts + jasa).",
+    "solution_full": "Bongkar bak transmisi, bersihkan shift drum, ganti garpu pemindah jika aus.",
+    "cost_part": 80000,
+    "cost_labor": 60000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue terkait persneling.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "shift_fork_aus",
+    "name": "Shift fork (garpu pemindah) aus",
+    "aliases": [
+      "shift fork (garpu pemindah) aus"
+    ],
+    "related_components": [
+      "shift_fork"
+    ],
+    "likelihood_default": 7,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Shift fork (garpu pemindah) aus. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "medium",
+    "diy_level": "hard",
+    "estimated_minutes": 120,
+    "follow_up_questions": [
+      {
+        "id": "fu_shift_fork_aus_0",
+        "question": "Apakah perpindahan gigi sering meleset dari posisi netral?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      }
+    ],
+    "solution_free": "Inspeksi garpu pemindah saat bongkar transmisi.",
+    "solution_budget": "Ganti garpu pemindah aftermarket (Rp 50-80rb parts).",
+    "solution_full": "Bongkar transmisi + ganti garpu pemindah OEM/aftermarket.",
+    "cost_part": 60000,
+    "cost_labor": 80000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue terkait shift_fork.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "bearing_kopel_aus",
+    "name": "Bearing kopel aus",
+    "aliases": [
+      "bearing kopel aus"
+    ],
+    "related_components": [
+      "bearing_kopel"
+    ],
+    "likelihood_default": 7,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Bearing kopel aus. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "medium",
+    "diy_level": "medium",
+    "estimated_minutes": 90,
+    "follow_up_questions": [
+      {
+        "id": "fu_bearing_kopel_aus_0",
+        "question": "Apakah vibrasi muncul di RPM tinggi (di atas 5000 rpm)?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_bearing_kopel_aus_1",
+        "question": "Apakah bunyi dengung dari area tengah mesin?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi bearing kopel saat bongkar.",
+    "solution_budget": "Ganti bearing kopel aftermarket (Rp 40-70rb).",
+    "solution_full": "Bongkar bak mesin, ganti bearing kopel + periksa alignment.",
+    "cost_part": 50000,
+    "cost_labor": 60000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue terkait bearing_kopel.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "saklar_matik_rusak",
+    "name": "Saklar matik (kill switch) rusak",
+    "aliases": [
+      "saklar matik (kill switch) rusak"
+    ],
+    "related_components": [
+      "saklar_matik"
+    ],
+    "likelihood_default": 8,
+    "severity": "medium",
+    "urgency": "low",
+    "description": "Saklar matik (kill switch) rusak. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "low",
+    "diy_level": "easy",
+    "estimated_minutes": 20,
+    "follow_up_questions": [
+      {
+        "id": "fu_saklar_matik_0",
+        "question": "Apakah tombol matik ditekan tapi mesin tetap nyala?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_saklar_matik_1",
+        "question": "Apakah saklar matik longgar atau terasa tidak klik?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Coba matikan lewat kunci kontak. Jika bisa, saklar matik rusak.",
+    "solution_budget": "Ganti saklar matik aftermarket (Rp 20-35rb).",
+    "solution_full": "Ganti saklar matik + periksa kabel body.",
+    "cost_part": 25000,
+    "cost_labor": 20000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue terkait saklar_matik.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "kunci_kontak_rusak",
+    "name": "Kunci kontak rusak",
+    "aliases": [
+      "kunci kontak rusak"
+    ],
+    "related_components": [
+      "kunci_kontak"
+    ],
+    "likelihood_default": 7,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Kunci kontak rusak. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "medium",
+    "diy_level": "medium",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "fu_kunci_kontak_0",
+        "question": "Apakah kunci kontak diputar OFF tapi mesin tetap nyala?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_kunci_kontak_1",
+        "question": "Apakah kunci kontak longgar atau tidak ada respon saat diputar?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Coba matikan via saklar matik. Jika bisa, kunci kontak rusak.",
+    "solution_budget": "Ganti kunci kontak aftermarket (Rp 40-60rb).",
+    "solution_full": "Ganti kunci kontak + full key set + reprogramming.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue terkait kunci_kontak.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "shock_seal_rusak",
+    "name": "Seal shockbreaker rusak",
+    "aliases": [
+      "seal shockbreaker rusak"
+    ],
+    "related_components": [
+      "shockbreaker_depan",
+      "shockbreaker_belakang"
+    ],
+    "likelihood_default": 8,
+    "severity": "low",
+    "urgency": "low",
+    "description": "Seal shockbreaker rusak. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 60,
+    "follow_up_questions": [
+      {
+        "id": "fu_shock_seal_0",
+        "question": "Apakah ada tetesan oli di sekitar shockbreaker?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_shock_seal_1",
+        "question": "Apakah shockbreaker terasa keras atau mantul-mantul?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi visual seal shockbreaker.",
+    "solution_budget": "Ganti seal shockbreaker (Rp 30-50rb parts).",
+    "solution_full": "Ganti shockbreaker OEM/aftermarket (Rp 150-400rb untuk pair).",
+    "cost_part": 40000,
+    "cost_labor": 50000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue terkait shockbreaker_depan.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "cable_kunci_short",
+    "name": "Kabel kunci kontak short",
+    "aliases": [
+      "kabel kunci short",
+      "kabel kontak korslet",
+      "kabel ignition short"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kunci_kontak"
+    ],
+    "likelihood_default": 6,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Kabel ignition/kunci kontak mengalami short. Indikasi: mesin tidak bisa dimatikan, atau electrical tidak stabil.",
+    "diagnosis_method": "Inspeksi kabel body + multimeter untuk cek kontinuitas.",
+    "risk_level": "medium",
+    "diy_level": "medium",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "fu_cable_kunci_short_0",
+        "question": "Apakah electrical motor tidak stabil (lampu nyala sendiri, kiprok overcharge)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi kabel body untuk tanda gosong atau putus.",
+    "solution_budget": "Ganti kabel body aftermarket (Rp 50-100rb).",
+    "solution_full": "Bongkar body, ganti full kabel body OEM + cek electrical.",
+    "cost_part": 75000,
+    "cost_labor": 60000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [
+      "kunci_kontak_rusak"
+    ],
+    "mechanic_notes": "Kabel body sering getas dimakan usia, terutama di area kunci kontak.",
+    "prevention_tips": "Periksa kondisi kabel body berkala, hindari air masuk area kunci.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Multimeter test untuk konfirmasi short."
   }
 ]

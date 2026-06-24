@@ -1221,5 +1221,122 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Komponen kick starter engkol. Motor karbu pakai engkol."
+  },
+  {
+    "id": "persneling",
+    "name": "Persneling",
+    "category": "transmisi",
+    "aliases": [
+      "gigi transmisi",
+      "gigi perseneling",
+      "transmission gear"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen transmisi manual motor karbu sport."
+  },
+  {
+    "id": "shift_drum",
+    "name": "Shift drum",
+    "category": "transmisi",
+    "aliases": [
+      "drum persneling",
+      "gear drum",
+      "shift cam"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen mekanik transmisi. Translasi gerakan tuas ke garpu pemindah."
+  },
+  {
+    "id": "shift_fork",
+    "name": "Shift fork",
+    "category": "transmisi",
+    "aliases": [
+      "garpu pemindah",
+      "garpu persneling",
+      "shift garpu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen mekanik transmisi. Menggerakkan persneling."
+  },
+  {
+    "id": "bearing_kopel",
+    "name": "Bearing kopel",
+    "category": "chassis",
+    "aliases": [
+      "coupler bearing",
+      "bearing tengah",
+      "bearing kopel motor",
+      "bantalan kopel"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Bearing tengah mesin ke kopel transmisi."
+  },
+  {
+    "id": "saklar_matik",
+    "name": "Saklar matik (kill switch)",
+    "category": "electrical",
+    "aliases": [
+      "kill switch",
+      "saklar emergency",
+      "tombol matik",
+      "engine stop switch"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen electrical untuk matikan mesin darurat."
+  },
+  {
+    "id": "kunci_kontak",
+    "name": "Kunci kontak",
+    "category": "electrical",
+    "aliases": [
+      "ignition switch",
+      "kontak motor",
+      "kunci kontak motor",
+      "main switch"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Saklar utama motor untuk on/off electrical."
+  },
+  {
+    "id": "shockbreaker_depan",
+    "name": "Shockbreaker depan",
+    "category": "chassis",
+    "aliases": [
+      "shock depan",
+      "front shock",
+      "suspensi depan",
+      "shockbreaker front"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suspensi depan motor."
+  },
+  {
+    "id": "shockbreaker_belakang",
+    "name": "Shockbreaker belakang",
+    "category": "chassis",
+    "aliases": [
+      "shock belakang",
+      "rear shock",
+      "suspensi belakang",
+      "shockbreaker rear"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suspensi belakang motor."
   }
 ]

@@ -4585,5 +4585,140 @@
     "source_type": "community_knowledge",
     "motor_filter": null,
     "id": 337
+  },
+  {
+    "id": 338,
+    "symptom_id": "sulit_pindah_gigi",
+    "cause_id": "perpindahan_macet",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 339,
+    "symptom_id": "sulit_pindah_gigi",
+    "cause_id": "shift_fork_aus",
+    "weight": 7,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 340,
+    "symptom_id": "sulit_pindah_gigi",
+    "cause_id": "kanvas_kopling_aus",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 341,
+    "symptom_id": "sulit_pindah_gigi",
+    "cause_id": "kabel_kopling_putus",
+    "weight": 6,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 342,
+    "symptom_id": "bearing_kopel_rusak",
+    "cause_id": "bearing_kopel_aus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 343,
+    "symptom_id": "bearing_kopel_rusak",
+    "cause_id": "bearing_rusak",
+    "weight": 7,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 344,
+    "symptom_id": "mesin_tidak_bisa_dimatikan",
+    "cause_id": "saklar_matik_rusak",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 345,
+    "symptom_id": "mesin_tidak_bisa_dimatikan",
+    "cause_id": "kunci_kontak_rusak",
+    "weight": 8,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 346,
+    "symptom_id": "mesin_tidak_bisa_dimatikan",
+    "cause_id": "cdi_rusak",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 347,
+    "symptom_id": "oli_bocor_gasket",
+    "cause_id": "gasket_rusak",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 348,
+    "symptom_id": "oli_bocor_gasket",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 349,
+    "symptom_id": "shockbreaker_bocor",
+    "cause_id": "shock_seal_rusak",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 350,
+    "symptom_id": "shockbreaker_bocor",
+    "cause_id": "bearing_rusak",
+    "weight": 3,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 351,
+    "symptom_id": "bearing_roda_rusak",
+    "cause_id": "bearing_kopel_aus",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
+  },
+  {
+    "id": 352,
+    "symptom_id": "mesin_tidak_bisa_dimatikan",
+    "cause_id": "cable_kunci_short",
+    "weight": 6,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null
   }
 ]

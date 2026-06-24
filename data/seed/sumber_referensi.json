@@ -179,5 +179,13 @@
     "source_text": "Pool knowledge dari mekanik senior motor karbu Indonesia, tanpa service manual pabrikan.",
     "reliability": "medium",
     "date": "2025-06-25"
+  },
+  {
+    "id": "src_chassis_suspension_karbu_2025",
+    "source_type": "bengkel_umum",
+    "verified_by": "komunitas_mek_karbu_2025",
+    "source_text": "Knowledge chassis, suspension, dan electrical motor karbu. Di luar scope karbu pure tapi relevan untuk diagnosa bengkel umum.",
+    "reliability": "medium",
+    "date": "2025-06-25"
   }
 ]

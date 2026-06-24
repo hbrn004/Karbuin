@@ -1679,5 +1679,104 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Bisa dari gear aus, bearing kopel rusak, atau oli transmisi habis."
+  },
+  {
+    "id": "sulit_pindah_gigi",
+    "name": "Sulit pindah gigi",
+    "category": "transmisi",
+    "aliases": [
+      "sulit masuk gigi",
+      "persneling macet",
+      "transmisi keras pindah",
+      "gear susah masuk",
+      "pindah gigi keras",
+      "gigi ga mau masuk",
+      "tuas persneling keras",
+      "pindah gigi keras kopling"
+    ],
+    "severity": "medium",
+    "description": "Sulit memindahkan gigi (persneling). Indikasi: tuas keras, gigi tidak mau masuk, atau transmisi bunyi saat pindah.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue umum transmisi manual motor karbu sport. Bengkel sering lihat."
+  },
+  {
+    "id": "bearing_kopel_rusak",
+    "name": "Bearing kopel rusak",
+    "category": "chassis",
+    "aliases": [
+      "bearing kopel bunyi",
+      "vibrasi rpm tinggi",
+      "getaran aneh kopel",
+      "bearing kopel rusak",
+      "kopel dengung",
+      "bearing kopel oblack"
+    ],
+    "severity": "medium",
+    "description": "Bearing kopel (coupler) sudah rusak. Indikasi: vibrasi RPM tinggi, bunyi dengung dari area tengah mesin.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue chassis, bukan karbu pure. Tapi relevan untuk diagnosa getaran."
+  },
+  {
+    "id": "mesin_tidak_bisa_dimatikan",
+    "name": "Mesin tidak bisa dimatikan",
+    "category": "electrical",
+    "aliases": [
+      "mesin ga bisa dimatikan",
+      "motor ga mati",
+      "tombol matik rusak",
+      "kunci kontak ga matikan mesin",
+      "mesin nyala terus",
+      "mesin ga mau mati",
+      "kunci ga bisa matikan"
+    ],
+    "severity": "medium",
+    "description": "Mesin tidak bisa dimatikan dari kunci kontak atau tombol. Indikasi: mesin tetap nyala saat tombol ditekan.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue electrical. Saklar matik / kunci kontak / kabel short."
+  },
+  {
+    "id": "oli_bocor_gasket",
+    "name": "Oli bocor di gasket",
+    "category": "oli",
+    "aliases": [
+      "oli bocor di gasket",
+      "gasket bocor oli",
+      "oli merembes di kepala silinder",
+      "oli merembes di block",
+      "oli netes di sambungan",
+      "kepala silinder bocor oli"
+    ],
+    "severity": "medium",
+    "description": "Oli bocor melalui gasket yang sudah rusak. Indikasi: tetesan oli di sambungan kepala silinder atau block mesin.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue umum motor karbu tua. Gasket mengeras dan retak."
+  },
+  {
+    "id": "shockbreaker_bocor",
+    "name": "Shockbreaker bocor",
+    "category": "chassis",
+    "aliases": [
+      "shockbreaker bocor",
+      "shockbreaker keras",
+      "shockbreaker mantul-mantul",
+      "shockbreaker lemah",
+      "shockbreaker tidak nyaman",
+      "shockbreaker nyetrum",
+      "shockbreaker tidak redam"
+    ],
+    "severity": "low",
+    "description": "Shockbreaker bocor oli atau seal rusak. Indikasi: mantul-mantul, keras, oli shock menetes.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue chassis/suspension. Di luar scope karbu pure tapi bengkel sering lihat."
   }
 ]

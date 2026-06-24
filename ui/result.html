@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-180.png">
+  <link rel="manifest" href="/assets/manifest.json">
   <title>Hasil Diagnosa — Karbuin</title>
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/components.css">
   <link rel="stylesheet" href="/css/pages.css">
   <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/footer.css">
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
@@ -17,8 +24,8 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="/">
-      <span class="brand-logo">🏍</span>
-      <span>Karbuin</span>
+      <img class="brand-logo" src="/assets/logo-mark-256.png" alt="Karbuin" width="36" height="36">
+      <span class="brand-text">Karbuin</span>
     </a>
     <div id="topbar-title" class="muted" style="font-size: var(--fs-caption)">Hasil Diagnosa</div>
     <a href="/library" class="btn btn-ghost btn-sm">📚 Library</a>
@@ -111,5 +118,26 @@
 <script src="/js/api.js"></script>
 <script src="/js/share.js"></script>
 <script src="/js/result.js"></script>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/logo-mark-256.png" alt="Karbuin" width="32" height="32">
+        <div>
+          <strong>Karbuin</strong>
+          <span class="footer-tagline">Motorcycle Carburetor Diagnostic Expert</span>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="/">Beranda</a>
+        <a href="/diagnose">Diagnosa</a>
+        <a href="/library">Library</a>
+        <a href="/method">Metode</a>
+      </nav>
+      <div class="footer-meta">
+        <span>v1.2.0 · Light Professional Theme</span>
+        <span>© 2026 Karbuin</span>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

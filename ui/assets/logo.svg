@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Karbuin Brand Logo v1.2
+  - Monogram K+R: charcoal primary, grey secondary, interlocked
+  - Wordmark "KARBUIN": charcoal, wide tracking, geometric sans-serif
+  - Side dashes flank wordmark for premium framing
+  - viewBox 512x512, monogram occupies y=64..344 (height 280)
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     width="512" height="512"
+     role="img"
+     aria-label="Karbuin">
+  <title>Karbuin</title>
+  <desc>K+R monogram in charcoal and medium grey, with KARBUIN wordmark below</desc>
+
+  <!-- Background (pure white per brand spec). -->
+  <rect width="512" height="512" fill="#FFFFFF"/>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 2 (BACK): R — medium grey                              -->
+  <!-- ============================================================ -->
+  <g id="letter-R" fill="#6B7280">
+    <!-- R stem (vertical bar, partially hidden behind K) -->
+    <rect x="240" y="64" width="50" height="280"/>
+
+    <!-- R bowl: outer arc (radius 100) with inner counter (radius 60).
+         Wall thickness 40px uniform. evenodd creates the hole. -->
+    <path fill-rule="evenodd"
+          d="M 290 64
+             A 100 100 0 0 1 290 264
+             L 290 224
+             A 60 60 0 0 0 290 104
+             Z"/>
+
+    <!-- R leg: diagonal from bowl-stem junction down to bottom-right -->
+    <polygon points="240,200 290,200 366,344 316,344"/>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 1 (FRONT): K — charcoal                                -->
+  <!-- ============================================================ -->
+  <g id="letter-K" fill="#1F2328">
+    <!-- K stem (vertical, FLAT edges) -->
+    <rect x="128" y="64" width="64" height="280"/>
+
+    <!-- K upper arm: diagonal up-right, parallelogram
+         Junction at y=184 on stem, top edge at y=64 -->
+    <polygon points="192,184 240,184 328,64 280,64"/>
+
+    <!-- K lower arm: diagonal down-right, parallelogram (mirror)
+         Junction at y=244 on stem, bottom edge at y=344 -->
+    <polygon points="192,244 240,244 328,344 280,344"/>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- WORDMARK: "KARBUIN" with flanking dashes                      -->
+  <!-- ============================================================ -->
+  <g id="wordmark" fill="#1F2328">
+    <!-- Left dash -->
+    <rect x="60" y="434" width="56" height="6"/>
+
+    <!-- KARBUIN text — centered, geometric sans, wide tracking -->
+    <text x="256" y="450"
+          font-family="'Inter', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif"
+          font-size="40"
+          font-weight="500"
+          letter-spacing="14"
+          text-anchor="middle">KARBUIN</text>
+
+    <!-- Right dash -->
+    <rect x="396" y="434" width="56" height="6"/>
+  </g>
+</svg>

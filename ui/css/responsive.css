@@ -1,4 +1,4 @@
-/* responsive.css — Media query refinements */
+/* responsive.css — Media query refinements (light professional theme) */
 
 @media (min-width: 768px) {
   :root {
@@ -6,7 +6,7 @@
     --fs-h1: 48px;
     --fs-h2: 36px;
   }
-  .hero h1 { font-size: 56px; }
+  .hero h1 { font-size: 48px; }
   .hero .lead { font-size: var(--fs-h4); }
   .page { padding: var(--sp-6) 0; }
 }
@@ -17,7 +17,7 @@
   .bottomnav { display: none; }
   .container { padding: 0 var(--sp-6); }
   .hero { padding: var(--sp-8) 0; }
-  .hero h1 { font-size: 64px; }
+  .hero h1 { font-size: 56px; }
 }
 
 /* Reduce motion */
@@ -28,9 +28,9 @@
   }
 }
 
-/* Print */
+/* Print (light theme override) */
 @media print {
   .topbar, .bottomnav, .sticky-bottom, .followup-card { display: none !important; }
   body { background: white; color: black; }
-  .card, .section-block { border: 1px solid #ccc; background: white; }
+  .card, .section-block { border: 1px solid #D1D5DB; background: white; box-shadow: none; }
 }

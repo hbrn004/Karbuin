@@ -3,105 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>📊 Dashboard Telemetry — Karbuin</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48.png">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-180.png">
+  <link rel="manifest" href="/assets/manifest.json">
+  <title>Dashboard Telemetry — Karbuin</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/components.css">
   <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/footer.css">
   <style>
-    body { background: #0f1115; color: #e6e6e6; }
-    .dash { max-width: 1100px; margin: 0 auto; padding: 16px; }
+    body { background: var(--bg-primary); color: var(--text-primary); }
+    .dash { max-width: 1100px; margin: 0 auto; padding: var(--sp-4); }
     .dash-header {
       display: flex; align-items: center; justify-content: space-between;
-      flex-wrap: wrap; gap: 12px; margin-bottom: 24px;
-      padding-bottom: 16px; border-bottom: 1px solid #2a2d35;
+      flex-wrap: wrap; gap: var(--sp-3); margin-bottom: var(--sp-5);
+      padding-bottom: var(--sp-4); border-bottom: 1px solid var(--border);
     }
-    .dash-header h1 { margin: 0; font-size: 22px; }
-    .dash-header .meta { color: #888; font-size: 13px; }
-    .controls {
-      display: flex; gap: 8px; align-items: center; flex-wrap: wrap;
-    }
+    .dash-header h1 { margin: 0; font-size: var(--fs-h3); color: var(--text-primary); }
+    .dash-header .meta { color: var(--text-secondary); font-size: var(--fs-caption); }
+    .controls { display: flex; gap: var(--sp-2); align-items: center; flex-wrap: wrap; }
     .controls select, .controls button {
-      background: #1a1d23; color: #e6e6e6; border: 1px solid #2a2d35;
-      padding: 6px 12px; border-radius: 6px; font-size: 13px; cursor: pointer;
+      background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border);
+      padding: var(--sp-2) var(--sp-3); border-radius: var(--r-md); font-size: var(--fs-caption); cursor: pointer;
+      font-weight: var(--fw-medium);
     }
-    .controls button:hover { background: #2a2d35; }
+    .controls button:hover { background: var(--bg-secondary); border-color: var(--border-strong); }
     .stats-grid {
       display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px; margin-bottom: 24px;
+      gap: var(--sp-3); margin-bottom: var(--sp-5);
     }
     .stat-card {
-      background: #1a1d23; border: 1px solid #2a2d35; border-radius: 10px;
-      padding: 16px;
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r-md);
+      padding: var(--sp-4); box-shadow: var(--sh-card);
     }
-    .stat-card .label { color: #888; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .stat-card .value { font-size: 28px; font-weight: 600; margin-top: 4px; color: #fafafa; }
-    .stat-card .delta { font-size: 11px; color: #888; margin-top: 4px; }
-    .stat-card.diagnose .value { color: #4ade80; }
-    .stat-card.followup .value { color: #60a5fa; }
-    .stat-card.error .value { color: #f87171; }
-    .stat-card.conf .value { color: #facc15; }
-    .panels {
-      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
-    }
-    @media (max-width: 768px) {
-      .panels { grid-template-columns: 1fr; }
-    }
+    .stat-card .label { color: var(--text-secondary); font-size: var(--fs-small); text-transform: uppercase; letter-spacing: 0.05em; font-weight: var(--fw-semibold); }
+    .stat-card .value { font-size: 28px; font-weight: var(--fw-bold); margin-top: var(--sp-1); color: var(--text-primary); }
+    .stat-card .delta { font-size: 11px; color: var(--text-tertiary); margin-top: var(--sp-1); }
+    .stat-card.diagnose .value { color: var(--success); }
+    .stat-card.followup .value { color: var(--info); }
+    .stat-card.error .value { color: var(--danger); }
+    .stat-card.conf .value { color: var(--warning); }
+    .panels { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-4); }
+    @media (max-width: 768px) { .panels { grid-template-columns: 1fr; } }
     .panel {
-      background: #1a1d23; border: 1px solid #2a2d35; border-radius: 10px;
-      padding: 16px;
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r-md);
+      padding: var(--sp-4); box-shadow: var(--sh-card);
     }
-    .panel h3 { margin: 0 0 12px 0; font-size: 14px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
-    .bar-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; font-size: 13px; }
-    .bar-row .name { flex: 1; color: #e6e6e6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .bar-row .count { color: #888; font-variant-numeric: tabular-nums; min-width: 32px; text-align: right; }
-    .bar-row .bar { flex: 0 0 100px; height: 6px; background: #2a2d35; border-radius: 3px; overflow: hidden; }
-    .bar-row .bar-fill { height: 100%; background: linear-gradient(90deg, #4ade80, #60a5fa); }
+    .panel h3 { margin: 0 0 var(--sp-3) 0; font-size: var(--fs-caption); color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; font-weight: var(--fw-semibold); }
+    .bar-row { display: flex; align-items: center; gap: var(--sp-2); padding: 6px 0; font-size: var(--fs-caption); }
+    .bar-row .name { flex: 1; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bar-row .count { color: var(--text-secondary); font-variant-numeric: tabular-nums; min-width: 32px; text-align: right; font-weight: var(--fw-semibold); }
+    .bar-row .bar { flex: 0 0 100px; height: 6px; background: var(--bg-secondary); border-radius: var(--r-sm); overflow: hidden; }
+    .bar-row .bar-fill { height: 100%; background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%); border-radius: var(--r-sm); }
     .daily-row {
-      display: grid; grid-template-columns: 100px 60px 60px 60px 1fr; gap: 8px;
-      padding: 4px 0; font-size: 12px; font-variant-numeric: tabular-nums;
+      display: grid; grid-template-columns: 100px 60px 60px 60px 1fr; gap: var(--sp-2);
+      padding: var(--sp-1) 0; font-size: var(--fs-small); font-variant-numeric: tabular-nums;
       align-items: center;
     }
-    .daily-row.header { color: #666; text-transform: uppercase; letter-spacing: 0.5px; border-bottom: 1px solid #2a2d35; padding-bottom: 4px; }
-    .daily-row .mini-bar { display: flex; gap: 1px; height: 8px; }
+    .daily-row.header { color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; border-bottom: 1px solid var(--border); padding-bottom: var(--sp-1); font-weight: var(--fw-semibold); font-size: 11px; }
+    .daily-row .mini-bar { display: flex; gap: 1px; height: 8px; border-radius: var(--r-sm); overflow: hidden; }
     .daily-row .mini-bar div { height: 100%; }
     .events-list { max-height: 400px; overflow-y: auto; }
     .event-row {
-      display: grid; grid-template-columns: 60px 80px 1fr; gap: 8px;
-      padding: 6px 4px; font-size: 12px; border-bottom: 1px solid #2a2d35;
+      display: grid; grid-template-columns: 60px 80px 1fr; gap: var(--sp-2);
+      padding: var(--sp-2) var(--sp-1); font-size: var(--fs-small); border-bottom: 1px solid var(--border-soft);
     }
     .event-row:last-child { border-bottom: none; }
-    .event-row .ts { color: #888; font-variant-numeric: tabular-nums; }
-    .event-row .type { font-weight: 600; padding: 1px 6px; border-radius: 4px; text-align: center; font-size: 10px; text-transform: uppercase; }
-    .event-row .type.diagnose { background: #14532d; color: #4ade80; }
-    .event-row .type.followup { background: #1e3a8a; color: #60a5fa; }
-    .event-row .type.error { background: #7f1d1d; color: #f87171; }
-    .event-row .info { color: #cbd5e1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-    .input-samples { font-size: 12px; max-height: 300px; overflow-y: auto; }
+    .event-row .ts { color: var(--text-secondary); font-variant-numeric: tabular-nums; font-weight: var(--fw-medium); }
+    .event-row .type { font-weight: var(--fw-semibold); padding: 2px 8px; border-radius: var(--r-full); text-align: center; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .event-row .type.diagnose { background: var(--success-soft); color: var(--success); }
+    .event-row .type.followup { background: var(--info-soft); color: var(--info); }
+    .event-row .type.error { background: var(--danger-soft); color: var(--danger); }
+    .event-row .info { color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .input-samples { font-size: var(--fs-small); max-height: 300px; overflow-y: auto; }
     .input-samples li {
-      padding: 4px 8px; background: #0f1115; border-left: 2px solid #4ade80;
-      margin: 4px 0; color: #cbd5e1;
+      padding: var(--sp-2) var(--sp-3); background: var(--bg-secondary); border-left: 2px solid var(--primary);
+      margin: var(--sp-1) 0; color: var(--text-primary); border-radius: 0 var(--r-sm) var(--r-sm) 0;
     }
-    .empty-state { color: #666; padding: 24px; text-align: center; font-style: italic; }
+    .empty-state { color: var(--text-tertiary); padding: var(--sp-5); text-align: center; font-style: italic; }
     .footer-link {
-      text-align: center; margin-top: 32px; padding: 16px;
-      color: #888; font-size: 12px;
+      text-align: center; margin-top: var(--sp-7); padding: var(--sp-4);
+      color: var(--text-secondary); font-size: var(--fs-small);
     }
-    .footer-link a { color: #60a5fa; text-decoration: none; }
+    .footer-link a { color: var(--primary); text-decoration: none; font-weight: var(--fw-medium); }
+    .footer-link a:hover { color: var(--primary-hover); }
     .ua-grid {
       display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-      gap: 8px; margin-top: 8px;
+      gap: var(--sp-2); margin-top: var(--sp-2);
     }
-    .ua-pill { padding: 8px; background: #0f1115; border-radius: 6px; text-align: center; }
-    .ua-pill .num { font-size: 20px; font-weight: 600; color: #fafafa; }
-    .ua-pill .lbl { font-size: 10px; color: #888; text-transform: uppercase; }
+    .ua-pill { padding: var(--sp-2); background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--r-md); text-align: center; }
+    .ua-pill .num { font-size: 20px; font-weight: var(--fw-bold); color: var(--text-primary); }
+    .ua-pill .lbl { font-size: 10px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; font-weight: var(--fw-semibold); }
   </style>
 </head>
 <body>
   <div class="dash">
-    <!-- Header -->
     <div class="dash-header">
       <div>
-        <h1>📊 Dashboard Telemetry</h1>
-        <div class="meta">Karbuin v1.1.2 — Engine FROZEN, real-world validation</div>
+        <h1>Dashboard Telemetry</h1>
+        <div class="meta">Karbuin v1.2.0 — Real-world validation observability</div>
       </div>
       <div class="controls">
         <label class="meta">Window:
@@ -111,14 +115,13 @@
             <option value="30">Last 30 days</option>
           </select>
         </label>
-        <button id="refresh-btn">🔄 Refresh</button>
+        <button id="refresh-btn">Refresh</button>
         <a href="/api/telemetry/csv?days=7" download>
-          <button>📥 Download CSV</button>
+          <button>Download CSV</button>
         </a>
       </div>
     </div>
 
-    <!-- Stats grid -->
     <div class="stats-grid" id="stats-grid">
       <div class="stat-card diagnose"><div class="label">Total Diagnose</div><div class="value" id="stat-diagnose">—</div><div class="delta">calls</div></div>
       <div class="stat-card followup"><div class="label">Follow-up</div><div class="value" id="stat-followup">—</div><div class="delta">submissions</div></div>
@@ -126,9 +129,8 @@
       <div class="stat-card conf"><div class="label">Avg Confidence</div><div class="value" id="stat-conf">—</div><div class="delta">top result</div></div>
     </div>
 
-    <!-- UA breakdown -->
-    <div class="panel" style="margin-bottom: 16px;">
-      <h3>🌐 User-Agent Mix</h3>
+    <div class="panel" style="margin-bottom: var(--sp-4);">
+      <h3>User-Agent Mix</h3>
       <div class="ua-grid" id="ua-grid">
         <div class="ua-pill"><div class="num" id="ua-mobile">—</div><div class="lbl">Mobile</div></div>
         <div class="ua-pill"><div class="num" id="ua-desktop">—</div><div class="lbl">Desktop</div></div>
@@ -137,35 +139,25 @@
       </div>
     </div>
 
-    <!-- Two-column panels -->
     <div class="panels">
-      <!-- Top causes -->
       <div class="panel">
-        <h3>🎯 Top Penyebab (Top 10)</h3>
+        <h3>Top Penyebab (Top 10)</h3>
         <div id="top-causes"></div>
       </div>
-
-      <!-- Motor breakdown -->
       <div class="panel">
-        <h3>🏍 Motor Distribution</h3>
+        <h3>Motor Distribution</h3>
         <div id="motors-breakdown"></div>
       </div>
-
-      <!-- Daily breakdown -->
       <div class="panel" style="grid-column: 1 / -1;">
-        <h3>📅 Daily Activity</h3>
+        <h3>Daily Activity</h3>
         <div id="daily-breakdown"></div>
       </div>
-
-      <!-- Recent events -->
       <div class="panel" style="grid-column: 1 / -1;">
-        <h3>⚡ Recent Events (Latest 20)</h3>
+        <h3>Recent Events (Latest 20)</h3>
         <div class="events-list" id="events-list"></div>
       </div>
-
-      <!-- Input samples -->
       <div class="panel" style="grid-column: 1 / -1;">
-        <h3>💬 Sample User Inputs (Latest 50)</h3>
+        <h3>Sample User Inputs (Latest 50)</h3>
         <ul class="input-samples" id="input-samples"></ul>
       </div>
     </div>
@@ -204,29 +196,24 @@
       const resp = await fetch(`/api/telemetry?days=${days}`);
       const data = await resp.json();
 
-      // Stat cards
       $('stat-diagnose').textContent = data.totals.diagnose || 0;
       $('stat-followup').textContent = data.totals.followup || 0;
       $('stat-error').textContent = data.totals.error || 0;
       const conf = data.avg_top_confidence || 0;
       $('stat-conf').textContent = (conf * 100).toFixed(1) + '%';
 
-      // UA breakdown
       const ua = data.ua_breakdown || {};
       $('ua-mobile').textContent = ua.mobile || 0;
       $('ua-desktop').textContent = ua.desktop || 0;
       $('ua-bot').textContent = ua.bot || 0;
       $('ua-other').textContent = ua.other || 0;
 
-      // Top causes
       const causes = (data.top_causes_top10 || []).map(([id, n]) => [id.replace(/_/g, ' '), n]);
       renderBars(causes, $('top-causes'));
 
-      // Motors
       const motors = (data.motors_breakdown || []).map(([id, n]) => [id.replace(/_/g, ' '), n]);
       renderBars(motors, $('motors-breakdown'));
 
-      // Daily
       const daily = data.daily_breakdown || [];
       if (!daily.length) {
         $('daily-breakdown').innerHTML = '<div class="empty-state">Belum ada aktivitas</div>';
@@ -241,16 +228,15 @@
               <div>${d.followup || 0}</div>
               <div>${d.error || 0}</div>
               <div class="mini-bar">
-                <div style="width:${((d.diagnose||0)/maxDay*100).toFixed(1)}%;background:#4ade80"></div>
-                <div style="width:${((d.followup||0)/maxDay*100).toFixed(1)}%;background:#60a5fa"></div>
-                <div style="width:${((d.error||0)/maxDay*100).toFixed(1)}%;background:#f87171"></div>
+                <div style="width:${((d.diagnose||0)/maxDay*100).toFixed(1)}%;background:#16A34A"></div>
+                <div style="width:${((d.followup||0)/maxDay*100).toFixed(1)}%;background:#2563EB"></div>
+                <div style="width:${((d.error||0)/maxDay*100).toFixed(1)}%;background:#EF4444"></div>
               </div>
             </div>
           `).join('')}
         `;
       }
 
-      // Input samples
       const samples = data.input_samples || [];
       $('input-samples').innerHTML = samples.length
         ? samples.map(s => `<li>${escapeHtml(s)}</li>`).join('')
@@ -281,7 +267,7 @@
             <div class="ts">${ts}</div>
             <div class="type ${type}">${type}</div>
             <div class="info" title="${escapeHtml(ev.user_input || '')}">
-              ${escapeHtml(info)} <span style="color:#666">${escapeHtml(input ? '— ' + input : '')}</span>
+              ${escapeHtml(info)} <span style="color:var(--text-tertiary)">${escapeHtml(input ? '— ' + input : '')}</span>
             </div>
           </div>
         `;
@@ -296,7 +282,28 @@
     $('refresh-btn').addEventListener('click', refresh);
     $('days-select').addEventListener('change', refresh);
     refresh();
-    setInterval(refresh, 30000);  // 30s auto-refresh
+    setInterval(refresh, 30000);
   </script>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/logo-mark-256.png" alt="Karbuin" width="32" height="32">
+        <div>
+          <strong>Karbuin</strong>
+          <span class="footer-tagline">Motorcycle Carburetor Diagnostic Expert</span>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="/">Beranda</a>
+        <a href="/diagnose">Diagnosa</a>
+        <a href="/library">Library</a>
+        <a href="/method">Metode</a>
+      </nav>
+      <div class="footer-meta">
+        <span>v1.2.0 · Light Professional Theme</span>
+        <span>© 2026 Karbuin</span>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

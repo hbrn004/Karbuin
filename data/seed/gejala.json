@@ -1383,5 +1383,98 @@
     "category": "suara",
     "severity": "medium",
     "description": "Suara berisik klep (valve tappet clearance longgar)"
+  },
+  {
+    "id": "mesin_pincang",
+    "name": "Mesin Pincang",
+    "aliases": [
+      "mesin pincang",
+      "pincang",
+      "mesin pincang pincang",
+      "mesin pincang saat jalan",
+      "mesin pincang tidak merata",
+      "tidak rata",
+      "mesin pincang intermiten",
+      "mesin suka pincang",
+      "mesin pincang tiba tiba",
+      "mesin pincang kadang"
+    ],
+    "category": "performa",
+    "severity": "high",
+    "description": "Mesin pincang / tidak merata, kadang tenaga ada kadang hilang mendadak. Bisa intermiten atau terus-menerus. Sering karena pengapian tidak stabil (busi aus, koil lemah, atau kiprok intermittent)."
+  },
+  {
+    "id": "api_kecil",
+    "name": "Api Kecil / Lemah",
+    "aliases": [
+      "api kecil",
+      "api lemah",
+      "api busi kecil",
+      "busi nyala kecil",
+      "pengapian lemah",
+      "tidak ada api",
+      "api kuning",
+      "api lemah tidak kuat",
+      "pengapian kurang",
+      "busi tidak nyala kuat"
+    ],
+    "category": "ignition",
+    "severity": "high",
+    "description": "Api busi lemah/kecil, pengapian tidak optimal. Mesin susah hidup, brebet, atau tenaga hilang. Penyebab: busi aus, koil lemah, kiprok rusak, aki lemah."
+  },
+  {
+    "id": "filter_bensin_tersumbat",
+    "name": "Filter Bensin Tersumbat",
+    "aliases": [
+      "filter bensin mampet",
+      "filter bensin tersumbat",
+      "saringan bensin mampet",
+      "filter bensin kotor",
+      "bensin tidak lancar ke karburator",
+      "aliran bensin tersumbat",
+      "filter bensin baru tersumbat",
+      "bensin lambat ke karburator"
+    ],
+    "category": "fuel_system",
+    "severity": "medium",
+    "description": "Filter bensin (saringan bensin) tersumbat oleh kotoran/endapan. Aliran bensin ke karburator terganggu, mesin ngebuang atau brebet terutama di RPM tinggi. Umum di motor yang pakai bensin kualitas rendah atau jarang ganti filter."
+  },
+  {
+    "id": "getaran_berlebih",
+    "name": "Getaran Berlebihan",
+    "aliases": [
+      "getaran berlebih",
+      "motor getar",
+      "getar kuat",
+      "getaran keras",
+      "motor bergetar",
+      "getar tidak wajar",
+      "getaran abnormal",
+      "motor guncang",
+      "vibrasi berlebih",
+      "getaran chassis"
+    ],
+    "category": "engine",
+    "severity": "medium",
+    "description": "Getaran mesin/chassis berlebihan saat idle atau jalan. Penyebab: busi longgar, klep renggang, kompresi tidak merata antar silinder, atau masalah mounting engine."
+  },
+  {
+    "id": "kopling_slip",
+    "name": "Kopling Selip",
+    "aliases": [
+      "kopling selip",
+      "kopling slip",
+      "kopling hilang",
+      "kopling tidak nempel",
+      "kopling lemah",
+      "gas ditarik motor jalan lambat",
+      "rpm naik motor tidak jalan",
+      "kopling aus",
+      "plat kopling habis",
+      "kanvas kopling aus"
+    ],
+    "category": "transmisi",
+    "severity": "high",
+    "description": "Kopling selip — RPM naik saat gas ditarik tapi motor tidak responsif (tenaga tidak tersalur ke roda). Penyebab utama: kanvas kopling aus, per kopling lemah, atau setting kabel kopling salah. Umum di motor sport karbu (Byson, Scorpio, Tiger)."
   }
 ]

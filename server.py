@@ -20,6 +20,7 @@ Routes:
 Usage: python3 server.py [--port 8000]
 """
 from __future__ import annotations
+import os  # noqa: E402 — used for env vars (PORT, HOST, KARBUIN_VERSION)
 
 import argparse
 import json
@@ -331,12 +332,12 @@ class KarbuinHandler(BaseHTTPRequestHandler):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--port", type=int, default=8000)
-    parser.add_argument("--host", default="0.0.0.0")
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")))
+    parser.add_argument("--host", default=os.environ.get("HOST", "0.0.0.0"))
     args = parser.parse_args()
 
     server = ThreadingHTTPServer((args.host, args.port), KarbuinHandler)
-    print(f"🏍 Karbuin v0.1.0 running at http://localhost:{args.port}")
+    print(f"🏍 Karbuin v{os.environ.get('KARBUIN_VERSION', '1.1.2')} running at http://{args.host}:{args.port}")
     print(f"   Data: {len(KB.motor)} motor | {len(KB.komponen)} komponen | {len(KB.gejala)} gejala | {len(KB.penyebab)} penyebab | {len(KB.relasi)} relasi")
     try:
         server.serve_forever()

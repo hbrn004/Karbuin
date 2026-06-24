@@ -1,0 +1,11 @@
+# Karbuin v1.1.2 — production requirements
+#
+# Engine FROZEN. Hanya stdlib + minimal deps untuk deployment.
+# Tidak ada perubahan logika diagnosis.
+
+# No external dependencies required.
+# Karbuin engine uses Python stdlib only (http.server, sqlite3, json, hashlib).
+#
+# Jika nanti ingin migrate ke production WSGI server (gunicorn),
+# uncomment baris di bawah:
+# gunicorn==21.2.0

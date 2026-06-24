@@ -1793,5 +1793,37 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "vm20_mikuni_f1zr",
+    "name": "Karburator Mikuni VM20 (Yamaha F1ZR)",
+    "description": "Karburator Mikuni VM20 slide untuk Yamaha F1ZR 110cc era 90-an. Slide carburetor sport bebek Yamaha legendaris.",
+    "category": "karburator",
+    "aliases": [
+      "karburator vm20 f1zr",
+      "vm20 f1zr",
+      "karburator f1zr 110",
+      "vm20 mikuni f1zr"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_f1zr",
+    "name": "Kiprok Yamaha F1ZR 110cc (analog tua)",
+    "description": "Kiprok Yamaha F1ZR 110cc tipe analog regulator era 90-an. Kiprok Yamaha tua lebih rentan lemah setelah 15+ tahun pakai, terutama F1ZR dengan populasi motor tua.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok f1zr 110",
+      "kiprok yamaha f1zr",
+      "kiprok f1zr analog",
+      "kiprok yamaha 110 tua"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

@@ -276,5 +276,14 @@
     "verified_date": "2026-06-25",
     "url": null,
     "note": "Konsolidasi bengkel Yamaha Jupiter 135cc karbu — klep, idle kasar Mikuni VM20, kiprok analog, lampu redup. Tanpa service manual page reference."
+  },
+  {
+    "id": "src_yamaha_f1zr_komunitas_2025",
+    "source_text": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor Yamaha tua Indonesia 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Yamaha F1ZR 110cc karbu — klep, idle kasar Mikuni VM20, kiprok analog tua, lampu redup, soket korosi. Tanpa service manual page reference."
   }
 ]

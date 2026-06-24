@@ -2751,5 +2751,100 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_f1zr",
+    "name": "Klep bunyi khas F1ZR 110cc",
+    "description": "Klep bunyi/tik-tik pada Yamaha F1ZR 110cc. Yamaha sport bebek 110cc era 90-an dengan klep perlu setel berkala setiap 6000-10000 km.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi f1zr",
+      "klep berisik f1zr",
+      "klep bunyi yamaha f1zr",
+      "klep bunyi f1zr 110",
+      "klep tik tik f1zr",
+      "bunyi klep f1zr"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_f1zr",
+    "name": "RPM tidak stabil F1ZR 110cc",
+    "description": "RPM naik turun/idle kasar pada Yamaha F1ZR 110cc era 90-an. Motor F1ZR sudah tua (1993-2000) — pilot jet Mikuni VM20 sering tersumbat oleh deposit bensin tua.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil f1zr",
+      "rpm naik turun f1zr",
+      "idle kasar f1zr",
+      "langsam kasar f1zr",
+      "rpm naik turun yamaha f1zr",
+      "langsam naik turun f1zr"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_f1zr",
+    "name": "Lampu redup F1ZR 110cc",
+    "description": "Lampu redup di RPM rendah pada Yamaha F1ZR 110cc era 90-an. F1ZR pakai sistem kelistrikan AC analog, lampu tergantung output kiprok dan spul. Motor tua rentan kabel korosi.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup f1zr",
+      "lampu kurang terang f1zr",
+      "lampu redup di langsam f1zr",
+      "lampu redup yamaha f1zr",
+      "lampu redup f1zr 110",
+      "lampu redup rpm rendah f1zr"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_f1zr",
+    "name": "Kiprok lemah F1ZR 110cc (Yamaha tua)",
+    "description": "Kiprok lemah, charging tidak optimal pada Yamaha F1ZR 110cc era 90-an. Kiprok Yamaha tua tipe analog rentan lemah setelah 10+ tahun pakai, korosi pada sambungan kelistrikan.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah f1zr",
+      "kiprok rusak f1zr",
+      "kiprok panas f1zr",
+      "kiprok ga ngecas f1zr",
+      "kiprok yamaha f1zr",
+      "kiprok lemah yamaha tua",
+      "kiprok lemah f1zr 110"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "starter_tidak_stabil_f1zr",
+    "name": "Starter hidup tapi RPM tidak stabil (F1ZR)",
+    "description": "Mesin hidup dengan electric starter tapi RPM langsung tidak stabil. Yamaha F1ZR tua (era 90-an) kadang ada masalah pada pilot jet Mikuni VM20 tersumbat atau klep renggang.",
+    "severity": "medium",
+    "category": "starter",
+    "aliases": [
+      "starter hidup rpm tidak stabil f1zr",
+      "starter hidup tapi rpm kasar f1zr",
+      "starter hidup langsung rpm naik turun f1zr",
+      "starter hidup idle kasar f1zr",
+      "starter hidup rpm naik turun yamaha f1zr"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

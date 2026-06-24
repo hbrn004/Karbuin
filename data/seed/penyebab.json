@@ -3196,5 +3196,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_f1zr_lemah",
+    "name": "Kiprok Yamaha F1ZR 110cc analog tua lemah",
+    "description": "Kiprok Yamaha F1ZR 110cc tipe analog regulator lemah. Umum pada Yamaha F1ZR 110cc dan Yamaha sport bebek era 90-an lainnya setelah 10-15 tahun pakai atau kabel korosi.",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": "kiprok_yamaha_f1zr",
+    "mechanic_notes": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V saat RPM atas. Lemah jika < 13.5V. Untuk motor tua, cek juga soket dan ground apakah korosi.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "spul_lemah",
+      "aki_lemah",
+      "kabel_pengisian_kendor"
+    ],
+    "similar_causes": [
+      "kiprok_rusak",
+      "kiprok_yamaha_modern_lemah"
+    ],
+    "solution_free": "Cek soket kiprok, bersihkan korosi, pastikan ground terhubung baik. Kabel korosi sering menjadi penyebab F1ZR.",
+    "solution_budget": "Ganti kiprok Yamaha aftermarket (Rp 75.000-150.000) atau kiprok Yamaha Vega/Jupiter yang compatible (Rp 100.000-200.000).",
+    "solution_full": "Ganti kiprok original Yamaha (Rp 200.000-350.000) + cek spul dan aki + ganti soket korosi.",
+    "cost_part": "Rp 75.000-350.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Cek soket kiprok berkala setiap 2 tahun. Untuk motor tua, ganti soket jika terlihat korosi.",
+    "diagnosis_method": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V. Lemah jika < 13.5V.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "q_f1zr_usia",
+        "question": "Motor Yamaha F1ZR sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "Kiprok Yamaha tua rata-rata lemah setelah 10-15 tahun"
+      },
+      {
+        "id": "q_f1zr_soket",
+        "question": "Soket kiprok pernah dicek atau diganti?",
+        "when_to_ask": "always",
+        "why_it_matters": "Soket korosi = penyebab umum kiprok lemah pada motor tua"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

@@ -7711,7 +7711,7 @@
     "motor_filter": [
       "suzuki_smash"
     ],
-    "weight": 5,
+    "weight": 7,
     "confidence": "high",
     "verified": false,
     "source_type": "community_knowledge",
@@ -7765,7 +7765,7 @@
     "motor_filter": [
       "suzuki_smash"
     ],
-    "weight": 5,
+    "weight": 7,
     "confidence": "high",
     "verified": false,
     "source_type": "community_knowledge",
@@ -8251,7 +8251,7 @@
     "motor_filter": [
       "suzuki_smash"
     ],
-    "weight": 5,
+    "weight": 7,
     "confidence": "high",
     "verified": false,
     "source_type": "community_knowledge",
@@ -8359,7 +8359,7 @@
     "motor_filter": [
       "kawasaki_kaze"
     ],
-    "weight": 5,
+    "weight": 7,
     "confidence": "high",
     "id": 621,
     "evidence": "Primary",
@@ -8413,7 +8413,7 @@
     "motor_filter": [
       "kawasaki_kaze"
     ],
-    "weight": 5,
+    "weight": 7,
     "confidence": "high",
     "id": 624,
     "evidence": "Primary",
@@ -8827,7 +8827,7 @@
     "motor_filter": [
       "kawasaki_kaze"
     ],
-    "weight": 5,
+    "weight": 7,
     "confidence": "high",
     "id": 647,
     "evidence": "Primary",

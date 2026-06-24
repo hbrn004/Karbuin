@@ -1858,5 +1858,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "bs26_mikuni_byson",
+    "name": "Karburator Mikuni BS26 (Yamaha Byson)",
+    "description": "Karburator Mikuni BS26 untuk Yamaha Byson 150cc. Mikuni BS26 sama dengan Vixion tapi dengan main jet size yang sedikit beda untuk kebutuhan torsi Byson.",
+    "category": "karburator",
+    "aliases": [
+      "karburator bs26 byson",
+      "bs26 byson",
+      "karburator byson 150",
+      "bs26 mikuni byson"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_byson",
+    "name": "Kiprok Yamaha Byson 150cc",
+    "description": "Kiprok Yamaha Byson 150cc tipe analog regulator. Kiprok Byson beda dengan Vixion — regulator Yamaha Byson lebih rentan lemah setelah 8-10 tahun pakai.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok byson 150",
+      "kiprok yamaha byson",
+      "kiprok byson",
+      "kiprok yamaha byson 150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_byson",
+    "name": "CDI Yamaha Byson 150cc",
+    "description": "CDI Yamaha Byson 150cc — CDI analog yang terkenal rentan lemah pada Byson era 2008-2012. Setelah 7-10 tahun, CDI Byson sering lemah, mesin mati sendiri, susah hidup.",
+    "category": "listrik",
+    "aliases": [
+      "cdi byson",
+      "cdi yamaha byson",
+      "cdi byson 150",
+      "cdi yamaha byson 150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

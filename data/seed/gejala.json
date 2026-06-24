@@ -3388,5 +3388,115 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_byson",
+    "name": "Klep bunyi khas Byson 150cc",
+    "description": "Klep bunyi/tik-tik pada Yamaha Byson 150cc. Byson pakai head sport Yamaha 150cc — klep perlu setel berkala setiap 6000-10000 km.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi byson",
+      "klep berisik byson",
+      "klep bunyi yamaha byson",
+      "klep bunyi byson 150",
+      "klep tik tik byson",
+      "bunyi klep byson",
+      "klep bunyi bgt",
+      "klep berisik bgt"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_byson",
+    "name": "RPM tidak stabil Byson 150cc",
+    "description": "RPM naik turun/idle kasar pada Yamaha Byson 150cc. Byson pakai Mikuni BS26 — pilot jet rentan tersumbat pada bensin kurang bersih.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil byson",
+      "rpm naik turun byson",
+      "idle kasar byson",
+      "langsam kasar byson",
+      "rpm naik turun yamaha byson",
+      "langsam naik turun byson",
+      "ga stabil",
+      "ngga stabil",
+      "nggak stabil",
+      "gak stabil"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_byson",
+    "name": "Lampu redup Byson 150cc",
+    "description": "Lampu redup di RPM rendah pada Yamaha Byson 150cc. Byson pakai sistem AC analog — lampu tergantung output kiprok dan spul Byson.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup byson",
+      "lampu kurang terang byson",
+      "lampu redup di langsam byson",
+      "lampu redup yamaha byson",
+      "lampu redup byson 150",
+      "lampu redup rpm rendah byson",
+      "lampu redup bgt",
+      "lampu ngga terang"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_byson",
+    "name": "Kiprok lemah Byson 150cc",
+    "description": "Kiprok lemah, charging tidak optimal pada Yamaha Byson 150cc. Kiprok Byson beda dengan Vixion — regulator Yamaha Byson lebih rentan lemah setelah 8-10 tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah byson",
+      "kiprok rusak byson",
+      "kiprok panas byson",
+      "kiprok ga ngecas byson",
+      "kiprok yamaha byson",
+      "kiprok lemah yamaha 150",
+      "kiprok lemah byson 150",
+      "kiprok ga ngecas",
+      "kiprok ngga kuat",
+      "kiprok gak kuat"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_lemah_byson",
+    "name": "CDI lemah Byson 150cc (khas Yamaha Byson)",
+    "description": "CDI lemah, sering mesin mati sendiri atau susah hidup pada Yamaha Byson 150cc. CDI Byson terkenal rentan lemah — common issue pada Byson era 2008-2012, terutama setelah 7-10 tahun pakai atau aki soak.",
+    "severity": "high",
+    "category": "listrik",
+    "aliases": [
+      "cdi lemah byson",
+      "cdi rusak byson",
+      "cdi byson mati",
+      "cdi byson ga nyala",
+      "cdi yamaha byson",
+      "cdi lemah yamaha 150",
+      "cdi lemah byson 150",
+      "mesin mati sendiri byson",
+      "susah hidup byson cdi"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

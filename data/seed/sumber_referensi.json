@@ -294,5 +294,14 @@
     "verified_date": "2026-06-25",
     "url": null,
     "note": "Konsolidasi bengkel Yamaha Scorpio 225cc karbu — CC terbesar, Mikuni BS28, klep CC besar, kiprok Scorpio, tenaga hilang RPM bawah, getaran. Tanpa service manual page reference."
+  },
+  {
+    "id": "src_yamaha_byson_komunitas_2025",
+    "source_text": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Yamaha Byson 150cc karbu — CDI lemah (common issue), Mikuni BS26, kiprok Byson, lampu redup, klep Byson. Tanpa service manual page reference."
   }
 ]

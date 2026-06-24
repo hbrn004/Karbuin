@@ -7483,5 +7483,226 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Main jet tersumbat = ngempos Scorpio"
+  },
+  {
+    "id": 568,
+    "symptom_id": "klep_bunyi_byson",
+    "cause_id": "klep_renggang",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang butuh setel berkala"
+  },
+  {
+    "id": 569,
+    "symptom_id": "klep_bunyi_byson",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal klep bocor perparah klep bunyi"
+  },
+  {
+    "id": 570,
+    "symptom_id": "rpm_tidak_stabil_byson",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS26 tersumbat"
+  },
+  {
+    "id": 571,
+    "symptom_id": "rpm_tidak_stabil_byson",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet Mikuni BS26 tersumbat"
+  },
+  {
+    "id": 572,
+    "symptom_id": "rpm_tidak_stabil_byson",
+    "cause_id": "klep_renggang",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang sebabkan RPM tidak stabil"
+  },
+  {
+    "id": 573,
+    "symptom_id": "lampu_redup_byson",
+    "cause_id": "kiprok_yamaha_byson_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Byson lemah = lampu redup"
+  },
+  {
+    "id": 574,
+    "symptom_id": "lampu_redup_byson",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Yamaha modern lemah — applies to Byson too"
+  },
+  {
+    "id": 575,
+    "symptom_id": "lampu_redup_byson",
+    "cause_id": "spul_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = lampu redup"
+  },
+  {
+    "id": 576,
+    "symptom_id": "lampu_redup_byson",
+    "cause_id": "aki_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Aki soak = lampu redup"
+  },
+  {
+    "id": 577,
+    "symptom_id": "kiprok_lemah_byson",
+    "cause_id": "kiprok_yamaha_byson_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Byson lemah — primary cause"
+  },
+  {
+    "id": 578,
+    "symptom_id": "kiprok_lemah_byson",
+    "cause_id": "kiprok_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok rusak total"
+  },
+  {
+    "id": 579,
+    "symptom_id": "kiprok_lemah_byson",
+    "cause_id": "spul_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = output kiprok rendah"
+  },
+  {
+    "id": 580,
+    "symptom_id": "cdi_lemah_byson",
+    "cause_id": "cdi_byson_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "CDI Byson lemah — primary cause Byson"
+  },
+  {
+    "id": 581,
+    "symptom_id": "cdi_lemah_byson",
+    "cause_id": "aki_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Aki soak picu CDI rusak"
+  },
+  {
+    "id": 582,
+    "symptom_id": "cdi_lemah_byson",
+    "cause_id": "kiprok_rusak",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok rusak sebabkan CDI gagal"
+  },
+  {
+    "id": 583,
+    "symptom_id": "suara_klep",
+    "cause_id": "klep_renggang",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang — khas Byson"
+  },
+  {
+    "id": 584,
+    "symptom_id": "rpm_naik_turun",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_byson_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS26 tersumbat"
   }
 ]

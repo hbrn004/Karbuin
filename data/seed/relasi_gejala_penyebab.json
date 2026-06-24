@@ -8352,5 +8352,869 @@
     "source_ref": "src_suzuki_smash_v137",
     "populated": true,
     "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kiprok_lemah_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 621,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_lemah_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_rusak",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 622,
+    "evidence": "Worse case",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_lemah_kaze",
+    "cause_id": "aki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "id": 623,
+    "evidence": "Aki soak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_tidak_mengisi_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_rusak",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 624,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_tidak_mengisi_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 625,
+    "evidence": "Output drop",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_tidak_mengisi_kaze",
+    "cause_id": "grounding_kaze_kendor",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "id": 626,
+    "evidence": "Grounding",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "klep_bunyi_kaze",
+    "cause_id": "klep_kaze_renggang",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 627,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "klep_bunyi_kaze",
+    "cause_id": "klep_kaze_pengap",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 628,
+    "evidence": "Karbon",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_kaze",
+    "cause_id": "pilot_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 629,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_kaze",
+    "cause_id": "intake_leak_kaze",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 630,
+    "evidence": "Vacuum leak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_kaze",
+    "cause_id": "main_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "id": 631,
+    "evidence": "High RPM",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "lampu_redup_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 632,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "lampu_redup_kaze",
+    "cause_id": "aki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "medium",
+    "id": 633,
+    "evidence": "Aki soak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "lampu_redup_kaze",
+    "cause_id": "grounding_kaze_kendor",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 1,
+    "confidence": "low",
+    "id": 634,
+    "evidence": "Grounding",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "brebet_kaze",
+    "cause_id": "main_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 635,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "brebet_kaze",
+    "cause_id": "pilot_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 636,
+    "evidence": "Secondary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "brebet_kaze",
+    "cause_id": "intake_leak_kaze",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 637,
+    "evidence": "Vacuum leak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "asap_hitam_kaze",
+    "cause_id": "main_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 638,
+    "evidence": "Campuran kaya",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "asap_putih_kaze",
+    "cause_id": "klep_kaze_pengap",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 639,
+    "evidence": "Seal klep bocor",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "asap_putih_kaze",
+    "cause_id": "klep_kaze_renggang",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 640,
+    "evidence": "Klep tidak rapat",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "tenaga_hilang_kaze",
+    "cause_id": "klep_kaze_renggang",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 641,
+    "evidence": "Kompresi turun",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "tenaga_hilang_kaze",
+    "cause_id": "main_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 642,
+    "evidence": "Bensin kurang",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "tenaga_hilang_kaze",
+    "cause_id": "intake_leak_kaze",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 643,
+    "evidence": "Vacuum leak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "starter_berat_kaze",
+    "cause_id": "aki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 644,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "starter_berat_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 645,
+    "evidence": "Aki tidak charge",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "bunyi_timing_keras_kaze",
+    "cause_id": "rantai_timing_kaze_kendur",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 646,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kelistrikan_trouble_kaze",
+    "cause_id": "grounding_kaze_kendor",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 647,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kelistrikan_trouble_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_rusak",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 648,
+    "evidence": "Kiprok rusak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kelistrikan_trouble_kaze",
+    "cause_id": "aki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 649,
+    "evidence": "Aki lemah",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "mesin_ga_mau_hidup_kaze",
+    "cause_id": "kiprok_kawasaki_kaze_rusak",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 650,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "mesin_ga_mau_hidup_kaze",
+    "cause_id": "aki_kaze_lemah",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 651,
+    "evidence": "Aki soak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "mesin_ga_mau_hidup_kaze",
+    "cause_id": "main_jet_kaze_clogged",
+    "motor_filter": [
+      "kawasaki_kaze"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 652,
+    "evidence": "Bensin tidak sampai",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_lemah_ninja",
+    "cause_id": "kiprok_ninja_150_2_tak_lemah",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 653,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "kiprok_lemah_ninja",
+    "cause_id": "kiprok_ninja_150_2_tak_rusak",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 654,
+    "evidence": "Worse",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "cdi_lemah_ninja",
+    "cause_id": "cdi_ninja_150_2_tak_lemah",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 655,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "cdi_lemah_ninja",
+    "cause_id": "cdi_ninja_150_2_tak_rusak",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 2,
+    "confidence": "high",
+    "id": 656,
+    "evidence": "Severe",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "klep_bunyi_ninja",
+    "cause_id": "reed_valve_ninja_aus",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 657,
+    "evidence": "Primary - 2-tak",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_ninja",
+    "cause_id": "pilot_jet_ninja_clogged",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 658,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "rpm_tidak_stabil_ninja",
+    "cause_id": "oil_pump_ninja_rusak",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 659,
+    "evidence": "2-tak specific",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "brebet_ninja",
+    "cause_id": "main_jet_ninja_clogged",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 660,
+    "evidence": "Primary",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "brebet_ninja",
+    "cause_id": "oil_pump_ninja_rusak",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 661,
+    "evidence": "2-tak specific",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "asap_biru_ninja",
+    "cause_id": "oil_pump_ninja_rusak",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 662,
+    "evidence": "Primary - 2-tak asap biru",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "asap_biru_ninja",
+    "cause_id": "ring_piston_ninja_aus",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 663,
+    "evidence": "Ring piston aus",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "tenaga_hilang_ninja",
+    "cause_id": "ring_piston_ninja_aus",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 5,
+    "confidence": "high",
+    "id": 664,
+    "evidence": "Kompresi turun",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "tenaga_hilang_ninja",
+    "cause_id": "seher_ninja_baret",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 3,
+    "confidence": "high",
+    "id": 665,
+    "evidence": "Seher baret",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "tenaga_hilang_ninja",
+    "cause_id": "main_jet_ninja_clogged",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 666,
+    "evidence": "Bensin kurang",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "knocking_ninja",
+    "cause_id": "oil_pump_ninja_rusak",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 3,
+    "confidence": "medium",
+    "id": 667,
+    "evidence": "2-tak over-rev",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "symptom_id": "knocking_ninja",
+    "cause_id": "seher_ninja_baret",
+    "motor_filter": [
+      "kawasaki_ninja_150"
+    ],
+    "weight": 2,
+    "confidence": "medium",
+    "id": 668,
+    "evidence": "Kompresi bocor",
+    "source_ref": "src_kawasaki_v137",
+    "populated": true,
+    "last_reviewed": "2026-06-25",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
   }
 ]

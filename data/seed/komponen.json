@@ -2158,5 +2158,127 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Suzuki Smash 110cc pakai karburator Keihin PE. Main jet size tergantung kondisi. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_kawasaki_kaze",
+    "name": "Kiprok Kawasaki Kaze 110cc (AC regulator)",
+    "aliases": [
+      "kiprok kaze",
+      "kiprok kawasaki kaze",
+      "kiprok kawasaki 110",
+      "regulator kaze",
+      "kiprok kaze 110",
+      "kawasaki kaze kiprok",
+      "kaze kiprok",
+      "kiprok kawasaki"
+    ],
+    "category": "electrical",
+    "related_motors": [
+      "kawasaki_kaze"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc karbu pakai kiprok AC regulator. Common failure. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_kawasaki_ninja",
+    "name": "Kiprok Kawasaki Ninja 150 (KR150) 2-tak regulator",
+    "aliases": [
+      "kiprok ninja",
+      "kiprok kawasaki ninja",
+      "kiprok kr150",
+      "kiprok ninja 150",
+      "kiprok kawasaki 150",
+      "kiprok ninja 2 tak",
+      "regulator ninja 150",
+      "kiprok kr150 2 tak"
+    ],
+    "category": "electrical",
+    "related_motors": [
+      "kawasaki_ninja_150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak pakai kiprok AC regulator full-wave. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_kawasaki_ninja",
+    "name": "CDI Kawasaki Ninja 150 (KR150) 2-tak DC-CDI",
+    "aliases": [
+      "cdi ninja",
+      "cdi kawasaki ninja",
+      "cdi kr150",
+      "cdi ninja 150",
+      "cdi kawasaki 150",
+      "cdi ninja 2 tak",
+      "cdi kr150 2 tak"
+    ],
+    "category": "electrical",
+    "related_motors": [
+      "kawasaki_ninja_150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak pakai CDI DC unit terpisah. Tanpa service manual page reference."
+  },
+  {
+    "id": "oil_pump_ninja",
+    "name": "Oil pump Kawasaki Ninja 150 (KR150) 2-tak",
+    "aliases": [
+      "oil pump ninja",
+      "pompa oli ninja",
+      "oil pump kr150",
+      "pompa oli kr150",
+      "oil pump kawasaki ninja"
+    ],
+    "category": "engine_mechanical",
+    "related_motors": [
+      "kawasaki_ninja_150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak pakai oil pump injection otomatis. Tanpa service manual page reference."
+  },
+  {
+    "id": "seher_ninja",
+    "name": "Seher / Piston Kawasaki Ninja 150 (KR150) 2-tak",
+    "aliases": [
+      "seher ninja",
+      "piston ninja",
+      "seher kr150",
+      "piston kr150",
+      "seher kawasaki ninja"
+    ],
+    "category": "engine_mechanical",
+    "related_motors": [
+      "kawasaki_ninja_150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak piston 56mm. Common failure: baret/aus. Tanpa service manual page reference."
+  },
+  {
+    "id": "pe24_ninja_main_jet",
+    "name": "Main jet PE24 Kawasaki Ninja 150 (KR150) 2-tak",
+    "aliases": [
+      "main jet ninja",
+      "main jet kr150",
+      "main jet kawasaki ninja",
+      "main jet ninja 150",
+      "pe24 ninja"
+    ],
+    "category": "fuel_system",
+    "related_motors": [
+      "kawasaki_ninja_150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak pakai karburator Mikuni VM26 atau PE24. Tanpa service manual page reference."
   }
 ]

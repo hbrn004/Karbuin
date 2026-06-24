@@ -3752,5 +3752,338 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Suzuki Smash 110cc grounding kendor = kelistrikan trouble random. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_kawasaki_kaze_lemah",
+    "name": "Kiprok Kawasaki Kaze lemah",
+    "aliases": [
+      "kiprok kawasaki kaze lemah",
+      "kiprok kaze lemah",
+      "regulator kaze lemah"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kiprok_kawasaki_kaze"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc kiprok lemah. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_kawasaki_kaze_rusak",
+    "name": "Kiprok Kawasaki Kaze rusak",
+    "aliases": [
+      "kiprok kawasaki kaze rusak",
+      "kiprok kaze rusak",
+      "regulator kaze rusak"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kiprok_kawasaki_kaze"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc kiprok rusak total. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_kaze_renggang",
+    "name": "Klep Kaze renggang",
+    "aliases": [
+      "klep kaze renggang",
+      "klep kawasaki kaze renggang"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "klep"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc klep renggang. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_kaze_pengap",
+    "name": "Klep Kaze pengap/karbon",
+    "aliases": [
+      "klep kaze pengap",
+      "karbon klep kaze"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "klep"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc klep pengap. Tanpa service manual page reference."
+  },
+  {
+    "id": "pilot_jet_kaze_clogged",
+    "name": "Pilot jet Kaze tersumbat",
+    "aliases": [
+      "pilot jet kaze tersumbat",
+      "pilot jet kawasaki kaze clogged"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "pilot_jet"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc pilot jet clogged. Tanpa service manual page reference."
+  },
+  {
+    "id": "main_jet_kaze_clogged",
+    "name": "Main jet Kaze tersumbat",
+    "aliases": [
+      "main jet kaze tersumbat",
+      "main jet kawasaki kaze clogged"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "main_jet"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc main jet clogged. Tanpa service manual page reference."
+  },
+  {
+    "id": "intake_leak_kaze",
+    "name": "Intake manifold Kaze bocor",
+    "aliases": [
+      "intake kaze bocor",
+      "karet intake kaze bocor",
+      "intake leak kaze"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "intake_manifold",
+      "intake_clamp"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc intake bocor. Tanpa service manual page reference."
+  },
+  {
+    "id": "aki_kaze_lemah",
+    "name": "Aki Kawasaki Kaze lemah",
+    "aliases": [
+      "aki kaze lemah",
+      "aki kawasaki kaze lemah",
+      "aki kaze soak"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "aki"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc aki lemah. Tanpa service manual page reference."
+  },
+  {
+    "id": "rantai_timing_kaze_kendur",
+    "name": "Rantai timing Kaze kendur",
+    "aliases": [
+      "rantai timing kaze kendur",
+      "rantai keteng kaze kendur",
+      "timing chain kaze kendor"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "rantai_keteng"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc rantai timing kendur. Tanpa service manual page reference."
+  },
+  {
+    "id": "grounding_kaze_kendor",
+    "name": "Grounding Kawasaki Kaze kendor",
+    "aliases": [
+      "grounding kaze kendor",
+      "massa kaze kendor",
+      "kabel massa kaze kendor"
+    ],
+    "category": "electrical",
+    "related_components": [],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze 110cc grounding kendor. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_ninja_150_2_tak_lemah",
+    "name": "Kiprok Ninja 150 2-tak lemah",
+    "aliases": [
+      "kiprok ninja lemah",
+      "kiprok kr150 lemah",
+      "kiprok ninja 150 lemah"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kiprok_kawasaki_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak kiprok lemah. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_ninja_150_2_tak_rusak",
+    "name": "Kiprok Ninja 150 2-tak rusak",
+    "aliases": [
+      "kiprok ninja rusak",
+      "kiprok kr150 rusak",
+      "kiprok ninja 150 rusak"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "kiprok_kawasaki_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak kiprok rusak. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_ninja_150_2_tak_lemah",
+    "name": "CDI Ninja 150 2-tak lemah",
+    "aliases": [
+      "cdi ninja lemah",
+      "cdi kr150 lemah",
+      "cdi ninja 150 lemah"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "cdi_kawasaki_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak CDI lemah. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_ninja_150_2_tak_rusak",
+    "name": "CDI Ninja 150 2-tak rusak",
+    "aliases": [
+      "cdi ninja rusak",
+      "cdi kr150 rusak",
+      "cdi ninja 150 rusak"
+    ],
+    "category": "electrical",
+    "related_components": [
+      "cdi_kawasaki_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak CDI rusak. Tanpa service manual page reference."
+  },
+  {
+    "id": "reed_valve_ninja_aus",
+    "name": "Reed valve Ninja 150 2-tak aus",
+    "aliases": [
+      "reed valve ninja aus",
+      "klep ninja aus",
+      "reed valve kr150 lemah"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak reed valve aus = bunyi tek tek. Tanpa service manual page reference."
+  },
+  {
+    "id": "oil_pump_ninja_rusak",
+    "name": "Oil pump Ninja 150 2-tak rusak",
+    "aliases": [
+      "oil pump ninja rusak",
+      "pompa oli ninja rusak",
+      "oil pump kr150 rusak"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "oil_pump_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak oil pump rusak = asap biru, mesin kemretek. Tanpa service manual page reference."
+  },
+  {
+    "id": "ring_piston_ninja_aus",
+    "name": "Ring piston Ninja 150 2-tak aus",
+    "aliases": [
+      "ring piston ninja aus",
+      "ring seher ninja aus",
+      "ring piston kr150 aus"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "seher_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak ring piston aus = kompresi turun, asap biru. Tanpa service manual page reference."
+  },
+  {
+    "id": "seher_ninja_baret",
+    "name": "Seher Ninja 150 2-tak baret",
+    "aliases": [
+      "seher ninja baret",
+      "piston ninja baret",
+      "seher kr150 baret"
+    ],
+    "category": "engine_mechanical",
+    "related_components": [
+      "seher_ninja"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak seher baret = kompresi bocor. Tanpa service manual page reference."
+  },
+  {
+    "id": "pilot_jet_ninja_clogged",
+    "name": "Pilot jet Ninja 150 2-tak tersumbat",
+    "aliases": [
+      "pilot jet ninja tersumbat",
+      "pilot jet kr150 clogged"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "pilot_jet",
+      "pe24_ninja_main_jet"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak pilot jet clogged. Tanpa service manual page reference."
+  },
+  {
+    "id": "main_jet_ninja_clogged",
+    "name": "Main jet Ninja 150 2-tak tersumbat",
+    "aliases": [
+      "main jet ninja tersumbat",
+      "main jet kr150 clogged"
+    ],
+    "category": "fuel_system",
+    "related_components": [
+      "main_jet",
+      "pe24_ninja_main_jet"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak main jet clogged. Tanpa service manual page reference."
   }
 ]

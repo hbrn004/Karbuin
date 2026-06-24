@@ -671,5 +671,39 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kawasaki_ninja_150",
+    "brand": "Kawasaki",
+    "model": "Ninja 150",
+    "year_start": 1999,
+    "year_end": 2007,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni VM26 / PE24",
+    "engine_cc": 150,
+    "engine_type": "2_tak",
+    "category": "sport",
+    "common_aliases": [
+      "ninja 150",
+      "kawasaki ninja",
+      "kawasaki ninja 150",
+      "kr150",
+      "ninja 2 tak",
+      "kr150 2 tak",
+      "kawasaki kr150"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "busi_gap_mm": 0.6,
+      "compression_kg_cm2": "11-13 (2-tak)",
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Kawasaki Ninja KR150 2-tak. Tanpa service manual page reference."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Ninja KR150 2-tak sport — knowledge komunitas mekanik motor Kawasaki Indonesia. Tanpa service manual page reference."
   }
 ]

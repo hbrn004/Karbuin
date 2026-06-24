@@ -1102,5 +1102,124 @@
       "suara abnormal"
     ],
     "severity_if_failed": "high"
+  },
+  {
+    "id": "kampas_rem",
+    "name": "Kampas rem",
+    "category": "rem",
+    "aliases": [
+      "pad rem",
+      "kampak rem",
+      "brake pad",
+      "kampas rem cakram",
+      "kampas rem tromol"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen standar pabrikan aftermarket/OEM."
+  },
+  {
+    "id": "kabel_rem",
+    "name": "Kabel rem",
+    "category": "rem",
+    "aliases": [
+      "brake cable",
+      "kabel rem depan",
+      "kabel rem belakang",
+      "kabel rem motor"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen kabel mekanik. Motor karbu lawas pakai sistem cable."
+  },
+  {
+    "id": "minyak_rem",
+    "name": "Minyak rem",
+    "category": "rem",
+    "aliases": [
+      "brake fluid",
+      "oli rem",
+      "minyak rem DOT",
+      "cairan rem"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Untuk sistem rem hydraulic. Beberapa motor karbu baru pakai ini."
+  },
+  {
+    "id": "bearing_roda_depan",
+    "name": "Bearing roda depan",
+    "category": "chassis",
+    "aliases": [
+      "bearing depan",
+      "bearing as roda depan",
+      "bearing hub depan"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen chassis standar."
+  },
+  {
+    "id": "bearing_roda_belakang",
+    "category": "chassis",
+    "name": "Bearing roda belakang",
+    "aliases": [
+      "bearing belakang",
+      "bearing as roda belakang",
+      "bearing hub belakang"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen chassis standar."
+  },
+  {
+    "id": "rantai_roda",
+    "name": "Rantai roda",
+    "category": "rantai",
+    "aliases": [
+      "rantai motor",
+      "rantai penggerak",
+      "chain",
+      "rantai roda motor"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen penggerak roda belakang motor sport/manual."
+  },
+  {
+    "id": "kabel_kopling",
+    "name": "Kabel kopling",
+    "category": "control",
+    "aliases": [
+      "cable kopling",
+      "kabel clutch",
+      "kabel kopling manual"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor transmisi manual pakai kabel kopling."
+  },
+  {
+    "id": "gear_engkol",
+    "name": "Gear engkol",
+    "category": "engine",
+    "aliases": [
+      "gear kick starter",
+      "gear engkol starter",
+      "gear engkol motor",
+      "kick starter gear",
+      "gear engkol kick"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Komponen kick starter engkol. Motor karbu pakai engkol."
   }
 ]

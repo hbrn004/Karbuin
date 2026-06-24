@@ -163,5 +163,21 @@
     "verified_by": "yun_kb_curator",
     "date": "2026-06-25",
     "reliability": "medium"
+  },
+  {
+    "id": "src_bengkel_umum_karbu_2025",
+    "source_type": "bengkel_umum",
+    "verified_by": "komunitas_karbu_indonesia_2025",
+    "source_text": "Pengalaman umum bengkel motor karbu di Indonesia, dikumpulkan via diskusi komunitas 2025.",
+    "reliability": "medium",
+    "date": "2025-06-25"
+  },
+  {
+    "id": "src_mek_senior_pool_2025",
+    "source_type": "community_knowledge",
+    "verified_by": "mek_karbu_pool_2025",
+    "source_text": "Pool knowledge dari mekanik senior motor karbu Indonesia, tanpa service manual pabrikan.",
+    "reliability": "medium",
+    "date": "2025-06-25"
   }
 ]

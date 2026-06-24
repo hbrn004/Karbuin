@@ -4306,5 +4306,284 @@
     "source_type": "community_knowledge",
     "confidence": "low",
     "last_reviewed": "2026-06-25"
+  },
+  {
+    "symptom_id": "kampas_rem_aus",
+    "cause_id": "kampas_rem_aus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 307
+  },
+  {
+    "symptom_id": "kampas_rem_aus",
+    "cause_id": "minyak_rem_habis",
+    "weight": 6,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 308
+  },
+  {
+    "symptom_id": "kampas_rem_aus",
+    "cause_id": "kabel_rem_putus",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 309
+  },
+  {
+    "symptom_id": "kabel_rem_putus",
+    "cause_id": "kabel_rem_putus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 310
+  },
+  {
+    "symptom_id": "kabel_rem_putus",
+    "cause_id": "kampas_rem_aus",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 311
+  },
+  {
+    "symptom_id": "kabel_rem_putus",
+    "cause_id": "minyak_rem_habis",
+    "weight": 4,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 312
+  },
+  {
+    "symptom_id": "rem_blong",
+    "cause_id": "kampas_rem_aus",
+    "weight": 8,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 313
+  },
+  {
+    "symptom_id": "rem_blong",
+    "cause_id": "kabel_rem_putus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 314
+  },
+  {
+    "symptom_id": "rem_blong",
+    "cause_id": "minyak_rem_habis",
+    "weight": 8,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 315
+  },
+  {
+    "symptom_id": "rem_blong",
+    "cause_id": "seal_klep_bocor",
+    "weight": 2,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 316
+  },
+  {
+    "symptom_id": "kabel_gas_putus",
+    "cause_id": "kabel_gas_putus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 317
+  },
+  {
+    "symptom_id": "kabel_gas_putus",
+    "cause_id": "karburator_overflow",
+    "weight": 4,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 318
+  },
+  {
+    "symptom_id": "kabel_gas_putus",
+    "cause_id": "setelan_langsam_salah",
+    "weight": 3,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 319
+  },
+  {
+    "symptom_id": "rante_kendor",
+    "cause_id": "rante_kendor_perlu_setel",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 320
+  },
+  {
+    "symptom_id": "rante_kendor",
+    "cause_id": "rantai_keteng_kendor",
+    "weight": 6,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 321
+  },
+  {
+    "symptom_id": "rpm_tidak_turun",
+    "cause_id": "kabel_gas_putus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 322
+  },
+  {
+    "symptom_id": "rpm_tidak_turun",
+    "cause_id": "karburator_overflow",
+    "weight": 7,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 323
+  },
+  {
+    "symptom_id": "rpm_tidak_turun",
+    "cause_id": "setelan_langsam_salah",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 324
+  },
+  {
+    "symptom_id": "rpm_tidak_turun",
+    "cause_id": "vacuum_bocor",
+    "weight": 4,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 325
+  },
+  {
+    "symptom_id": "bearing_roda_rusak",
+    "cause_id": "bearing_rusak",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 326
+  },
+  {
+    "symptom_id": "bearing_roda_rusak",
+    "cause_id": "seal_klep_bocor",
+    "weight": 2,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 327
+  },
+  {
+    "symptom_id": "kabel_kopling_putus",
+    "cause_id": "kanvas_kopling_aus",
+    "weight": 4,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 328
+  },
+  {
+    "symptom_id": "oli_bocor_seal_klep",
+    "cause_id": "seal_klep_bocor",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 329
+  },
+  {
+    "symptom_id": "oli_bocor_seal_klep",
+    "cause_id": "ring_piston_aus",
+    "weight": 6,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 330
+  },
+  {
+    "symptom_id": "transmisi_bunyi",
+    "cause_id": "bearing_rusak",
+    "weight": 7,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 331
+  },
+  {
+    "symptom_id": "transmisi_bunyi",
+    "cause_id": "kanvas_kopling_aus",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 332
+  },
+  {
+    "symptom_id": "transmisi_bunyi",
+    "cause_id": "ring_piston_aus",
+    "weight": 3,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 333
+  },
+  {
+    "symptom_id": "rante_kendor",
+    "cause_id": "piston_aus_berlebihan",
+    "weight": 3,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 334
+  },
+  {
+    "symptom_id": "kabel_kopling_putus",
+    "cause_id": "kabel_kopling_putus",
+    "weight": 9,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 335
+  },
+  {
+    "symptom_id": "oli_bocor_seal_klep",
+    "cause_id": "gasket_rusak",
+    "weight": 5,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 336
+  },
+  {
+    "symptom_id": "transmisi_bunyi",
+    "cause_id": "gear_engkol_aus",
+    "weight": 7,
+    "verified": false,
+    "source_type": "community_knowledge",
+    "motor_filter": null,
+    "id": 337
   }
 ]

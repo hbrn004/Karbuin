@@ -1476,5 +1476,208 @@
     "category": "transmisi",
     "severity": "high",
     "description": "Kopling selip — RPM naik saat gas ditarik tapi motor tidak responsif (tenaga tidak tersalur ke roda). Penyebab utama: kanvas kopling aus, per kopling lemah, atau setting kabel kopling salah. Umum di motor sport karbu (Byson, Scorpio, Tiger)."
+  },
+  {
+    "id": "kampas_rem_aus",
+    "name": "Kampas rem aus",
+    "category": "rem",
+    "aliases": [
+      "kampas rem tipis",
+      "kampak rem tipis",
+      "rem kurang pakem",
+      "rem ga pakem",
+      "rem ngerem kurang",
+      "pad rem aus",
+      "rem perlu ditekan dalam",
+      "rem di dalam banget"
+    ],
+    "severity": "high",
+    "description": "Kampas rem sudah tipis atau habis. Indikasi: rem kurang pakem, butuh ditekan dalam untuk berhenti, suara decit saat rem.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi mekanik senior spesifik."
+  },
+  {
+    "id": "kabel_rem_putus",
+    "name": "Kabel rem putus",
+    "category": "rem",
+    "aliases": [
+      "kabel rem putus",
+      "kabel rem kendor",
+      "tuas rem longgar",
+      "rem ga berfungsi kabel",
+      "kabel rem nyangkut",
+      "kabel rem macet",
+      "kabel rem karat"
+    ],
+    "severity": "high",
+    "description": "Kabel rem putus atau macet. Indikasi: rem tidak pakem walaupun tuas ditarik penuh, atau rem blong.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Motor karbu lawas pakai rem cable, issue umum."
+  },
+  {
+    "id": "rem_blong",
+    "name": "Rem blong",
+    "category": "rem",
+    "aliases": [
+      "rem blong total",
+      "rem ga nyala",
+      "rem ga ada",
+      "rem tidak berfungsi",
+      "tidak bisa berhenti",
+      "rem hilang",
+      "rem ga ngerem sama sekali"
+    ],
+    "severity": "high",
+    "description": "Rem tidak berfungsi sama sekali atau sangat minim. BAHAYA - jangan dipakai jalan.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Critical safety issue. Bisa dari kampas habis, kabel putus, minyak rem habis."
+  },
+  {
+    "id": "kabel_gas_putus",
+    "name": "Kabel gas putus",
+    "category": "control",
+    "aliases": [
+      "kabel gas putus",
+      "gas ga responsif",
+      "gas nyangkut",
+      "gas ga turun",
+      "rpm stuck tinggi",
+      "gas macet",
+      "kabel gas kendor",
+      "kabel gas nyangkut"
+    ],
+    "severity": "high",
+    "description": "Kabel gas putus atau macet. Indikasi: RPM stuck tinggi saat gas dilepas, atau gas tidak responsif.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum."
+  },
+  {
+    "id": "rante_kendor",
+    "name": "Rantai kendur",
+    "category": "rantai",
+    "aliases": [
+      "rantai kendor",
+      "rantai longgar",
+      "rantai kopong",
+      "rantai harus setel",
+      "rantai kurang kencang",
+      "rantai longgar banget",
+      "rantai perlu disetel"
+    ],
+    "severity": "high",
+    "description": "Rantai roda kendur. Indikasi: bunyi klak-klak, tarikan tidak sampai ke roda, rantai bisa lepas.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Perlu disetel berkala 5000-10000 km."
+  },
+  {
+    "id": "rpm_tidak_turun",
+    "name": "RPM tidak turun saat gas dilepas",
+    "category": "idle",
+    "aliases": [
+      "rpm stuck",
+      "rpm ga turun",
+      "gas nyangkut rpm tinggi",
+      "rpm stuck tinggi",
+      "langsam tinggi tidak turun",
+      "gas macet rpm tinggi",
+      "rpm stuck di langsam"
+    ],
+    "severity": "high",
+    "description": "RPM tidak turun saat gas dilepas. Indikasi: throttle macet, kabel gas putus, atau karburator overflow.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue umum motor karbu tua. Kabel gas putus atau karburator sending unit macet."
+  },
+  {
+    "id": "bearing_roda_rusak",
+    "name": "Bearing roda rusak",
+    "category": "chassis",
+    "aliases": [
+      "bearing roda rusak",
+      "bearing bunyi",
+      "bunyi dengung roda",
+      "roda bunyi",
+      "bearing oblack",
+      "bearing macet",
+      "bearing kopel bunyi",
+      "bearing roda bunyi terus"
+    ],
+    "severity": "medium",
+    "description": "Bearing roda (depan/belakang) sudah rusak. Indikasi: bunyi dengung atau kretek saat jalan, terutama RPM tinggi.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue chassis, bukan karbu pure. Tapi relevan untuk diagnosa motor."
+  },
+  {
+    "id": "kabel_kopling_putus",
+    "name": "Kabel kopling putus",
+    "category": "control",
+    "aliases": [
+      "kabel kopling putus",
+      "kopling ga bisa",
+      "tuas kopling longgar",
+      "kopling tidak masuk",
+      "kabel kopling macet",
+      "kabel kopling kendor",
+      "kopling tidak responsif"
+    ],
+    "severity": "medium",
+    "description": "Kabel kopling putus atau macet. Indikasi: tuas kopling ditarik tapi gigi tidak masuk.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Motor karbu sport/transmisi manual. Issue umum kabel kopling putus."
+  },
+  {
+    "id": "oli_bocor_seal_klep",
+    "name": "Oli bocor di seal klep",
+    "category": "oli",
+    "aliases": [
+      "oli bocor klep",
+      "asap biru",
+      "seal klep bocor",
+      "asap knalpot biru",
+      "asap knalpot bau gosong",
+      "asap biru bau gosong",
+      "asap biru tebal"
+    ],
+    "severity": "high",
+    "description": "Oli masuk ruang bakar karena seal klep rusak. Indikasi: asap biru dari knalpot, bau gosong, oli cepat habis.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Issue umum motor karbu tua. Seal klep aus karena usia/jarak tempuh."
+  },
+  {
+    "id": "transmisi_bunyi",
+    "name": "Transmisi bunyi",
+    "category": "transmisi",
+    "aliases": [
+      "transmisi bunyi",
+      "gear bunyi",
+      "suara dengung transmisi",
+      "bunyi di transmisi",
+      "gear aus bunyi",
+      "persneling bunyi",
+      "suara kasar transmisi"
+    ],
+    "severity": "medium",
+    "description": "Transmisi (gear box) mengeluarkan bunyi tidak normal. Indikasi: bunyi dengung, kretek, atau gemeretak dari area mesin.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Bisa dari gear aus, bearing kopel rusak, atau oli transmisi habis."
   }
 ]

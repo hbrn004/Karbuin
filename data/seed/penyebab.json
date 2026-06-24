@@ -1908,5 +1908,472 @@
     ],
     "mechanic_notes": "Cek juga sprocket, jika sudah tajem ganti bareng tensioner.",
     "prevention_tips": "Ganti oli mesin tepat waktu. Rutin cek tensioner setiap 20.000 km."
+  },
+  {
+    "id": "kampas_rem_aus",
+    "name": "Kampas rem aus",
+    "aliases": [
+      "kampas rem aus"
+    ],
+    "related_components": [
+      "kampas_rem"
+    ],
+    "likelihood_default": 7,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Kampas rem aus. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "high",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_kampas_rem_aus_0",
+        "question": "Apakah kampas rem terlihat tipis (< 2mm) saat inspeksi visual?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      },
+      {
+        "id": "fu_kampas_rem_aus_1",
+        "question": "Apakah rem berbunyi decit saat digunakan?",
+        "yes_weight_bonus": 2,
+        "no_weight_penalty": -1
+      }
+    ],
+    "solution_free": "Inspeksi kampas rem aus. Ganti jika rusak.",
+    "solution_budget": "Ganti dengan aftermarket (kampas rem aus standar).",
+    "solution_full": "Ganti OEM/aftermarket + bersihkan area sekitar.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue umum terkait kampas_rem.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "kabel_rem_putus",
+    "name": "Kabel rem putus",
+    "aliases": [
+      "kabel rem putus"
+    ],
+    "related_components": [
+      "kabel_rem"
+    ],
+    "likelihood_default": 7,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Kabel rem putus. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "high",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_kabel_rem_putus_0",
+        "question": "Apakah tuas rem ditarik tapi rem tidak pakem?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_kabel_rem_putus_1",
+        "question": "Apakah kabel rem terlihat putus atau karat?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi kabel rem putus. Ganti jika rusak.",
+    "solution_budget": "Ganti dengan aftermarket (kabel rem putus standar).",
+    "solution_full": "Ganti OEM/aftermarket + bersihkan area sekitar.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue umum terkait kabel_rem.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "minyak_rem_habis",
+    "name": "Minyak rem habis",
+    "aliases": [
+      "minyak rem habis"
+    ],
+    "related_components": [
+      "minyak_rem"
+    ],
+    "likelihood_default": 7,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Minyak rem habis. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "high",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_minyak_rem_habis_0",
+        "question": "Apakah reservoir minyak rem kosong atau di bawah minimum?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      }
+    ],
+    "solution_free": "Inspeksi minyak rem habis. Ganti jika rusak.",
+    "solution_budget": "Ganti dengan aftermarket (minyak rem habis standar).",
+    "solution_full": "Ganti OEM/aftermarket + bersihkan area sekitar.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue umum terkait minyak_rem.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "bearing_rusak",
+    "name": "Bearing roda rusak",
+    "aliases": [
+      "bearing roda rusak"
+    ],
+    "related_components": [
+      "bearing_roda_depan",
+      "bearing_roda_belakang"
+    ],
+    "likelihood_default": 7,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Bearing roda rusak. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "high",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_bearing_rusak_0",
+        "question": "Apakah bunyi dengung muncul saat motor jalan dan hilang saat idle?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      },
+      {
+        "id": "fu_bearing_rusak_1",
+        "question": "Apakah roda bisa digoyang-goyang (longgar)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi bearing roda rusak. Ganti jika rusak.",
+    "solution_budget": "Ganti dengan aftermarket (bearing roda rusak standar).",
+    "solution_full": "Ganti OEM/aftermarket + bersihkan area sekitar.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue umum terkait bearing_roda_depan.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "kabel_gas_putus",
+    "name": "Kabel gas putus",
+    "aliases": [
+      "kabel gas putus"
+    ],
+    "related_components": [
+      "kabel_gas"
+    ],
+    "likelihood_default": 7,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Kabel gas putus. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "high",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_kabel_gas_putus_0",
+        "question": "Apakah RPM stuck tinggi saat gas dilepas?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_kabel_gas_putus_1",
+        "question": "Apakah kabel gas terlihat putus atau karat?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi kabel gas putus. Ganti jika rusak.",
+    "solution_budget": "Ganti dengan aftermarket (kabel gas putus standar).",
+    "solution_full": "Ganti OEM/aftermarket + bersihkan area sekitar.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue umum terkait kabel_gas.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "rante_kendor_perlu_setel",
+    "name": "Rantai kendur perlu disetel",
+    "aliases": [
+      "rantai kendur perlu disetel"
+    ],
+    "related_components": [
+      "rantai_roda"
+    ],
+    "likelihood_default": 7,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Rantai kendur perlu disetel. Issue umum bengkel motor karbu.",
+    "diagnosis_method": "Inspeksi visual dan fungsi.",
+    "risk_level": "high",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_rante_kendor_0",
+        "question": "Apakah rantai bisa ditarik lebih dari 2cm dari posisi normal?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_rante_kendor_1",
+        "question": "Apakah terdengar bunyi klak-klak dari area roda belakang?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi rantai kendur perlu disetel. Ganti jika rusak.",
+    "solution_budget": "Ganti dengan aftermarket (rantai kendur perlu disetel standar).",
+    "solution_full": "Ganti OEM/aftermarket + bersihkan area sekitar.",
+    "cost_part": 50000,
+    "cost_labor": 30000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [],
+    "mechanic_notes": "Issue umum terkait rantai_roda.",
+    "prevention_tips": "Periksa berkala 5000-10000 km.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Tanpa verifikasi pabrikan spesifik."
+  },
+  {
+    "id": "piston_aus_berlebihan",
+    "name": "Piston aus berlebihan",
+    "aliases": [
+      "piston baret",
+      "piston baret dalam",
+      "piston macet"
+    ],
+    "category": "engine",
+    "related_components": [
+      "piston",
+      "ring_piston",
+      "silinder"
+    ],
+    "likelihood_default": 5,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Piston sudah sangat aus. Indikasi: kompresi sangat rendah, asap biru tebal, oli cepat habis.",
+    "diagnosis_method": "Compression test dan visual inspection silinder.",
+    "risk_level": "high",
+    "diy_level": "hard",
+    "estimated_minutes": 240,
+    "follow_up_questions": [
+      {
+        "id": "fu_piston_aus_0",
+        "question": "Apakah kompresi test menunjukkan di bawah 8 kg/cm²?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      },
+      {
+        "id": "fu_piston_aus_1",
+        "question": "Apakah oli mesin cepat habis (< 2000 km)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Compression test untuk konfirmasi.",
+    "solution_budget": "Bongkar mesin + ganti ring piston (Rp 80-150rb parts).",
+    "solution_full": "Overhaul mesin: ganti piston, ring, klep, seal.",
+    "cost_part": 150000,
+    "cost_labor": 200000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [
+      "seal_klep_bocor",
+      "ring_piston_aus"
+    ],
+    "mechanic_notes": "Piston aus biasanya pada motor > 50,000 km tanpa ganti ring.",
+    "prevention_tips": "Ganti oli berkala, hindari RPM tinggi terus-menerus.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum. Threshold kompresi varies per motor."
+  },
+  {
+    "id": "kabel_kopling_putus",
+    "name": "Kabel kopling putus",
+    "aliases": [
+      "cable kopling putus",
+      "kabel kopling kendor",
+      "kopling kabel putus"
+    ],
+    "category": "control",
+    "related_components": [
+      "kabel_kopling"
+    ],
+    "likelihood_default": 7,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Kabel kopling putus atau macet. Indikasi: tuas kopling ditarik tapi gigi tidak masuk.",
+    "diagnosis_method": "Inspeksi visual kabel + fungsi tuas kopling.",
+    "risk_level": "medium",
+    "diy_level": "easy",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_kabel_kopling_0",
+        "question": "Apakah tuas kopling ditarik penuh tapi gigi tidak masuk?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      }
+    ],
+    "solution_free": "Inspeksi kabel kopling.",
+    "solution_budget": "Ganti kabel kopling aftermarket (Rp 25-50rb).",
+    "solution_full": "Ganti kabel kopling OEM + setel setelan kopling.",
+    "cost_part": 35000,
+    "cost_labor": 25000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [
+      "kanvas_kopling_aus"
+    ],
+    "mechanic_notes": "Kabel kopling putus biasanya karena karat atau tertarik paksa.",
+    "prevention_tips": "Lumasi kabel kopling berkala, jangan tarik paksa.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum."
+  },
+  {
+    "id": "gasket_rusak",
+    "name": "Gasket rusak/bocor",
+    "aliases": [
+      "gasket bocor",
+      "paking bocor",
+      "gasket head bocor",
+      "gasket rusak"
+    ],
+    "category": "engine",
+    "related_components": [
+      "gasket_kepala_silinder"
+    ],
+    "likelihood_default": 6,
+    "severity": "high",
+    "urgency": "medium",
+    "description": "Gasket kepala silinder atau gasket lain bocor. Indikasi: oli campur coolant, atau asap putih dari knalpot.",
+    "diagnosis_method": "Inspeksi gasket, tes coolant system.",
+    "risk_level": "high",
+    "diy_level": "medium",
+    "estimated_minutes": 90,
+    "follow_up_questions": [
+      {
+        "id": "fu_gasket_rusak_0",
+        "question": "Apakah oli coolant berkurang tanpa kebocoran jelas?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      },
+      {
+        "id": "fu_gasket_rusak_1",
+        "question": "Apakah ada tetesan coolant di bawah kepala silinder?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      }
+    ],
+    "solution_free": "Inspeksi gasket untuk tanda kebocoran.",
+    "solution_budget": "Ganti gasket + coolant (Rp 50-100rb).",
+    "solution_full": "Ganti gasket OEM + skir ulang kepala silinder.",
+    "cost_part": 75000,
+    "cost_labor": 80000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [
+      "seal_klep_bocor"
+    ],
+    "mechanic_notes": "Gasket rusak sering di-overlap dengan seal klep bocor. Compression test pembeda.",
+    "prevention_tips": "Ganti coolant berkala, hindari overheat.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum."
+  },
+  {
+    "id": "gear_engkol_aus",
+    "name": "Gear engkol aus",
+    "aliases": [
+      "gear kick starter aus",
+      "gear engkol rusak",
+      "kick starter keras"
+    ],
+    "category": "engine",
+    "related_components": [
+      "gear_engkol"
+    ],
+    "likelihood_default": 6,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Gear engkol kick starter sudah aus. Indikasi: engkol keras atau tidak engage, transmisi bunyi.",
+    "diagnosis_method": "Inspeksi gear saat bongkar.",
+    "risk_level": "medium",
+    "diy_level": "hard",
+    "estimated_minutes": 180,
+    "follow_up_questions": [
+      {
+        "id": "fu_gear_engkol_0",
+        "question": "Apakah engkol sangat keras atau sering slip?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -3
+      }
+    ],
+    "solution_free": "Inspeksi visual gear saat bongkar.",
+    "solution_budget": "Ganti gear engkol aftermarket (Rp 50-100rb).",
+    "solution_full": "Ganti gear + bushing + per kick starter.",
+    "cost_part": 75000,
+    "cost_labor": 100000,
+    "priority_causes": [],
+    "alternative_causes": [],
+    "similar_causes": [
+      "kompresi_rendah"
+    ],
+    "mechanic_notes": "Motor karbu tua gear engkol sering aus karena sering dipakai.",
+    "prevention_tips": "Hindari kick starter paksa saat mesin sudah hidup.",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Knowledge bengkel umum."
   }
 ]

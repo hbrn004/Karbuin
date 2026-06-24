@@ -2068,5 +2068,107 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_legenda",
+    "name": "Klep bunyi khas Legenda (Honda 100-125cc)",
+    "description": "Klep bunyi/tik-tik yang khas pada Honda Legenda 100-125cc. Kelemahan umum Honda sport ringan karbu — klep butuh penyetelan berkala setiap 5000-8000 km karena desain klep Honda Legenda lebih sensitif terhadap pemuaian.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi legenda",
+      "klep berisik legenda",
+      "klep bunyi honda 100cc",
+      "klep bunyi honda 125cc",
+      "klep berisik honda legenda",
+      "bunyi klep legenda",
+      "klep bunyi terus legenda",
+      "klep tik tik legenda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_legenda",
+    "name": "Lampu redup (Legenda 125cc electric start)",
+    "description": "Lampu redup di RPM rendah, kurang terang saat idle. Honda Legenda dengan electric starter, sistem kelistrikan AC-CDI — lampu sangat tergantung output kiprok.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup legenda",
+      "lampu kurang terang legenda",
+      "lampu redup di langsam legenda",
+      "lampu redup honda legenda",
+      "lampu redup honda 125cc",
+      "lampu redup rpm rendah legenda",
+      "lampu redup electric legenda",
+      "lampu redup rpm atas legenda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_legenda",
+    "name": "Kiprok lemah (Honda Legenda 125cc)",
+    "description": "Kiprok lemah, charging tidak optimal pada Honda Legenda 125cc. Honda sport ringan karbu lawas rentan kiprok lemah setelah 5+ tahun pakai, terutama model dengan electric starter yang beban listrik lebih berat.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah legenda",
+      "kiprok rusak legenda",
+      "kiprok panas legenda",
+      "kiprok ga ngecas legenda",
+      "kiprok honda legenda",
+      "kiprok lemah honda 125cc",
+      "kiprok lemah honda legenda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "brebet_atas_legenda",
+    "name": "Brebet RPM atas (Honda Legenda 100-125cc)",
+    "description": "Brebet/tersendat saat RPM atas pada Honda Legenda 100-125cc. Gejala umum Honda sport ringan karbu lawas, sering terkait main jet PE18 yang sudah aus atau tersumbat parsial.",
+    "severity": "high",
+    "category": "tenaga",
+    "aliases": [
+      "brebet rpm atas legenda",
+      "brebet atas legenda",
+      "brebet di rpm atas legenda",
+      "brebet tinggi legenda",
+      "brebet honda legenda",
+      "ngempos rpm atas legenda",
+      "brebet gas full legenda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_lemah_legenda",
+    "name": "CDI lemah electric start (Honda Legenda)",
+    "description": "CDI electric start lemah, percikan api busi tidak stabil pada Honda Legenda dengan electric starter. CDI tipe AC electric berbeda dengan CDI kick — lebih kompleks dan rentan lemah setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "cdi lemah legenda",
+      "cdi rusak legenda",
+      "cdi ga ada percikan legenda",
+      "cdi honda legenda",
+      "cdi lemah honda 125cc",
+      "cdi electric lemah legenda",
+      "cdi electric legenda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

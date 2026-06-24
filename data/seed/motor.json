@@ -267,5 +267,34 @@
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda GL Pro 160cc karbu. Tanpa service manual page reference."
     }
+  },
+  {
+    "id": "honda_legenda_karbu",
+    "brand": "Honda",
+    "model": "Legenda",
+    "year_start": 1995,
+    "year_end": 2010,
+    "fuel_system": "carburetor",
+    "carb_type": "PE18",
+    "engine_cc": 125,
+    "category": "sport_ringan",
+    "common_aliases": [
+      "legenda",
+      "honda legenda",
+      "astrea legenda",
+      "legenda 100",
+      "legenda 125"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.6,
+      "compression_kg_cm2": 8.5,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Honda Legenda 100-125cc karbu. Tanpa service manual page reference."
+    }
   }
 ]

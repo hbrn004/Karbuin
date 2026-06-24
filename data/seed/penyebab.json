@@ -2844,5 +2844,54 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "cdi_electric_legenda_lemah",
+    "name": "CDI electric start Legenda lemah",
+    "description": "CDI Honda Legenda electric start sudah lemah/tidak optimal. CDI electric berbeda dengan CDI kick starter — ada regulator internal yang lebih rentan rusak setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": null,
+    "mechanic_notes": "Test percikan api busi dengan busi test. Bandingkan percikan CDI baru vs lama. CDI electric lemah biasanya ditunjukkan dengan percikan tidak konsisten saat RPM berubah-ubah.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "koil_panas",
+      "busi_aus",
+      "kabel_pengapian_putus"
+    ],
+    "similar_causes": [
+      "cdi_rusak",
+      "cdi_honda_lemah",
+      "cdi_honda_sport_lemah"
+    ],
+    "solution_free": "Cek soket CDI, bersihkan korosi, pastikan ground terhubung baik. Cek juga wiring electric starter karena ada jalur terpisah untuk starter.",
+    "solution_budget": "Ganti CDI Honda Legenda electric aftermarket (Rp 100.000-200.000).",
+    "solution_full": "Ganti CDI original Honda Legenda electric (Rp 250.000-400.000) + cek koil jika CDI masih lemah.",
+    "cost_part": "Rp 100.000-400.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Hindari mesin overheat. Cek soket CDI berkala. Jangan biarkan aki drop terlalu lama (beban regulator CDI tinggi).",
+    "diagnosis_method": "Test percikan api busi dengan busi test saat RPM idle dan RPM atas. Jika percikan lemah/kuning saat RPM atas, CDI electric lemah.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "q_cdi_usia_legenda",
+        "question": "CDI sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "CDI Honda Legenda electric rata-rata lemah setelah 5-7 tahun"
+      },
+      {
+        "id": "q_electric_starter_issue",
+        "question": "Electric starter masih hidup normal?",
+        "when_to_ask": "always",
+        "why_it_matters": "Electric starter lemah = CDI regulator mungkin sudah rusak"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

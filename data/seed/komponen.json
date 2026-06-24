@@ -1503,5 +1503,37 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda GL Pro 160cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "karburator_pe18_legenda",
+    "name": "Karburator PE18 Keihin (Honda Legenda)",
+    "description": "Karburator PE18 Keihin khusus Honda Legenda 100-125cc. Share tipe dengan Honda Grand, tapi tune out of the factory sedikit berbeda untuk karakter Honda Legenda yang lebih irit.",
+    "category": "karburator",
+    "aliases": [
+      "karburator pe18 legenda",
+      "karburator honda legenda",
+      "pe18 legenda",
+      "pe18 honda 125cc legenda"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_honda_legenda",
+    "name": "Kiprok Honda Legenda 125cc (electric starter)",
+    "description": "Kiprok Honda Legenda 125cc versi electric starter. Output lebih besar dibanding versi kick starter untuk handle beban electric starter dan lampu yang lebih terang.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok legenda 125",
+      "kiprok honda legenda",
+      "kiprok pe24 legenda",
+      "kiprok honda 125cc"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

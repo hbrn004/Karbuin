@@ -213,5 +213,14 @@
     "verified_date": "2026-06-25",
     "url": null,
     "note": "Konsolidasi bengkel Honda GL Pro 160cc — klep, CDI, kiprok, lampu. Tanpa service manual page reference."
+  },
+  {
+    "id": "src_honda_legenda_komunitas_2025",
+    "source_text": "Honda Legenda 100-125cc karbu — knowledge komunitas mekanik Honda 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Honda Legenda 100-125cc electric start — klep, CDI, kiprok, lampu, brebet. Tanpa service manual page reference."
   }
 ]

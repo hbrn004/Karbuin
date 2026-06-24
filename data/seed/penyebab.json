@@ -32,8 +32,18 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": -2
       },
-      "Apakah setelah bongkar karburator untuk servis, gejala ini mulai muncul? (kesempatan bocor intake)",
-      "Karet intake terlihat retak atau lembek saat diraba?"
+      {
+        "id": "fu_intake_leak_02",
+        "question": "Apakah setelah bongkar karburator untuk servis, gejala ini mulai muncul? (kesempatan bocor intake)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_intake_leak_03",
+        "question": "Karet intake terlihat retak atau lembek saat diraba?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
@@ -78,8 +88,18 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": -1
       },
-      "Apakah bensin akhir-akhir ini sering isi di pompa yang berbeda? (kualitas bensin penyebab utama pilot jet mampet)",
-      "Sudah pernah bongkar pilot jet untuk cleaning dalam 6 bulan terakhir?"
+      {
+        "id": "fu_pilot_jet_clogged_01",
+        "question": "Apakah bensin akhir-akhir ini sering isi di pompa yang berbeda? (kualitas bensin penyebab utama pilot jet mampet)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_pilot_jet_clogged_02",
+        "question": "Sudah pernah bongkar pilot jet untuk cleaning dalam 6 bulan terakhir?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
@@ -129,8 +149,18 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": -1
       },
-      "Bensin di tangki sudah berapa lama? (lebih dari 1 bulan = risiko endapan)",
-      "Brebet hanya di RPM atas, atau di semua RPM?"
+      {
+        "id": "fu_main_jet_clogged_02",
+        "question": "Bensin di tangki sudah berapa lama? (lebih dari 1 bulan = risiko endapan)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_main_jet_clogged_03",
+        "question": "Brebet hanya di RPM atas, atau di semua RPM?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
@@ -181,8 +211,18 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": -1
       },
-      "Busi terakhir diganti kapan? Standar motor karbu 8.000-12.000 km.",
-      "Warna elektroda busi hitam pekat, putih, atau coklat normal?"
+      {
+        "id": "fu_busi_aus_02",
+        "question": "Busi terakhir diganti kapan? Standar motor karbu 8.000-12.000 km.",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_busi_aus_03",
+        "question": "Warna elektroda busi hitam pekat, putih, atau coklat normal?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
@@ -239,8 +279,18 @@
     "mechanic_notes": "Setel dan cek busi, busi_socket",
     "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
     "follow_up_questions": [
-      "Busi dicabut dan dideketkan ke blok mesin saat distarter, ada api?",
-      "Busi basah bensin atau kering saat dicabut?"
+      {
+        "id": "fu_busi_rusak_00",
+        "question": "Busi dicabut dan dideketkan ke blok mesin saat distarter, ada api?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_busi_rusak_01",
+        "question": "Busi basah bensin atau kering saat dicabut?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ]
   },
   {
@@ -273,10 +323,21 @@
         "id": "fu_filter_recent_clean",
         "question": "Apakah filter udara sudah pernah dicuci atau diganti dalam 6 bulan terakhir?",
         "yes_weight_bonus": -4,
-        "no_weight_bonus": 3
+        "no_weight_bonus": 3,
+        "no_weight_penalty": -1
       },
-      "Filter udara terakhir dibersihkan/diganti kapan? (standar 3.000-5.000 km)",
-      "Motor sering dipakai di jalan berdebu atau kawasan industri?"
+      {
+        "id": "fu_filter_udara_kotor_02",
+        "question": "Filter udara terakhir dibersihkan/diganti kapan? (standar 3.000-5.000 km)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_filter_udara_kotor_03",
+        "question": "Motor sering dipakai di jalan berdebu atau kawasan industri?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
@@ -338,8 +399,18 @@
     "mechanic_notes": "Setel dan cek kiprok",
     "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
     "follow_up_questions": [
-      "Tegangan aki saat mesin hidup berapa volt? (normal 13.5-14.5V)",
-      "Aki sering tekor padahal baru di-charge?"
+      {
+        "id": "fu_kiprok_rusak_00",
+        "question": "Tegangan aki saat mesin hidup berapa volt? (normal 13.5-14.5V)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_kiprok_rusak_01",
+        "question": "Aki sering tekor padahal baru di-charge?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ]
   },
   {
@@ -492,8 +563,18 @@
     "mechanic_notes": "Setel dan cek koil",
     "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
     "follow_up_questions": [
-      "Busi dicabut, dideketkan ke blok, ada api biru kuat atau kuning lemah?",
-      "Gejala hilang saat mesin dingin dan muncul saat panas? (ciri koil lemah)"
+      {
+        "id": "fu_koil_lemah_00",
+        "question": "Busi dicabut, dideketkan ke blok, ada api biru kuat atau kuning lemah?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_koil_lemah_01",
+        "question": "Gejala hilang saat mesin dingin dan muncul saat panas? (ciri koil lemah)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ]
   },
   {
@@ -533,8 +614,18 @@
     "mechanic_notes": "Setel dan cek klep",
     "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
     "follow_up_questions": [
-      "Sudah pernah setel klep dalam 10.000 km terakhir? Standar 8.000-12.000 km.",
-      "Bunyi tek-tek hilang saat mesin panas atau malah tambah keras?"
+      {
+        "id": "fu_klep_renggang_00",
+        "question": "Sudah pernah setel klep dalam 10.000 km terakhir? Standar 8.000-12.000 km.",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_klep_renggang_01",
+        "question": "Bunyi tek-tek hilang saat mesin panas atau malah tambah keras?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ]
   },
   {
@@ -575,8 +666,18 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": -1
       },
-      "Asap knalpot biru tipis atau tebal? (tipis = ring aus awal, tebal = parah)",
-      "Kompresi diukur dengan kompresor tester, berapa kg/cm2? (normal 10-12)"
+      {
+        "id": "fu_ring_piston_aus_03",
+        "question": "Asap knalpot biru tipis atau tebal? (tipis = ring aus awal, tebal = parah)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_ring_piston_aus_04",
+        "question": "Kompresi diukur dengan kompresor tester, berapa kg/cm2? (normal 10-12)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
@@ -673,8 +774,18 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 0
       },
-      "Bensin isi di SPBU mana terakhir? (kualitas bervariasi)",
-      "Filter bensin terakhir diganti kapan?"
+      {
+        "id": "fu_bensin_kotor_03",
+        "question": "Bensin isi di SPBU mana terakhir? (kualitas bervariasi)",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_bensin_kotor_04",
+        "question": "Filter bensin terakhir diganti kapan?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 15,000-50,000)",
@@ -730,8 +841,18 @@
     "mechanic_notes": "Setel dan cek intake_manifold, intake_clamp",
     "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
     "follow_up_questions": [
-      "Karet intake sudah berapa tahun (umumnya karet mulai retak di usia 5+ tahun)?",
-      "Saat RPM dinaik-turunkan, ada suara desisan dari area karburator-intake?"
+      {
+        "id": "fu_vacuum_bocor_00",
+        "question": "Karet intake sudah berapa tahun (umumnya karet mulai retak di usia 5+ tahun)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_vacuum_bocor_01",
+        "question": "Saat RPM dinaik-turunkan, ada suara desisan dari area karburator-intake?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ]
   },
   {
@@ -806,8 +927,18 @@
     "mechanic_notes": "Setel dan cek klep",
     "prevention_tips": "Servis berkala 2-3 bulan sekali, ganti oli mesin tepat waktu, jaga kebersihan motor",
     "follow_up_questions": [
-      "Asap knalpot biru tipis saat baru hidup pagi, lalu hilang setelah mesin panas?",
-      "Oli mesin cepat habis dalam 1000 km?"
+      {
+        "id": "fu_seal_klep_bocor_00",
+        "question": "Asap knalpot biru tipis saat baru hidup pagi, lalu hilang setelah mesin panas?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_seal_klep_bocor_01",
+        "question": "Oli mesin cepat habis dalam 1000 km?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ]
   },
   {
@@ -952,8 +1083,18 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 6
       },
-      "Karburator pernah dibongkar atau terendam banjir?",
-      "Saat gas ditutup tiba-tiba, mesin mati atau RPM turun normal?"
+      {
+        "id": "fu_pelampung_macet_01",
+        "question": "Karburator pernah dibongkar atau terendam banjir?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_pelampung_macet_02",
+        "question": "Saat gas ditutup tiba-tiba, mesin mati atau RPM turun normal?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
@@ -1100,8 +1241,18 @@
         "yes_weight_bonus": 5,
         "no_weight_penalty": 3
       },
-      "Apakah gas spontan saat dilepas (RPM naik dulu), atau RPM langsung turun tapi mesin mati?",
-      "Setelan baut udara di posisi berapa (1.5, 2, atau 2.5 putaran)?"
+      {
+        "id": "fu_setelan_angin_salah_01",
+        "question": "Apakah gas spontan saat dilepas (RPM naik dulu), atau RPM langsung turun tapi mesin mati?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_setelan_angin_salah_02",
+        "question": "Setelan baut udara di posisi berapa (1.5, 2, atau 2.5 putaran)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
@@ -1151,8 +1302,18 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 2
       },
-      "Apakah RPM idle di atas 2000 terus-menerus, atau naik-turun antara 1500-2500?",
-      "Saat gas dilepas, RPM langsung turun normal atau malah naik dulu?"
+      {
+        "id": "fu_setelan_langsam_salah_01",
+        "question": "Apakah RPM idle di atas 2000 terus-menerus, atau naik-turun antara 1500-2500?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_setelan_langsam_salah_02",
+        "question": "Saat gas dilepas, RPM langsung turun normal atau malah naik dulu?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 5,000-25,000)",
@@ -1203,8 +1364,18 @@
         "yes_weight_bonus": 4,
         "no_weight_penalty": 3
       },
-      "RPM idle bisa distel naik-turun dengan baut langsam, atau macet?",
-      "Kabel gas ditarik-tarik, terasa ada yang nyangkut?"
+      {
+        "id": "fu_skep_macet_01",
+        "question": "RPM idle bisa distel naik-turun dengan baut langsam, atau macet?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_skep_macet_02",
+        "question": "Kabel gas ditarik-tarik, terasa ada yang nyangkut?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 30,000-100,000)",
@@ -1412,8 +1583,18 @@
         "yes_weight_bonus": 6,
         "no_weight_penalty": 2
       },
-      "Sudah pernah ukur kompresi? Berapa kg/cm2 hasilnya?",
-      "Oli mesin cepat habis atau tidak?"
+      {
+        "id": "fu_kompresi_rendah_01",
+        "question": "Sudah pernah ukur kompresi? Berapa kg/cm2 hasilnya?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_kompresi_rendah_02",
+        "question": "Oli mesin cepat habis atau tidak?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Cek koneksi dan bersihkan komponen",
     "solution_budget": "Ganti komponen aftermarket (Rp 250,000-800,000)",
@@ -1553,8 +1734,18 @@
     "diy_level": "intermediate",
     "estimated_minutes": 90,
     "follow_up_questions": [
-      "Kapan terakhir bongkar kopling?",
-      "Motor sering bawa beban berat atau stop-and-go?"
+      {
+        "id": "fu_kanvas_kopling_aus_00",
+        "question": "Kapan terakhir bongkar kopling?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_kanvas_kopling_aus_01",
+        "question": "Motor sering bawa beban berat atau stop-and-go?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Hindari menarik gas terlalu dalam saat start dari diam",
     "solution_budget": "Ganti kanvas kopling satu set (termasuk per)",
@@ -1591,8 +1782,18 @@
     "diy_level": "intermediate",
     "estimated_minutes": 90,
     "follow_up_questions": [
-      "Kopling slip muncul tiba-tiba atau bertahap?",
-      "Motor dipakai untuk tanjakan berat atau bawa barang rutin?"
+      {
+        "id": "fu_per_kopling_lemah_00",
+        "question": "Kopling slip muncul tiba-tiba atau bertahap?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_per_kopling_lemah_01",
+        "question": "Motor dipakai untuk tanjakan berat atau bawa barang rutin?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Tidak ada — per kopling harus diganti jika sudah lemah",
     "solution_budget": "Ganti per kopling set (4-5 pcs)",
@@ -1631,8 +1832,18 @@
     "diy_level": "beginner",
     "estimated_minutes": 30,
     "follow_up_questions": [
-      "Choke ditarik tuasnya, skep di karburator ikut naik?",
-      "Mesin susah hidup hanya pagi hari, atau sepanjang hari?"
+      {
+        "id": "fu_choke_rusak_00",
+        "question": "Choke ditarik tuasnya, skep di karburator ikut naik?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_choke_rusak_01",
+        "question": "Mesin susah hidup hanya pagi hari, atau sepanjang hari?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Pastikan choke terpasang benar dan kabel tidak kendor",
     "solution_budget": "Cleaning choke + mekanisme tarikan",
@@ -1670,8 +1881,18 @@
     "diy_level": "intermediate",
     "estimated_minutes": 60,
     "follow_up_questions": [
-      "Bunyi tek-tek hilang saat mesin panas atau makin keras?",
-      "Kapan terakhir ganti tensioner (umumnya 30.000-50.000 km)?"
+      {
+        "id": "fu_tensioner_ranjai_keteng_rusak_00",
+        "question": "Bunyi tek-tek hilang saat mesin panas atau makin keras?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_tensioner_ranjai_keteng_rusak_01",
+        "question": "Kapan terakhir ganti tensioner (umumnya 30.000-50.000 km)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -1
+      }
     ],
     "solution_free": "Pastikan oli mesin rutin diganti (oli kotor percepat keausan tensioner)",
     "solution_budget": "Ganti tensioner saja",

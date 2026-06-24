@@ -17,6 +17,8 @@ class KnowledgeBase:
         self.lokasi_komponen = self._load("lokasi_komponen.json")
         self.image_component = self._load("image_component.json")
         self.sumber_referensi = self._load("sumber_referensi.json")
+        # v1.2.2: load synonym groups (was missing — wired in integration sprint)
+        self.synonym_groups = self._load("synonym_groups.json")
 
         # Indexes by id
         self.motor_dict = {m["id"]: m for m in self.motor}
@@ -24,6 +26,17 @@ class KnowledgeBase:
         self.gejala_dict = {g["id"]: g for g in self.gejala}
         self.penyebab_dict = {p["id"]: p for p in self.penyebab}
         self.sumber_dict = {s["id"]: s for s in self.sumber_referensi}
+
+        # v1.2.2: synonym group indexes
+        # phrase_lower -> (canonical_id, group_name, base_conf=0.9)
+        self.synonym_phrase_index: dict[str, tuple[str, str, float]] = {}
+        for grp in self.synonym_groups.get("groups", []):
+            cid = grp["canonical_id"]
+            gname = grp["name"]
+            for phrase in grp.get("phrases", []):
+                p = phrase.lower().strip()
+                if p and p not in self.synonym_phrase_index:
+                    self.synonym_phrase_index[p] = (cid, gname, 0.9)
 
     def _load(self, filename: str):
         path = self.data_dir / filename

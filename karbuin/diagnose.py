@@ -5,7 +5,7 @@ import re
 from .kb import KnowledgeBase
 from .parser import SymptomParser
 from .inference import DiagnosisEngine
-from .safety import gate, enrich, summarize_locations
+from .safety import gate, gate_with_disambiguation, enrich, summarize_locations
 
 
 # Keywords that strongly suggest a non-carburetor (injection / fuel-injected) motor.
@@ -63,6 +63,8 @@ class Diagnoser:
     def __init__(self, kb: KnowledgeBase):
         self.kb = kb
         self.parser = SymptomParser(kb)
+        # v1.2.2: init synonym resolver + fuzzy matcher for v1.2 enhanced parse
+        self.parser.init_v12()
         self.engine = DiagnosisEngine(kb)
 
     def diagnose(
@@ -85,8 +87,17 @@ class Diagnoser:
         Returns:
             Structured diagnosis result with status, results, summary, etc.
         """
-        # 1. Parse
-        parsed = self.parser.parse_with_details(user_input)
+        # 1. Parse (v1.2.2: parse_v12 = alias + synonym groups + fuzzy + context)
+        v12 = self.parser.parse_v12(user_input)
+        parsed = [
+            {
+                "symptom_id": sid,
+                "matched_phrase": phrase,
+                "confidence": conf,
+                "source": src,
+            }
+            for sid, conf, src, phrase in v12["matches"]
+        ]
         parsed_ids = [p["symptom_id"] for p in parsed]
         explicit_ids = explicit_symptoms or []
         all_symptoms = list(dict.fromkeys(parsed_ids + explicit_ids))  # preserve order, dedupe
@@ -99,8 +110,8 @@ class Diagnoser:
             answer_adjustments=answer_adjustments,
         )
 
-        # 3. Gate
-        g = gate(ranked)
+        # 3. Gate (v1.2.2: includes disambiguation check)
+        g = gate_with_disambiguation(ranked)
 
         # 4. Build response
         response = {
@@ -121,6 +132,16 @@ class Diagnoser:
             response["status"] = g["reason"]
             response["message"] = g["message"]
             response["partial_results"] = enrich(ranked[:3], self.kb, motor_id)
+            # v1.2.2: if ambiguous_top_results, also return follow-up questions
+            # from the top-2 candidates so the caller can re-run with
+            # answer_adjustments. Use enriched partial_results so cause objects
+            # are populated (collect_followups needs cause.name/id).
+            if g["reason"] == "ambiguous_top_results":
+                response["top_two"] = g["top_two"]
+                response["delta"] = g["delta"]
+                response["follow_up_questions"] = collect_followups(
+                    response["partial_results"][:2]
+                )
             return response
 
         # 5. Enrich top results

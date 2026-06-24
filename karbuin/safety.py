@@ -9,6 +9,12 @@ from .confidence import classify_tier
 
 CONFIDENCE_THRESHOLD = 0.60
 MAX_RESULTS = 5
+# v1.2.2: disambiguation delta — if top-1 and top-2 are within this delta,
+# engine returns "ambiguous" status and asks follow-up instead of giving answer.
+AMBIGUITY_DELTA = 0.10
+# v1.2.2: cap on top-1 confidence above which we trust the answer even if
+# top-2 is close (no need to disambiguate if very sure).
+AMBIGUITY_CONFIDENCE_CAP = 0.85
 
 
 def gate(ranked: list[dict]) -> dict:
@@ -38,6 +44,48 @@ def gate(ranked: list[dict]) -> dict:
             ),
             "top_confidence": ranked[0]["confidence"],
         }
+    return {"safe": True}
+
+
+def gate_with_disambiguation(ranked: list[dict]) -> dict:
+    """v1.2.2: gate() + ambiguity check.
+
+    If top-1 and top-2 are too close AND top-1 is below confidence cap,
+    return safe=False with reason='ambiguous_top_results' and include
+    both candidates' info. Otherwise delegates to gate().
+
+    Engine caller (diagnose.py) should:
+    - On reason='ambiguous_top_results': return follow_up_questions from
+      top-2 to user, await their answer, then re-run with answer_adjustments.
+    """
+    base = gate(ranked)
+    if not base["safe"]:
+        return base
+    if len(ranked) >= 2:
+        delta = ranked[0]["confidence"] - ranked[1]["confidence"]
+        if (delta < AMBIGUITY_DELTA
+                and ranked[0]["confidence"] < AMBIGUITY_CONFIDENCE_CAP):
+            return {
+                "safe": False,
+                "reason": "ambiguous_top_results",
+                "message": (
+                    f"Top 2 penyebab terlalu dekat (delta={delta:.2f}). "
+                    "Butuh klarifikasi sebelum memberi jawaban."
+                ),
+                "top_confidence": ranked[0]["confidence"],
+                "second_confidence": ranked[1]["confidence"],
+                "delta": delta,
+                "top_two": [
+                    {
+                        "cause_id": ranked[0]["cause_id"],
+                        "confidence": ranked[0]["confidence"],
+                    },
+                    {
+                        "cause_id": ranked[1]["cause_id"],
+                        "confidence": ranked[1]["confidence"],
+                    },
+                ],
+            }
     return {"safe": True}
 
 

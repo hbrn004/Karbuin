@@ -418,5 +418,37 @@
       "verified_by": null,
       "verification_note": "Spesifikasi publik Honda Verza 150cc karbu. Tanpa service manual page reference."
     }
+  },
+  {
+    "id": "yamaha_vixion_karbu",
+    "brand": "Yamaha",
+    "model": "Vixion",
+    "year_start": 2007,
+    "year_end": 2017,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni BS26",
+    "engine_cc": 150,
+    "category": "sport_modern",
+    "common_aliases": [
+      "vixion",
+      "yamaha vixion",
+      "vixion karbu",
+      "vixion 150"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.8,
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Yamaha Vixion 150cc karbu. Tanpa service manual page reference."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

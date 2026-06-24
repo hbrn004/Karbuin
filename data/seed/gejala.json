@@ -2369,5 +2369,100 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_vixion",
+    "name": "Klep bunyi khas Vixion 150cc",
+    "description": "Klep bunyi/tik-tik pada Yamaha Vixion 150cc. Yamaha sport karbu modern 150cc dengan klep perlu setel berkala setiap 6000-10000 km.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi vixion",
+      "klep berisik vixion",
+      "klep bunyi yamaha vixion",
+      "klep bunyi vixion 150",
+      "klep tik tik vixion",
+      "bunyi klep vixion"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_vixion",
+    "name": "RPM tidak stabil Vixion 150cc",
+    "description": "RPM naik turun/idle kasar pada Yamaha Vixion 150cc. Yamaha sport karbu modern rentan idle kasar karena pilot jet Mikuni BS26 sensitive terhadap kualitas bensin Indonesia.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil vixion",
+      "rpm naik turun vixion",
+      "idle kasar vixion",
+      "langsam kasar vixion",
+      "rpm naik turun yamaha vixion",
+      "langsam naik turun vixion"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_vixion",
+    "name": "Lampu redup Vixion 150cc",
+    "description": "Lampu redup di RPM rendah pada Yamaha Vixion 150cc. Yamaha Vixion dengan sistem kelistrikan AC modern, lampu tergantung output kiprok dan spul digital.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup vixion",
+      "lampu kurang terang vixion",
+      "lampu redup di langsam vixion",
+      "lampu redup yamaha vixion",
+      "lampu redup vixion 150",
+      "lampu redup rpm rendah vixion"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_vixion_lemah",
+    "name": "Kiprok lemah Vixion 150cc (Yamaha modern)",
+    "description": "Kiprok lemah, charging tidak optimal pada Yamaha Vixion 150cc. Kiprok Yamaha modern digital AC regulator rentan lemah setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah vixion",
+      "kiprok rusak vixion",
+      "kiprok panas vixion",
+      "kiprok ga ngecas vixion",
+      "kiprok yamaha vixion",
+      "kiprok lemah yamaha modern",
+      "kiprok lemah vixion 150"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "starter_tidak_stabil_vixion",
+    "name": "Starter hidup tapi RPM tidak stabil (Vixion)",
+    "description": "Mesin hidup dengan electric starter tapi RPM langsung tidak stabil. Yamaha Vixion kadang ada masalah pada TPS (Throttle Position Sensor) atau pilot jet Mikuni tersumbat.",
+    "severity": "medium",
+    "category": "starter",
+    "aliases": [
+      "starter hidup rpm tidak stabil vixion",
+      "starter hidup tapi rpm kasar vixion",
+      "starter hidup langsung rpm naik turun vixion",
+      "starter hidup idle kasar vixion",
+      "starter hidup rpm naik turun yamaha vixion"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

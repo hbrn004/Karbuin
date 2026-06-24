@@ -2989,5 +2989,47 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_modern_lemah",
+    "name": "Kiprok Yamaha modern digital AC lemah",
+    "description": "Kiprok Yamaha modern tipe digital AC regulator lemah. Umum pada Yamaha Vixion 150cc dan Yamaha sport karbu modern lainnya setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": "kiprok_yamaha_vixion",
+    "mechanic_notes": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V saat RPM atas. Lemah jika < 13.5V.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "spul_lemah",
+      "aki_lemah",
+      "kabel_pengisian_kendor"
+    ],
+    "similar_causes": [
+      "kiprok_rusak",
+      "kiprok_honda_modern_lemah"
+    ],
+    "solution_free": "Cek soket kiprok, bersihkan korosi, pastikan ground terhubung baik.",
+    "solution_budget": "Ganti kiprok Yamaha modern aftermarket (Rp 100.000-200.000).",
+    "solution_full": "Ganti kiprok original Yamaha Vixion (Rp 250.000-400.000) + cek spul dan aki.",
+    "cost_part": "Rp 100.000-400.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Hindari overheat. Jangan biarkan aki drop terlalu lama.",
+    "diagnosis_method": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V. Lemah jika < 13.5V.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "q_vixion_usia",
+        "question": "Motor Yamaha Vixion sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "Kiprok Yamaha modern rata-rata lemah setelah 5-7 tahun"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

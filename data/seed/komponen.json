@@ -1617,5 +1617,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Honda Verza 150cc karbu modern — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "bs26_main_jet",
+    "name": "Main jet Mikuni BS26 (Yamaha Vixion)",
+    "description": "Main jet Mikuni BS26 untuk Yamaha Vixion 150cc. Karburator Yamaha modern dengan idle system lebih presisi dibanding Honda Keihin.",
+    "category": "karburator",
+    "aliases": [
+      "main jet bs26",
+      "main jet vixion",
+      "main jet yamaha vixion",
+      "main jet mikuni bs26"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "bs26_pilot_jet",
+    "name": "Pilot jet Mikuni BS26 (Yamaha Vixion)",
+    "description": "Pilot jet Mikuni BS26 untuk Yamaha Vixion 150cc. Mengatur campuran idle dan langsam Yamaha Vixion.",
+    "category": "karburator",
+    "aliases": [
+      "pilot jet bs26",
+      "pilot jet vixion",
+      "pilot jet yamaha vixion",
+      "pilot jet mikuni bs26"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_vixion",
+    "name": "Kiprok Yamaha Vixion modern (digital AC)",
+    "description": "Kiprok Yamaha Vixion 150cc tipe digital AC regulator. Kiprok Yamaha modern lebih presisi tapi rentan lemah setelah 5+ tahun pakai.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok vixion modern",
+      "kiprok yamaha vixion",
+      "kiprok vixion digital",
+      "kiprok yamaha 150 modern"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

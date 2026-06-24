@@ -6105,5 +6105,252 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "CDI lemah = api kecil"
+  },
+  {
+    "id": 462,
+    "symptom_id": "klep_bunyi_vixion",
+    "cause_id": "klep_renggang",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang butuh setel berkala"
+  },
+  {
+    "id": 463,
+    "symptom_id": "klep_bunyi_vixion",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal klep bocor perparah klep bunyi"
+  },
+  {
+    "id": 464,
+    "symptom_id": "rpm_tidak_stabil_vixion",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS26 tersumbat"
+  },
+  {
+    "id": 465,
+    "symptom_id": "rpm_tidak_stabil_vixion",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet Mikuni BS26 tersumbat"
+  },
+  {
+    "id": 466,
+    "symptom_id": "rpm_tidak_stabil_vixion",
+    "cause_id": "klep_renggang",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang sebabkan RPM tidak stabil"
+  },
+  {
+    "id": 467,
+    "symptom_id": "lampu_redup_vixion",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Yamaha modern lemah = lampu redup"
+  },
+  {
+    "id": 468,
+    "symptom_id": "lampu_redup_vixion",
+    "cause_id": "spul_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = lampu redup"
+  },
+  {
+    "id": 469,
+    "symptom_id": "lampu_redup_vixion",
+    "cause_id": "aki_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Aki soak = lampu redup"
+  },
+  {
+    "id": 470,
+    "symptom_id": "kiprok_vixion_lemah",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Yamaha modern lemah — primary cause"
+  },
+  {
+    "id": 471,
+    "symptom_id": "kiprok_vixion_lemah",
+    "cause_id": "kiprok_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok rusak total"
+  },
+  {
+    "id": 472,
+    "symptom_id": "kiprok_vixion_lemah",
+    "cause_id": "spul_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = output kiprok rendah"
+  },
+  {
+    "id": 473,
+    "symptom_id": "starter_tidak_stabil_vixion",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok modern lemah = tegangan idle rendah"
+  },
+  {
+    "id": 474,
+    "symptom_id": "starter_tidak_stabil_vixion",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS26 tersumbat"
+  },
+  {
+    "id": 475,
+    "symptom_id": "starter_tidak_stabil_vixion",
+    "cause_id": "klep_renggang",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang = idle kasar"
+  },
+  {
+    "id": 476,
+    "symptom_id": "suara_klep",
+    "cause_id": "klep_renggang",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang — khas Vixion modern"
+  },
+  {
+    "id": 477,
+    "symptom_id": "rpm_naik_turun",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS26 tersumbat"
+  },
+  {
+    "id": 478,
+    "symptom_id": "lampu_redup",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Lampu redup karena kiprok Yamaha modern"
+  },
+  {
+    "id": 479,
+    "symptom_id": "mesin_mati_sendiri",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok modern lemah = mesin mati sendiri"
+  },
+  {
+    "id": 480,
+    "symptom_id": "starter_normal_tidak_hidup",
+    "cause_id": "kiprok_yamaha_modern_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_vixion_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Starter tidak hidup = kiprok lemah"
   }
 ]

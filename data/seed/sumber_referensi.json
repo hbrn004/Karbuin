@@ -240,5 +240,14 @@
     "verified_date": "2026-06-25",
     "url": null,
     "note": "Konsolidasi bengkel Honda Verza 150cc karbu modern — klep, CDI, kiprok digital 150cc, lampu redup, ngempos RPM atas. Tanpa service manual page reference."
+  },
+  {
+    "id": "src_yamaha_vixion_komunitas_2025",
+    "source_text": "Yamaha Vixion 150cc karbu modern — knowledge komunitas mekanik Yamaha 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Yamaha Vixion 150cc karbu — klep, idle kasar Mikuni BS26, kiprok digital, lampu redup. Tanpa service manual page reference."
   }
 ]

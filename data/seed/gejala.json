@@ -2561,5 +2561,100 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_vega",
+    "name": "Klep bunyi khas Vega 115cc",
+    "description": "Klep bunyi/tik-tik pada Yamaha Vega 115cc. Yamaha bebek retro 115cc dengan klep perlu setel berkala setiap 6000-10000 km.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi vega",
+      "klep berisik vega",
+      "klep bunyi yamaha vega",
+      "klep bunyi vega 115",
+      "klep tik tik vega",
+      "bunyi klep vega"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_vega",
+    "name": "RPM tidak stabil Vega 115cc",
+    "description": "RPM naik turun/idle kasar pada Yamaha Vega 115cc. Yamaha bebek retro rentan idle kasar karena pilot jet Mikuni BS22 sensitive terhadap kualitas bensin Indonesia.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil vega",
+      "rpm naik turun vega",
+      "idle kasar vega",
+      "langsam kasar vega",
+      "rpm naik turun yamaha vega",
+      "langsam naik turun vega"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_vega",
+    "name": "Lampu redup Vega 115cc",
+    "description": "Lampu redup di RPM rendah pada Yamaha Vega 115cc. Yamaha Vega dengan sistem kelistrikan AC analog, lampu tergantung output kiprok dan spul.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup vega",
+      "lampu kurang terang vega",
+      "lampu redup di langsam vega",
+      "lampu redup yamaha vega",
+      "lampu redup vega 115",
+      "lampu redup rpm rendah vega"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_vega",
+    "name": "Kiprok lemah Vega 115cc (Yamaha retro)",
+    "description": "Kiprok lemah, charging tidak optimal pada Yamaha Vega 115cc. Kiprok Yamaha retro tipe analog rentan lemah setelah 5+ tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah vega",
+      "kiprok rusak vega",
+      "kiprok panas vega",
+      "kiprok ga ngecas vega",
+      "kiprok yamaha vega",
+      "kiprok lemah yamaha retro",
+      "kiprok lemah vega 115"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "starter_tidak_stabil_vega",
+    "name": "Starter hidup tapi RPM tidak stabil (Vega)",
+    "description": "Mesin hidup dengan electric starter tapi RPM langsung tidak stabil. Yamaha Vega kadang ada masalah pada pilot jet Mikuni BS22 tersumbat atau klep renggang.",
+    "severity": "medium",
+    "category": "starter",
+    "aliases": [
+      "starter hidup rpm tidak stabil vega",
+      "starter hidup tapi rpm kasar vega",
+      "starter hidup langsung rpm naik turun vega",
+      "starter hidup idle kasar vega",
+      "starter hidup rpm naik turun yamaha vega"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

@@ -483,5 +483,37 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "yamaha_vega_karbu",
+    "brand": "Yamaha",
+    "model": "Vega",
+    "year_start": 2004,
+    "year_end": 2012,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni BS22",
+    "engine_cc": 115,
+    "category": "bebek_retro",
+    "common_aliases": [
+      "vega",
+      "yamaha vega",
+      "vega karbu",
+      "vega 115"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 9.5,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik Yamaha Vega 115cc karbu retro. Tanpa service manual page reference."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

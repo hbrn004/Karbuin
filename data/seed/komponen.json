@@ -1713,5 +1713,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha RX-King 135cc 2-tak karbu — knowledge komunitas mekanik motor 2-tak Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "bs22_main_jet",
+    "name": "Main jet Mikuni BS22 (Yamaha Vega)",
+    "description": "Main jet Mikuni BS22 untuk Yamaha Vega 115cc bebek retro. Karburator Yamaha bebek retro dengan sistem CV lebih sederhana.",
+    "category": "karburator",
+    "aliases": [
+      "main jet bs22",
+      "main jet vega",
+      "main jet yamaha vega",
+      "main jet mikuni bs22"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "bs22_pilot_jet",
+    "name": "Pilot jet Mikuni BS22 (Yamaha Vega)",
+    "description": "Pilot jet Mikuni BS22 untuk Yamaha Vega 115cc. Mengatur campuran idle dan langsam Yamaha Vega.",
+    "category": "karburator",
+    "aliases": [
+      "pilot jet bs22",
+      "pilot jet vega",
+      "pilot jet yamaha vega",
+      "pilot jet mikuni bs22"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_vega",
+    "name": "Kiprok Yamaha Vega retro (analog)",
+    "description": "Kiprok Yamaha Vega 115cc tipe analog regulator. Kiprok Yamaha retro lebih sederhana tapi rentan lemah setelah 5+ tahun pakai.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok vega retro",
+      "kiprok yamaha vega",
+      "kiprok vega analog",
+      "kiprok yamaha 115 retro"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
   }
 ]

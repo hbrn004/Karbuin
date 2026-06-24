@@ -1,0 +1,1288 @@
+[
+  {
+    "id": "sol_intake_free",
+    "cause_id": "intake_leak",
+    "tier": "free",
+    "description": "Periksa klem intake manifold, kencangkan jika kendor. Bersihkan area sambungan dari oli/debu.",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.3
+  },
+  {
+    "id": "sol_intake_budget",
+    "cause_id": "intake_leak",
+    "tier": "budget",
+    "description": "Ganti o-ring atau klem intake yang sudah karat/memuai.",
+    "tools_needed": [
+      "kunci set",
+      "o-ring baru"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "easy",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_intake_full",
+    "cause_id": "intake_leak",
+    "tier": "full",
+    "description": "G整套et karet intake manifold baru + klem. Bersihkan permukaan sambungan dari kerak.",
+    "tools_needed": [
+      "kunci set",
+      "intake manifold baru"
+    ],
+    "time_estimate_min": 45,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_pilotjet_free",
+    "cause_id": "pilot_jet_clogged",
+    "tier": "free",
+    "description": "Lepas pilot jet, tiup dengan compressor/an hingga bersih. Pasang kembali.",
+    "tools_needed": [
+      "obeng",
+      "compressor (opsional)"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "medium",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_pilotjet_budget",
+    "cause_id": "pilot_jet_clogged",
+    "tier": "budget",
+    "description": "Rendam pilot jet dalam carb cleaner 15-20 menit, tiup angin, pasang kembali.",
+    "tools_needed": [
+      "carb cleaner",
+      "obeng"
+    ],
+    "time_estimate_min": 25,
+    "difficulty": "medium",
+    "success_rate": 0.75
+  },
+  {
+    "id": "sol_pilotjet_full",
+    "cause_id": "pilot_jet_clogged",
+    "tier": "full",
+    "description": "Overhaul karburator: bersihkan semua jet, float chamber, needle valve. Ganti seal karburator.",
+    "tools_needed": [
+      "kit overhaul karburator",
+      "carb cleaner",
+      "obeng set"
+    ],
+    "time_estimate_min": 90,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_mainjet_free",
+    "cause_id": "main_jet_clogged",
+    "tier": "free",
+    "description": "Lepas main jet, tiup angin. Periksa ukuran jet sesuai spec motor.",
+    "tools_needed": [
+      "obeng"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "medium",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_mainjet_budget",
+    "cause_id": "main_jet_clogged",
+    "tier": "budget",
+    "description": "Rendam main jet dalam carb cleaner, tiup, bersihkan semua lubang.",
+    "tools_needed": [
+      "carb cleaner",
+      "obeng"
+    ],
+    "time_estimate_min": 25,
+    "difficulty": "medium",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_mainjet_full",
+    "cause_id": "main_jet_clogged",
+    "tier": "full",
+    "description": "Ganti main jet dengan ukuran standar OEM. Bersihkan karburator keseluruhan.",
+    "tools_needed": [
+      "main jet OEM",
+      "obeng set"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_busiaus_free",
+    "cause_id": "busi_aus",
+    "tier": "free",
+    "description": "Lepas busi, bersihkan elektroda dengan sikat kawat halus, setel gap 0.6-0.7mm dengan feeler gauge.",
+    "tools_needed": [
+      "kunci busi",
+      "sikat kawat",
+      "feeler gauge"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "easy",
+    "success_rate": 0.3
+  },
+  {
+    "id": "sol_busiaus_budget",
+    "cause_id": "busi_aus",
+    "tier": "budget",
+    "description": "Ganti busi standar baru (NGK / Denso) sesuai spec motor.",
+    "tools_needed": [
+      "kunci busi",
+      "busi baru"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_busiaus_full",
+    "cause_id": "busi_aus",
+    "tier": "full",
+    "description": "Ganti busi iridium/platinum untuk umur lebih panjang + percikan lebih baik.",
+    "tools_needed": [
+      "kunci busi",
+      "busi iridium"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_busirusak_free",
+    "cause_id": "busi_rusak",
+    "tier": "free",
+    "description": "Periksa isolator busi retak/pecah, elektroda rontok. Jika rusak, harus ganti (bukan free).",
+    "tools_needed": [
+      "mata telanjang"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_busirusak_budget",
+    "cause_id": "busi_rusak",
+    "tier": "budget",
+    "description": "Ganti busi baru standar. Pastikan tipe sesuai spec motor.",
+    "tools_needed": [
+      "kunci busi",
+      "busi baru"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_busirusak_full",
+    "cause_id": "busi_rusak",
+    "tier": "full",
+    "description": "G整套i busi + busi socket jika socket bocor/korosi.",
+    "tools_needed": [
+      "kunci busi",
+      "busi + socket baru"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "easy",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_filter_free",
+    "cause_id": "filter_udara_kotor",
+    "tier": "free",
+    "description": "Lepas filter udara, tiup angin压缩机 (jika kertas) atau cuci air sabun (jika busa), keringkan, pasang kembali.",
+    "tools_needed": [
+      "obeng",
+      "air sabun / compressor"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "easy",
+    "success_rate": 0.5
+  },
+  {
+    "id": "sol_filter_budget",
+    "cause_id": "filter_udara_kotor",
+    "tier": "budget",
+    "description": "Cuci filter + semprot dengan pembersih filter. Keringkan sempurna.",
+    "tools_needed": [
+      "pembersih filter",
+      "sikat halus"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "easy",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_filter_full",
+    "cause_id": "filter_udara_kotor",
+    "tier": "full",
+    "description": "Ganti filter udara baru OEM/aftermarket berkualitas.",
+    "tools_needed": [
+      "filter baru",
+      "obeng"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "easy",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_kiprok_budget",
+    "cause_id": "kiprok_rusak",
+    "weight": 0,
+    "tier": "budget",
+    "description": "Periksa konektor kiprok kendor/korosi, bersihkan. Setel tegangan jika adjustable.",
+    "tools_needed": [
+      "multimeter",
+      "contact cleaner"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "medium",
+    "success_rate": 0.2
+  },
+  {
+    "id": "sol_kiprok_full",
+    "cause_id": "kiprok_rusak",
+    "tier": "full",
+    "description": "Ganti kiprok baru sesuai spec motor (harga bervariasi).",
+    "tools_needed": [
+      "kiprok baru",
+      "kunci set"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_aki_free",
+    "cause_id": "aki_lemah",
+    "tier": "free",
+    "description": "Periksa accu terminal berkarat/kendor, bersihkan dengan sikat kawat + air panas, kencangkan.",
+    "tools_needed": [
+      "sikat kawat",
+      "air panas",
+      "kunci 10mm"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "easy",
+    "success_rate": 0.2
+  },
+  {
+    "id": "sol_aki_budget",
+    "cause_id": "aki_lemah",
+    "tier": "budget",
+    "description": "Charge aki dengan charger aki. Jika tegangan naik tapi turun lagi dalam 1 hari = aki soak, harus ganti.",
+    "tools_needed": [
+      "charger aki",
+      "multimeter"
+    ],
+    "time_estimate_min": 240,
+    "difficulty": "easy",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_aki_full",
+    "cause_id": "aki_lemah",
+    "tier": "full",
+    "description": "Ganti aki baru sesuai spec motor (MF / kering / basah tergantung tipe).",
+    "tools_needed": [
+      "aki baru",
+      "kunci 10mm"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "easy",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_cdi_budget",
+    "cause_id": "cdi_rusak",
+    "tier": "budget",
+    "description": "Periksa soket CDI kendor/korosi, bersihkan, pastikan koneksi kuat.",
+    "tools_needed": [
+      "contact cleaner",
+      "obeng"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "medium",
+    "success_rate": 0.1
+  },
+  {
+    "id": "sol_cdi_full",
+    "cause_id": "cdi_rusak",
+    "tier": "full",
+    "description": "Ganti CDI unit baru OEM atau kompatibel (pastikan tipe sama).",
+    "tools_needed": [
+      "cdi baru",
+      "kunci set"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_koil_budget",
+    "cause_id": "koil_lemah",
+    "tier": "budget",
+    "description": "Periksa koneksi koil kendor/korosi, bersihkan. Ukur resistansi primer/sekunder.",
+    "tools_needed": [
+      "multimeter",
+      "contact cleaner"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "medium",
+    "success_rate": 0.2
+  },
+  {
+    "id": "sol_koil_full",
+    "cause_id": "koil_lemah",
+    "tier": "full",
+    "description": "Ganti koil baru sesuai spec motor.",
+    "tools_needed": [
+      "koil baru",
+      "kunci set"
+    ],
+    "time_estimate_min": 25,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_klep_budget",
+    "cause_id": "klep_renggang",
+    "tier": "budget",
+    "description": "Setel celah klep sesuai spec motor (umumnya 0.05mm intake, 0.10mm exhaust).",
+    "tools_needed": [
+      "feeler gauge",
+      "kunci pas set",
+      "obeng"
+    ],
+    "time_estimate_min": 40,
+    "difficulty": "medium",
+    "success_rate": 0.8
+  },
+  {
+    "id": "sol_klep_full",
+    "cause_id": "klep_renggang",
+    "tier": "full",
+    "description": "Lepas kepala silinder, klep digurinda + ganti seal klep + setel celah.",
+    "tools_needed": [
+      "kunci set",
+      "kompressor valve grinder",
+      "seal klep baru"
+    ],
+    "time_estimate_min": 180,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_sealklep_budget",
+    "cause_id": "seal_klep_bocor",
+    "tier": "budget",
+    "description": "Compression test basah untuk memastikan. Jika seal bocor, lanjut full.",
+    "tools_needed": [
+      "compression tester"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_sealklep_full",
+    "cause_id": "seal_klep_bocor",
+    "tier": "full",
+    "description": "Lepas kepala silinder, ganti seal klep + klep digurinda jika perlu.",
+    "tools_needed": [
+      "seal klep baru",
+      "kunci set",
+      "valve grinder"
+    ],
+    "time_estimate_min": 180,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_ringpiston_budget",
+    "cause_id": "ring_piston_aus",
+    "tier": "budget",
+    "description": "Compression test untuk verifikasi.",
+    "tools_needed": [
+      "compression tester"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "hard",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_ringpiston_full",
+    "cause_id": "ring_piston_aus",
+    "tier": "full",
+    "description": "Bongkar mesin, ganti ring piston + honing silinder jika baret.",
+    "tools_needed": [
+      "ring piston set",
+      "honing tool",
+      "kunci set"
+    ],
+    "time_estimate_min": 480,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_bensinkotor_free",
+    "cause_id": "bensin_kotor",
+    "tier": "free",
+    "description": "Kuras tangki, ganti bensin baru dari SPBU terpercaya. Bersihkan saringan kran.",
+    "tools_needed": [
+      "selang kecil",
+      "ember"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "easy",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_bensinkotor_budget",
+    "cause_id": "bensin_kotor",
+    "tier": "budget",
+    "description": "Kuras tangki + bersihkan saringan kran + tiup selang bensin.",
+    "tools_needed": [
+      "selang",
+      "contact cleaner"
+    ],
+    "time_estimate_min": 45,
+    "difficulty": "medium",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_bensinkotor_full",
+    "cause_id": "bensin_kotor",
+    "tier": "full",
+    "description": "Kuras + bersihkan tangki dari karat + ganti selang bensin + saringan kran baru.",
+    "tools_needed": [
+      "selang baru",
+      "saringan baru",
+      "kunci set"
+    ],
+    "time_estimate_min": 90,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_vacuum_free",
+    "cause_id": "vacuum_bocor",
+    "tier": "free",
+    "description": "Kencangkan semua klem intake + cek sambungan vacuum hose retak/longgar.",
+    "tools_needed": [
+      "obeng",
+      "tang"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "easy",
+    "success_rate": 0.5
+  },
+  {
+    "id": "sol_vacuum_budget",
+    "cause_id": "vacuum_bocor",
+    "tier": "budget",
+    "description": "Ganti o-ring intake + klem baru jika lama sudah memuai/karat.",
+    "tools_needed": [
+      "o-ring set",
+      "klem baru"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "easy",
+    "success_rate": 0.8
+  },
+  {
+    "id": "sol_vacuum_full",
+    "cause_id": "vacuum_bocor",
+    "tier": "full",
+    "description": "G整套i manifold + semua seal + klem. Cek vacuum hose ganti jika retak.",
+    "tools_needed": [
+      "intake manifold set",
+      "kunci set"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_timing_budget",
+    "cause_id": "timing_kemas_terlambat",
+    "tier": "budget",
+    "description": "Cek tanda timing di flywheel. Setel posisi pulser coil sesuai spec.",
+    "tools_needed": [
+      "kunci set",
+      "feeler gauge (untuk double check)"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_timing_full",
+    "cause_id": "timing_kemas_terlambat",
+    "tier": "full",
+    "description": "Setel ulang timing pengapian + cek kondisi pulser coil, ganti jika rusak.",
+    "tools_needed": [
+      "pulser coil baru (jika perlu)",
+      "kunci set"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_kranmampet_free",
+    "cause_id": "kran_bensin_mampet",
+    "tier": "free",
+    "description": "Lepas kran bensin, bersihkan saringan dalam kran, tiup angin.",
+    "tools_needed": [
+      "obeng",
+      "tang",
+      "compressor"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "easy",
+    "success_rate": 0.6
+  },
+  {
+    "id": "sol_kranmampet_budget",
+    "cause_id": "kran_bensin_mampet",
+    "tier": "budget",
+    "description": "Ganti saringan kran atau seal jika rusak. Tiup selang bensin.",
+    "tools_needed": [
+      "saringan kran baru",
+      "selang baru"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "easy",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_kranmampet_full",
+    "cause_id": "kran_bensin_mampet",
+    "tier": "full",
+    "description": "Ganti kran bensin整套i (kran + saringan + seal + selang pendek).",
+    "tools_needed": [
+      "kran bensin baru",
+      "kunci set"
+    ],
+    "time_estimate_min": 45,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_kipas_budget",
+    "cause_id": "kipas_rusak",
+    "tier": "budget",
+    "description": "Periksa kipas patah/aus. Jika masih bisa service, ganti bearing kipas.",
+    "tools_needed": [
+      "bearing kipas",
+      "obeng"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "hard",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_kipas_full",
+    "cause_id": "kipas_rusak",
+    "tier": "full",
+    "description": "Ganti kipas pendingin baru sesuai spec motor.",
+    "tools_needed": [
+      "kipas baru",
+      "kunci set"
+    ],
+    "time_estimate_min": 45,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_overheat_budget",
+    "cause_id": "overheat_cooling",
+    "tier": "budget",
+    "description": "Periksa level coolant, tambah jika kurang. Cek kebocoran kecil di selang.",
+    "tools_needed": [
+      "coolant",
+      "kunci set"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "easy",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_overheat_full",
+    "cause_id": "overheat_cooling",
+    "tier": "full",
+    "description": "Flush sistem pendingin + ganti coolant + cek thermostat + water pump.",
+    "tools_needed": [
+      "coolant baru",
+      "thermostat (jika perlu)",
+      "kunci set"
+    ],
+    "time_estimate_min": 120,
+    "difficulty": "hard",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_overflow_budget",
+    "cause_id": "karburator_overflow",
+    "tier": "budget",
+    "description": "Buka float chamber, bersihkan needle valve + float. Setel ketinggian float.",
+    "tools_needed": [
+      "kit overhaul karbu",
+      "obeng"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "medium",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_overflow_full",
+    "cause_id": "karburator_overflow",
+    "tier": "full",
+    "description": "Overhaul整套i karburator: ganti needle valve, float, seal, jet. Bersihkan chamber.",
+    "tools_needed": [
+      "full overhaul kit",
+      "obeng set"
+    ],
+    "time_estimate_min": 120,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_pelampung_free",
+    "cause_id": "pelampung_macet",
+    "tier": "free",
+    "description": "Kocok pelampung dengan tangan, pastikan bisa gerak naik/turun bebas tanpa hambatan. Bersihkan area pivot pelampung dari kerak bensin.",
+    "tools_needed": [
+      "tangan kosong",
+      "lap bersih"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.2
+  },
+  {
+    "id": "sol_pelampung_budget",
+    "cause_id": "pelampung_macet",
+    "tier": "budget",
+    "description": "Bongkar float chamber karburator, bersihkan pelampung dan needle valve dari kerak/sumbatan. Sobekan pada pelampung perlu diganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "carb cleaner",
+      "lap bersih"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.6
+  },
+  {
+    "id": "sol_pelampung_mid",
+    "cause_id": "pelampung_macet",
+    "tier": "mid",
+    "description": "Ganti unit pelampung (float assembly) lengkap dengan needle valve. Cocokkan tipe dengan karburator motor.",
+    "tools_needed": [
+      "kunci 10mm",
+      "float assembly baru",
+      "gasket float chamber"
+    ],
+    "time_estimate_min": 45,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_pelampung_full",
+    "cause_id": "pelampung_macet",
+    "tier": "full",
+    "description": "Service karburator total: bongkar body, bersihkan semua jalur, ganti pelampung + needle valve + gasket + jet yang aus.",
+    "tools_needed": [
+      "kunci set karburator",
+      "carb cleaner",
+      "float assembly",
+      "needle valve",
+      "gasket set"
+    ],
+    "time_estimate_min": 90,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_needle_free",
+    "cause_id": "needle_valve_aus",
+    "tier": "free",
+    "description": "Bersihkan needle valve dengan carb cleaner, periksa apakah bisa menutup sempurna. Kadang hanya kerak yang bikin macet.",
+    "tools_needed": [
+      "carb cleaner",
+      "lap"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.1
+  },
+  {
+    "id": "sol_needle_budget",
+    "cause_id": "needle_valve_aus",
+    "tier": "budget",
+    "description": "Bongkar float chamber, ganti jarum (needle) saja tanpa overhaul total. Hemat biaya.",
+    "tools_needed": [
+      "kunci 10mm",
+      "needle valve baru"
+    ],
+    "time_estimate_min": 25,
+    "difficulty": "medium",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_needle_mid",
+    "cause_id": "needle_valve_aus",
+    "tier": "mid",
+    "description": "Service karburator + ganti needle valve + periksa pelampung. Jika pelampung sudah berubah bentuk, ganti satu set.",
+    "tools_needed": [
+      "kunci set",
+      "needle valve",
+      "float assembly"
+    ],
+    "time_estimate_min": 50,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_needle_full",
+    "cause_id": "needle_valve_aus",
+    "tier": "full",
+    "description": "Overhaul karburator total: ganti semua seal + needle valve + pelampung + jet + gasket. Bikin seperti baru lagi.",
+    "tools_needed": [
+      "kunci set karburator",
+      "gasket set",
+      "needle valve",
+      "float assembly",
+      "carb cleaner"
+    ],
+    "time_estimate_min": 100,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_float_free",
+    "cause_id": "float_level_salah",
+    "tier": "free",
+    "description": "Periksa posisi pelampung saat float chamber dibuka. Tekuk pelampung sedikit untuk adjust level (pakai spec motor).",
+    "tools_needed": [
+      "tangan",
+      "spec sheet motor"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.3
+  },
+  {
+    "id": "sol_float_budget",
+    "cause_id": "float_level_salah",
+    "tier": "budget",
+    "description": "Setel float level pakai float gauge tool atau ukur manual dengan jangka sorong. Ikuti spec Honda/Yamaha/Suzuki masing-masing.",
+    "tools_needed": [
+      "float gauge",
+      "jangka sorong"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "medium",
+    "success_rate": 0.75
+  },
+  {
+    "id": "sol_float_mid",
+    "cause_id": "float_level_salah",
+    "tier": "mid",
+    "description": "Bongkar float chamber, setel ulang level pelampung sesuai spec, sekaligus ganti seal dan periksa needle valve.",
+    "tools_needed": [
+      "kunci 10mm",
+      "gasket float chamber",
+      "float gauge"
+    ],
+    "time_estimate_min": 35,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_float_full",
+    "cause_id": "float_level_salah",
+    "tier": "full",
+    "description": "Service karburator + setel float level presisi + overhaul semua seal. Sekalian ganti needle valve kalau ada keraguan.",
+    "tools_needed": [
+      "kunci set",
+      "gasket set",
+      "float gauge",
+      "needle valve"
+    ],
+    "time_estimate_min": 80,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_angin_free",
+    "cause_id": "setelan_angin_salah",
+    "tier": "free",
+    "description": "Putar sekrup udara (air screw) perlahan, setel ke RPM tertinggi. Mulai dari 1,5 putar keluar, fine-tune pelan-pelan.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.6
+  },
+  {
+    "id": "sol_angin_budget",
+    "cause_id": "setelan_angin_salah",
+    "tier": "budget",
+    "description": "Lepas air screw, semprot lubang dengan carb cleaner, pasang lagi. Kadang jalur udara tersumbat kerak.",
+    "tools_needed": [
+      "obeng presisi",
+      "carb cleaner"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.75
+  },
+  {
+    "id": "sol_angin_mid",
+    "cause_id": "setelan_angin_salah",
+    "tier": "mid",
+    "description": "Service karbu: ganti O-ring sekrup udara (biasanya sudah memuai), setel idle screw ke posisi spec.",
+    "tools_needed": [
+      "obeng presisi",
+      "O-ring kit",
+      "carb cleaner"
+    ],
+    "time_estimate_min": 25,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_angin_full",
+    "cause_id": "setelan_angin_salah",
+    "tier": "full",
+    "description": "Service karburator total + setel idle (udara + langsam) sesuai spec buku. Periksa pilot jet sekalian.",
+    "tools_needed": [
+      "kunci set",
+      "O-ring kit",
+      "carb cleaner",
+      "obeng presisi"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_langsam_free",
+    "cause_id": "setelan_langsam_salah",
+    "tier": "free",
+    "description": "Putar baut langsam (throttle stop screw) sampai RPM idle stabil. Putar pelan 1/8 turn, tunggu mesin respon.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.6
+  },
+  {
+    "id": "sol_langsam_budget",
+    "cause_id": "setelan_langsam_salah",
+    "tier": "budget",
+    "description": "Lepas baut langsam, bersihkan thread dari kerak, pasang lagi. Setel ulang ke RPM 1300-1500 (tergantung motor).",
+    "tools_needed": [
+      "obeng plus",
+      "carb cleaner"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.75
+  },
+  {
+    "id": "sol_langsam_mid",
+    "cause_id": "setelan_langsam_salah",
+    "tier": "mid",
+    "description": "Ganti baut langsam + spring kalau sudah aus. Setel idle dengan tachometer untuk presisi.",
+    "tools_needed": [
+      "obeng plus",
+      "baut langsam baru",
+      "tachometer"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "medium",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_langsam_full",
+    "cause_id": "setelan_langsam_salah",
+    "tier": "full",
+    "description": "Service karburator total + setel idle (langsam + udara) dengan tachometer. Pastikan kabel gas slack pas.",
+    "tools_needed": [
+      "kunci set",
+      "obeng presisi",
+      "tachometer"
+    ],
+    "time_estimate_min": 50,
+    "difficulty": "medium",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_skep_free",
+    "cause_id": "skep_macet",
+    "tier": "free",
+    "description": "Semprot skep (throttle valve) dengan carb cleaner dari luar sambil gerakkan gas naik-turun. Jangan berlebihan.",
+    "tools_needed": [
+      "carb cleaner"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.3
+  },
+  {
+    "id": "sol_skep_budget",
+    "cause_id": "skep_macet",
+    "tier": "budget",
+    "description": "Bongkar tutup karburator, angkat skep, bersihkan dinding body karburator + skep dari kerak. Lumasi spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "carb cleaner",
+      "pelumas"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.7
+  },
+  {
+    "id": "sol_skep_mid",
+    "cause_id": "skep_macet",
+    "tier": "mid",
+    "description": "Ganti skep (throttle valve) baru yang sudah aus/korosi. Setel ulang posisi skep saat pasang.",
+    "tools_needed": [
+      "kunci 10mm",
+      "skep baru",
+      "carb cleaner"
+    ],
+    "time_estimate_min": 45,
+    "difficulty": "medium",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_skep_full",
+    "cause_id": "skep_macet",
+    "tier": "full",
+    "description": "Service karburator total: ganti skep + spring + setel kabel gas. Pastikan gas buka-tutup responsif.",
+    "tools_needed": [
+      "kunci set",
+      "skep baru",
+      "spring",
+      "carb cleaner",
+      "pelumas"
+    ],
+    "time_estimate_min": 90,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_kabelgas_free",
+    "cause_id": "kabel_gas_seret",
+    "tier": "free",
+    "description": "Lumasi kabel gas (throttle cable) dengan pelumas semprot atau oli tipis di kedua ujungnya. Gerakkan gas berkali-kali.",
+    "tools_needed": [
+      "pelumas semprot",
+      "WD-40"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_kabelgas_budget",
+    "cause_id": "kabel_gas_seret",
+    "tier": "budget",
+    "description": "Setel adjuster kabel gas (dekat handle gas dan dekarburator), pastikan slack 2-4mm. Bersihkan rumah kabel.",
+    "tools_needed": [
+      "kunci 10mm",
+      "pelumas"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.65
+  },
+  {
+    "id": "sol_kabelgas_mid",
+    "cause_id": "kabel_gas_seret",
+    "tier": "mid",
+    "description": "Ganti kabel gas baru (OEM/aftermarket). Pilih yang panjang dan ujung sesuai motor.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kabel gas baru"
+    ],
+    "time_estimate_min": 25,
+    "difficulty": "easy",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_kabelgas_full",
+    "cause_id": "kabel_gas_seret",
+    "tier": "full",
+    "description": "Ganti kabel + rumah kabel (cable housing) + setel dari handle sampai karburator. Periksa grip gas sekalian.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kabel gas set",
+      "rumah kabel"
+    ],
+    "time_estimate_min": 35,
+    "difficulty": "medium",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_pulser_free",
+    "cause_id": "pulser_lemah",
+    "tier": "free",
+    "description": "Tidak ada perbaikan gratis. Pulser (ignition pulse coil) adalah komponen elektrik, harus diganti atau konfirmasi alat ukur.",
+    "tools_needed": [],
+    "time_estimate_min": 0,
+    "difficulty": "easy",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_pulser_budget",
+    "cause_id": "pulser_lemah",
+    "tier": "budget",
+    "description": "Konfirmasi dengan multimeter: ukur resistansi pulser (biasanya 100-400 ohm). Jika di luar spec, ganti.",
+    "tools_needed": [
+      "multimeter",
+      "service manual"
+    ],
+    "time_estimate_min": 15,
+    "difficulty": "medium",
+    "success_rate": 0.3
+  },
+  {
+    "id": "sol_pulser_mid",
+    "cause_id": "pulser_lemah",
+    "tier": "mid",
+    "description": "Ganti pulser (ignition pulse coil) baru OEM/aftermarket. Setel timing pengapian sekalian.",
+    "tools_needed": [
+      "kunci set",
+      "pulser baru",
+      "timing light"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "hard",
+    "success_rate": 0.9
+  },
+  {
+    "id": "sol_pulser_full",
+    "cause_id": "pulser_lemah",
+    "tier": "full",
+    "description": "Ganti pulser + periksa sistem pengapian total: koil, kiprok, CDI, busi, kabel busi. Setel timing presisi.",
+    "tools_needed": [
+      "kunci set",
+      "pulser",
+      "koil",
+      "kiprok",
+      "timing light",
+      "multimeter"
+    ],
+    "time_estimate_min": 120,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_spul_free",
+    "cause_id": "spul_lemah",
+    "tier": "free",
+    "description": "Tidak ada perbaikan gratis. Spul (stator coil) adalah komponen elektrik, harus diganti atau konfirmasi alat ukur.",
+    "tools_needed": [],
+    "time_estimate_min": 0,
+    "difficulty": "easy",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_spul_budget",
+    "cause_id": "spul_lemah",
+    "tier": "budget",
+    "description": "Konfirmasi dengan multimeter: ukur resistansi kumparan spul (biasanya 0.2-1.0 ohm antar kabel) + tegangan output saat mesin hidup.",
+    "tools_needed": [
+      "multimeter",
+      "tachometer (opsional)"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "medium",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_spul_mid",
+    "cause_id": "spul_lemah",
+    "tier": "mid",
+    "description": "Ganti spul (stator coil) baru. Pilih OEM atau aftermarket berkualitas. Cocokkan jumlah kabel sama persis.",
+    "tools_needed": [
+      "kunci set",
+      "spul baru"
+    ],
+    "time_estimate_min": 90,
+    "difficulty": "hard",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_spul_full",
+    "cause_id": "spul_lemah",
+    "tier": "full",
+    "description": "Ganti spul + kiprok + aki sekalian. Sistem charging total diperbarui. Setel charging voltage ke 13.5-14.5V.",
+    "tools_needed": [
+      "kunci set",
+      "spul",
+      "kiprok",
+      "aki baru",
+      "multimeter"
+    ],
+    "time_estimate_min": 150,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_kompresi_free",
+    "cause_id": "kompresi_rendah",
+    "tier": "free",
+    "description": "Tidak ada perbaikan gratis. Kompresi rendah biasanya butuh overhaul mesin atau setel klep (kalau adjustable).",
+    "tools_needed": [],
+    "time_estimate_min": 0,
+    "difficulty": "easy",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_kompresi_budget",
+    "cause_id": "kompresi_rendah",
+    "tier": "budget",
+    "description": "Periksa klep, setel klep (hanya motor dengan klep adjustable). Periksa juga busi apakah ada tanda-tanda abnormal.",
+    "tools_needed": [
+      "kunci set",
+      "feeler gauge",
+      "service manual"
+    ],
+    "time_estimate_min": 30,
+    "difficulty": "medium",
+    "success_rate": 0.25
+  },
+  {
+    "id": "sol_kompresi_mid",
+    "cause_id": "kompresi_rendah",
+    "tier": "mid",
+    "description": "Ganti ring piston + seal klep + overhaul top end. Perlu bongkar blok mesin. Cocokkan ring sesuai diameter bore.",
+    "tools_needed": [
+      "kunci set mesin",
+      "ring piston set",
+      "seal klep",
+      "gasket top end"
+    ],
+    "time_estimate_min": 180,
+    "difficulty": "hard",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_kompresi_full",
+    "cause_id": "kompresi_rendah",
+    "tier": "full",
+    "description": "Overhaul mesin total: ganti piston, ring, klep, seal, bearing, dan semua gasket. Mesin seperti baru.",
+    "tools_needed": [
+      "kunci set lengkap",
+      "piston kit",
+      "klep kit",
+      "bearing set",
+      "gasket full set"
+    ],
+    "time_estimate_min": 360,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  },
+  {
+    "id": "sol_koil_free",
+    "cause_id": "koil_panas",
+    "tier": "free",
+    "description": "Diamkan mesin sampai dingin, periksa fisik koil apakah ada retak/cacat. Jangan langsung pakai motor saat koil panas.",
+    "tools_needed": [
+      "tangan",
+      "visual check"
+    ],
+    "time_estimate_min": 5,
+    "difficulty": "easy",
+    "success_rate": 0.0
+  },
+  {
+    "id": "sol_koil_mid",
+    "cause_id": "koil_panas",
+    "tier": "mid",
+    "description": "Ganti koil pengapian (ignition coil) baru. Pilih OEM atau aftermarket yang sesuai. Periksa kabel busi sekalian.",
+    "tools_needed": [
+      "kunci set",
+      "koil baru",
+      "kabel busi"
+    ],
+    "time_estimate_min": 60,
+    "difficulty": "medium",
+    "success_rate": 0.8
+  },
+  {
+    "id": "sol_keteng_free",
+    "cause_id": "rantai_keteng_kendor",
+    "tier": "free",
+    "description": "Panaskan mesin 5-10 menit, setel tensioner jika bisa diakses dari luar. Beberapa motor punya adjuster manual.",
+    "tools_needed": [
+      "kunci 12mm",
+      "tangan"
+    ],
+    "time_estimate_min": 10,
+    "difficulty": "easy",
+    "success_rate": 0.1
+  },
+  {
+    "id": "sol_keteng_budget",
+    "cause_id": "rantai_keteng_kendor",
+    "tier": "budget",
+    "description": "Setel tensioner rantai keteng (timing chain adjuster) ke posisi yang tepat. Pastikan chain tidak terlalu kencang.",
+    "tools_needed": [
+      "kunci set",
+      "service manual"
+    ],
+    "time_estimate_min": 20,
+    "difficulty": "medium",
+    "success_rate": 0.4
+  },
+  {
+    "id": "sol_keteng_mid",
+    "cause_id": "rantai_keteng_kendor",
+    "tier": "mid",
+    "description": "Ganti tensioner + rantai keteng + gear. Bongkar tutup timing, perlu presisi pasang kembali.",
+    "tools_needed": [
+      "kunci set",
+      "tensioner",
+      "rantai keteng",
+      "gear set"
+    ],
+    "time_estimate_min": 120,
+    "difficulty": "hard",
+    "success_rate": 0.85
+  },
+  {
+    "id": "sol_keteng_full",
+    "cause_id": "rantai_keteng_kendor",
+    "tier": "full",
+    "description": "Overhaul timing total: ganti rantai, gear, tensioner, setel spec timing presisi. Cocokkan tanda timing.",
+    "tools_needed": [
+      "kunci set lengkap",
+      "rantai + gear set",
+      "tensioner",
+      "service manual",
+      "timing tools"
+    ],
+    "time_estimate_min": 180,
+    "difficulty": "hard",
+    "success_rate": 0.95
+  }
+]

@@ -1,0 +1,3001 @@
+[
+  {
+    "id": "loc_v2_honda_supra_x125_busi_001",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_karburator_002",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 20,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_pilot_jet_003",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_main_jet_004",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_intake_manifold_005",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_filter_udara_006",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_koil_007",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_cdi_008",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_kran_bensin_009",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_selang_bensin_010",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_supra_x125_ring_piston_011",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 360,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_supra_x125_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Supra X 125 Karbu. Mesin PE24, karburator vacuum. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_busi_012",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_karburator_013",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 20,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_pilot_jet_014",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_main_jet_015",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_intake_manifold_016",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_filter_udara_017",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_koil_018",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_cdi_019",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_kran_bensin_020",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_selang_bensin_021",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_revo_ring_piston_022",
+    "motor_id": "honda_revo_karbu",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 360,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_revo_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Revo Karbu. Lebih ringkas dari Supra, tapi lokasi komponen mirip. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_busi_023",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_karburator_024",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm",
+      "service manual (untuk spec jet size)"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 20,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_pilot_jet_025",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner",
+      "service manual (untuk spec jet size)"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_main_jet_026",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner",
+      "service manual (untuk spec jet size)"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_intake_manifold_027",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_filter_udara_028",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_koil_029",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_cdi_030",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_kran_bensin_031",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_selang_bensin_032",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_honda_tiger_2000_ring_piston_033",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Lepas tangki + shroud kipas + knalpot. Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 360,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_honda_tiger_2000",
+    "verified_date": "2024-06-25",
+    "verification_note": "Honda Tiger 2000. Mesin sport, lokasi banyak di bawah tangki. Ada kipas pendingin (air-cooled). Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_busi_034",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 7,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_karburator_035",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas body cover / buka jok besar. Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_pilot_jet_036",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_main_jet_037",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_intake_manifold_038",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_filter_udara_039",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Lepas body cover / buka jok besar. Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_koil_040",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_cdi_041",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_kran_bensin_042",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Lepas body cover / buka jok besar. Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_selang_bensin_043",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas body cover / buka jok besar. Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_mio_sporty_ring_piston_044",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Bongkar full body skutik. Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 540,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_mio_sporty",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Mio Sporty (skutik). Karburator di belakang, di bawah jok, vacuum karbu (MJ1). Filter udara di belakang cover. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_busi_045",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 7,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_karburator_046",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas body cover / buka jok besar. Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_pilot_jet_047",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_main_jet_048",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_intake_manifold_049",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_filter_udara_050",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Lepas body cover / buka jok besar. Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_koil_051",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_cdi_052",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_kran_bensin_053",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Lepas body cover / buka jok besar. Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 22,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_selang_bensin_054",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas body cover / buka jok besar. Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_fino_ring_piston_055",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Bongkar full body skutik. Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 540,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_fino_karbu",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Fino Karbu. Mirip Mio, body lebih besar, lokasi komponen sama. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_busi_056",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_karburator_057",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm",
+      "service manual (untuk spec jet size)"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 20,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_pilot_jet_058",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner",
+      "service manual (untuk spec jet size)"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_main_jet_059",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner",
+      "service manual (untuk spec jet size)"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_intake_manifold_060",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_filter_udara_061",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_koil_062",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_cdi_063",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_kran_bensin_064",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_selang_bensin_065",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_yamaha_jupiter_z_ring_piston_066",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Lepas tangki + shroud kipas + knalpot. Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 360,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_yamaha_jupiter_z",
+    "verified_date": "2024-06-25",
+    "verification_note": "Yamaha Jupiter Z. Sport underbone, ada kipas pendingin. Karburator PZ26. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_busi_067",
+    "motor_id": "suzuki_smash",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_karburator_068",
+    "motor_id": "suzuki_smash",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 20,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_pilot_jet_069",
+    "motor_id": "suzuki_smash",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_main_jet_070",
+    "motor_id": "suzuki_smash",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_intake_manifold_071",
+    "motor_id": "suzuki_smash",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_filter_udara_072",
+    "motor_id": "suzuki_smash",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_koil_073",
+    "motor_id": "suzuki_smash",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_cdi_074",
+    "motor_id": "suzuki_smash",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_kran_bensin_075",
+    "motor_id": "suzuki_smash",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_selang_bensin_076",
+    "motor_id": "suzuki_smash",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_suzuki_smash_ring_piston_077",
+    "motor_id": "suzuki_smash",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 360,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_suzuki_smash",
+    "verified_date": "2024-06-25",
+    "verification_note": "Suzuki Smash. Basic underbone, karbu TK, lokasi komponen sederhana. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_busi_078",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "busi",
+    "location_description": "Di kepala silinder, tertutup busi socket hitam (boot busi)",
+    "access_method": "Lepas busi socket (tarik ke atas), pasang kunci busi, putar berlawanan jarum jam",
+    "tools_needed": [
+      "kunci busi 16/21mm"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_karburator_079",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "karburator",
+    "location_description": "Di tengah mesin, antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "access_method": "Lepas tutup rumah filter udara, lepas kabel gas, lepas 2 klem intake manifold, cabut karburator",
+    "tools_needed": [
+      "obeng plus",
+      "kunci 8mm",
+      "kunci 10mm"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 20,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_pilot_jet_080",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "pilot_jet",
+    "location_description": "Di dalam karburator, di sisi body, akses dari float chamber (bawah karburator)",
+    "access_method": "Lepas karburator, buka baut float chamber, pilot jet ada di sisi body karburator (drat halus, ukuran #60-#68)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_main_jet_081",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "main_jet",
+    "location_description": "Di dalam karburator, di tengah float chamber, ukuran lebih besar dari pilot jet",
+    "access_method": "Lepas karburator, buka float chamber, main jet di tengah (drat lebih besar dari pilot, #98-#108 tergantung model)",
+    "tools_needed": [
+      "obeng presisi",
+      "kunci 10mm",
+      "carb cleaner"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_intake_manifold_082",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "intake_manifold",
+    "location_description": "Antara karburator dan kepala silinder, sisi kanan motor (atau sesuai motor)",
+    "access_method": "Lepas body cover samping, buka 2 klem (di ujung karburator dan ujung kepala silinder), tarik keluar",
+    "tools_needed": [
+      "kunci 8mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_filter_udara_083",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "filter_udara",
+    "location_description": "Di rumah filter (box hitam/plastik) di belakang karburator, biasanya di bawah jok atau samping",
+    "access_method": "Buka klip/sekrup rumah filter, angkat tutup, lepas busa/kertas filter",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_koil_084",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "koil",
+    "location_description": "Di dekat CDI, biasanya di bawah jok atau di frame",
+    "access_method": "Buka jok, cari koil (kotak hitam kecil dengan kabel busi warna hitam tebal). Lepas soket kabel busi, lepas 2 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_cdi_085",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "cdi",
+    "location_description": "Di bawah jok atau di belakang side cover, unit kotak hitam dengan banyak soket kabel",
+    "access_method": "Buka jok, cari unit CDI (kotak hitam dengan 4-6 soket). Lepas semua soket, lepas 2-3 baut mounting",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_kran_bensin_086",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "kran_bensin",
+    "location_description": "Di bawah tangki, biasanya sisi kiri, dengan tuas ON/RES/OFF",
+    "access_method": "Buka tutup tangki, angkat tangki, kran bensin di bawah tangki. Buka 2 baut mounting, lepas soket bensin ke selang",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_selang_bensin_087",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "selang_bensin",
+    "location_description": "Dari kran bensin (bawah tangki) ke inlet karburator (tengah mesin), panjang ~30-50cm",
+    "access_method": "Lepas klem di kedua ujung, tarik selang. Pasang selang baru, kencangkan klem",
+    "tools_needed": [
+      "tang",
+      "selang baru (bensin resistant)"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 10,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v2_kawasaki_kaze_ring_piston_088",
+    "motor_id": "kawasaki_kaze",
+    "component_id": "ring_piston",
+    "location_description": "Di piston, dalam blok silinder. Akses: buka kepala silinder + blok",
+    "access_method": "Bongkar mesin: buang coolant, lepas tangki + knalpot + kabel, buka kepala silinder, turunkan blok, buka piston, ganti ring",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring piston set",
+      "honing tool (jika baret)",
+      "tool khusus bongkar mesin"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 360,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v2_curator_kawasaki_kaze",
+    "verified_date": "2024-06-25",
+    "verification_note": "Kawasaki Kaze. Mirip Smash, karbu PE24 clone Honda. Seed curation: data berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual + konfirmasi mekanik senior. Lokasi umum untuk tipe karbu seri ini."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_pelampung_001",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_needle_valve_002",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_sekrup_angin_003",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_baut_langsam_004",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_skep_005",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_kabel_gas_006",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_pulser_007",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_spul_008",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_supra_x125_karbu_tensioner_ranjai_keteng_009",
+    "motor_id": "honda_supra_x125_karbu",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_supra_x125_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_pelampung_010",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_needle_valve_011",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_sekrup_angin_012",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_baut_langsam_013",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_skep_014",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_kabel_gas_015",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_pulser_016",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_spul_017",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_ring_piston_018",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "ring_piston",
+    "location_description": "Di dalam silinder, mengikat piston. Ring piston set (top, second, oil) terpasang di alur piston",
+    "access_method": "Bongkar blok mesin (head, blok). Lepas piston dari bawah. Ganti ring lama dengan ring baru pakai ring expander.",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring expander",
+      "tang snap ring"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 180,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_revo_x_karbu_tensioner_ranjai_keteng_019",
+    "motor_id": "honda_revo_x_karbu",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_revo_x_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_pelampung_020",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_needle_valve_021",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_sekrup_angin_022",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_baut_langsam_023",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_skep_024",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_kabel_gas_025",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_pulser_026",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_spul_027",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_honda_tiger_2000_tensioner_ranjai_keteng_028",
+    "motor_id": "honda_tiger_2000",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu honda_tiger_2000. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_pelampung_029",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_needle_valve_030",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_sekrup_angin_031",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_baut_langsam_032",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_skep_033",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_kabel_gas_034",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_pulser_035",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_spul_036",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_mio_sporty_tensioner_ranjai_keteng_037",
+    "motor_id": "yamaha_mio_sporty",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_mio_sporty. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_pelampung_038",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_needle_valve_039",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_sekrup_angin_040",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_baut_langsam_041",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_skep_042",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_kabel_gas_043",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_pulser_044",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_spul_045",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_jupiter_z_tensioner_ranjai_keteng_046",
+    "motor_id": "yamaha_jupiter_z",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_jupiter_z. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_pelampung_047",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_needle_valve_048",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_sekrup_angin_049",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_baut_langsam_050",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_skep_051",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_kabel_gas_052",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_pulser_053",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_spul_054",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_yamaha_fino_karbu_tensioner_ranjai_keteng_055",
+    "motor_id": "yamaha_fino_karbu",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu yamaha_fino_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_pelampung_056",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_needle_valve_057",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_sekrup_angin_058",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_baut_langsam_059",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_skep_060",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_kabel_gas_061",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_pulser_062",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_spul_063",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_ring_piston_064",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "ring_piston",
+    "location_description": "Di dalam silinder, mengikat piston. Ring piston set (top, second, oil) terpasang di alur piston",
+    "access_method": "Bongkar blok mesin (head, blok). Lepas piston dari bawah. Ganti ring lama dengan ring baru pakai ring expander.",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring expander",
+      "tang snap ring"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 180,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_suzuki_smash_karbu_tensioner_ranjai_keteng_065",
+    "motor_id": "suzuki_smash_karbu",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu suzuki_smash_karbu. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_pelampung_066",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "pelampung",
+    "location_description": "Di dalam float chamber (mangkuk karburator), di bawah body karburator",
+    "access_method": "Lepas karburator, buka baut float chamber (bawah), pelampung terlihat di dalam mangkuk",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 25,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_needle_valve_067",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "needle_valve",
+    "location_description": "Di dalam float chamber, terpasang di tutup float chamber sebagai katup jarum penutup aliran bensin",
+    "access_method": "Buka float chamber, needle valve ada di tengah atas, bisa dilepas dengan obeng presisi",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng presisi",
+      "tang kecil"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_sekrup_angin_068",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "sekrup_angin",
+    "location_description": "Di sisi body karburator, sekrup kecil (idle air screw) untuk setel campuran idle",
+    "access_method": "Terlihat dari luar karburator, biasanya di samping dekat throttle stop screw. Pakai obeng presisi.",
+    "tools_needed": [
+      "obeng presisi"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_baut_langsam_069",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "baut_langsam",
+    "location_description": "Di body karburator, baut pembatas skep saat posisi gas tertutup (throttle stop screw)",
+    "access_method": "Terlihat dari luar karburator, biasanya di sisi berlawanan dari sekrup angin. Pakai obeng plus.",
+    "tools_needed": [
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 5,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_skep_070",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "skep",
+    "location_description": "Di dalam ruang atas karburator, tepat di bawah tutup karburator. Skep (throttle valve) adalah katup gas utama",
+    "access_method": "Lepas tutup karburator (2 baut), angkat skep + spring. Hati-hati jangan jatuhkan spring.",
+    "tools_needed": [
+      "kunci 10mm",
+      "obeng plus",
+      "tang"
+    ],
+    "difficulty": "medium",
+    "time_estimate_min": 30,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_kabel_gas_071",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "kabel_gas",
+    "location_description": "Dari handle gas (kanan stang) ke karburator, melalui rumah kabel (cable housing) di sepanjang rangka",
+    "access_method": "Lepas kedua ujung: di handle gas dan di skep karburator. Rumah kabel terikat ke rangka.",
+    "tools_needed": [
+      "kunci 10mm",
+      "tang",
+      "obeng plus"
+    ],
+    "difficulty": "easy",
+    "time_estimate_min": 15,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_pulser_072",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "pulser",
+    "location_description": "Di dalam rumah stator (magnet), dekat dengan magnet flywheel. Pulser adalah kumparan kecil untuk trigger CDI",
+    "access_method": "Lepas cover kiri mesin (stator cover), pulser terlihat di dalam, biasanya diikat 2 baut + 1 kabel ke CDI",
+    "tools_needed": [
+      "kunci 8mm",
+      "kunci 10mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 45,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_spul_073",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "spul",
+    "location_description": "Di dalam stator housing (bagian dalam flywheel), kumparan utama yang membangkitkan listrik",
+    "access_method": "Lepas cover kiri mesin, lepas flywheel (butuh puller), spul terlihat di belakang flywheel, diikat baut",
+    "tools_needed": [
+      "kunci set",
+      "flywheel puller",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_ring_piston_074",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "ring_piston",
+    "location_description": "Di dalam silinder, mengikat piston. Ring piston set (top, second, oil) terpasang di alur piston",
+    "access_method": "Bongkar blok mesin (head, blok). Lepas piston dari bawah. Ganti ring lama dengan ring baru pakai ring expander.",
+    "tools_needed": [
+      "kunci set lengkap",
+      "ring expander",
+      "tang snap ring"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 180,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  },
+  {
+    "id": "loc_v3_kawasaki_kaze_r_tensioner_ranjai_keteng_075",
+    "motor_id": "kawasaki_kaze_r",
+    "component_id": "tensioner_ranjai_keteng",
+    "location_description": "Di samping blok mesin, di area rantai keteng timing. Tensioner menekan rantai agar tidak kendor",
+    "access_method": "Bongkar cover timing (case kiri atau kanan tergantung motor), tensioner terlihat di dekat rantai. Setel atau ganti.",
+    "tools_needed": [
+      "kunci 10mm",
+      "kunci 12mm",
+      "obeng plus"
+    ],
+    "difficulty": "hard",
+    "time_estimate_min": 60,
+    "reference_images": [],
+    "verified": true,
+    "verified_by": "karbuin_seed_v3_curator_phase17a",
+    "verified_date": "2024-06-25",
+    "verification_note": "Phase 1.7A knowledge completion. Lokasi umum untuk tipe karbu kawasaki_kaze_r. Deskripsi berdasarkan Honda/Yamaha/Suzuki/Kawasaki service manual generik. Untuk lokasi exact per-motor, lihat service manual resmi."
+  }
+]

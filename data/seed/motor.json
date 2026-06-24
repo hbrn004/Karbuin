@@ -1,0 +1,186 @@
+[
+  {
+    "id": "honda_supra_x125_karbu",
+    "brand": "Honda",
+    "model": "Supra X 125 Karbu",
+    "year_start": 2006,
+    "year_end": 2014,
+    "fuel_system": "carburetor",
+    "carb_type": "PE24",
+    "engine_cc": 125,
+    "category": "underbone",
+    "common_aliases": [
+      "supra 125",
+      "supra fit",
+      "supra x 125"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "honda_revo_karbu",
+    "brand": "Honda",
+    "model": "Revo Karbu",
+    "year_start": 2007,
+    "year_end": 2014,
+    "fuel_system": "carburetor",
+    "carb_type": "PZ16",
+    "engine_cc": 110,
+    "category": "underbone",
+    "common_aliases": [
+      "revo 110",
+      "revo fit",
+      "revo x"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "honda_tiger_2000",
+    "brand": "Honda",
+    "model": "Tiger 2000",
+    "year_start": 2000,
+    "year_end": 2005,
+    "fuel_system": "carburetor",
+    "carb_type": "Single Carb",
+    "engine_cc": 200,
+    "category": "sport",
+    "common_aliases": [
+      "tiger",
+      "tiger 200",
+      "honda tiger"
+    ],
+    "cooling_type": "air_active",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "yamaha_mio_sporty",
+    "brand": "Yamaha",
+    "model": "Mio Sporty",
+    "year_start": 2003,
+    "year_end": 2008,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni",
+    "engine_cc": 115,
+    "category": "underbone",
+    "common_aliases": [
+      "mio",
+      "mio sport",
+      "mio karbu"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "yamaha_fino_karbu",
+    "brand": "Yamaha",
+    "model": "Fino Karbu",
+    "year_start": 2008,
+    "year_end": 2014,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni",
+    "engine_cc": 115,
+    "category": "underbone",
+    "common_aliases": [
+      "fino",
+      "fino karbu",
+      "fino sport"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "yamaha_jupiter_z",
+    "brand": "Yamaha",
+    "model": "Jupiter Z",
+    "year_start": 2003,
+    "year_end": 2008,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni",
+    "engine_cc": 110,
+    "category": "sport-bebek",
+    "common_aliases": [
+      "jupiter z",
+      "jupiter z1",
+      "jupiter"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "suzuki_smash",
+    "brand": "Suzuki",
+    "model": "Smash",
+    "year_start": 2003,
+    "year_end": 2014,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni",
+    "engine_cc": 110,
+    "category": "underbone",
+    "common_aliases": [
+      "smash",
+      "suzuki smash",
+      "smash 110"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  },
+  {
+    "id": "kawasaki_kaze",
+    "brand": "Kawasaki",
+    "model": "Kaze",
+    "year_start": 2003,
+    "year_end": 2008,
+    "fuel_system": "carburetor",
+    "carb_type": "Mikuni",
+    "engine_cc": 110,
+    "category": "sport-bebek",
+    "common_aliases": [
+      "kaze",
+      "kawasaki kaze",
+      "kaze r"
+    ],
+    "cooling_type": "air_passive",
+    "spec_reference": {
+      "klep_in_mm": 0.05,
+      "klep_ex_mm": 0.1,
+      "busi_gap_mm": 0.7,
+      "compression_kg_cm2": 10.0
+    }
+  }
+]

@@ -1,0 +1,976 @@
+[
+  {
+    "id": "intake_leak",
+    "name": "Kebocoran Intake Manifold",
+    "aliases": [
+      "karet intake bocor",
+      "manifold rembes",
+      "intake bocor"
+    ],
+    "related_components": [
+      "intake_manifold",
+      "intake_clamp"
+    ],
+    "likelihood_default": 0.7,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Karet intake retak/kendor → udara palsu → campuran kurus → RPM fluktuatif",
+    "diagnosis_method": "Hidupkan mesin idle, semprot carb cleaner di area sambungan manifold. Jika RPM berubah = bocor.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_intake_carb_cleaner",
+        "question": "Apakah RPM mesin berubah (naik atau turun) saat carb cleaner disemprot ke sambungan intake?",
+        "yes_weight_bonus": 6,
+        "no_weight_penalty": 3
+      },
+      {
+        "id": "fu_intake_spray_test",
+        "question": "Apakah Anda sudah pernah menyemprotkan carb cleaner di sambungan intake manifold dan RPM naik saat disemprot?",
+        "yes_weight_bonus": 6,
+        "no_weight_penalty": -2
+      }
+    ]
+  },
+  {
+    "id": "pilot_jet_clogged",
+    "name": "Pilot Jet Tersumbat",
+    "aliases": [
+      "pilot jet mampet",
+      "slow jet tersumbat",
+      "pilot jet kotor"
+    ],
+    "related_components": [
+      "pilot_jet"
+    ],
+    "likelihood_default": 0.6,
+    "severity": "medium",
+    "urgency": "low",
+    "description": "Pilot jet tersumbat kotoran bensin → campuran kurus saat idle/rendah",
+    "diagnosis_method": "Lepas pilot jet, tiup angin. Jika tidak tembus = tersumbat. Rendam carb cleaner.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "fu_pilot_cold_only",
+        "question": "Apakah brebet HILANG setelah mesin hangat (5-10 menit jalan)?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": -1
+      }
+    ]
+  },
+  {
+    "id": "main_jet_clogged",
+    "name": "Main Jet Tersumbat",
+    "aliases": [
+      "main jet mampet",
+      "jet utama tersumbat"
+    ],
+    "related_components": [
+      "main_jet"
+    ],
+    "likelihood_default": 0.5,
+    "severity": "medium",
+    "urgency": "low",
+    "description": "Main jet tersumbat → campuran kurus saat rpm tinggi/beban penuh",
+    "diagnosis_method": "Lepas main jet, tiup angin. Periksa ukuran jet. Rendam carb cleaner.",
+    "risk_level": "low",
+    "diy_level": "menengah",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "fu_main_jet_high_rpm",
+        "question": "Apakah masalah HILANG saat langsam tapi MUNCUL saat gas ditarik (RPM tinggi)?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 2
+      },
+      {
+        "id": "fu_main_jet_tanjakan",
+        "question": "Apakah tarikan hilang / ngempos saat naik tanjakan atau beban berat?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": -1
+      }
+    ]
+  },
+  {
+    "id": "busi_aus",
+    "name": "Busi Aus",
+    "aliases": [
+      "busi lama",
+      "busi jelek",
+      "busi lemah"
+    ],
+    "related_components": [
+      "busi"
+    ],
+    "likelihood_default": 0.7,
+    "severity": "low",
+    "urgency": "low",
+    "description": "Elektroda busi aus/gap melebar → percikan api lemah",
+    "diagnosis_method": "Lepas busi, periksa elektroda aus/gap melebar. Setel gap 0.6-0.7mm.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 20,
+    "follow_up_questions": [
+      {
+        "id": "fu_busi_consistent",
+        "question": "Apakah mesin brebet konsisten di SEMUA RPM (rendah, menengah, tinggi)?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": -2
+      },
+      {
+        "id": "fu_busi_visual",
+        "question": "Apakah busi yang lama terlihat putih pucat, coklat tua, atau elektroda aus?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": -1
+      }
+    ]
+  },
+  {
+    "id": "busi_rusak",
+    "name": "Busi Rusak / Mati",
+    "aliases": [
+      "busi mati",
+      "busi pecah",
+      "busi short",
+      "isolator busi bocor"
+    ],
+    "related_components": [
+      "busi",
+      "busi_socket"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Isolator busi pecah atau elektroda rontok → percikan api terputus-putus",
+    "diagnosis_method": "Ganti busi spare. Jika mesin hidup normal = busi rusak.",
+    "risk_level": "medium",
+    "diy_level": "pemula",
+    "estimated_minutes": 15
+  },
+  {
+    "id": "filter_udara_kotor",
+    "name": "Filter Udara Kotor",
+    "aliases": [
+      "filter mampet",
+      "saringan kotor",
+      "filter tepok"
+    ],
+    "related_components": [
+      "filter_udara"
+    ],
+    "likelihood_default": 0.7,
+    "severity": "low",
+    "urgency": "low",
+    "description": "Filter udara tersumbat → campuran kaya → bensin boros, asap hitam",
+    "diagnosis_method": "Lepas filter, periksa kotor/tersumbat. Cuci atau ganti.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 15,
+    "follow_up_questions": [
+      {
+        "id": "fu_filter_visible",
+        "question": "Apakah filter udara terlihat kotor atau tersumbat saat dibuka?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 3
+      },
+      {
+        "id": "fu_filter_recent_clean",
+        "question": "Apakah filter udara sudah pernah dicuci atau diganti dalam 6 bulan terakhir?",
+        "yes_weight_bonus": -4,
+        "no_weight_bonus": 3
+      }
+    ]
+  },
+  {
+    "id": "kiprok_rusak",
+    "name": "Kiprok Rusak",
+    "aliases": [
+      "kiprok mati",
+      "regulator rusak",
+      "rectifier bocor"
+    ],
+    "related_components": [
+      "kiprok"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Kiprok tidak menyearahkan arus atau overcharge → aki tekor atau rusak",
+    "diagnosis_method": "Ukur tegangan aki saat mesin menyala: 13.5-14.5V normal, >15V overcharge, <13V tidak charge.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 45,
+    "requires_confirmation": true,
+    "confirmation_method": "Bongkar dari motor, uji pakai multimeter (resistansi/tegangan) atau bandingkan dengan unit baru di bengkel.",
+    "confirmation_tools": [
+      "multimeter",
+      "acuan unit baru"
+    ],
+    "confirmation_difficulty": "menengah"
+  },
+  {
+    "id": "aki_lemah",
+    "name": "Aki Lemah / Soak",
+    "aliases": [
+      "accu soak",
+      "aki drop",
+      "battery lemah"
+    ],
+    "related_components": [
+      "aki"
+    ],
+    "likelihood_default": 0.6,
+    "severity": "high",
+    "urgency": "medium",
+    "description": "Aki tidak mampu menyimpan arus → starter berat, lampu redup",
+    "diagnosis_method": "Ukur tegangan aki OFF: <11.5V = soak. Load test.",
+    "risk_level": "medium",
+    "diy_level": "pemula",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_aki_lamp_dim",
+        "question": "Apakah lampu redup atau berkedip saat mesin idle?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 2
+      },
+      {
+        "id": "fu_aki_age",
+        "question": "Apakah aki sudah berusia lebih dari 2 tahun?",
+        "yes_weight_bonus": 3,
+        "no_weight_penalty": 1
+      },
+      {
+        "id": "fu_aki_old",
+        "question": "Apakah aki sudah berusia lebih dari 2 tahun?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -1
+      }
+    ]
+  },
+  {
+    "id": "cdi_rusak",
+    "name": "CDI Rusak",
+    "aliases": [
+      "cdi mati",
+      "cdi kacau",
+      "cdi lemah"
+    ],
+    "related_components": [
+      "cdi"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "high",
+    "urgency": "high",
+    "description": "CDI tidak mengirimkan sinyal pengapian dengan benar",
+    "diagnosis_method": "Swap dengan CDI spare. Periksa resistansi pulser & pickup coil.",
+    "risk_level": "medium",
+    "diy_level": "mekanik",
+    "estimated_minutes": 60,
+    "follow_up_questions": [
+      {
+        "id": "fu_cdi_no_spark",
+        "question": "Apakah sama sekali TIDAK ada percikan api di busi saat diengkol?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 3
+      }
+    ],
+    "requires_confirmation": true,
+    "confirmation_method": "Bongkar dari motor, uji pakai multimeter (resistansi/tegangan) atau bandingkan dengan unit baru di bengkel.",
+    "confirmation_tools": [
+      "multimeter",
+      "acuan unit baru"
+    ],
+    "confirmation_difficulty": "menengah"
+  },
+  {
+    "id": "koil_lemah",
+    "name": "Koil Lemah",
+    "aliases": [
+      "coil lemah",
+      "trafo api lemah",
+      "koil bocor"
+    ],
+    "related_components": [
+      "koil"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Koil tidak mampu menghasilkan tegangan tinggi cukup",
+    "diagnosis_method": "Ukur resistansi primer (0.5-2 ohm) & sekunder (5-15 kohm). Tes spark gap.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 45,
+    "requires_confirmation": true,
+    "confirmation_method": "Bongkar dari motor, uji pakai multimeter (resistansi/tegangan) atau bandingkan dengan unit baru di bengkel.",
+    "confirmation_tools": [
+      "multimeter",
+      "acuan unit baru"
+    ],
+    "confirmation_difficulty": "menengah"
+  },
+  {
+    "id": "klep_renggang",
+    "name": "Klep Renggang",
+    "aliases": [
+      "klep longgar",
+      "valve clearance salah",
+      "setelan klep salah"
+    ],
+    "related_components": [
+      "klep"
+    ],
+    "likelihood_default": 0.5,
+    "severity": "medium",
+    "urgency": "low",
+    "description": "Celah klep (valve clearance) tidak sesuai spec motor. Lihat spec_reference.motor untuk nilai exact (umumnya klep_in kecil, klep_ex lebih besar, tapi tiap motor bisa beda). Celah terlalu rapat -> klep tidak menutup rapat -> kompresi bocor. Celah terlalu renggang -> timing buka-tutup klep molor -> tenaga hilang.",
+    "diagnosis_method": "Ukur celah klep dengan feeler gauge pada klep dalam kondisi mesin DINGIN, piston TMA. Bandingkan dengan spec_reference.klep_in_mm dan klep_ex_mm motor Anda. Jika di luar spec, setel dengan mur pengatur pada rocker arm.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 60,
+    "spec_source": "motor.spec_reference"
+  },
+  {
+    "id": "ring_piston_aus",
+    "name": "Ring Piston Aus",
+    "aliases": [
+      "ring seher aus",
+      "seher bocor",
+      "kompresi bocor"
+    ],
+    "related_components": [
+      "ring_piston"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Ring piston aus → kompresi bocor → asap putih, tenaga hilang",
+    "diagnosis_method": "Compression test: <8 bar = aus. Buka busi, lihat oli menumpuk = ring aus.",
+    "risk_level": "high",
+    "diy_level": "mekanik",
+    "estimated_minutes": 480,
+    "follow_up_questions": [
+      {
+        "id": "fu_ring_oil_smoke",
+        "question": "Apakah asap putih tebal keluar dari knalpot, terutama saat gas ditarik?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 3
+      },
+      {
+        "id": "fu_ring_oli_bertambah",
+        "question": "Apakah oli mesin cepat habis dan perlu ditambah terus?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 2
+      },
+      {
+        "id": "fu_ring_knocking",
+        "question": "Apakah terdengar bunyi 'tuk-tuk' atau ketukan dari dalam mesin saat RPM tinggi?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -1
+      }
+    ]
+  },
+  {
+    "id": "karburator_overflow",
+    "name": "Karburator Overflow / Bensin Meluap",
+    "aliases": [
+      "karburator meluap",
+      "bensin netes dari karbu",
+      "banjir karbu"
+    ],
+    "related_components": [
+      "pilot_jet",
+      "main_jet",
+      "kran_bensin",
+      "selang_bensin"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "medium",
+    "urgency": "high",
+    "description": "Bensin meluap dari karburator → flooding → mesin sulit hidup atau mati mendadak",
+    "diagnosis_method": "Float karburator tidak naik / needle valve macet. Bersihkan needle & seat.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 60
+  },
+  {
+    "id": "bensin_kotor",
+    "name": "Bensin Kotor / Air di Bensin",
+    "aliases": [
+      "bensin ada air",
+      "bensin bercampur air",
+      "bensin kualitas jelek"
+    ],
+    "related_components": [
+      "kran_bensin",
+      "selang_bensin"
+    ],
+    "likelihood_default": 0.5,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Bensin terkontaminasi air/kotoran → pembakaran tidak sempurna",
+    "diagnosis_method": "Sample bensin dari karburator, lihat ada endapan/air. Ganti bensin.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "fu_bensin_smell",
+        "question": "Apakah bensin di tangki tercium bau amis, tengik, atau seperti ada air?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_bensin_recent_fill",
+        "question": "Apakah masalah ini muncul setelah Anda mengisi bensin di SPBU yang tidak biasa / pakai bensin subsidi?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": -1
+      },
+      {
+        "id": "fu_bensin_visual",
+        "question": "Apakah bensin di tangki terlihat berkerak, berubah warna, atau ada endapan di dasar?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 0
+      }
+    ]
+  },
+  {
+    "id": "vacuum_bocor",
+    "name": "Vacuum Bocor / Intake Bocor Halus",
+    "aliases": [
+      "vacuum leak",
+      "udara palsu",
+      "false air bocor"
+    ],
+    "related_components": [
+      "intake_manifold",
+      "intake_clamp"
+    ],
+    "likelihood_default": 0.6,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Udara masuk lewat celah kecil di intake/vacuum hose → campuran kurus",
+    "diagnosis_method": "Semprot carb cleaner di semua sambungan intake saat idle. RPM berubah = bocor.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 30
+  },
+  {
+    "id": "timing_kemas_terlambat",
+    "name": "Timing Pengapian Terlambat",
+    "aliases": [
+      "pengapian terlambat",
+      "timing molor",
+      "ignition retard"
+    ],
+    "related_components": [
+      "cdi"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "medium",
+    "urgency": "low",
+    "description": "Timing pengapian molor dari spec → pembakaran tidak efisien",
+    "diagnosis_method": "Periksa tanda timing di flywheel. Setel sesuai spec motor.",
+    "risk_level": "low",
+    "diy_level": "mekanik",
+    "estimated_minutes": 90
+  },
+  {
+    "id": "seal_klep_bocor",
+    "name": "Seal Klep Bocor",
+    "aliases": [
+      "klep bocor",
+      "valve seal bocor",
+      "klep rembes"
+    ],
+    "related_components": [
+      "klep"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Seal klep bocor → oli ikut terbakar → asap putih saat pagi",
+    "diagnosis_method": "Compression test basah (tetes oli ke busi). Jika naik = seal bocor atau ring bocor.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 240
+  },
+  {
+    "id": "kran_bensin_mampet",
+    "name": "Kran Bensin Mampet",
+    "aliases": [
+      "kran bensin tersumbat",
+      "petcock mampet"
+    ],
+    "related_components": [
+      "kran_bensin",
+      "selang_bensin"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "low",
+    "urgency": "medium",
+    "description": "Saringan kran bensin mampet → aliran bensin ke karburator terhambat",
+    "diagnosis_method": "Buka kran, tiup angin dari arah sebaliknya. Bersihkan saringan.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 20
+  },
+  {
+    "id": "kipas_rusak",
+    "name": "Kipas Pendingin Rusak",
+    "aliases": [
+      "kipas radiator",
+      "cooling fan",
+      "kipas pendingin"
+    ],
+    "related_components": [
+      "kipas"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Kipas pendingin tidak berputar atau lemah → overheating (motor air-cooled: airflow kurang)",
+    "diagnosis_method": "Periksa kipas rusak/patah. Untuk motor air-cooled: periksa shroud penutup.",
+    "risk_level": "high",
+    "diy_level": "menengah",
+    "estimated_minutes": 60
+  },
+  {
+    "id": "overheat_cooling",
+    "name": "Sistem Pendingin Bermasalah",
+    "aliases": [
+      "coolant kurang",
+      "coolant rusak",
+      "radiator bocor",
+      "sirkulasi coolant"
+    ],
+    "related_components": [
+      "thermostat",
+      "water_pump",
+      "kipas"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Sistem pendinginan (jika ada) bermasalah → overheating",
+    "diagnosis_method": "Periksa level coolant, kebocoran radiator, thermostat, water pump (untuk motor yang ada).",
+    "risk_level": "high",
+    "diy_level": "mekanik",
+    "estimated_minutes": 120
+  },
+  {
+    "id": "pelampung_macet",
+    "name": "Pelampung Karburator Macet",
+    "aliases": [
+      "pelampung macet",
+      "float macet",
+      "pelampung tidak naik",
+      "pelampung tidak turun",
+      "pelampung karbu macet",
+      "pelampung nyangkut"
+    ],
+    "related_components": [
+      "pelampung",
+      "needle_valve",
+      "karburator"
+    ],
+    "likelihood_default": 0.7,
+    "severity": "medium",
+    "urgency": "high",
+    "description": "Pelampung (float) karburator macet, biasanya karena bensin kotor atau karat pada poros pelampung. Akibatnya pelampung tidak bisa naik mengikuti ketinggian bensin, needle valve tidak menutup, bensin meluap.",
+    "diagnosis_method": "Lepas mangkuk karburator (float bowl), angkat pelampung. Gerakkan pelampung naik-turun, pastikan lancar. Periksa ada/tidaknya kerak di poros pelampung. Bersihkan dengan carb cleaner.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 60,
+    "follow_up_questions": [
+      {
+        "id": "fu_pelampung_visual",
+        "question": "Apakah pelampung bisa digerakkan naik-turun dengan lancar saat dibongkar?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 6
+      }
+    ]
+  },
+  {
+    "id": "needle_valve_aus",
+    "name": "Needle Valve (Jarum Pelampung) Aus",
+    "aliases": [
+      "needle valve aus",
+      "jarum pelampung aus",
+      "jarum karbu aus",
+      "needle valve bocor",
+      "jarum tidak bisa nutup"
+    ],
+    "related_components": [
+      "needle_valve",
+      "pelampung",
+      "karburator"
+    ],
+    "likelihood_default": 0.6,
+    "severity": "medium",
+    "urgency": "high",
+    "description": "Needle valve (jarum pada pelampung) aus atau kotor, tidak bisa menutup sempurna walau pelampung sudah di posisi tertinggi. Bensin tetap menetes walau pelampung normal posisinya.",
+    "diagnosis_method": "Bongkar pelampung, periksa ujung jarum (needle). Jika ada goresan dalam atau bentuk sudah bulat (tidak lancip), ganti. Bisa juga uji dengan udara bertekanan: tutup inlet bensin, tiup, kalau udara lolos = needle valve bocor.",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 90,
+    "follow_up_questions": [
+      {
+        "id": "fu_needle_visual",
+        "question": "Apakah ujung jarum needle valve sudah bulat (tidak lancip) atau ada goresan?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 4
+      }
+    ]
+  },
+  {
+    "id": "float_level_salah",
+    "name": "Float Level (Ketinggian Pelampung) Salah Setel",
+    "aliases": [
+      "float level salah",
+      "pelampung ketinggian salah",
+      "pelampung terlalu tinggi",
+      "pelampung terlalu rendah",
+      "setel pelampung",
+      "float level ketinggian",
+      "pelampung bengkok"
+    ],
+    "related_components": [
+      "pelampung",
+      "needle_valve",
+      "karburator"
+    ],
+    "likelihood_default": 0.5,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Ketinggian pelampung (float level) tidak sesuai spec — bisa terlalu tinggi (pelampung bengkok naik) atau terlalu rendah. Terlalu tinggi: bensin meluap. Terlalu rendah: mesin kurus bensin, brebet, susah start.",
+    "diagnosis_method": "Ukur float level: tahan pelampung ke atas (needle valve tertutup), ukur jarak dari permukaan mangkuk ke pelampung. Bandingkan dengan spec motor (umumnya 13-15mm untuk PE series, tapi tiap motor bisa beda — lihat service manual motor).",
+    "risk_level": "medium",
+    "diy_level": "menengah",
+    "estimated_minutes": 45,
+    "follow_up_questions": [
+      {
+        "id": "fu_float_level",
+        "question": "Apakah float level di luar spec motor setelah diukur?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "setelan_angin_salah",
+    "name": "Setelan Sekrup Angin (Air Screw) Salah",
+    "aliases": [
+      "setelan angin salah",
+      "sekrup angin salah",
+      "putaran angin salah",
+      "campuran terlalu kurus",
+      "campuran terlalu kaya",
+      "air screw"
+    ],
+    "related_components": [
+      "karburator",
+      "sekrup_angin"
+    ],
+    "likelihood_default": 0.7,
+    "severity": "low",
+    "urgency": "low",
+    "description": "Sekrup udara (idle air screw) pada karburator tidak pada posisi yang benar. Terlalu keluar: campuran kurus (mesin RPM tinggi, brebet). Terlalu masuk: campuran kaya (RPM rendah, brebet, bensin boros).",
+    "diagnosis_method": "Putar sekrup udara perlahan sambil dengarkan RPM. Akan terdengar titik paling tinggi RPM — itulah setelan base. Lalu putar keluar 0.5-1.5 putaran (sesuai spec motor).",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 15,
+    "follow_up_questions": [
+      {
+        "id": "fu_setel_angin",
+        "question": "Apakah mesin jadi lebih stabil setelah setel sekrup udara?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "setelan_langsam_salah",
+    "name": "Setelan Baut Langsam (Throttle Stop) Salah",
+    "aliases": [
+      "setelan langsam salah",
+      "langsam tidak stabil",
+      "langsam kemurahan",
+      "langsam kemahalan",
+      "RPM idle rendah",
+      "RPM idle tinggi",
+      "baut langsam"
+    ],
+    "related_components": [
+      "karburator",
+      "baut_langsam"
+    ],
+    "likelihood_default": 0.7,
+    "severity": "low",
+    "urgency": "low",
+    "description": "Baut langsam (throttle stop screw) tidak pada posisi yang benar, RPM idle tidak sesuai spec. Biasanya masalah muncul setelah servis karburator atau ganti komponen.",
+    "diagnosis_method": "Panaskan mesin (5-10 menit). Atur baut langsam sampai RPM idle stabil di spec (umumnya 1300-1500 RPM untuk motor karbu). Pastikan mesin tidak mati saat gas tiba-tiba ditutup.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 10,
+    "follow_up_questions": [
+      {
+        "id": "fu_setel_langsam",
+        "question": "Apakah RPM idle menjadi stabil di spec setelah setel baut langsam?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 2
+      }
+    ]
+  },
+  {
+    "id": "skep_macet",
+    "name": "Skep (Throttle Valve) Karburator Macet",
+    "aliases": [
+      "skep macet",
+      "throttle valve macet",
+      "skep kering",
+      "skep karat",
+      "gas macet",
+      "gas tidak balik",
+      "throttle macet"
+    ],
+    "related_components": [
+      "karburator",
+      "skep",
+      "gas"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Skep (throttle valve) di karburator macet karena karat, kerak, atau kering. Gas tidak bisa dibuka penuh atau tidak balik dengan halus.",
+    "diagnosis_method": "Lepas karburator, buka bak skep, bersihkan permukaan skep dan dinding dalam karburator dari kerak. Lumasi poros skep dengan pelumas khusus karburator (bukan WD-40).",
+    "risk_level": "low",
+    "diy_level": "menengah",
+    "estimated_minutes": 90,
+    "follow_up_questions": [
+      {
+        "id": "fu_skep_visual",
+        "question": "Apakah permukaan skep penuh kerak/karat saat dibongkar?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "kabel_gas_seret",
+    "name": "Kabel Gas (Throttle Cable) Seret",
+    "aliases": [
+      "kabel gas seret",
+      "kabel gas kering",
+      "kabel gas macet",
+      "kabel gas berkarat",
+      "throttle cable seret",
+      "tarikan gas berat",
+      "gas tidak responsif"
+    ],
+    "related_components": [
+      "kabel_gas"
+    ],
+    "likelihood_default": 0.5,
+    "severity": "low",
+    "urgency": "low",
+    "description": "Kabel gas kering atau berkarat, gerakan gas tidak mulus. Sering disebabkan jarang dilumasi atau air masuk ke selongsong kabel.",
+    "diagnosis_method": "Coba gerakan gas dari handle: terasa berat atau ada yang mengganjal? Lepas kabel dari karburator, tarik-tarik. Kalau seret = masalah di selongsong. Lumasi dengan pelumas kabel, atau ganti jika sudah aus.",
+    "risk_level": "low",
+    "diy_level": "pemula",
+    "estimated_minutes": 20,
+    "follow_up_questions": [
+      {
+        "id": "fu_kabel_gas",
+        "question": "Apakah gerakan gas jadi lebih ringan setelah dilumasi?",
+        "yes_weight_bonus": 4,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "pulser_lemah",
+    "name": "Pulser (Ignition Pulse Coil) Lemah",
+    "aliases": [
+      "pulser lemah",
+      "pulser mati",
+      "pulser rusak",
+      "pickup coil lemah",
+      "ignition pulse lemah"
+    ],
+    "related_components": [
+      "pulser"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "medium",
+    "urgency": "high",
+    "description": "Pulser (pickup coil) lemah atau mati. Berfungsi memicu CDI untuk menembak busi. Lemah: pengapian telat, brebet, susah start. Mati total: mesin tidak bisa hidup.",
+    "diagnosis_method": "Lepas pulser dari motor, ukur resistansi sesuai spec service manual motor (umumnya 100-300 ohm). Bandingkan dengan unit baru atau motor lain yang sama. Di luar spec = ganti.",
+    "risk_level": "medium",
+    "diy_level": "mekanik",
+    "estimated_minutes": 60,
+    "requires_confirmation": true,
+    "confirmation_method": "Bongkar pulser dari motor, ukur resistansi dengan multimeter. Bandingkan dengan spec service manual motor atau unit baru di bengkel.",
+    "confirmation_tools": [
+      "multimeter",
+      "service manual motor",
+      "acuan unit baru"
+    ],
+    "confirmation_difficulty": "menengah",
+    "follow_up_questions": [
+      {
+        "id": "fu_pulser_ohm",
+        "question": "Apakah resistansi pulser di luar spec service manual motor setelah diukur?",
+        "yes_weight_bonus": 6,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "spul_lemah",
+    "name": "Spul (Stator Coil) Lemah",
+    "aliases": [
+      "spul lemah",
+      "spul mati",
+      "stator lemah",
+      "generator lemah",
+      "spul tidak mengisi",
+      "aki tidak penuh"
+    ],
+    "related_components": [
+      "spul"
+    ],
+    "likelihood_default": 0.4,
+    "severity": "medium",
+    "urgency": "high",
+    "description": "Spul (stator generator) lemah, tidak mengisi aki dengan optimal. Akibat aki tekor terus meskipun sering dipakai. Jika spul mati total, aki akan kosong total.",
+    "diagnosis_method": "Ukur tegangan output spul saat mesin hidup (kabel keluar spul ke kiprok). Normal: >12V pada RPM 3000. Di bawah itu = spul lemah. Bandingkan dengan motor lain yang sama.",
+    "risk_level": "medium",
+    "diy_level": "mekanik",
+    "estimated_minutes": 90,
+    "requires_confirmation": true,
+    "confirmation_method": "Bongkar spul dari stator cover, ukur resistansi antar kumparan dengan multimeter, atau ukur tegangan output saat mesin hidup.",
+    "confirmation_tools": [
+      "multimeter",
+      "tachometer (opsional)"
+    ],
+    "confirmation_difficulty": "menengah",
+    "follow_up_questions": [
+      {
+        "id": "fu_spul_voltage",
+        "question": "Apakah tegangan output spul di bawah 12V pada RPM 3000?",
+        "yes_weight_bonus": 6,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "kompresi_rendah",
+    "name": "Kompresi Mesin Rendah",
+    "aliases": [
+      "kompresi rendah",
+      "kompresi bocor",
+      "mesin kurang kompresi",
+      "tekanan kompresi rendah",
+      "compression loss",
+      "tenaga loyo"
+    ],
+    "related_components": [
+      "piston",
+      "ring_piston",
+      "klep",
+      "seal_klep",
+      "gasket_kepala_silinder"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "high",
+    "urgency": "medium",
+    "description": "Tekanan kompresi mesin rendah — bisa karena ring piston aus, klep bocor, atau gasket kepala silinder bocor. Mesin terasa loyo, susah start, bensin boros.",
+    "diagnosis_method": "Ukur kompresi dengan compression tester pada busi, gas full, mesin diputar 5-10 detik. Bandingkan dengan spec motor (umumnya 10-12 kg/cm2 untuk 125cc, 8-10 untuk 110cc). Di bawah spec = perbaiki atau turun mesin.",
+    "risk_level": "high",
+    "diy_level": "mekanik",
+    "estimated_minutes": 120,
+    "follow_up_questions": [
+      {
+        "id": "fu_kompresi_test",
+        "question": "Apakah hasil kompresi tester di bawah spec motor?",
+        "yes_weight_bonus": 6,
+        "no_weight_penalty": 2
+      }
+    ]
+  },
+  {
+    "id": "koil_panas",
+    "name": "Koil Pengapian Overheating",
+    "aliases": [
+      "koil panas",
+      "koil overheating",
+      "koil lemah saat panas",
+      "koil mati saat panas",
+      "koil rusak"
+    ],
+    "related_components": [
+      "koil",
+      "cdi"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "medium",
+    "urgency": "medium",
+    "description": "Koil pengapian overheating atau lemah saat panas. Bisa karena koil sudah tua, atau ada masalah upstream (pulser lemah, kiprok bocor, timing molor).",
+    "diagnosis_method": "Test koil saat dingin dan saat panas: ukur resistansi primary dan secondary coil dengan multimeter. Selisih besar antara dingin vs panas = koil lemah. Bisa juga bandingkan percikan api (busi dilepas, tempelkan ke blok).",
+    "risk_level": "medium",
+    "diy_level": "mekanik",
+    "estimated_minutes": 60,
+    "requires_confirmation": true,
+    "confirmation_method": "Bongkar koil, ukur resistansi primary (0.2-1 ohm) dan secondary (5-15 kohm) dengan multimeter. Bandingkan dingin vs panas.",
+    "confirmation_tools": [
+      "multimeter",
+      "busur derajat (opsional)"
+    ],
+    "confirmation_difficulty": "menengah",
+    "follow_up_questions": [
+      {
+        "id": "fu_koil_panas",
+        "question": "Apakah mesin mati atau brebet hanya saat koil panas (setelah 15-30 menit jalan)?",
+        "yes_weight_bonus": 5,
+        "no_weight_penalty": 3
+      }
+    ]
+  },
+  {
+    "id": "rantai_keteng_kendor",
+    "name": "Rantai Keteng (Timing Chain) Kendor",
+    "aliases": [
+      "rantai keteng kendor",
+      "timing chain kendor",
+      "rantai keteng molor",
+      "rantai timing kendor",
+      "keteng berisik"
+    ],
+    "related_components": [
+      "rantai_keteng",
+      "tensioner_ranjai_keteng"
+    ],
+    "likelihood_default": 0.3,
+    "severity": "high",
+    "urgency": "high",
+    "description": "Rantai keteng (timing chain) kendor atau molor karena aus, biasanya setelah 30.000+ km. Tensioner kurang kerja, timing molor, klep bisa bentur piston.",
+    "diagnosis_method": "Buka timing cover, periksa ketegangan rantai. Tarik rantai ke belakang (ke arah tensioner) — jika bisa ditarik lebih dari 5-8mm = kendor. Periksa juga kondisi tensioner, sprocket, dan rantai itu sendiri.",
+    "risk_level": "high",
+    "diy_level": "mekanik",
+    "estimated_minutes": 120,
+    "follow_up_questions": [
+      {
+        "id": "fu_keteng_kendor",
+        "question": "Apakah rantai keteng bisa ditarik lebih dari 5mm saat timing cover dibuka?",
+        "yes_weight_bonus": 6,
+        "no_weight_penalty": 2
+      }
+    ]
+  }
+]

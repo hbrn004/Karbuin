@@ -1,0 +1,36 @@
+/* responsive.css — Media query refinements */
+
+@media (min-width: 768px) {
+  :root {
+    --fs-display: 64px;
+    --fs-h1: 48px;
+    --fs-h2: 36px;
+  }
+  .hero h1 { font-size: 56px; }
+  .hero .lead { font-size: var(--fs-h4); }
+  .page { padding: var(--sp-6) 0; }
+}
+
+@media (min-width: 900px) {
+  .nav-links { display: flex; }
+  .topbar-cta { display: inline-flex; }
+  .bottomnav { display: none; }
+  .container { padding: 0 var(--sp-6); }
+  .hero { padding: var(--sp-8) 0; }
+  .hero h1 { font-size: 64px; }
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Print */
+@media print {
+  .topbar, .bottomnav, .sticky-bottom, .followup-card { display: none !important; }
+  body { background: white; color: black; }
+  .card, .section-block { border: 1px solid #ccc; background: white; }
+}

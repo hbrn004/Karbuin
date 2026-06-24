@@ -1,0 +1,462 @@
+[
+  {
+    "id": "hrg_busi",
+    "item_type": "part",
+    "item_id": "busi",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 15000,
+    "part_price_max": 50000,
+    "labor_price_min": 5000,
+    "labor_price_max": 15000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Tokopedia 2024: NGK CPR6EA Rp15-50k, Denso U20EPR9 Rp20-45k, Iridium Rp45-150k. Range nasional verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_busisocket",
+    "item_type": "part",
+    "item_id": "busi_socket",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 10000,
+    "part_price_max": 30000,
+    "labor_price_min": 5000,
+    "labor_price_max": 15000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Busi socket aftermarket Rp10-30k. OEM Honda Rp25-50k. Range verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_intakemanifold",
+    "item_type": "part",
+    "item_id": "intake_manifold",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 25000,
+    "part_price_max": 90000,
+    "labor_price_min": 10000,
+    "labor_price_max": 50000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Intake manifold set Honda: aftermarket Rp25-60k, OEM Rp70-90k. Yamaha: Rp30-80k. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_intakeclamp",
+    "item_type": "part",
+    "item_id": "intake_clamp",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 5000,
+    "part_price_max": 20000,
+    "labor_price_min": 5000,
+    "labor_price_max": 15000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Klem hose 8-16mm generic Rp5-15k, OEM branded Rp15-20k. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_pilotjet",
+    "item_type": "part",
+    "item_id": "pilot_jet",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 5000,
+    "part_price_max": 25000,
+    "labor_price_min": 30000,
+    "labor_price_max": 100000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "note": "Harga labor untuk overhaul karburator",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Pilot jet aftermarket Rp5-15k per pcs (perlu beli 1-2 ukuran). OEM Rp20-25k. Labor overhaul karburator Rp30-100k. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_mainjet",
+    "item_type": "part",
+    "item_id": "main_jet",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 5000,
+    "part_price_max": 25000,
+    "labor_price_min": 30000,
+    "labor_price_max": 100000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "note": "Harga labor untuk overhaul karburator",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Main jet aftermarket Rp5-15k, OEM Rp20-25k. Sama dengan pilot jet. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_filterudara",
+    "item_type": "part",
+    "item_id": "filter_udara",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 15000,
+    "part_price_max": 60000,
+    "labor_price_min": 5000,
+    "labor_price_max": 15000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Filter udara busa: aftermarket Rp15-30k, OEM Rp40-60k. Filter kertas: Rp30-50k. Range verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_kiprok",
+    "item_type": "part",
+    "item_id": "kiprok",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 75000,
+    "part_price_max": 250000,
+    "labor_price_min": 20000,
+    "labor_price_max": 50000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Kiprok aftermarket Honda Supra Rp75-120k, OEM Rp150-200k. Yamaha Rp100-250k. Tiger lebih mahal. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_aki",
+    "item_type": "part",
+    "item_id": "aki",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 150000,
+    "part_price_max": 350000,
+    "labor_price_min": 5000,
+    "labor_price_max": 15000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Aki MF: GS Astra Rp200-280k, Yuasa Rp220-300k, Federal Rp150-220k. Aki basah lebih murah. Range verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_cdi",
+    "item_type": "part",
+    "item_id": "cdi",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 100000,
+    "part_price_max": 350000,
+    "labor_price_min": 20000,
+    "labor_price_max": 50000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "CDI aftermarket Rp100-200k, OEM Rp250-350k. Honda lebih umum tersedia. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_koil",
+    "item_type": "part",
+    "item_id": "koil",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 75000,
+    "part_price_max": 200000,
+    "labor_price_min": 20000,
+    "labor_price_max": 50000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Koil aftermarket Rp75-150k, OEM Rp150-200k. Honda Tiger lebih mahal. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_klep",
+    "item_type": "part",
+    "item_id": "klep",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 50000,
+    "part_price_max": 150000,
+    "labor_price_min": 50000,
+    "labor_price_max": 150000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "note": "Harga labor untuk setel klep",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Set klep aftermarket Rp50-100k, OEM Rp100-150k. Labor setel klep Rp50-100k, overhaul klep (bongkar) Rp100-150k. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_ringpiston",
+    "item_type": "part",
+    "item_id": "ring_piston",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 100000,
+    "part_price_max": 300000,
+    "labor_price_min": 200000,
+    "labor_price_max": 500000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "note": "Bongkar mesin",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Ring piston set aftermarket: Rp100-200k (Tigamoto), OEM: Rp200-300k. Labor bongkar + pasang: Rp200-500k (tergantung kondisi). Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_kranbensin",
+    "item_type": "part",
+    "item_id": "kran_bensin",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 20000,
+    "part_price_max": 75000,
+    "labor_price_min": 10000,
+    "labor_price_max": 30000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Kran bensin aftermarket Rp20-50k, OEM Rp50-75k. Labor ganti: Rp10-30k. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_selangbensin",
+    "item_type": "part",
+    "item_id": "selang_bensin",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 10000,
+    "part_price_max": 35000,
+    "labor_price_min": 10000,
+    "labor_price_max": 30000,
+    "region": "national_range",
+    "source_ref": "src_014",
+    "verified": true,
+    "last_updated": "2024-06-15",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Selang bensin per meter: Rp10-25k (bensin-resistant). Klem selang: Rp2-5k per pcs. Labor: Rp10-30k. Verified.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_pelampung",
+    "item_type": "part",
+    "item_id": "pelampung",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 15000,
+    "part_price_max": 50000,
+    "labor_price_min": 20000,
+    "labor_price_max": 50000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Pelampung aftermarket Rp15-35k, OEM Honda/Yamaha Rp30-50k. Jasa buka float chamber 20-50k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_needlevalve",
+    "item_type": "part",
+    "item_id": "needle_valve",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 10000,
+    "part_price_max": 30000,
+    "labor_price_min": 20000,
+    "labor_price_max": 50000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Needle valve aftermarket Rp10-20k, OEM Rp20-30k. Jasa service karburator 20-50k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_sekrupangin",
+    "item_type": "part",
+    "item_id": "sekrup_angin",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 5000,
+    "part_price_max": 15000,
+    "labor_price_min": 10000,
+    "labor_price_max": 30000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Sekrup angin (idle air screw) aftermarket Rp5-10k, OEM Rp10-15k. Setel idle 10-30k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_bautlangsam",
+    "item_type": "part",
+    "item_id": "baut_langsam",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 5000,
+    "part_price_max": 15000,
+    "labor_price_min": 10000,
+    "labor_price_max": 30000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Baut langsam (throttle stop screw) aftermarket Rp5-10k, OEM Rp10-15k. Setel RPM 10-30k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_skep",
+    "item_type": "part",
+    "item_id": "skep",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 20000,
+    "part_price_max": 60000,
+    "labor_price_min": 30000,
+    "labor_price_max": 80000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Skep (throttle valve) aftermarket Rp20-40k, OEM Rp40-60k. Jasa bongkar pasang 30-80k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_kabelgas",
+    "item_type": "part",
+    "item_id": "kabel_gas",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 15000,
+    "part_price_max": 50000,
+    "labor_price_min": 15000,
+    "labor_price_max": 40000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Kabel gas aftermarket Rp15-30k, OEM Honda/Yamaha Rp30-50k. Setel adjuster 15-40k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_pulser",
+    "item_type": "part",
+    "item_id": "pulser",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 50000,
+    "part_price_max": 150000,
+    "labor_price_min": 30000,
+    "labor_price_max": 80000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Pulser aftermarket Rp50-100k, OEM Rp100-150k. Jasa bongkar + setel timing 30-80k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_spul",
+    "item_type": "part",
+    "item_id": "spul",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 80000,
+    "part_price_max": 250000,
+    "labor_price_min": 50000,
+    "labor_price_max": 150000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Spul aftermarket Rp80-150k, OEM Rp150-250k. Jasa bongkar stator + pasang 50-150k.",
+    "verified_date": "2024-06-25"
+  },
+  {
+    "id": "hrg_tensioner",
+    "item_type": "part",
+    "item_id": "tensioner_ranjai_keteng",
+    "motor_compatibility": [
+      "*"
+    ],
+    "part_price_min": 20000,
+    "part_price_max": 60000,
+    "labor_price_min": 50000,
+    "labor_price_max": 150000,
+    "region": "national_range",
+    "source_ref": "src_marketplace_2024",
+    "verified": true,
+    "last_updated": "2024-06-25",
+    "verified_by": "marketplace_survey_2024",
+    "verification_note": "Tensioner aftermarket Rp20-40k, OEM Rp40-60k. Jasa setel timing 50-150k.",
+    "verified_date": "2024-06-25"
+  }
+]

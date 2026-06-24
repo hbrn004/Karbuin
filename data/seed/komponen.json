@@ -1,0 +1,629 @@
+[
+  {
+    "id": "busi",
+    "name": "Busi / Spark Plug",
+    "aliases": [
+      "spark plug",
+      "busik",
+      "plug"
+    ],
+    "category": "ignition",
+    "function": "Memantikkan campuran bahan bakar-udara di ruang bakar pada langkah kompresi",
+    "default_location": "Di kepala silinder, terpasang di busi socket",
+    "common_symptoms_if_failed": [
+      "susah_hidup_pagi",
+      "brebet",
+      "kehilangan_tenaga",
+      "ngempos",
+      "starter_berat"
+    ],
+    "inspection_method": "Lepas busi pakai kunci busi. Periksa elektroda: coklat muda = normal, hitam = campuran kaya, putih = campuran kurus. Setel gap 0.6-0.7mm dengan feeler gauge.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "kunci busi 16/21mm",
+      "feeler gauge"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "busi_socket",
+    "name": "Busi Socket / Boot",
+    "aliases": [
+      "boot busi",
+      "kepala busi",
+      "socket busi"
+    ],
+    "category": "ignition",
+    "function": "Menyalurkan listrik tegangan tinggi dari koil ke busi",
+    "default_location": "Menutup busi di kepala silinder",
+    "common_symptoms_if_failed": [
+      "brebet",
+      "susah_hidup_pagi",
+      "ngempos"
+    ],
+    "inspection_method": "Cabut busi socket, nyalakan mesin, pegang busi socket dekat blok mesin (tidak menyentuh). Jika lompat api = koil bocor/listrik bocor di busi socket.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "tangan kosong"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "intake_manifold",
+    "name": "Intake Manifold / Karet Intake",
+    "aliases": [
+      "manifold",
+      "karet manifold",
+      "rubber inlet",
+      "inlet manifold"
+    ],
+    "category": "intake",
+    "function": "Saluran campuran udara-bahan bakar dari karburator ke ruang bakar",
+    "default_location": "Antara karburator dan cylinder head",
+    "common_symptoms_if_failed": [
+      "langsam_tinggi",
+      "langsam_turun_naik",
+      "brebet",
+      "ngempos"
+    ],
+    "inspection_method": "Hidupkan mesin idle, semprot carb cleaner di area sambungan manifold. RPM berubah (naik/turun) = bocor. Periksa retak visual pada karet.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "carb cleaner",
+      "kunci 8/10mm"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "intake_clamp",
+    "name": "Klem Intake / Hose Clamp",
+    "aliases": [
+      "klem manifold",
+      "clamp"
+    ],
+    "category": "intake",
+    "function": "Mengencangkan karet intake ke karburator dan cylinder head agar tidak bocor",
+    "default_location": "Di kedua ujung karet intake manifold",
+    "common_symptoms_if_failed": [
+      "langsam_tinggi",
+      "langsam_turun_naik"
+    ],
+    "inspection_method": "Kencangkan baut klem. Jika RPM turun = klem kendor. Periksa klem berkarat/memuai.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "obeng plus",
+      "tang"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "low"
+  },
+  {
+    "id": "pilot_jet",
+    "name": "Pilot Jet / Slow Jet",
+    "aliases": [
+      "slow jet",
+      "pilot"
+    ],
+    "category": "fuel",
+    "function": "Mengatur campuran bahan bakar pada rpm rendah dan idle",
+    "default_location": "Di dalam karburator, body bagian bawah",
+    "common_symptoms_if_failed": [
+      "langsam_turun_naik",
+      "langsam_tinggi",
+      "brebet",
+      "asap_hitam"
+    ],
+    "inspection_method": "Lepas pilot jet, tiup dengan angin compressor. Jika tidak tembus = tersumbat. Rendam carb cleaner 10-15 menit.",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "obeng",
+      "carb cleaner",
+      "compressor (optional)"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "main_jet",
+    "name": "Main Jet",
+    "aliases": [
+      "main jet",
+      "jet utama"
+    ],
+    "category": "fuel",
+    "function": "Mengatur campuran bahan bakar pada rpm tinggi / beban penuh",
+    "default_location": "Di dalam karburator, body tengah",
+    "common_symptoms_if_failed": [
+      "ngempos",
+      "brebet",
+      "kehilangan_tenaga",
+      "asap_hitam"
+    ],
+    "inspection_method": "Lepas main jet, tiup angin. Jika tidak tembus = tersumbat. Rendam carb cleaner. Periksa ukuran jet (#98, #100, #102).",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "obeng",
+      "carb cleaner"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "filter_udara",
+    "name": "Filter Udara / Air Filter",
+    "aliases": [
+      "air filter",
+      "saringan udara",
+      "filter"
+    ],
+    "category": "intake",
+    "function": "Menyaring debu/kotoran dari udara sebelum masuk karburator",
+    "default_location": "Di belakang atau samping karburator, dalam rumah filter",
+    "common_symptoms_if_failed": [
+      "bensin_boros",
+      "brebet",
+      "asap_hitam",
+      "kehilangan_tenaga"
+    ],
+    "inspection_method": "Lepas filter dari rumah filter. Periksa kotor/tersumbat. Cuci dengan air sabun jika busa, tiup angin jika kertas.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "obeng",
+      "air sabun (jika busa)"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "low"
+  },
+  {
+    "id": "kiprok",
+    "name": "Kiprok / Regulator Rectifier",
+    "aliases": [
+      "regulator",
+      "rectifier",
+      "kiprok"
+    ],
+    "category": "electrical",
+    "function": "Mengatur dan menyearahkan arus AC dari spul ke DC untuk aki dan sistem kelistrikan",
+    "default_location": "Di bawah jok atau dekat aki, biasanya bersirip aluminium",
+    "common_symptoms_if_failed": [
+      "aki_tekor",
+      "bensin_boros",
+      "brebet",
+      "lampu redup"
+    ],
+    "inspection_method": "Ukur tegangan aki saat mesin OFF (12-13V). Nyalakan mesin, ukur di aki (13.5-14.5V). Jika di atas 15V = kiprok overcharge. Jika di bawah 13V = kiprok tidak charge.",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "multimeter"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "aki",
+    "name": "Aki / Battery",
+    "aliases": [
+      "accu",
+      "battery",
+      "aki motor"
+    ],
+    "category": "electrical",
+    "function": "Menyimpan arus listrik untuk starter dan sistem kelistrikan saat mesin mati",
+    "default_location": "Di bawah jok atau di samping body, biasanya box hitam/kuning",
+    "common_symptoms_if_failed": [
+      "starter_berat",
+      "aki_tekor",
+      "brebet",
+      "lampu redup",
+      "susah_hidup_pagi"
+    ],
+    "inspection_method": "Ukur tegangan aki: <11.5V = lemah/soak. Cek accu terminal berkarat/kendor. Tes beban dengan load tester.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "multimeter",
+      "load tester (opsional)"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "cdi",
+    "name": "CDI / Capacitor Discharge Ignition",
+    "aliases": [
+      "cdi unit",
+      "kiprok api"
+    ],
+    "category": "ignition",
+    "function": "Mengontrol waktu pengapian busi berdasarkan rpm dan posisi crankshaft",
+    "default_location": "Di bawah jok atau di samping frame, biasanya unit plastik",
+    "common_symptoms_if_failed": [
+      "susah_hidup_pagi",
+      "brebet",
+      "ngempos",
+      "tidak ada percikan api",
+      "starter_berat"
+    ],
+    "inspection_method": "Periksa koneksi kabel CDI longgar/korosi. Swap dengan CDI motor lain untuk test (jika ada). Ukur resistansi pulser dan pickup coil.",
+    "inspection_difficulty": "hard",
+    "tools_needed": [
+      "multimeter",
+      "cdi spare (test)"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "koil",
+    "name": "Koil / Ignition Coil",
+    "aliases": [
+      "ignition coil",
+      "coil",
+      "trafo api"
+    ],
+    "category": "ignition",
+    "function": "Menaikkan tegangan aki 12V menjadi tegangan tinggi (15-25kV) untuk memantikkan busi",
+    "default_location": "Di dekat CDI, biasanya kotak hitam kecil dengan kabel tegangan tinggi ke busi",
+    "common_symptoms_if_failed": [
+      "brebet",
+      "susah_hidup_pagi",
+      "ngempos",
+      "tidak ada percikan api"
+    ],
+    "inspection_method": "Ukur resistansi primer (0.5-2 ohm) dan sekunder (5-15 kohm) dengan multimeter. Bandingkan dengan spek.",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "multimeter"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "klep",
+    "name": "Klep / Valve",
+    "aliases": [
+      "valve",
+      "katup"
+    ],
+    "category": "engine",
+    "function": "Mengatur masuk-keluarnya campuran bahan bakar dan gas buang di ruang bakar",
+    "default_location": "Di kepala silinder, di atas ruang bakar",
+    "common_symptoms_if_failed": [
+      "kehilangan_tenaga",
+      "suara_mesin_abnormal",
+      "asap_putih",
+      "brebet",
+      "ngempos"
+    ],
+    "inspection_method": "Periksa celah klep dengan feeler gauge (spec 0.05mm intake, 0.10mm exhaust atau sesuai motor). Suara tek-tek dari kepala silinder = klep renggang.",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "feeler gauge",
+      "kunci pas set",
+      "obeng"
+    ],
+    "replacement_difficulty": "hard",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "ring_piston",
+    "name": "Ring Piston",
+    "aliases": [
+      "piston ring",
+      "ring seher",
+      "seher ring"
+    ],
+    "category": "engine",
+    "function": "Menutup celah antara piston dan dinding silinder agar kompresi terjaga",
+    "default_location": "Di piston, dalam blok silinder",
+    "common_symptoms_if_failed": [
+      "asap_putih",
+      "kehilangan_tenaga",
+      "oli_bocor",
+      "bensin_boros",
+      "starter_berat"
+    ],
+    "inspection_method": "Compression test: <8 bar = ring/seher aus. Cabut busi, lihat ada oli menumpuk = ring aus. Buka knalpot, asap putih tebal saat gas = ring aus.",
+    "inspection_difficulty": "hard",
+    "tools_needed": [
+      "compression tester",
+      "kunci set"
+    ],
+    "replacement_difficulty": "hard",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "kran_bensin",
+    "name": "Kran Bensin / Fuel Cock",
+    "aliases": [
+      "fuel cock",
+      "kran bensin",
+      "petcock"
+    ],
+    "category": "fuel",
+    "function": "Mengatur aliran bensin dari tangki ke karburator (on/reserve/off)",
+    "default_location": "Di bawah tangki, biasanya sisi kiri",
+    "common_symptoms_if_failed": [
+      "karburator_overflow",
+      "mesin mati mendadak",
+      "brebet",
+      "susah_hidup_pagi"
+    ],
+    "inspection_method": "Putar kran ke ON, lihat aliran bensin ke karburator. Jika pelan/tidak keluar = saringan di dalam kran mampet. Bersihkan saringan.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "tang",
+      "obeng"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "low"
+  },
+  {
+    "id": "selang_bensin",
+    "name": "Selang Bensin / Fuel Hose",
+    "aliases": [
+      "fuel hose",
+      "selang tebeng"
+    ],
+    "category": "fuel",
+    "function": "Menyalurkan bensin dari kran ke karburator",
+    "default_location": "Dari kran bensin (bawah tangki) ke karburator (tengah)",
+    "common_symptoms_if_failed": [
+      "starter_berat",
+      "brebet",
+      "nembak"
+    ],
+    "inspection_method": "Periksa retak/getas/bocor. Tekan selang, jika keras/getas = harus ganti. Tiup dari ujung, jika tidak tembus = tersumbat.",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "tang",
+      "selang baru"
+    ],
+    "replacement_difficulty": "easy",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "karburator",
+    "name": "Karburator / Carburetor",
+    "aliases": [
+      "karbu",
+      "carb",
+      "pe24",
+      "pz16",
+      "pe28",
+      "mikyuni"
+    ],
+    "category": "fuel_system",
+    "function": "Mencampur bahan bakar (dari float chamber) dan udara (dari filter udara) dalam proporsi tepat untuk pembakaran di ruang bakar",
+    "default_location": "Di tengah mesin, di antara filter udara (kiri) dan intake manifold (ke kepala silinder)",
+    "common_symptoms_if_failed": [
+      "brebet",
+      "ngempos",
+      "langsam_tinggi",
+      "langsam_turun_naik",
+      "bensin_boros",
+      "susah_hidup_pagi",
+      "nembak",
+      "asap_hitam"
+    ],
+    "inspection_method": "Lepas tutup karburator (di atas), periksa float chamber: bensin harus setinggi garis ukur. Cek pilot jet & main jet tersumbat (tiup angin, jika tidak tembus = mampet). Periksa jarum skep dan diafragma (jika ada). Setel langsam dengan baut idle di sisi karburator.",
+    "inspection_difficulty": "hard",
+    "tools_needed": [
+      "obeng set",
+      "carb cleaner",
+      "compressed air",
+      "feeler gauge"
+    ],
+    "replacement_difficulty": "hard",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "kipas",
+    "name": "Kipas Pendingin / Cooling Fan",
+    "aliases": [
+      "fan",
+      "kipas radiator",
+      "kipas silinder"
+    ],
+    "category": "cooling",
+    "function": "Mendinginkan silinder secara paksa (forced air cooling) saat RPM tinggi, terutama untuk motor air-cooled",
+    "default_location": "Di belakang silinder, digerakkan oleh pulley/as crankshaft via belt atau gear",
+    "common_symptoms_if_failed": [
+      "overheating",
+      "kehilangan_tenaga"
+    ],
+    "inspection_method": "Hidupkan mesin, observasi kipas berputar. Jika tidak ada suara dengung kipas atau kipas patah/aus = rusak. Pegang housing kipas, harus tidak getar berlebihan. Cek belt kipas kencang (jika pakai belt).",
+    "inspection_difficulty": "easy",
+    "tools_needed": [
+      "observasi langsung"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "thermostat",
+    "name": "Thermostat / Coolant Thermostat",
+    "aliases": [
+      "thermo",
+      "suhu coolant"
+    ],
+    "category": "cooling",
+    "function": "Mengatur aliran coolant: menutup saat dingin (mempercepat warm-up) dan membuka pada suhu 80-85°C agar coolant bersirkulasi",
+    "default_location": "Di housing thermostat, biasanya di kepala silinder atau selang coolant atas",
+    "common_symptoms_if_failed": [
+      "overheating",
+      "susah_hidup_pagi",
+      "kehilangan_tenaga"
+    ],
+    "inspection_method": "Lepas thermostat, rendam dalam air di panci, panaskan. Masukkan termometer. Jika thermostat tidak mulai buka pada suhu 80-85°C = rusak. Jika tetap tertutup = ganti.",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "panci",
+      "air",
+      "termometer",
+      "obeng"
+    ],
+    "replacement_difficulty": "medium",
+    "severity_if_failed": "medium"
+  },
+  {
+    "id": "water_pump",
+    "name": "Water Pump / Pompa Air",
+    "aliases": [
+      "pompa air",
+      "waterpump",
+      "pompa coolant"
+    ],
+    "category": "cooling",
+    "function": "Mensirkulasikan coolant dari radiator/cooling jacket ke seluruh mesin dan kembali, menjaga suhu kerja optimal",
+    "default_location": "Di sisi mesin (biasanya kanan), digerakkan oleh gear atau shaft. Ada seal di tengahnya.",
+    "common_symptoms_if_failed": [
+      "overheating",
+      "kehilangan_tenaga"
+    ],
+    "inspection_method": "Periksa kebocoran coolant di area water pump (bisa lewat lubang kecil di bawah housing = ada seal bocor). Putar shaft/poros water pump tangan, harus halus tanpa bunyi kasar dan tidak macet. Jika macet/bunyi = bearing rusak.",
+    "inspection_difficulty": "medium",
+    "tools_needed": [
+      "kunci pas set",
+      "coolant isi ulang jika perlu"
+    ],
+    "replacement_difficulty": "hard",
+    "severity_if_failed": "high"
+  },
+  {
+    "id": "pelampung",
+    "name": "Pelampung Karburator",
+    "aliases": [
+      "float",
+      "float chamber",
+      "pelampung"
+    ],
+    "category": "fuel_system",
+    "subcategory": "float_system",
+    "description": "Pelampung yang mengatur ketinggian bensin di ruang karburator"
+  },
+  {
+    "id": "needle_valve",
+    "name": "Needle Valve (Jarum Pelampung)",
+    "aliases": [
+      "jarum pelampung",
+      "jarum needle",
+      "needle valve"
+    ],
+    "category": "fuel_system",
+    "subcategory": "float_system",
+    "description": "Jarum yang menutup jalur bensin ketika pelampung sudah di posisi tinggi"
+  },
+  {
+    "id": "sekrup_angin",
+    "name": "Sekrup Angin (Idle Air Screw)",
+    "aliases": [
+      "air screw",
+      "sekrup udara",
+      "idle screw",
+      "pilot screw"
+    ],
+    "category": "fuel_system",
+    "subcategory": "tuning",
+    "description": "Sekrup pengatur campuran udara-bensin pada idle"
+  },
+  {
+    "id": "baut_langsam",
+    "name": "Baut Langsam (Throttle Stop Screw)",
+    "aliases": [
+      "throttle stop",
+      "baut idle",
+      "baut langsam"
+    ],
+    "category": "fuel_system",
+    "subcategory": "tuning",
+    "description": "Sekrup pembatas skep saat gas tertutup, menentukan RPM idle"
+  },
+  {
+    "id": "skep",
+    "name": "Skep (Throttle Valve)",
+    "aliases": [
+      "throttle valve",
+      "skep karburator",
+      "katup gas"
+    ],
+    "category": "fuel_system",
+    "subcategory": "throttle",
+    "description": "Katup putar pada karburator yang mengatur aliran bensin saat gas dibuka"
+  },
+  {
+    "id": "kabel_gas",
+    "name": "Kabel Gas (Throttle Cable)",
+    "aliases": [
+      "throttle cable",
+      "kabel gas",
+      "kabel accelerator"
+    ],
+    "category": "control",
+    "subcategory": "throttle",
+    "description": "Kabel yang menghubungkan tuas gas di handle ke skep karburator"
+  },
+  {
+    "id": "pulser",
+    "name": "Pulser (Ignition Pulse Coil)",
+    "aliases": [
+      "pickup coil",
+      "pulser",
+      "pulser coil"
+    ],
+    "category": "ignition",
+    "subcategory": "trigger",
+    "description": "Sensor yang memicu CDI untuk menembak busi, membaca posisi crankshaft"
+  },
+  {
+    "id": "spul",
+    "name": "Spul (Stator Coil / Generator)",
+    "aliases": [
+      "stator",
+      "spul",
+      "generator",
+      "spul pengapian"
+    ],
+    "category": "electrical",
+    "subcategory": "charging",
+    "description": "Kumparan generator di dalam motor, mengisi aki dan memberi tenaga untuk sistem pengapian"
+  },
+  {
+    "id": "rantai_keteng",
+    "name": "Rantai Keteng (Timing Chain)",
+    "aliases": [
+      "timing chain",
+      "rantai timing",
+      "rantai keteng"
+    ],
+    "category": "engine",
+    "subcategory": "valvetrain",
+    "description": "Rantai yang menghubungkan crankshaft ke camshaft, mengatur buka-tutup klep"
+  },
+  {
+    "id": "tensioner_ranjai_keteng",
+    "name": "Tensioner Rantai Keteng",
+    "aliases": [
+      "tensioner",
+      "penegang rantai",
+      "tensioner keteng"
+    ],
+    "category": "engine",
+    "subcategory": "valvetrain",
+    "description": "Komponen yang menegang rantai keteng, mencegah kendor"
+  },
+  {
+    "id": "gasket_kepala_silinder",
+    "name": "Gasket Kepala Silinder",
+    "aliases": [
+      "gasket head",
+      "paking kepala silinder",
+      "gasket top"
+    ],
+    "category": "engine",
+    "subcategory": "sealing",
+    "description": "Gasket antara kepala silinder dan blok, mencegah kebocoran kompresi dan oli"
+  }
+]

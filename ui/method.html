@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Metode — Karbuin</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-logo">🏍</span>
+      <span>Karbuin</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/library">Library</a>
+      <a href="/method" class="active">Metode</a>
+      <a href="/diagnose">Diagnosa</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container" style="max-width:720px">
+    <h1>Kenapa Karbuin?</h1>
+    <p class="sub">Bukan AI generik. Ini adalah knowledge base motor karburator Indonesia yang dikurasi.</p>
+
+    <div class="method-block mt-6">
+      <h2>1. Bahasa Bengkel, Bukan Buku Teori</h2>
+      <p>Database Karbuin menyimpan 169 istilah yang dipakai mekanik lokal:</p>
+      <ul>
+        <li><strong>"Brebet"</strong> — mesin nyendat-nyendat saat digas</li>
+        <li><strong>"Nembak"</strong> — suara letupan di knalpot</li>
+        <li><strong>"Langsam turun naik"</strong> — RPM idle tidak stabil</li>
+        <li><strong>"Geyong"</strong> — mesin pincang salah satu silinder</li>
+        <li><strong>"Tepok"</strong> — filter udara tersumbat</li>
+      </ul>
+      <p>User tidak perlu hafal istilah formal. Ceritakan dengan bahasa sehari-hari.</p>
+    </div>
+
+    <div class="method-block">
+      <h2>2. Confidence Score yang Jujur</h2>
+      <p>Setiap hasil diagnosa diberi skor akurasi:</p>
+      <ul>
+        <li><strong>90-100%</strong> — Sangat yakin (langsung kerjakan)</li>
+        <li><strong>75-90%</strong> — Kemungkinan tinggi (perlu konfirmasi ringan)</li>
+        <li><strong>60-75%</strong> — Kemungkinan sedang (cek penyebab lain dulu)</li>
+        <li><strong>&lt;60%</strong> — Data tidak cukup (tidak ditampilkan)</li>
+      </ul>
+      <p>Kalau confidence rendah, sistem jujur bilang "data tidak cukup" — bukan nebak.</p>
+    </div>
+
+    <div class="method-block">
+      <h2>3. Tingkat Risiko (Safety First)</h2>
+      <p>Confidence tinggi belum tentu aman dipakai. Karbuin membedakan:</p>
+      <ul>
+        <li><strong>🟢 Aman dipakai</strong> — boleh lanjut riding (mis. filter kotor)</li>
+        <li><strong>🟡 Sebaiknya diperbaiki</strong> — masih bisa dipakai tapi ada risiko mogok (mis. aki lemah)</li>
+        <li><strong>🔴 Jangan digunakan</strong> — bisa rusak lebih parah (mis. ring piston aus, overheat)</li>
+      </ul>
+    </div>
+
+    <div class="method-block">
+      <h2>4. Bisa Dikerjakan Sendiri?</h2>
+      <p>Tidak semua perbaikan bisa sendiri. Karbuin kasih label:</p>
+      <ul>
+        <li><strong>🟢 Pemula</strong> — tinggal obeng, 15-30 menit (filter, busi, kran bensin)</li>
+        <li><strong>🟡 Menengah</strong> — butuh multimeter atau carb cleaner, 1-2 jam (kiprok, klep, koil)</li>
+        <li><strong>🔴 Mekanik</strong> — perlu bongkar mesin, 4-8 jam (ring piston, water pump)</li>
+      </ul>
+    </div>
+
+    <div class="method-block">
+      <h2>5. Pertanyaan Lanjutan untuk Akurasi 95%</h2>
+      <p>Setelah diagnosa awal, Karbuin bisa bertanya 2-3 hal spesifik yang membedakan penyebab mirip. Misalnya untuk hasil "Filter Udara Kotor":</p>
+      <ul>
+        <li>"Apakah filter udara terlihat kotor saat dibuka?"</li>
+        <li>"Apakah filter sudah pernah dicuci 6 bulan terakhir?"</li>
+      </ul>
+      <p>Jawaban Ya/Tidak bisa naikkan akurasi dari 80% menjadi 95% — tanpa AI yang lebih rumit.</p>
+    </div>
+
+    <div class="method-block">
+      <h2>6. Lokasi Komponen Spesifik per Motor</h2>
+      <p>Karbuin tahu bahwa lokasi "filter udara" di Supra X 125 beda dengan Fino:</p>
+      <ul>
+        <li><strong>Supra X 125</strong> — di belakang karburator, di bawah jok</li>
+        <li><strong>Mio Sporty</strong> — di samping body, di bawah jok</li>
+        <li><strong>Tiger 2000</strong> — di atas karburator, di bawah tangki</li>
+      </ul>
+      <p>Setiap lokasi diberikan bersama akses, alat, dan waktu yang dibutuhkan.</p>
+    </div>
+
+    <div class="method-block">
+      <h2>7. No-Hallucination</h2>
+      <p>Karbuin tidak akan mengarang data. Kalau database kosong, akan ditampilkan:</p>
+      <ul>
+        <li><em>"Lokasi model spesifik belum diverifikasi"</em></li>
+        <li><em>"Harga belum tersedia"</em></li>
+        <li><em>"Data tidak cukup untuk diagnosis"</em></li>
+      </ul>
+      <p>Lebih baik jujur kosong daripada ngarang.</p>
+    </div>
+
+    <div class="method-block">
+      <h2>Roadmap</h2>
+      <p>Karbuin masih dalam tahap awal. Yang sudah ada: 8 motor, 19 komponen, 15 gejala, 20 penyebab, 60 relasi.</p>
+      <p>Yang akan datang:</p>
+      <ul>
+        <li>Foto komponen & foto lokasi asli (saat ini: placeholder)</li>
+        <li>Lebih banyak motor (target: 50+ model)</li>
+        <li>Penyebab umum karbu: setelan angin, membran vakum, pelampung macet, needle valve aus</li>
+        <li>Verifikasi 3-tier (mekanik / terisi / kosong) dengan metadata sumber</li>
+      </ul>
+    </div>
+
+    <div class="text-center mt-6 mb-6">
+      <a href="/diagnose" class="btn btn-primary btn-lg">🔍 Coba Diagnosa Sekarang</a>
+    </div>
+  </div>
+</main>
+
+<nav class="bottomnav">
+  <a href="/" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">🏠</span>
+    <span>Home</span>
+  </a>
+  <a href="/diagnose" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">🔍</span>
+    <span>Diagnosa</span>
+  </a>
+  <a href="/library" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">📚</span>
+    <span>Library</span>
+  </a>
+  <a href="/method" class="bottomnav-item active">
+    <span style="display:inline-flex;width:20px;height:20px">💡</span>
+    <span>Metode</span>
+  </a>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Library Komponen Motor — Karbuin</title>
+  <meta name="description" content="Pelajari fungsi, gejala jika rusak, dan cara cek 19 komponen motor karburator. Direktori komponen untuk mekanik dan pengguna awam.">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-logo">🏍</span>
+      <span>Karbuin</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/library" class="active">Library</a>
+      <a href="/method">Metode</a>
+      <a href="/diagnose">Diagnosa</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+    <div class="library-head">
+      <h1>Library Komponen</h1>
+      <p class="sub">Pelajari fungsi, gejala jika rusak, dan cara cek 19 komponen motor karburator.</p>
+    </div>
+
+    <div class="search-wrap" data-open="false">
+      <input id="library-search" class="input input-search mb-5" type="search" placeholder="Cari komponen: busi, karburator, kiprok..." autocomplete="off">
+    </div>
+
+    <div id="library-list" class="library-grid"></div>
+
+    <div id="library-detail" style="display:none; margin-top: var(--sp-6)"></div>
+  </div>
+</main>
+
+<nav class="bottomnav">
+  <a href="/" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">🏠</span>
+    <span>Home</span>
+  </a>
+  <a href="/diagnose" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">🔍</span>
+    <span>Diagnosa</span>
+  </a>
+  <a href="/library" class="bottomnav-item active">
+    <span style="display:inline-flex;width:20px;height:20px">📚</span>
+    <span>Library</span>
+  </a>
+  <a href="/method" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">💡</span>
+    <span>Metode</span>
+  </a>
+</nav>
+
+<footer class="footer">
+  <div>© 2026 Karbuin</div>
+  <div class="links">
+    <a href="/method">Metode</a>
+    <a href="/">Home</a>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/js/api.js"></script>
+<script src="/js/library.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hasil Diagnosa — Karbuin</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/">
+      <span class="brand-logo">🏍</span>
+      <span>Karbuin</span>
+    </a>
+    <div id="topbar-title" class="muted" style="font-size: var(--fs-caption)">Hasil Diagnosa</div>
+    <a href="/library" class="btn btn-ghost btn-sm">📚 Library</a>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+    <div id="karbu-warning" class="karbu-warning-banner" style="display:none">
+      <span class="karbu-warning-icon">⚠</span>
+      <span class="karbu-warning-text"></span>
+    </div>
+    <div class="result-head">
+      <div class="motor-tag" id="motor-tag">Motor belum dipilih</div>
+      <h1 class="page-h1" id="motor-tag-h1">Memuat…</h1>
+    </div>
+
+    <div id="result-content">
+      <!-- Diagnosis hero card -->
+      <div id="diagnosis-card" class="diagnosis-card"></div>
+
+      <!-- Ringkasan -->
+      <div id="ringkasan" class="ringkasan mb-5"></div>
+
+      <div class="result-layout">
+        <div>
+          <!-- Komponen yang dicurigai -->
+          <div id="component-section" class="section-block"></div>
+
+          <!-- Lokasi -->
+          <div id="lokasi-section" class="section-block"></div>
+
+          <!-- Cara cek -->
+          <div id="cek-section" class="section-block"></div>
+
+          <!-- Solusi -->
+          <div id="solusi-section" class="section-block"></div>
+
+          <!-- Estimasi biaya -->
+          <div id="estimasi-section" class="section-block"></div>
+
+          <!-- Risk + DIY + Time -->
+          <div id="risk-diy"></div>
+
+          <!-- Pertanyaan Lanjutan -->
+          <div id="followups"></div>
+        </div>
+
+        <div>
+          <!-- Kenapa sistem menyimpulkan ini? -->
+          <div id="why-section"></div>
+
+          <!-- Kemungkinan lainnya -->
+          <div id="other-causes-section"></div>
+
+          <!-- Share / Restart -->
+          <div class="section-block">
+            <h3>📤 Bagikan / Simpan</h3>
+            <div class="flex flex-col gap-2">
+              <button id="btn-share-wa" class="btn btn-primary btn-block">💬 Share ke Mekanik (WhatsApp)</button>
+              <button id="btn-share-copy" class="btn btn-secondary btn-block">📋 Copy ke Clipboard</button>
+              <button id="btn-library" class="btn btn-ghost btn-block">📚 Lihat Library Komponen</button>
+              <button id="btn-restart" class="btn btn-ghost btn-block">🔄 Diagnosa Ulang</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="bottomnav">
+    <a href="/" class="bottomnav-item">
+      <span style="display:inline-flex;width:20px;height:20px">🏠</span>
+      <span>Home</span>
+    </a>
+    <a href="/diagnose" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">🔍</span>
+    <span>Diagnosa</span>
+  </a>
+  <a href="/library" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">📚</span>
+    <span>Library</span>
+  </a>
+  <a href="/method" class="bottomnav-item">
+    <span style="display:inline-flex;width:20px;height:20px">💡</span>
+    <span>Metode</span>
+  </a>
+</nav>
+
+<script src="/js/main.js"></script>
+<script src="/js/api.js"></script>
+<script src="/js/share.js"></script>
+<script src="/js/result.js"></script>
+</body>
+</html>

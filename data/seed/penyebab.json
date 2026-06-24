@@ -3244,5 +3244,53 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_scorpio_225_lemah",
+    "name": "Kiprok Yamaha Scorpio 225cc motor besar lemah",
+    "description": "Kiprok Yamaha Scorpio 225cc tipe analog regulator lemah. Umum pada Yamaha Scorpio 225cc dan Yamaha motor CC besar lainnya setelah 7-10 tahun pakai atau soket korosi.",
+    "severity": "medium",
+    "category": "listrik",
+    "related_component": "kiprok_yamaha_scorpio",
+    "mechanic_notes": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V saat RPM atas. Lemah jika < 13.5V. Untuk Scorpio CC besar, butuh output lebih tinggi — cek spul juga.",
+    "priority_causes": [],
+    "alternative_causes": [
+      "spul_lemah",
+      "aki_lemah",
+      "kabel_pengisian_kendor"
+    ],
+    "similar_causes": [
+      "kiprok_rusak",
+      "kiprok_yamaha_modern_lemah"
+    ],
+    "solution_free": "Cek soket kiprok, bersihkan korosi, pastikan ground terhubung baik.",
+    "solution_budget": "Ganti kiprok Scorpio aftermarket (Rp 100.000-200.000).",
+    "solution_full": "Ganti kiprok original Yamaha Scorpio (Rp 300.000-500.000) + cek spul Scorpio (output lebih besar).",
+    "cost_part": "Rp 100.000-500.000",
+    "cost_labor": "Rp 50.000-100.000",
+    "prevention_tips": "Cek soket kiprok berkala setiap 2 tahun. Untuk motor CC besar, kiprok lebih rentan panas.",
+    "diagnosis_method": "Test output tegangan kiprok dengan multimeter saat RPM idle dan RPM atas. Normal: 13.5-14.5V. Lemah jika < 13.5V.",
+    "risk_level": "low",
+    "diy_level": "medium",
+    "estimated_minutes": 30,
+    "follow_up_questions": [
+      {
+        "id": "q_scorpio_usia",
+        "question": "Motor Yamaha Scorpio sudah berapa lama dipakai?",
+        "when_to_ask": "always",
+        "why_it_matters": "Kiprok Scorpio CC besar rata-rata lemah setelah 7-10 tahun"
+      },
+      {
+        "id": "q_scorpio_soket",
+        "question": "Soket kiprok pernah dicek atau diganti?",
+        "when_to_ask": "always",
+        "why_it_matters": "Soket korosi = penyebab umum kiprok lemah"
+      }
+    ],
+    "urgency": "medium",
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

@@ -7236,5 +7236,252 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Pilot jet Mikuni VM20 tersumbat"
+  },
+  {
+    "id": 549,
+    "symptom_id": "klep_bunyi_scorpio",
+    "cause_id": "klep_renggang",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang butuh setel — getaran CC besar percepat renggang"
+  },
+  {
+    "id": 550,
+    "symptom_id": "klep_bunyi_scorpio",
+    "cause_id": "seal_klep_bocor",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Seal klep bocor perparah klep bunyi"
+  },
+  {
+    "id": 551,
+    "symptom_id": "rpm_tidak_stabil_scorpio",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS28 tersumbat"
+  },
+  {
+    "id": 552,
+    "symptom_id": "rpm_tidak_stabil_scorpio",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet Mikuni BS28 tersumbat"
+  },
+  {
+    "id": 553,
+    "symptom_id": "rpm_tidak_stabil_scorpio",
+    "cause_id": "klep_renggang",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang sebabkan RPM tidak stabil"
+  },
+  {
+    "id": 554,
+    "symptom_id": "lampu_redup_scorpio",
+    "cause_id": "kiprok_yamaha_scorpio_225_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Scorpio lemah = lampu redup"
+  },
+  {
+    "id": 555,
+    "symptom_id": "lampu_redup_scorpio",
+    "cause_id": "spul_lemah",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul Scorpio lemah = lampu redup"
+  },
+  {
+    "id": 556,
+    "symptom_id": "lampu_redup_scorpio",
+    "cause_id": "aki_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Aki soak = lampu redup"
+  },
+  {
+    "id": 557,
+    "symptom_id": "kiprok_lemah_scorpio",
+    "cause_id": "kiprok_yamaha_scorpio_225_lemah",
+    "weight": 9,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok Scorpio lemah — primary cause"
+  },
+  {
+    "id": 558,
+    "symptom_id": "kiprok_lemah_scorpio",
+    "cause_id": "kiprok_rusak",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kiprok rusak total"
+  },
+  {
+    "id": 559,
+    "symptom_id": "kiprok_lemah_scorpio",
+    "cause_id": "spul_lemah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Spul lemah = output kiprok rendah"
+  },
+  {
+    "id": 560,
+    "symptom_id": "tenaga_hilang_bawah_scorpio",
+    "cause_id": "main_jet_clogged",
+    "weight": 8,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet BS28 tersumbat = tenaga hilang bawah"
+  },
+  {
+    "id": 561,
+    "symptom_id": "tenaga_hilang_bawah_scorpio",
+    "cause_id": "klep_renggang",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang = kompresi bocor RPM bawah"
+  },
+  {
+    "id": 562,
+    "symptom_id": "tenaga_hilang_bawah_scorpio",
+    "cause_id": "filter_udara_kotor",
+    "weight": 6,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Filter udara kotor = tenaga hilang"
+  },
+  {
+    "id": 563,
+    "symptom_id": "tenaga_hilang_bawah_scorpio",
+    "cause_id": "setelan_langsam_salah",
+    "weight": 5,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Setelan langsam salah = RPM bawah loyo"
+  },
+  {
+    "id": 564,
+    "symptom_id": "suara_klep",
+    "cause_id": "klep_renggang",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Klep renggang — khas Scorpio CC besar"
+  },
+  {
+    "id": 565,
+    "symptom_id": "rpm_naik_turun",
+    "cause_id": "pilot_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Pilot jet Mikuni BS28 tersumbat"
+  },
+  {
+    "id": 566,
+    "symptom_id": "brebet_putaran_atas",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet Mikuni BS28 — torsi Scorpio"
+  },
+  {
+    "id": 567,
+    "symptom_id": "mesin_ngempos",
+    "cause_id": "main_jet_clogged",
+    "weight": 7,
+    "motor_filter": [
+      "yamaha_scorpio_karbu"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Main jet tersumbat = ngempos Scorpio"
   }
 ]

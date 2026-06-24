@@ -1825,5 +1825,38 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "bs28_mikuni_scorpio",
+    "name": "Karburator Mikuni BS28 (Yamaha Scorpio 225cc)",
+    "description": "Karburator Mikuni BS28 untuk Yamaha Scorpio 225cc. Mikuni BS28 adalah karburator untuk motor CC besar — lebih besar dari BS22 (Vega/Jupiter Z) dan BS26 (Vixion).",
+    "category": "karburator",
+    "aliases": [
+      "karburator bs28 scorpio",
+      "bs28 scorpio",
+      "karburator scorpio 225",
+      "bs28 mikuni scorpio",
+      "karburator mikuni bs28"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_yamaha_scorpio",
+    "name": "Kiprok Yamaha Scorpio 225cc (motor besar)",
+    "description": "Kiprok Yamaha Scorpio 225cc tipe analog regulator untuk motor besar. Kiprok Scorpio lebih besar dan punya output lebih tinggi dari motor kecil.",
+    "category": "listrik",
+    "aliases": [
+      "kiprok scorpio 225",
+      "kiprok yamaha scorpio",
+      "kiprok scorpio motor gede",
+      "kiprok yamaha 225"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

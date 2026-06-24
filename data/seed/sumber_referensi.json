@@ -285,5 +285,14 @@
     "verified_date": "2026-06-25",
     "url": null,
     "note": "Konsolidasi bengkel Yamaha F1ZR 110cc karbu — klep, idle kasar Mikuni VM20, kiprok analog tua, lampu redup, soket korosi. Tanpa service manual page reference."
+  },
+  {
+    "id": "src_yamaha_scorpio_komunitas_2025",
+    "source_text": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha 2025",
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verified_date": "2026-06-25",
+    "url": null,
+    "note": "Konsolidasi bengkel Yamaha Scorpio 225cc karbu — CC terbesar, Mikuni BS28, klep CC besar, kiprok Scorpio, tenaga hilang RPM bawah, getaran. Tanpa service manual page reference."
   }
 ]

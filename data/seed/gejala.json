@@ -2846,5 +2846,105 @@
     "source_type": "community_knowledge",
     "verified_by": null,
     "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "klep_bunyi_scorpio",
+    "name": "Klep bunyi khas Scorpio 225cc",
+    "description": "Klep bunyi/tik-tik pada Yamaha Scorpio 225cc. Motor CC besar butuh setel klep lebih teliti — getaran lebih besar membuat klep cepat renggang.",
+    "severity": "medium",
+    "category": "klep",
+    "aliases": [
+      "klep bunyi scorpio",
+      "klep berisik scorpio",
+      "klep bunyi yamaha scorpio",
+      "klep bunyi scorpio 225",
+      "klep tik tik scorpio",
+      "bunyi klep scorpio",
+      "klep bunyi motor gede"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "rpm_tidak_stabil_scorpio",
+    "name": "RPM tidak stabil Scorpio 225cc",
+    "description": "RPM naik turun/idle kasar pada Yamaha Scorpio 225cc. Motor CC besar rentan idle kasar karena pilot jet Mikuni BS28 (Mikuni besar) butuh kualitas bensin lebih bersih.",
+    "severity": "medium",
+    "category": "idle",
+    "aliases": [
+      "rpm tidak stabil scorpio",
+      "rpm naik turun scorpio",
+      "idle kasar scorpio",
+      "langsam kasar scorpio",
+      "rpm naik turun yamaha scorpio",
+      "langsam naik turun scorpio",
+      "rpm naik turun motor gede"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "lampu_redup_scorpio",
+    "name": "Lampu redup Scorpio 225cc",
+    "description": "Lampu redup di RPM rendah pada Yamaha Scorpio 225cc. Motor CC besar butuh output spul lebih besar — Scorpio pakai spul lebih besar tapi rentan lemah pada RPM rendah.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "lampu redup scorpio",
+      "lampu kurang terang scorpio",
+      "lampu redup di langsam scorpio",
+      "lampu redup yamaha scorpio",
+      "lampu redup scorpio 225",
+      "lampu redup rpm rendah scorpio",
+      "lampu redup motor gede"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "kiprok_lemah_scorpio",
+    "name": "Kiprok lemah Scorpio 225cc (motor besar)",
+    "description": "Kiprok lemah, charging tidak optimal pada Yamaha Scorpio 225cc. Motor CC besar butuh output lebih besar — kiprok Scorpio lebih besar tapi rentan lemah setelah 7-10 tahun pakai.",
+    "severity": "medium",
+    "category": "listrik",
+    "aliases": [
+      "kiprok lemah scorpio",
+      "kiprok rusak scorpio",
+      "kiprok panas scorpio",
+      "kiprok ga ngecas scorpio",
+      "kiprok yamaha scorpio",
+      "kiprok lemah motor gede",
+      "kiprok lemah scorpio 225"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+  },
+  {
+    "id": "tenaga_hilang_bawah_scorpio",
+    "name": "Tenaga hilang RPM bawah (Scorpio 225cc)",
+    "description": "Tenaga hilang di RPM bawah pada Yamaha Scorpio 225cc. Motor CC besar punya karakteristik torsi berbeda — RPM bawah butuh main jet Mikuni BS28 yang lebih besar dan setelan pilot yang tepat.",
+    "severity": "medium",
+    "category": "performa",
+    "aliases": [
+      "tenaga hilang bawah scorpio",
+      "los tenaga bawah scorpio",
+      "scorpio loyo rpm bawah",
+      "scorpio ga kuat di bawah",
+      "tenaga hilang rpm bawah scorpio",
+      "motor gede tenaga hilang bawah",
+      "scorpio ngempos bawah"
+    ],
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
   }
 ]

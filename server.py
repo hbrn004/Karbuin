@@ -14,8 +14,12 @@ Routes:
   GET  /api/komponen/<id>         → component detail
   GET  /api/gejala                → list of all gejala (for quick chips)
   GET  /api/penyebab/<id>         → cause detail
+  GET  /api/health                → server liveness + KB stats
+  GET  /api/version               → server + engine version
   POST /api/diagnose              → run diagnosis (body: {motor_id, user_input, explicit_symptoms})
+                                     Response includes `presentation` wrapper: top_3, checklist, summary_card
   POST /api/diagnose/followup     → re-run with follow-up (body: {motor_id, user_input, explicit_symptoms, confirmed_causes, answer_adjustments})
+  POST /api/parser/preview        → preview parser matches for free text
 
 Usage: python3 server.py [--port 8000]
 """
@@ -39,9 +43,13 @@ DATA_DIR = ROOT / "data" / "seed"
 sys.path.insert(0, str(ROOT))
 from karbuin import KnowledgeBase, Diagnoser  # noqa: E402
 from karbuin import telemetry  # noqa: E402
+from karbuin.presentation import build_presentation  # noqa: E402
 
 KB = KnowledgeBase(DATA_DIR)
 DIAGNOSER = Diagnoser(KB)
+SERVER_START_TIME = os.environ.get("KARBUIN_SERVER_START", "unknown")
+APP_VERSION = "1.3.7"
+KB_VERSION = "v1.3.7 (22 motor / 192 gejala / 668 relasi)"
 
 
 # ─── API helpers ────────────────────────────────────────────────────────────
@@ -194,6 +202,39 @@ class KarbuinHandler(BaseHTTPRequestHandler):
 
         if path == "/api/stats":
             return json_response(self, 200, KB.coverage_stats())
+        if path == "/api/health":
+            import time
+            try:
+                stats = KB.coverage_stats()
+                kb_ok = stats.get("motor", 0) > 0
+                return json_response(self, 200, {
+                    "status": "ok" if kb_ok else "degraded",
+                    "version": APP_VERSION,
+                    "kb_version": KB_VERSION,
+                    "kb_loaded": kb_ok,
+                    "kb_stats": {
+                        "motor": stats.get("motor", 0),
+                        "gejala": stats.get("gejala", 0),
+                        "komponen": stats.get("komponen", 0),
+                        "penyebab": stats.get("penyebab", 0),
+                        "relasi": stats.get("relasi", 0),
+                    },
+                    "endpoints_count": 14,
+                    "timestamp": int(time.time()),
+                })
+            except Exception as e:
+                return json_response(self, 500, {
+                    "status": "error",
+                    "version": APP_VERSION,
+                    "error": str(e),
+                })
+        if path == "/api/version":
+            return json_response(self, 200, {
+                "app": APP_VERSION,
+                "kb": KB_VERSION,
+                "engine": "karbuin.diagnose.Diagnoser",
+                "server": "stdlib http.server (no external deps)",
+            })
         if path == "/api/telemetry":
             days = int(query.get("days", ["7"])[0])
             return json_response(self, 200, telemetry.stats(days=days))
@@ -273,6 +314,16 @@ class KarbuinHandler(BaseHTTPRequestHandler):
                     ip=self.client_address[0],
                 )
                 return json_response(self, 500, {"error": "internal_error", "message": str(e)})
+            # Wrap with user-facing presentation (top_3, checklist, summary_card)
+            try:
+                result["presentation"] = build_presentation(
+                    result,
+                    motor_id=body.get("motor_id"),
+                    cause_lookup=KB.get_penyebab if hasattr(KB, "get_penyebab") else None,
+                )
+            except Exception as e:
+                # Presentation is additive — never break the diagnose response
+                result["presentation_error"] = str(e)
             try:
                 telemetry.log_diagnose(
                     user_input=body.get("user_input", ""),

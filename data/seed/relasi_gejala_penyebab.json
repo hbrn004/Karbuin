@@ -459,7 +459,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2024-06-25"
+    "last_reviewed": "2024-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 34,
@@ -473,7 +474,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2024-06-25"
+    "last_reviewed": "2024-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 35,
@@ -487,7 +489,8 @@
     "populated": true,
     "source_type": "forum",
     "confidence": "medium",
-    "last_reviewed": "2024-06-25"
+    "last_reviewed": "2024-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 36,
@@ -695,7 +698,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2024-06-25"
+    "last_reviewed": "2024-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 50,
@@ -709,7 +713,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2024-06-25"
+    "last_reviewed": "2024-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 51,
@@ -723,7 +728,8 @@
     "populated": true,
     "source_type": "forum",
     "confidence": "medium",
-    "last_reviewed": "2024-06-25"
+    "last_reviewed": "2024-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 52,
@@ -1463,7 +1469,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2026-06-24"
+    "last_reviewed": "2026-06-24",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 104,
@@ -1477,7 +1484,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2026-06-24"
+    "last_reviewed": "2026-06-24",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 105,
@@ -1631,7 +1639,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2026-06-24"
+    "last_reviewed": "2026-06-24",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 116,
@@ -1715,7 +1724,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2026-06-24"
+    "last_reviewed": "2026-06-24",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 122,
@@ -1729,7 +1739,8 @@
     "populated": true,
     "source_type": "field_test",
     "confidence": "high",
-    "last_reviewed": "2026-06-24"
+    "last_reviewed": "2026-06-24",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 123,
@@ -2163,7 +2174,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 154,
@@ -2177,7 +2189,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 155,
@@ -2205,7 +2218,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 157,
@@ -2471,7 +2485,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 176,
@@ -2919,7 +2934,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 208,
@@ -3157,7 +3173,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 225,
@@ -3325,7 +3342,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 237,
@@ -3367,7 +3385,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 240,
@@ -3423,7 +3442,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 244,
@@ -3451,7 +3471,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 246,
@@ -3535,7 +3556,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 252,
@@ -3577,7 +3599,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 255,
@@ -3591,7 +3614,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 256,
@@ -3633,7 +3657,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 259,
@@ -3773,7 +3798,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 269,
@@ -3829,7 +3855,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 273,
@@ -3885,7 +3912,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "low",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 277,
@@ -4193,7 +4221,8 @@
     "populated": true,
     "source_type": "community_knowledge",
     "confidence": "medium",
-    "last_reviewed": "2026-06-25"
+    "last_reviewed": "2026-06-25",
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 299,
@@ -4395,7 +4424,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "motor_filter": null,
-    "id": 316
+    "id": 316,
+    "motor_type_filter": "4_stroke"
   },
   {
     "symptom_id": "kabel_gas_putus",
@@ -4494,7 +4524,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "motor_filter": null,
-    "id": 327
+    "id": 327,
+    "motor_type_filter": "4_stroke"
   },
   {
     "symptom_id": "kabel_kopling_putus",
@@ -4512,7 +4543,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "motor_filter": null,
-    "id": 329
+    "id": 329,
+    "motor_type_filter": "4_stroke"
   },
   {
     "symptom_id": "oli_bocor_seal_klep",
@@ -4683,7 +4715,8 @@
     "weight": 5,
     "verified": false,
     "source_type": "community_knowledge",
-    "motor_filter": null
+    "motor_filter": null,
+    "motor_type_filter": "4_stroke"
   },
   {
     "id": 349,

@@ -28,7 +28,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Honda Supra X 125 Karbu (2006-2014, 125cc, PE24) — bebek sport Honda, baseline."
+    "verification_note": "Honda Supra X 125 Karbu (2006-2014, 125cc, PE24) — bebek sport Honda, baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_revo_karbu",
@@ -59,7 +60,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Honda Revo Karbu (2007-2014, 110cc, PZ16) — bebek Honda baseline."
+    "verification_note": "Honda Revo Karbu (2007-2014, 110cc, PZ16) — bebek Honda baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_tiger_2000",
@@ -90,7 +92,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Honda Tiger 2000 (2000-2005, 200cc, Single Carb) — sport Honda 200cc baseline."
+    "verification_note": "Honda Tiger 2000 (2000-2005, 200cc, Single Carb) — sport Honda 200cc baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_mio_sporty",
@@ -121,7 +124,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Mio Sporty (2003-2009, 115cc, BS26) — bebek sport Yamaha baseline."
+    "verification_note": "Yamaha Mio Sporty (2003-2009, 115cc, BS26) — bebek sport Yamaha baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_fino_karbu",
@@ -152,7 +156,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Fino Karbu (2010-2014, 115cc, BS26) — bebek retro Yamaha baseline."
+    "verification_note": "Yamaha Fino Karbu (2010-2014, 115cc, BS26) — bebek retro Yamaha baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_jupiter_z",
@@ -183,7 +188,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Jupiter Z (2005-2012, 110cc, BS22) — bebek sport Yamaha baseline."
+    "verification_note": "Yamaha Jupiter Z (2005-2012, 110cc, BS22) — bebek sport Yamaha baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "suzuki_smash",
@@ -214,7 +220,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Suzuki Smash (2003-2014, 110cc, BS22) — bebek Suzuki baseline."
+    "verification_note": "Suzuki Smash (2003-2014, 110cc, BS22) — bebek Suzuki baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "kawasaki_kaze",
@@ -245,7 +252,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Kawasaki Kaze (1997-2003, 110cc, BS22) — bebek sport Kawasaki baseline."
+    "verification_note": "Kawasaki Kaze (1997-2003, 110cc, BS22) — bebek sport Kawasaki baseline.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_grand_karbu",
@@ -277,7 +285,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_megapro_karbu",
@@ -309,7 +318,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_glpro_karbu",
@@ -342,7 +352,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_legenda_karbu",
@@ -375,7 +386,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_blade_karbu",
@@ -408,7 +420,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "honda_verza_karbu",
@@ -441,7 +454,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference."
+    "verification_note": "Motor karbu ekspansi — knowledge komunitas mekanik Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_vixion_karbu",
@@ -473,7 +487,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+    "verification_note": "Yamaha Vixion 150cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_rx_king_karbu",
@@ -538,7 +553,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+    "verification_note": "Yamaha Vega 115cc karbu retro — knowledge komunitas mekanik umum. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_jupiter_karbu",
@@ -571,7 +587,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference."
+    "verification_note": "Yamaha Jupiter 135cc karbu — knowledge komunitas mekanik umum. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_f1zr_karbu",
@@ -604,7 +621,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference."
+    "verification_note": "Yamaha F1ZR 110cc karbu era 90-an — knowledge komunitas mekanik motor tua Yamaha Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_scorpio_karbu",
@@ -637,7 +655,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference."
+    "verification_note": "Yamaha Scorpio 225cc karbu sport — knowledge komunitas mekanik motor besar Yamaha Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "yamaha_byson_karbu",
@@ -670,7 +689,8 @@
     "verified": false,
     "source_type": "community_knowledge",
     "verified_by": null,
-    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference."
+    "verification_note": "Yamaha Byson 150cc karbu sport — knowledge komunitas mekanik motor Yamaha Indonesia. Tanpa service manual page reference.",
+    "engine_type": "4_stroke"
   },
   {
     "id": "kawasaki_ninja_150",
@@ -681,7 +701,7 @@
     "fuel_system": "carburetor",
     "carb_type": "Mikuni VM26 / PE24",
     "engine_cc": 150,
-    "engine_type": "2_tak",
+    "engine_type": "2_stroke",
     "category": "sport",
     "common_aliases": [
       "ninja 150",

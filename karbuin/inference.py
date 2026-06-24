@@ -31,19 +31,50 @@ class DiagnosisEngine:
     def __init__(self, kb):
         self.kb = kb
 
-    def matches_filter(self, motor_id, motor_filter):
-        if motor_filter is None:
+    def matches_filter(self, motor_id, motor_filter, motor_type=None, motor_type_filter=None):
+        """Check whether a relasi applies to a given motor.
+
+        Filter layers (all must pass):
+        1. motor_filter (list): explicit allowlist of motor IDs / wildcards.
+           None or empty = matches all motors.
+        2. motor_type_filter (str): engine type compatibility.
+           Set on relasi when the cause is specific to a stroke count
+           (e.g. "4_stroke" for klep-related causes that don't apply to
+           2-tak engines). None = matches all engine types.
+
+        Args:
+            motor_id: target motor ID (or None for global).
+            motor_filter: list from relasi.motor_filter (or None).
+            motor_type: target motor's engine_type ("2_stroke"/"4_stroke"/None).
+            motor_type_filter: str from relasi.motor_type_filter (or None).
+
+        Returns True only if every active filter is satisfied.
+        """
+        # Backward compat: if no filters at all, global relasi
+        if not motor_filter and not motor_type_filter:
             return True
-        if not motor_id:
-            return False
-        for pattern in motor_filter:
-            if pattern == motor_id:
-                return True
-            if pattern.endswith("*") and motor_id.startswith(pattern[:-1]):
-                return True
-            if pattern.startswith("*") and motor_id.endswith(pattern[1:]):
-                return True
-        return False
+        # motor_filter check
+        if motor_filter:
+            if not motor_id:
+                return False
+            matched = False
+            for pattern in motor_filter:
+                if pattern == motor_id:
+                    matched = True
+                    break
+                if pattern.endswith("*") and motor_id.startswith(pattern[:-1]):
+                    matched = True
+                    break
+                if pattern.startswith("*") and motor_id.endswith(pattern[1:]):
+                    matched = True
+                    break
+            if not matched:
+                return False
+        # motor_type_filter check
+        if motor_type_filter:
+            if motor_type != motor_type_filter:
+                return False
+        return True
 
     def calc_confidence(self, score):
         """Saturating confidence: 1 - exp(-score / K).
@@ -78,12 +109,24 @@ class DiagnosisEngine:
         confirmed = set(confirmed_causes or [])
         adjustments = answer_adjustments or {}
 
+        # Resolve target motor's engine_type for motor_type_filter checks
+        motor_type = None
+        if motor_id:
+            motor_obj = self.kb.get_motor(motor_id)
+            if motor_obj:
+                motor_type = motor_obj.get("engine_type")
+
         cause_data = {}
         for sid in symptom_ids:
             for rel in self.kb.relasi:
                 if rel["symptom_id"] != sid:
                     continue
-                if not self.matches_filter(motor_id, rel.get("motor_filter")):
+                if not self.matches_filter(
+                    motor_id,
+                    rel.get("motor_filter"),
+                    motor_type=motor_type,
+                    motor_type_filter=rel.get("motor_type_filter"),
+                ):
                     continue
                 cid = rel["cause_id"]
                 if cid not in cause_data:

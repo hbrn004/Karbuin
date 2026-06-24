@@ -1,0 +1,1216 @@
+{
+  "version": "1.0.0",
+  "created": "2026-06-25",
+  "description": "Karbuin permanent benchmark suite — exactly 200 realistic workshop queries",
+  "categories": {
+    "honda": "Honda motor queries",
+    "yamaha": "Yamaha motor queries",
+    "suzuki": "Suzuki motor queries",
+    "kawasaki": "Kawasaki motor queries",
+    "multi": "Multi-symptom queries (2+ gejala)",
+    "typo": "Indonesian typo variants",
+    "casual": "Casual bengkel workshop language"
+  },
+  "queries": [
+    {
+      "id": "h001",
+      "input": "klep bunyi",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h002",
+      "input": "bunyi klep keras",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h003",
+      "input": "rpm tidak stabil",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h004",
+      "input": "rpm naik turun",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h005",
+      "input": "lampu redup",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h006",
+      "input": "lampu redup di langsam",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h007",
+      "input": "susah hidup pagi",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h008",
+      "input": "brebet di tanjakan",
+      "motor_id": "honda_grand_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h009",
+      "input": "klep bunyi parah",
+      "motor_id": "honda_megapro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h010",
+      "input": "brebet waktu rpm atas",
+      "motor_id": "honda_megapro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h011",
+      "input": "bensin boros banget",
+      "motor_id": "honda_megapro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h012",
+      "input": "susah hidup panas",
+      "motor_id": "honda_megapro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h013",
+      "input": "asap hitam tebal",
+      "motor_id": "honda_megapro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h014",
+      "input": "tenaga hilang bawah",
+      "motor_id": "honda_megapro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h015",
+      "input": "klep bunyi terus",
+      "motor_id": "honda_glpro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h016",
+      "input": "rpm tidak stabil",
+      "motor_id": "honda_glpro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h017",
+      "input": "asap hitam",
+      "motor_id": "honda_glpro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h018",
+      "input": "mesin brebet",
+      "motor_id": "honda_glpro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h019",
+      "input": "bunyi mesin kasar",
+      "motor_id": "honda_glpro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h020",
+      "input": "oli bocor",
+      "motor_id": "honda_glpro_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h021",
+      "input": "rpm tidak stabil",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h022",
+      "input": "brebet di rpm atas",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h023",
+      "input": "lampu redup",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h024",
+      "input": "starter elektrik lemah",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h025",
+      "input": "kiprok panas",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h026",
+      "input": "kiprok tidak mengisi",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h027",
+      "input": "lampu redup",
+      "motor_id": "honda_revo_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h028",
+      "input": "rpm tidak stabil",
+      "motor_id": "honda_revo_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h029",
+      "input": "brebet pas langsam",
+      "motor_id": "honda_revo_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h030",
+      "input": "starter berat",
+      "motor_id": "honda_revo_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h031",
+      "input": "bensin bocor",
+      "motor_id": "honda_revo_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h032",
+      "input": "klep bunyi",
+      "motor_id": "honda_tiger_2000",
+      "category": "honda"
+    },
+    {
+      "id": "h033",
+      "input": "rpm tidak stabil",
+      "motor_id": "honda_tiger_2000",
+      "category": "honda"
+    },
+    {
+      "id": "h034",
+      "input": "tenaga hilang",
+      "motor_id": "honda_tiger_2000",
+      "category": "honda"
+    },
+    {
+      "id": "h035",
+      "input": "kiprok tidak berfungsi",
+      "motor_id": "honda_tiger_2000",
+      "category": "honda"
+    },
+    {
+      "id": "h036",
+      "input": "asap putih tebal",
+      "motor_id": "honda_tiger_2000",
+      "category": "honda"
+    },
+    {
+      "id": "h037",
+      "input": "lampu redup",
+      "motor_id": "honda_legenda_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h038",
+      "input": "rpm tidak stabil",
+      "motor_id": "honda_legenda_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h039",
+      "input": "kiprok lemah",
+      "motor_id": "honda_legenda_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h040",
+      "input": "koil lemah",
+      "motor_id": "honda_legenda_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h041",
+      "input": "klep bunyi tik tik",
+      "motor_id": "honda_legenda_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h042",
+      "input": "lampu redup",
+      "motor_id": "honda_blade_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h043",
+      "input": "kiprok lemah",
+      "motor_id": "honda_blade_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h044",
+      "input": "brebet",
+      "motor_id": "honda_blade_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h045",
+      "input": "filter udra kotor",
+      "motor_id": "honda_blade_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h046",
+      "input": "koil lemh",
+      "motor_id": "honda_blade_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h047",
+      "input": "kiprok lemah",
+      "motor_id": "honda_verza_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h048",
+      "input": "koil lemh",
+      "motor_id": "honda_verza_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h049",
+      "input": "brebet",
+      "motor_id": "honda_verza_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "h050",
+      "input": "lampu redup",
+      "motor_id": "honda_verza_karbu",
+      "category": "honda"
+    },
+    {
+      "id": "y001",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "yamaha"
+    },
+    {
+      "id": "y002",
+      "input": "lampu redup",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "yamaha"
+    },
+    {
+      "id": "y003",
+      "input": "brebet",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "yamaha"
+    },
+    {
+      "id": "y004",
+      "input": "langsam loncat",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "yamaha"
+    },
+    {
+      "id": "y005",
+      "input": "bau bensin menyengat",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "yamaha"
+    },
+    {
+      "id": "y006",
+      "input": "langsam loncat-loncat",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "yamaha"
+    },
+    {
+      "id": "y007",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y008",
+      "input": "mesin nembak",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y009",
+      "input": "rpm loncat-loncat",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y010",
+      "input": "lampu redup",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y011",
+      "input": "langsam naik turun",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y012",
+      "input": "lampu redup",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "yamaha"
+    },
+    {
+      "id": "y013",
+      "input": "brebet",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "yamaha"
+    },
+    {
+      "id": "y014",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "yamaha"
+    },
+    {
+      "id": "y015",
+      "input": "bensin bocor",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "yamaha"
+    },
+    {
+      "id": "y016",
+      "input": "starter elektrik lemah",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "yamaha"
+    },
+    {
+      "id": "y017",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_vixion_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y018",
+      "input": "klep bunyi",
+      "motor_id": "yamaha_vixion_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y019",
+      "input": "klep pngap",
+      "motor_id": "yamaha_vixion_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y020",
+      "input": "kiprok tidak mengisi",
+      "motor_id": "yamaha_vixion_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y021",
+      "input": "kiprok panas",
+      "motor_id": "yamaha_vixion_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y022",
+      "input": "asap biru",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y023",
+      "input": "brebet",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y024",
+      "input": "brebet pas dibwah",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y025",
+      "input": "tenaga hilang",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y026",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y027",
+      "input": "klep bunyi",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y028",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y029",
+      "input": "lampu redup",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y030",
+      "input": "langsam turun",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y031",
+      "input": "starter berat",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y032",
+      "input": "kiprok panas",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y033",
+      "input": "lampu redup",
+      "motor_id": "yamaha_jupiter_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y034",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_jupiter_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y035",
+      "input": "brebet",
+      "motor_id": "yamaha_jupiter_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y036",
+      "input": "karburator meler",
+      "motor_id": "yamaha_jupiter_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y037",
+      "input": "brebet",
+      "motor_id": "yamaha_f1zr_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y038",
+      "input": "kiprok lemah tidak stabil",
+      "motor_id": "yamaha_f1zr_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y039",
+      "input": "lampu redup di rpm bawah",
+      "motor_id": "yamaha_f1zr_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y040",
+      "input": "asap hitam",
+      "motor_id": "yamaha_f1zr_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y041",
+      "input": "tenaga hilang bawah",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y042",
+      "input": "rpm tidak stabil",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y043",
+      "input": "kiprok ga ngecas",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y044",
+      "input": "kiprok lemah dan lampu redup total",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y045",
+      "input": "tenaga hilang dan brebet",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y046",
+      "input": "cdi lemah",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y047",
+      "input": "kiprok lemah",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y048",
+      "input": "cdi tidak nyala",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y049",
+      "input": "kiprok panas dan aki tekor",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "y050",
+      "input": "cdi ga nyala",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "yamaha"
+    },
+    {
+      "id": "s001",
+      "input": "rpm tidak stabil",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s002",
+      "input": "lampu redup",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s003",
+      "input": "brebet",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s004",
+      "input": "langsam naik turun",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s005",
+      "input": "klep bunyi",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s006",
+      "input": "asap hitam",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s007",
+      "input": "mesin brebet pas naik rpm",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s008",
+      "input": "starter berat",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s009",
+      "input": "kiprok lemah",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s010",
+      "input": "mesin ga mau hidup",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s011",
+      "input": "mesin overheat",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s012",
+      "input": "bunyi timing keras",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s013",
+      "input": "tenaga loyo",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s014",
+      "input": "kelistrikan trouble",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s015",
+      "input": "asap putih tebal",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s016",
+      "input": "bau bensin menyengat",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s017",
+      "input": "kiprok tidak mengisi",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s018",
+      "input": "mesin nembak",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s019",
+      "input": "bensin bocor",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "s020",
+      "input": "oli bocor dari bawah",
+      "motor_id": "suzuki_smash",
+      "category": "suzuki"
+    },
+    {
+      "id": "k001",
+      "input": "rpm tidak stabil",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k002",
+      "input": "lampu redup",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k003",
+      "input": "brebet",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k004",
+      "input": "langsam naik turun",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k005",
+      "input": "klep bunyi",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k006",
+      "input": "asap hitam",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k007",
+      "input": "mesin brebet pas naik rpm",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k008",
+      "input": "starter berat",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k009",
+      "input": "kiprok lemah",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k010",
+      "input": "mesin ga mau hidup",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k011",
+      "input": "mesin overheat",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k012",
+      "input": "bunyi timing keras",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k013",
+      "input": "tenaga loyo",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k014",
+      "input": "kelistrikan trouble",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k015",
+      "input": "asap putih tebal",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k016",
+      "input": "bau bensin menyengat",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k017",
+      "input": "kiprok tidak mengisi",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k018",
+      "input": "mesin nembak",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k019",
+      "input": "bensin bocor",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "k020",
+      "input": "oli bocor dari bawah",
+      "motor_id": "kawasaki_kaze",
+      "category": "kawasaki"
+    },
+    {
+      "id": "m001",
+      "input": "rpm tidak stabil dan lampu redup",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m002",
+      "input": "klep bunyi dan rpm tidak stabil",
+      "motor_id": "honda_tiger_2000",
+      "category": "multi"
+    },
+    {
+      "id": "m003",
+      "input": "susah hidup pagi dan brebet",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "multi"
+    },
+    {
+      "id": "m004",
+      "input": "brebet dan bensin boros",
+      "motor_id": "honda_megapro_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m005",
+      "input": "lampu redup dan aki tekor",
+      "motor_id": "honda_blade_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m006",
+      "input": "rpm tidak stabil dengan lampu redup",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "multi"
+    },
+    {
+      "id": "m007",
+      "input": "asap hitam dan brebet",
+      "motor_id": "honda_glpro_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m008",
+      "input": "mesin mati sendiri dan susah distarter",
+      "motor_id": "honda_grand_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m009",
+      "input": "mesin overheat dan kipas tidak nyala",
+      "motor_id": "honda_megapro_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m010",
+      "input": "bunyi klep keras dan rpm tidak stabil",
+      "motor_id": "honda_verza_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m011",
+      "input": "asap biru dan brebet di rpm atas",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m012",
+      "input": "klep bocor dan rpm tidak stabil",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m013",
+      "input": "tenaga hilang dan brebet",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m014",
+      "input": "kiprok lemah dan lampu redup total",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m015",
+      "input": "kiprok panas dan aki tekor",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m016",
+      "input": "cdi tidak nyala dan mesin tidak bisa distart",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m017",
+      "input": "karburator meler dan bensin boros",
+      "motor_id": "yamaha_jupiter_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m018",
+      "input": "asap hitam dan brebet di rpm atas",
+      "motor_id": "suzuki_smash",
+      "category": "multi"
+    },
+    {
+      "id": "m019",
+      "input": "kiprok lemah dan lampu redup",
+      "motor_id": "kawasaki_kaze",
+      "category": "multi"
+    },
+    {
+      "id": "m020",
+      "input": "mesin brebet dan lampu redup",
+      "motor_id": "honda_legenda_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m021",
+      "input": "langsam naik turun dan brebet",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m022",
+      "input": "bunyi klep dan asap hitam",
+      "motor_id": "honda_glpro_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m023",
+      "input": "brebet pas langsam dan susah hidup",
+      "motor_id": "honda_revo_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m024",
+      "input": "asap biru dan tenaga hilang",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m025",
+      "input": "lampu redup dan starter berat",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "multi"
+    },
+    {
+      "id": "m026",
+      "input": "kiprok tidak mengisi dan aki tekor",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m027",
+      "input": "klep bunyi dan mesin nembak",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m028",
+      "input": "mesin overheat dan oli bocor",
+      "motor_id": "honda_megapro_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m029",
+      "input": "rpm tidak stabil dan bensin boros",
+      "motor_id": "yamaha_vega_karbu",
+      "category": "multi"
+    },
+    {
+      "id": "m030",
+      "input": "tenaga loyo dan brebet",
+      "motor_id": "suzuki_smash",
+      "category": "multi"
+    },
+    {
+      "id": "t001",
+      "input": "rp ga stabil",
+      "motor_id": "honda_grand_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t002",
+      "input": "klep brisik",
+      "motor_id": "honda_tiger_2000",
+      "category": "typo"
+    },
+    {
+      "id": "t003",
+      "input": "lampu redp",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "typo"
+    },
+    {
+      "id": "t004",
+      "input": "kiprok lmeh",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t005",
+      "input": "brebet bgt",
+      "motor_id": "honda_megapro_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t006",
+      "input": "cdi ruak",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t007",
+      "input": "filter udra kotor",
+      "motor_id": "honda_blade_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t008",
+      "input": "klep pngap",
+      "motor_id": "honda_glpro_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t009",
+      "input": "koil lemh",
+      "motor_id": "honda_verza_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t010",
+      "input": "mesin tdk bisa hidup",
+      "motor_id": "honda_revo_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t011",
+      "input": "kiprok ga ngecass",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t012",
+      "input": "asep hitam tebal",
+      "motor_id": "yamaha_vixion_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t013",
+      "input": "kiprok ruak",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t014",
+      "input": "klep pngap parah",
+      "motor_id": "honda_megapro_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "t015",
+      "input": "langsam naik trun",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "typo"
+    },
+    {
+      "id": "c001",
+      "input": "karburator ngirim bensin ga stabil",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "casual"
+    },
+    {
+      "id": "c002",
+      "input": "langsam naik turun bgt",
+      "motor_id": "honda_supra_x125_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c003",
+      "input": "mesin brebet pas naik rpm",
+      "motor_id": "yamaha_jupiter_z",
+      "category": "casual"
+    },
+    {
+      "id": "c004",
+      "input": "susah start pagi-pagi",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "casual"
+    },
+    {
+      "id": "c005",
+      "input": "lampu redup di langsam bgt",
+      "motor_id": "honda_blade_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c006",
+      "input": "klep bunyi tik tik",
+      "motor_id": "honda_glpro_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c007",
+      "input": "aki soak lampu redup",
+      "motor_id": "honda_grand_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c008",
+      "input": "rpm loncat-loncat",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c009",
+      "input": "kiprok ga ngecas",
+      "motor_id": "yamaha_scorpio_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c010",
+      "input": "cdi ga nyala",
+      "motor_id": "yamaha_byson_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c011",
+      "input": "mesin ga mau hidup",
+      "motor_id": "honda_revo_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c012",
+      "input": "mesin nembak-nembak",
+      "motor_id": "yamaha_fino_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c013",
+      "input": "langsam loncat-loncat",
+      "motor_id": "yamaha_mio_sporty",
+      "category": "casual"
+    },
+    {
+      "id": "c014",
+      "input": "rpm ga stabil banget",
+      "motor_id": "honda_megapro_karbu",
+      "category": "casual"
+    },
+    {
+      "id": "c015",
+      "input": "brebet pas di bawah",
+      "motor_id": "yamaha_rx_king_karbu",
+      "category": "casual"
+    }
+  ]
+}

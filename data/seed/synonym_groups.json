@@ -37,8 +37,7 @@
         "gas judeg",
         "tarik sendat",
         "brebet di tanjakan",
-        "brebet saat tanjakan",
-        "brebet di tanjakan"
+        "brebet saat tanjakan"
       ]
     },
     {
@@ -111,7 +110,6 @@
       "canonical_id": "mesin_mati_setelah_hidup",
       "phrases": [
         "mati mendadak",
-        "mesin mati sendiri",
         "mesin mati sendiri",
         "mati sendiri",
         "mesin mati tiba-tiba",

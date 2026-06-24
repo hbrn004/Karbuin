@@ -19,8 +19,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline honda_supra_x125_karbu."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Supra X 125 Karbu (2006-2014, 125cc, PE24) — bebek sport Honda, baseline."
   },
   {
     "id": "honda_revo_karbu",
@@ -42,8 +50,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline honda_revo_karbu."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Revo Karbu (2007-2014, 110cc, PZ16) — bebek Honda baseline."
   },
   {
     "id": "honda_tiger_2000",
@@ -65,8 +81,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline honda_tiger_2000."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Honda Tiger 2000 (2000-2005, 200cc, Single Carb) — sport Honda 200cc baseline."
   },
   {
     "id": "yamaha_mio_sporty",
@@ -88,8 +112,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline yamaha_mio_sporty."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Mio Sporty (2003-2009, 115cc, BS26) — bebek sport Yamaha baseline."
   },
   {
     "id": "yamaha_fino_karbu",
@@ -111,8 +143,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline yamaha_fino_karbu."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Fino Karbu (2010-2014, 115cc, BS26) — bebek retro Yamaha baseline."
   },
   {
     "id": "yamaha_jupiter_z",
@@ -134,8 +174,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline yamaha_jupiter_z."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Yamaha Jupiter Z (2005-2012, 110cc, BS22) — bebek sport Yamaha baseline."
   },
   {
     "id": "suzuki_smash",
@@ -157,8 +205,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline suzuki_smash."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Suzuki Smash (2003-2014, 110cc, BS22) — bebek Suzuki baseline."
   },
   {
     "id": "kawasaki_kaze",
@@ -180,8 +236,16 @@
       "klep_in_mm": 0.05,
       "klep_ex_mm": 0.1,
       "busi_gap_mm": 0.7,
-      "compression_kg_cm2": 10.0
-    }
+      "compression_kg_cm2": 10.0,
+      "verified": false,
+      "source_type": "public_specs",
+      "verified_by": null,
+      "verification_note": "Spesifikasi publik motor baseline kawasaki_kaze."
+    },
+    "verified": false,
+    "source_type": "community_knowledge",
+    "verified_by": null,
+    "verification_note": "Kawasaki Kaze (1997-2003, 110cc, BS22) — bebek sport Kawasaki baseline."
   },
   {
     "id": "honda_grand_karbu",
